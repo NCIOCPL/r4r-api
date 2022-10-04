@@ -1,0 +1,64 @@
+{
+    "meta": {
+        "totalResults": 258,
+        "from": 0,
+        "originalQuery": "/resources?size=0&from=0&includeFacets=toolTypes"
+    },
+    "results": [],
+    "facets": [
+        {
+            "title": "Tool Type",
+            "param": "toolTypes",
+            "items": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools",
+                    "count": 123,
+                    "selected": false
+                },
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases",
+                    "count": 91,
+                    "selected": false
+                },
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools",
+                    "count": 42,
+                    "selected": false
+                },
+                {
+                    "key": "community_research_tools",
+                    "label": "Community Research Tools",
+                    "count": 21,
+                    "selected": false
+                },
+                {
+                    "key": "terminology",
+                    "label": "Terminology",
+                    "count": 16,
+                    "selected": false
+                },
+                {
+                    "key": "networks_consortiums",
+                    "label": "Networks/Consortiums",
+                    "count": 12,
+                    "selected": false
+                },
+                {
+                    "key": "clinical_research_tools",
+                    "label": "Clinical Research Tools",
+                    "count": 10,
+                    "selected": false
+                },
+                {
+                    "key": "training_resources",
+                    "label": "Training Resources",
+                    "count": 3,
+                    "selected": false
+                }
+            ]
+        }
+    ]
+}

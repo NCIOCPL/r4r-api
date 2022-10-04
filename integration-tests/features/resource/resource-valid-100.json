@@ -1,0 +1,48 @@
+{
+    "id": 100,
+    "title": "Bioconductor",
+    "website": "https://www.bioconductor.org",
+    "body": "<p>Bioconductor provides tools for the analysis and comprehension of high-throughput genomic data. R/Bioconductor will be enhanced to meet the increasing complexity of multiassay cancer genomics experiments.</p>",
+    "description": "<p>Bioconductor provides tools for the analysis and comprehension of high-throughput genomic data. R/Bioconductor will be enhanced to meet the increasing complexity of multiassay cancer genomics experiments.</p>",
+    "toolTypes": [
+        {
+            "key": "analysis_tools",
+            "label": "Analysis Tools"
+        }
+    ],
+    "toolSubtypes": [
+        {
+            "parentKey": "analysis_tools",
+            "key": "genomic_analysis",
+            "label": "Genomic Analysis"
+        },
+        {
+            "parentKey": "analysis_tools",
+            "key": "r_software",
+            "label": "R Software"
+        }
+    ],
+    "researchAreas": [
+        {
+            "key": "cancer_omics",
+            "label": "Cancer Omics"
+        }
+    ],
+    "researchTypes": [
+        {
+            "key": "basic",
+            "label": "Basic"
+        }
+    ],
+    "resourceAccess": {
+        "type": "open",
+        "notes": null
+    },
+    "doCs": [
+        {
+            "key": "itcr",
+            "label": "Informatics Technology for Cancer Research (ITCR)"
+        }
+    ],
+    "poCs": []
+}

@@ -1,8 +1,8 @@
 {
     "meta": {
-        "totalResults": 123,
+        "totalResults": 151,
         "from": 0,
-        "originalQuery": "/resources?size=20&from=0&toolTypes=analysis_tools"
+        "originalQuery": "/resources?size=20&from=0&researchAreas=cancer_treatment&researchAreas=causes_of_cancer&researchAreas=cancer_diagnosis&researchAreas=cancer_statistics&researchAreas=bioinformatics"
     },
     "results": [
         {
@@ -55,6 +55,84 @@
             "poCs": []
         },
         {
+            "id": 258,
+            "title": "Activities Completed over Time in 24 hours (ACT24)",
+            "website": "https://dceg.cancer.gov/research/how-we-study/exposure-assessment/physical-activities-completed-over-time-24-hours-act-24",
+            "body": "<p>Activities Completed over Time in 24 hours (ACT24) is a free, web-based tool to estimate daily summary values for physical activity and sedentary behavior, including time spent sitting and in different types and intensities of physical activity. ACT24 has been validated in studies of middle-aged and older adults and has been used to provide detailed portraits of human time use and energy expenditure at the population level. Researchers can register their projects, generate custom logins for participants to enter data via a secure participant site, and download data. An Application Programming Interface (API) is available to link ACT24 data to study management systems.</p>",
+            "description": "<p>Activities Completed over Time in 24 hours (ACT24) is a free, web-based tool for epidemiologic, interventional, behavioral, or clinical research on energy expenditure. ACT24 estimates daily summary values for physical activity and sedentary behavior, including time spent sitting and in different types and intensities of physical activity, based on previous-day recall reporting from participants.</p>",
+            "toolTypes": [
+                {
+                    "key": "community_research_tools",
+                    "label": "Community Research Tools"
+                },
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "causes_of_cancer",
+                    "label": "Causes of Cancer"
+                },
+                {
+                    "key": "cancer_prevention",
+                    "label": "Cancer Prevention"
+                },
+                {
+                    "key": "cancer_health_disparities",
+                    "label": "Cancer Health Disparities"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "register",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dceg",
+                    "label": "Division of Cancer Epidemiology and Genetics (DCEG)"
+                },
+                {
+                    "key": "dccps",
+                    "label": "Division of Cancer Control and Population Sciences (DCCPS)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": "Dr.",
+                        "firstName": "Charles",
+                        "middleName": null,
+                        "lastName": "Matthews",
+                        "suffix": null
+                    },
+                    "title": "Senior Investigator",
+                    "phone": "240-276-7211",
+                    "email": "matthewsce@mail.nih.gov"
+                },
+                {
+                    "name": {
+                        "prefix": "Dr.",
+                        "firstName": "David",
+                        "middleName": null,
+                        "lastName": "Berrigan",
+                        "suffix": null
+                    },
+                    "title": "Program Director",
+                    "phone": "240-276-6752",
+                    "email": "berrigad@mail.nih.gov"
+                }
+            ]
+        },
+        {
             "id": 170,
             "title": "Age Period Cohort Analysis Web Tool",
             "website": "https://dceg.cancer.gov/tools/analysis/apc",
@@ -103,6 +181,55 @@
                     "email": "NCIAPCWebToolAdmin@mail.nih.gov"
                 }
             ]
+        },
+        {
+            "id": 93,
+            "title": "AIDS Antiviral Screen Data",
+            "website": "https://wiki.nci.nih.gov/display/NCIDTPdata/AIDS+Antiviral+Screen+Data",
+            "body": "<p>The DTP AIDS Antiviral Screen has checked tens of thousands of compounds for evidence of anti-HIV activity. Screening results and chemical structural data on compounds that are not covered by a confidentiality agreement are available.</p>",
+            "description": "<p>This resource provides access to results and chemical structural data on compounds checked by the Developmental Therapeutics Program (DTP) AIDS Antiviral Screen.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                },
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "screening_detection",
+                    "label": "Screening & Detection"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
         },
         {
             "id": 250,
@@ -173,47 +300,6 @@
                     "email": "ac2248@cumc.columbia.edu"
                 }
             ]
-        },
-        {
-            "id": 102,
-            "title": "Allele-Specific Alternative mRNA processing (ASARP)",
-            "website": "https://www.ibp.ucla.edu/research/xiao/Software_files/ASARP/doc/asarp.html",
-            "body": "<p>ASARP is a software pipeline for prediction of allele-specific alternative RNA processing events using single RNA-seq data. The current version focuses on prediction of alternative splicing and alternative polyadenylation modulated by genetic variants.</p>",
-            "description": "<p>ASARP is a software pipeline for prediction of allele-specific alternative RNA processing events using single RNA-seq data. The current version focuses on prediction of alternative splicing and alternative polyadenylation modulated by genetic variants.</p>",
-            "toolTypes": [
-                {
-                    "key": "analysis_tools",
-                    "label": "Analysis Tools"
-                }
-            ],
-            "toolSubtypes": null,
-            "researchAreas": [
-                {
-                    "key": "cancer_omics",
-                    "label": "Cancer Omics"
-                }
-            ],
-            "researchTypes": [
-                {
-                    "key": "basic",
-                    "label": "Basic"
-                },
-                {
-                    "key": "translational",
-                    "label": "Translational"
-                }
-            ],
-            "resourceAccess": {
-                "type": "open",
-                "notes": null
-            },
-            "doCs": [
-                {
-                    "key": "itcr",
-                    "label": "Informatics Technology for Cancer Research (ITCR)"
-                }
-            ],
-            "poCs": []
         },
         {
             "id": 75,
@@ -500,43 +586,6 @@
             "poCs": []
         },
         {
-            "id": 100,
-            "title": "Bioconductor",
-            "website": "https://www.bioconductor.org",
-            "body": "<p>Bioconductor provides tools for the analysis and comprehension of high-throughput genomic data. R/Bioconductor will be enhanced to meet the increasing complexity of multiassay cancer genomics experiments.</p>",
-            "description": "<p>Bioconductor provides tools for the analysis and comprehension of high-throughput genomic data. R/Bioconductor will be enhanced to meet the increasing complexity of multiassay cancer genomics experiments.</p>",
-            "toolTypes": [
-                {
-                    "key": "analysis_tools",
-                    "label": "Analysis Tools"
-                }
-            ],
-            "toolSubtypes": null,
-            "researchAreas": [
-                {
-                    "key": "cancer_omics",
-                    "label": "Cancer Omics"
-                }
-            ],
-            "researchTypes": [
-                {
-                    "key": "basic",
-                    "label": "Basic"
-                }
-            ],
-            "resourceAccess": {
-                "type": "open",
-                "notes": null
-            },
-            "doCs": [
-                {
-                    "key": "itcr",
-                    "label": "Informatics Technology for Cancer Research (ITCR)"
-                }
-            ],
-            "poCs": []
-        },
-        {
             "id": 39,
             "title": "Biomarker Stratified Randomized Design (Binary)",
             "website": "https://brb.nci.nih.gov/brb/samplesize/sdpap_binary.html",
@@ -697,47 +746,6 @@
             "poCs": []
         },
         {
-            "id": 48,
-            "title": "BRB-Seq Tools",
-            "website": "https://brb.nci.nih.gov/seqtools/",
-            "body": "<p>BRB-SeqTools can run in the Linux environment on local physical/virtual machines or on remote servers such as Amazon Cloud. Variant-calling analysis can be conducted on both aligned RNA-Seq and DNA-Seq data using Samtools or GATK  Best-Practices pipeline tools. For human tumor data, the Variant Call Format (VCF) files generated by the variant-calling pipeline can be filtered and annotated using the somatic mutation annotation tools ANNOVAR or SnpEff to provide gene annotation,  an functional annotation , along with predicted effects of non-synonymous single-nucleotide variants calculated by SIFT and Polyphen-2. Additionally, for RNA-Seq data, gene-level raw count data files can be generated using HTSeq. The raw count data can be read into BRB-ArrayTools for gene expression analysis.</p>",
-            "description": "<p>BRB-SeqTools is a user-friendly pipeline tool that includes many well-known software applications designed to help general scientists preprocess and analyze Next Generation Sequencing (NGS) data. It supports the importing and preprocessing of both RNA-Seq and DNA-Seq data, in either FASTQ or BAM file format.</p>",
-            "toolTypes": [
-                {
-                    "key": "analysis_tools",
-                    "label": "Analysis Tools"
-                }
-            ],
-            "toolSubtypes": null,
-            "researchAreas": [
-                {
-                    "key": "cancer_omics",
-                    "label": "Cancer Omics"
-                }
-            ],
-            "researchTypes": [
-                {
-                    "key": "basic",
-                    "label": "Basic"
-                },
-                {
-                    "key": "translational",
-                    "label": "Translational"
-                }
-            ],
-            "resourceAccess": {
-                "type": "open",
-                "notes": null
-            },
-            "doCs": [
-                {
-                    "key": "dctd",
-                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
-                }
-            ],
-            "poCs": []
-        },
-        {
             "id": 6,
             "title": "Cancer and Phenomics Toolkit (CaPTK)",
             "website": "http://captk.projects.nitrc.org",
@@ -777,6 +785,200 @@
                 }
             ],
             "poCs": []
+        },
+        {
+            "id": 180,
+            "title": "Cancer Epidemiology Descriptive Cohort Database (CEDCD)",
+            "website": "https://cedcd.nci.nih.gov/",
+            "body": "<p>The CEDCD contains descriptive information about cohort studies that follow groups of persons over time for cancer incidence, mortality, and other health outcomes. The CEDCD is a searchable database that contains general study information (e.g., eligibility criteria and size), the type of data collected at baseline, cancer sites, number of participants diagnosed with cancer, and biospecimen information. All data included in this database are aggregated for each cohort; there are no individual-level data. The goal of the CEDCD is to facilitate collaboration and highlight the opportunities for research within existing cohort studies.</p>\n<p>Information in the CEDCD has been provided with approval from the cohort principal investigators.</p>",
+            "description": "<p>The CEDCD is a searchable database that contains information about cohort studies that follow groups of persons over time for cancer incidence, mortality, and other health outcomes.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "causes_of_cancer",
+                    "label": "Causes of Cancer"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dccps",
+                    "label": "Division of Cancer Control and Population Sciences (DCCPS)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Joanne",
+                        "middleName": null,
+                        "lastName": "Elena",
+                        "suffix": null
+                    },
+                    "title": "Program Director, Clinical and Translational Epidemiology Branch",
+                    "phone": "240-276-6818",
+                    "email": "elenajw@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 134,
+            "title": "Cancer Genome Characterization Initiative (CGCI) Data Matrix",
+            "website": "https://ocg.cancer.gov/programs/cgci/data-matrix",
+            "body": "<p>CGCI Data Matrix contains whole-genome and transcriptomic sequencing from Burkitt lymphoma, HIV- associated tumors, medulloblastoma, and non-Hodgkin lymphoma types of cancers. Researchers can access up to four levels of data, from primary through higher level summary data for the molecular platform employed. To protect the privacy of patients, some clinical and genetic data require approval to access through NCBI’s database for Genotypes and Phenotypes (dbGAP; <a href=\"http://www.ncbi.nlm.nih.gov/gap\">http://www.ncbi.nlm.nih.gov/gap</a>).</p>",
+            "description": "<p>The CGCI Data Matrix hosts genomic profiles (molecular characterization and sequence data) and clinical data for rare adult and  pediatric tumor types.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "ccg",
+                    "label": "Center for Cancer Genomics (CCG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": null,
+                        "middleName": null,
+                        "lastName": null,
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": null,
+                    "email": "ocg@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 54,
+            "title": "Cancer Intervention and Surveillance Modeling Network",
+            "website": "https://cisnet.cancer.gov/",
+            "body": "<p>CISNET is a consortium of NCI-sponsored investigators who use statistical and simulation modeling to examine the potential impacts of prevention, screening, and treatment on cancer incidence and mortality. These models can then project future trends and help determine optimal cancer control strategies. These models can also be used to guide public health research and priorities. Established in 2000, CISNET comprises nine cancer site groups: breast, prostate, colorectal, lung, cervical, gastric, uterine, bladder, and multiple myeloma. Many of the resources generated by the CISNET consortium are freely available on the website. Additionally, CISNET invites inquiries from outside groups regarding collaborations on cancer control issues that are amenable to modeling.</p>",
+            "description": "<p>CISNET is a consortium of NCI-sponsored investigator who use statistical and simulation modeling to predict the effects of cancer interventions.</p>",
+            "toolTypes": [
+                {
+                    "key": "networks_consortiums",
+                    "label": "Networks/Consortiums"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_health_disparities",
+                    "label": "Cancer Health Disparities"
+                },
+                {
+                    "key": "screening_detection",
+                    "label": "Screening & Detection"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                },
+                {
+                    "key": "cancer_prevention",
+                    "label": "Cancer Prevention"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "clinical",
+                    "label": "Clinical"
+                },
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dccps",
+                    "label": "Division of Cancer Control and Population Sciences (DCCPS)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Eric (Rocky)",
+                        "middleName": null,
+                        "lastName": "Feuer",
+                        "suffix": null
+                    },
+                    "title": "Chief, Statistical Research and Applications Branch, Surveillance Research Program",
+                    "phone": "240-276-6772",
+                    "email": "feuerr@mail.nih.gov"
+                },
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Susan",
+                        "middleName": null,
+                        "lastName": "Scott",
+                        "suffix": null
+                    },
+                    "title": "Public Health Advisor, Surveillance Research Program",
+                    "phone": "240-276-6951",
+                    "email": "scotts2@mail.nih.gov"
+                }
+            ]
         },
         {
             "id": 125,
@@ -839,105 +1041,6 @@
                     "email": "mariotta@mail.nih.gov"
                 }
             ]
-        },
-        {
-            "id": 5,
-            "title": "Cancer Slide Digital Archive (CDSA)",
-            "website": "http://cancer.digitalslidearchive.net",
-            "body": "<p>The CDSA is a web-based platform to support the sharing, management, and analysis of digital pathology data. Emory University  currently hosts over 23,000 images from The Cancer Genome Atlas, and the software is being developed within the Informatics Technology for Cancer Research (ITCR) grant to be deployable as a digital pathology platform for other labs and cancer institutes.</p>",
-            "description": "<p>The CDSA is a web-based platform to support the sharing, management, and analysis of digital pathology data.</p>",
-            "toolTypes": [
-                {
-                    "key": "datasets_databases",
-                    "label": "Datasets & Databases"
-                },
-                {
-                    "key": "analysis_tools",
-                    "label": "Analysis Tools"
-                }
-            ],
-            "toolSubtypes": null,
-            "researchAreas": [
-                {
-                    "key": "cancer_diagnosis",
-                    "label": "Cancer Diagnosis"
-                }
-            ],
-            "researchTypes": [
-                {
-                    "key": "translational",
-                    "label": "Translational"
-                },
-                {
-                    "key": "basic",
-                    "label": "Basic"
-                }
-            ],
-            "resourceAccess": {
-                "type": "open",
-                "notes": null
-            },
-            "doCs": [
-                {
-                    "key": "itcr",
-                    "label": "Informatics Technology for Cancer Research (ITCR)"
-                }
-            ],
-            "poCs": []
-        },
-        {
-            "id": 85,
-            "title": "Cancer Stat Fact Sheets (Stat Facts)",
-            "website": "https://seer.cancer.gov/statfacts/",
-            "body": "<p>These statistical summaries provide a quick overview of frequently requested cancer statistics, which may include incidence, mortality, survival, stage, prevalence, and lifetime risk, by cancer site for a number of common cancer types. . Along with cancer types, Stat Facts also highlight statistics related to certain special topics such as cancer health disparities. The Surveillance, Epidemiology, and End Results (SEER) program posts several new stat facts a year. Recent new fact sheets include pages for specific childhood cancer sites.</p>",
-            "description": "<p>These fact sheets provide frequently requested cancer statistics, such as incidence, mortality, survival, stage, prevalence, and lifetime risk, for a number of common cancer types.</p>",
-            "toolTypes": [
-                {
-                    "key": "analysis_tools",
-                    "label": "Analysis Tools"
-                }
-            ],
-            "toolSubtypes": null,
-            "researchAreas": [
-                {
-                    "key": "cancer_health_disparities",
-                    "label": "Cancer Health Disparities"
-                },
-                {
-                    "key": "cancer_statistics",
-                    "label": "Cancer Statistics"
-                }
-            ],
-            "researchTypes": [
-                {
-                    "key": "epidemiologic",
-                    "label": "Epidemiologic"
-                }
-            ],
-            "resourceAccess": {
-                "type": "open",
-                "notes": null
-            },
-            "doCs": [
-                {
-                    "key": "dccps",
-                    "label": "Division of Cancer Control and Population Sciences (DCCPS)"
-                }
-            ],
-            "poCs": [
-                {
-                    "name": {
-                        "prefix": null,
-                        "firstName": "Patricia",
-                        "middleName": null,
-                        "lastName": "Murphy",
-                        "suffix": null
-                    },
-                    "title": "Program Analyst, Surveillance Research Program",
-                    "phone": "240-276-6903",
-                    "email": null
-                }
-            ]
         }
     ],
     "facets": [
@@ -946,75 +1049,75 @@
             "param": "researchAreas",
             "items": [
                 {
-                    "key": "cancer_omics",
-                    "label": "Cancer Omics",
-                    "count": 63,
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology",
+                    "count": 102,
                     "selected": false
                 },
                 {
-                    "key": "cancer_biology",
-                    "label": "Cancer Biology",
-                    "count": 49,
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics",
+                    "count": 92,
                     "selected": false
                 },
                 {
                     "key": "cancer_treatment",
                     "label": "Cancer Treatment",
-                    "count": 44,
-                    "selected": false
-                },
-                {
-                    "key": "cancer_statistics",
-                    "label": "Cancer Statistics",
-                    "count": 14,
-                    "selected": false
+                    "count": 82,
+                    "selected": true
                 },
                 {
                     "key": "screening_detection",
                     "label": "Screening & Detection",
-                    "count": 14,
-                    "selected": false
-                },
-                {
-                    "key": "bioinformatics",
-                    "label": "Bioinformatics",
-                    "count": 12,
-                    "selected": false
-                },
-                {
-                    "key": "cancer_diagnosis",
-                    "label": "Cancer Diagnosis",
-                    "count": 12,
+                    "count": 33,
                     "selected": false
                 },
                 {
                     "key": "cancer_health_disparities",
                     "label": "Cancer Health Disparities",
-                    "count": 12,
-                    "selected": false
-                },
-                {
-                    "key": "cancer_public_health",
-                    "label": "Cancer & Public Health",
-                    "count": 12,
+                    "count": 31,
                     "selected": false
                 },
                 {
                     "key": "causes_of_cancer",
                     "label": "Causes of Cancer",
-                    "count": 6,
+                    "count": 29,
+                    "selected": true
+                },
+                {
+                    "key": "cancer_public_health",
+                    "label": "Cancer & Public Health",
+                    "count": 24,
                     "selected": false
+                },
+                {
+                    "key": "cancer_diagnosis",
+                    "label": "Cancer Diagnosis",
+                    "count": 23,
+                    "selected": true
                 },
                 {
                     "key": "cancer_prevention",
                     "label": "Cancer Prevention",
-                    "count": 4,
+                    "count": 21,
                     "selected": false
+                },
+                {
+                    "key": "cancer_statistics",
+                    "label": "Cancer Statistics",
+                    "count": 21,
+                    "selected": true
+                },
+                {
+                    "key": "bioinformatics",
+                    "label": "Bioinformatics",
+                    "count": 18,
+                    "selected": true
                 },
                 {
                     "key": "cancer_survivorship",
                     "label": "Cancer Survivorship",
-                    "count": 3,
+                    "count": 13,
                     "selected": false
                 }
             ]
@@ -1026,79 +1129,31 @@
                 {
                     "key": "basic",
                     "label": "Basic",
-                    "count": 67,
+                    "count": 74,
                     "selected": false
                 },
                 {
                     "key": "translational",
                     "label": "Translational",
-                    "count": 63,
+                    "count": 74,
                     "selected": false
                 },
                 {
                     "key": "epidemiologic",
                     "label": "Epidemiologic",
-                    "count": 22,
+                    "count": 40,
                     "selected": false
                 },
                 {
                     "key": "clinical_trials",
                     "label": "Clinical Trials",
-                    "count": 19,
+                    "count": 34,
                     "selected": false
                 },
                 {
                     "key": "clinical",
                     "label": "Clinical",
-                    "count": 2,
-                    "selected": false
-                }
-            ]
-        },
-        {
-            "title": "Tool Sub-Type",
-            "param": "toolSubtypes",
-            "items": [
-                {
-                    "key": "genomic_analysis",
-                    "label": "Genomic Analysis",
-                    "count": 52,
-                    "selected": false
-                },
-                {
-                    "key": "data_visualization",
-                    "label": "Data Visualization",
-                    "count": 35,
-                    "selected": false
-                },
-                {
-                    "key": "statistical_software",
-                    "label": "Statistical Software",
-                    "count": 16,
-                    "selected": false
-                },
-                {
-                    "key": "modeling",
-                    "label": "Modeling",
-                    "count": 15,
-                    "selected": false
-                },
-                {
-                    "key": "imaging_analysis",
-                    "label": "Imaging Analysis",
-                    "count": 14,
-                    "selected": false
-                },
-                {
-                    "key": "r_software",
-                    "label": "R Software",
-                    "count": 12,
-                    "selected": false
-                },
-                {
-                    "key": "natural_language_processing",
-                    "label": "Natural Language Processing",
-                    "count": 3,
+                    "count": 9,
                     "selected": false
                 }
             ]
@@ -1110,8 +1165,44 @@
                 {
                     "key": "analysis_tools",
                     "label": "Analysis Tools",
-                    "count": 123,
-                    "selected": true
+                    "count": 77,
+                    "selected": false
+                },
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases",
+                    "count": 64,
+                    "selected": false
+                },
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools",
+                    "count": 21,
+                    "selected": false
+                },
+                {
+                    "key": "community_research_tools",
+                    "label": "Community Research Tools",
+                    "count": 14,
+                    "selected": false
+                },
+                {
+                    "key": "networks_consortiums",
+                    "label": "Networks/Consortiums",
+                    "count": 8,
+                    "selected": false
+                },
+                {
+                    "key": "terminology",
+                    "label": "Terminology",
+                    "count": 3,
+                    "selected": false
+                },
+                {
+                    "key": "clinical_research_tools",
+                    "label": "Clinical Research Tools",
+                    "count": 1,
+                    "selected": false
                 }
             ]
         }

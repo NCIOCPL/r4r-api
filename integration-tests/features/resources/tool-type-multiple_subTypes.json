@@ -1,59 +1,10 @@
 {
     "meta": {
-        "totalResults": 123,
+        "totalResults": 31,
         "from": 0,
-        "originalQuery": "/resources?size=20&from=0&toolTypes=analysis_tools"
+        "originalQuery": "/resources?size=20&from=0&toolTypes=analysis_tools&toolSubtypes=modeling&toolSubtypes=statistical_software"
     },
     "results": [
-        {
-            "id": 105,
-            "title": "3D Slicer",
-            "website": "https://www.slicer.org",
-            "body": "<p>3D Slicer is an open-source software platform for medical image informatics, image processing, and three-dimensional visualization. Slicer brings free, powerful cross-platform processing tools to physicians, researchers, and the general public.</p>",
-            "description": "<p>3D Slicer is an open-source software platform for medical image informatics, image processing, and three-dimensional visualization.</p>",
-            "toolTypes": [
-                {
-                    "key": "analysis_tools",
-                    "label": "Analysis Tools"
-                }
-            ],
-            "toolSubtypes": null,
-            "researchAreas": [
-                {
-                    "key": "screening_detection",
-                    "label": "Screening & Detection"
-                },
-                {
-                    "key": "cancer_treatment",
-                    "label": "Cancer Treatment"
-                },
-                {
-                    "key": "cancer_diagnosis",
-                    "label": "Cancer Diagnosis"
-                }
-            ],
-            "researchTypes": [
-                {
-                    "key": "translational",
-                    "label": "Translational"
-                },
-                {
-                    "key": "clinical_trials",
-                    "label": "Clinical Trials"
-                }
-            ],
-            "resourceAccess": {
-                "type": "open",
-                "notes": null
-            },
-            "doCs": [
-                {
-                    "key": "itcr",
-                    "label": "Informatics Technology for Cancer Research (ITCR)"
-                }
-            ],
-            "poCs": []
-        },
         {
             "id": 170,
             "title": "Age Period Cohort Analysis Web Tool",
@@ -105,76 +56,6 @@
             ]
         },
         {
-            "id": 250,
-            "title": "Algorithm for the Reconstruction of Accurate Cellular Networks (ARACNe)",
-            "website": "https://califano.c2b2.columbia.edu/aracne",
-            "body": "<p>ARACNe uses microarray expression profiles to reconstruct tissue-specific gene regulatory transcriptional interactions in cellular networks. The method uses mutual information of two random variables to identify genes that are co-expressed, then applies the data processing inequality to filter out interactions that are likely to be indirect. This eliminates the vast majority of false-positive transcriptional interactions typically inferred by pairwise gene-expression correlation analysis. This tool could be used by researchers to determine novel driver genes and drug mechanisms of action.</p>",
-            "description": "<p>ARACNe is an algorithm for inferring direct regulatory relationships between transcriptional regulator proteins and target genes.</p>",
-            "toolTypes": [
-                {
-                    "key": "datasets_databases",
-                    "label": "Datasets & Databases"
-                },
-                {
-                    "key": "analysis_tools",
-                    "label": "Analysis Tools"
-                }
-            ],
-            "toolSubtypes": null,
-            "researchAreas": [
-                {
-                    "key": "cancer_biology",
-                    "label": "Cancer Biology"
-                },
-                {
-                    "key": "cancer_omics",
-                    "label": "Cancer Omics"
-                },
-                {
-                    "key": "bioinformatics",
-                    "label": "Bioinformatics"
-                }
-            ],
-            "researchTypes": [
-                {
-                    "key": "basic",
-                    "label": "Basic"
-                },
-                {
-                    "key": "translational",
-                    "label": "Translational"
-                }
-            ],
-            "resourceAccess": {
-                "type": "open",
-                "notes": null
-            },
-            "doCs": [
-                {
-                    "key": "ocg",
-                    "label": "Office of Cancer Genomics (OCG)"
-                },
-                {
-                    "key": "ccg",
-                    "label": "Center for Cancer Genomics (CCG)"
-                }
-            ],
-            "poCs": [
-                {
-                    "name": {
-                        "prefix": "Dr.",
-                        "firstName": "Andrea",
-                        "middleName": null,
-                        "lastName": "Califano",
-                        "suffix": null
-                    },
-                    "title": "Clyde and Helen Wu Professor of Chemical and Systems Biology",
-                    "phone": null,
-                    "email": "ac2248@cumc.columbia.edu"
-                }
-            ]
-        },
-        {
             "id": 102,
             "title": "Allele-Specific Alternative mRNA processing (ASARP)",
             "website": "https://www.ibp.ucla.edu/research/xiao/Software_files/ASARP/doc/asarp.html",
@@ -214,109 +95,6 @@
                 }
             ],
             "poCs": []
-        },
-        {
-            "id": 75,
-            "title": "AMARETTO",
-            "website": "http://portals.broadinstitute.org/pochetlab/amaretto.html",
-            "body": "<p>AMARETTO is for multi-omics data fusion and reformulations for pan-etiology and pan-cancer applications. AMARETTO is an algorithm that integrates copy number, DNA methylation, and gene expression data to identify a set of driver genes by analyzing cancer samples and connects them to clusters of co-expressed genes.</p>",
-            "description": "<p>AMARETTO is an algorithm that integrates copy number, DNA methylation, and gene expression data to identify a set of driver genes by analyzing cancer samples and connects them to clusters of co-expressed genes.</p>",
-            "toolTypes": [
-                {
-                    "key": "analysis_tools",
-                    "label": "Analysis Tools"
-                }
-            ],
-            "toolSubtypes": null,
-            "researchAreas": [
-                {
-                    "key": "cancer_omics",
-                    "label": "Cancer Omics"
-                },
-                {
-                    "key": "causes_of_cancer",
-                    "label": "Causes of Cancer"
-                }
-            ],
-            "researchTypes": [
-                {
-                    "key": "basic",
-                    "label": "Basic"
-                }
-            ],
-            "resourceAccess": {
-                "type": "open",
-                "notes": null
-            },
-            "doCs": [
-                {
-                    "key": "itcr",
-                    "label": "Informatics Technology for Cancer Research (ITCR)"
-                }
-            ],
-            "poCs": []
-        },
-        {
-            "id": 154,
-            "title": "Analytic Technique for Assessment of RNAi by Similarity (ATARiS)",
-            "website": "https://www.broadinstitute.org/cancer/ataris",
-            "body": "<p>RNAi reagents designed to target the same gene often induce different degrees of on-target and off-target gene suppression, resulting in inconsistent phenotypes. To address this, ATARiS tries to identify subsets of its RNAi reagents that produce a significantly similar phenotype across the screened smaples. This approach also computes a consistency score that represents the confidence that its observed phenotypic effects are the result of on-target gene suppression.</p>",
-            "description": "<p>ATARiS is a computational method designed to analyze the off-target effects in the data generated from RNAi screens.</p>",
-            "toolTypes": [
-                {
-                    "key": "analysis_tools",
-                    "label": "Analysis Tools"
-                }
-            ],
-            "toolSubtypes": null,
-            "researchAreas": [
-                {
-                    "key": "cancer_biology",
-                    "label": "Cancer Biology"
-                },
-                {
-                    "key": "cancer_omics",
-                    "label": "Cancer Omics"
-                },
-                {
-                    "key": "cancer_treatment",
-                    "label": "Cancer Treatment"
-                }
-            ],
-            "researchTypes": [
-                {
-                    "key": "basic",
-                    "label": "Basic"
-                },
-                {
-                    "key": "translational",
-                    "label": "Translational"
-                }
-            ],
-            "resourceAccess": {
-                "type": "register",
-                "notes": null
-            },
-            "doCs": [
-                {
-                    "key": "ccg",
-                    "label": "Center for Cancer Genomics (CCG)"
-                }
-            ],
-            "poCs": [
-                {
-                    "name": {
-                        "prefix": null,
-                        "firstName": null,
-                        "middleName": null,
-                        "lastName": null,
-                        "suffix": null
-                    },
-                    "title": null,
-                    "phone": null,
-                    "email": "ataris@broadinstitute.org"
-                }
-            ]
         },
         {
             "id": 83,
@@ -375,47 +153,6 @@
                     "email": "cronink@mail.nih.gov"
                 }
             ]
-        },
-        {
-            "id": 10,
-            "title": "Apache Clinical Text and Knowledge Extraction System (cTAKES)",
-            "website": "http://ctakes.apache.org",
-            "body": "<p>cTAKES extracts deep phenotypic information from the clinical narrative at the document, episode, and patient level. The final output is a Fast Healthcare Interoperability Resources (FHIR)-compliant, patient-level phenotypic summary which can be consumed by research warehouses or the DeepPhe native visualization tool.</p>",
-            "description": "<p>cTAKES extracts deep phenotypic information from the clinical narrative at the document, episode, and patient level.</p>",
-            "toolTypes": [
-                {
-                    "key": "analysis_tools",
-                    "label": "Analysis Tools"
-                }
-            ],
-            "toolSubtypes": null,
-            "researchAreas": [
-                {
-                    "key": "cancer_diagnosis",
-                    "label": "Cancer Diagnosis"
-                },
-                {
-                    "key": "cancer_treatment",
-                    "label": "Cancer Treatment"
-                }
-            ],
-            "researchTypes": [
-                {
-                    "key": "translational",
-                    "label": "Translational"
-                }
-            ],
-            "resourceAccess": {
-                "type": "open",
-                "notes": null
-            },
-            "doCs": [
-                {
-                    "key": "itcr",
-                    "label": "Informatics Technology for Cancer Research (ITCR)"
-                }
-            ],
-            "poCs": []
         },
         {
             "id": 51,
@@ -495,43 +232,6 @@
                 {
                     "key": "dctd",
                     "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
-                }
-            ],
-            "poCs": []
-        },
-        {
-            "id": 100,
-            "title": "Bioconductor",
-            "website": "https://www.bioconductor.org",
-            "body": "<p>Bioconductor provides tools for the analysis and comprehension of high-throughput genomic data. R/Bioconductor will be enhanced to meet the increasing complexity of multiassay cancer genomics experiments.</p>",
-            "description": "<p>Bioconductor provides tools for the analysis and comprehension of high-throughput genomic data. R/Bioconductor will be enhanced to meet the increasing complexity of multiassay cancer genomics experiments.</p>",
-            "toolTypes": [
-                {
-                    "key": "analysis_tools",
-                    "label": "Analysis Tools"
-                }
-            ],
-            "toolSubtypes": null,
-            "researchAreas": [
-                {
-                    "key": "cancer_omics",
-                    "label": "Cancer Omics"
-                }
-            ],
-            "researchTypes": [
-                {
-                    "key": "basic",
-                    "label": "Basic"
-                }
-            ],
-            "resourceAccess": {
-                "type": "open",
-                "notes": null
-            },
-            "doCs": [
-                {
-                    "key": "itcr",
-                    "label": "Informatics Technology for Cancer Research (ITCR)"
                 }
             ],
             "poCs": []
@@ -652,240 +352,6 @@
             "poCs": []
         },
         {
-            "id": 42,
-            "title": "BRB-Array Tools",
-            "website": "https://brb.nci.nih.gov/BRB-ArrayTools/",
-            "body": "<p>BRB-ArrayTools was developed by professional statisticians experienced in the analysis of microarray data and involved in the development of improved methods for the design and analysis of microarray-based experiments. The analytic and visualization tools are integrated into Excel as an add-in. The analytic and visualization tools themselves are developed in the powerful R statistical system, in C and Fortran programs, and in Java applications. Visual Basic for Applications is the glue that integrates the components and hides the complexity of the analytic methods from the user. The system incorporates a variety of powerful analytic and visualization tools developed specifically for microarray data analysis.</p>",
-            "description": "<p>BRB-Array Tools is an integrated package for the visualization and statistical analysis of microarray gene expression, copy number, methylation, and RNA-Seq data.</p>",
-            "toolTypes": [
-                {
-                    "key": "analysis_tools",
-                    "label": "Analysis Tools"
-                }
-            ],
-            "toolSubtypes": null,
-            "researchAreas": [
-                {
-                    "key": "cancer_omics",
-                    "label": "Cancer Omics"
-                },
-                {
-                    "key": "bioinformatics",
-                    "label": "Bioinformatics"
-                }
-            ],
-            "researchTypes": [
-                {
-                    "key": "basic",
-                    "label": "Basic"
-                },
-                {
-                    "key": "clinical_trials",
-                    "label": "Clinical Trials"
-                }
-            ],
-            "resourceAccess": {
-                "type": "open",
-                "notes": null
-            },
-            "doCs": [
-                {
-                    "key": "dctd",
-                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
-                }
-            ],
-            "poCs": []
-        },
-        {
-            "id": 48,
-            "title": "BRB-Seq Tools",
-            "website": "https://brb.nci.nih.gov/seqtools/",
-            "body": "<p>BRB-SeqTools can run in the Linux environment on local physical/virtual machines or on remote servers such as Amazon Cloud. Variant-calling analysis can be conducted on both aligned RNA-Seq and DNA-Seq data using Samtools or GATK  Best-Practices pipeline tools. For human tumor data, the Variant Call Format (VCF) files generated by the variant-calling pipeline can be filtered and annotated using the somatic mutation annotation tools ANNOVAR or SnpEff to provide gene annotation,  an functional annotation , along with predicted effects of non-synonymous single-nucleotide variants calculated by SIFT and Polyphen-2. Additionally, for RNA-Seq data, gene-level raw count data files can be generated using HTSeq. The raw count data can be read into BRB-ArrayTools for gene expression analysis.</p>",
-            "description": "<p>BRB-SeqTools is a user-friendly pipeline tool that includes many well-known software applications designed to help general scientists preprocess and analyze Next Generation Sequencing (NGS) data. It supports the importing and preprocessing of both RNA-Seq and DNA-Seq data, in either FASTQ or BAM file format.</p>",
-            "toolTypes": [
-                {
-                    "key": "analysis_tools",
-                    "label": "Analysis Tools"
-                }
-            ],
-            "toolSubtypes": null,
-            "researchAreas": [
-                {
-                    "key": "cancer_omics",
-                    "label": "Cancer Omics"
-                }
-            ],
-            "researchTypes": [
-                {
-                    "key": "basic",
-                    "label": "Basic"
-                },
-                {
-                    "key": "translational",
-                    "label": "Translational"
-                }
-            ],
-            "resourceAccess": {
-                "type": "open",
-                "notes": null
-            },
-            "doCs": [
-                {
-                    "key": "dctd",
-                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
-                }
-            ],
-            "poCs": []
-        },
-        {
-            "id": 6,
-            "title": "Cancer and Phenomics Toolkit (CaPTK)",
-            "website": "http://captk.projects.nitrc.org",
-            "body": "<p>CaPTk is a tool that facilitates translation of highly sophisticated methods that help researchers gain a comprehensive understanding of the underlying mechanisms of cancer from medical imaging research to the clinic. It replicates basic interactive functionalities of radiological workstations and is distributed under a Berkeley Software Distribution (BSD)-style license.</p>",
-            "description": "<p>CaPTk is a tool that facilitates translation of highly sophisticated methods that help researchers gain a comprehensive understanding of the underlying mechanisms of cancer from medical imaging research to the clinic.</p>",
-            "toolTypes": [
-                {
-                    "key": "analysis_tools",
-                    "label": "Analysis Tools"
-                }
-            ],
-            "toolSubtypes": null,
-            "researchAreas": [
-                {
-                    "key": "screening_detection",
-                    "label": "Screening & Detection"
-                },
-                {
-                    "key": "cancer_diagnosis",
-                    "label": "Cancer Diagnosis"
-                }
-            ],
-            "researchTypes": [
-                {
-                    "key": "translational",
-                    "label": "Translational"
-                }
-            ],
-            "resourceAccess": {
-                "type": "open",
-                "notes": null
-            },
-            "doCs": [
-                {
-                    "key": "itcr",
-                    "label": "Informatics Technology for Cancer Research (ITCR)"
-                }
-            ],
-            "poCs": []
-        },
-        {
-            "id": 125,
-            "title": "Cancer Prevalence and Cost of Care Projections",
-            "website": "https://costprojections.cancer.gov/",
-            "body": "<p>This website provides tables and graphs showing cancer prevalence and costs of cancer care projected through 2020. Using Surveillance, Epidemiology, and End Results (SEER) data for incidence and survival in combination with Census data, the website has prevalence information by cancer site as well as for all sites combined. It also uses Medicare data to calculate the annualized mean net costs of care per patient. Users can see how much cancer care for each type costs the nation as a whole. Graphs have features such as breakdowns by phase of treatment as well.</p>",
-            "description": "<p>This website provides tables and graphs showing cancer prevalence and costs of cancer care projected through 2020 by cancer site and for all sites combined.</p>",
-            "toolTypes": [
-                {
-                    "key": "datasets_databases",
-                    "label": "Datasets & Databases"
-                },
-                {
-                    "key": "analysis_tools",
-                    "label": "Analysis Tools"
-                }
-            ],
-            "toolSubtypes": null,
-            "researchAreas": [
-                {
-                    "key": "cancer_treatment",
-                    "label": "Cancer Treatment"
-                },
-                {
-                    "key": "cancer_statistics",
-                    "label": "Cancer Statistics"
-                },
-                {
-                    "key": "cancer_public_health",
-                    "label": "Cancer & Public Health"
-                }
-            ],
-            "researchTypes": [
-                {
-                    "key": "epidemiologic",
-                    "label": "Epidemiologic"
-                }
-            ],
-            "resourceAccess": {
-                "type": "open",
-                "notes": null
-            },
-            "doCs": [
-                {
-                    "key": "dccps",
-                    "label": "Division of Cancer Control and Population Sciences (DCCPS)"
-                }
-            ],
-            "poCs": [
-                {
-                    "name": {
-                        "prefix": null,
-                        "firstName": "Angela",
-                        "middleName": null,
-                        "lastName": "Mariotto",
-                        "suffix": null
-                    },
-                    "title": "Chief, Data Analytics Branch, Surveillance Research Program",
-                    "phone": "240-276-6698",
-                    "email": "mariotta@mail.nih.gov"
-                }
-            ]
-        },
-        {
-            "id": 5,
-            "title": "Cancer Slide Digital Archive (CDSA)",
-            "website": "http://cancer.digitalslidearchive.net",
-            "body": "<p>The CDSA is a web-based platform to support the sharing, management, and analysis of digital pathology data. Emory University  currently hosts over 23,000 images from The Cancer Genome Atlas, and the software is being developed within the Informatics Technology for Cancer Research (ITCR) grant to be deployable as a digital pathology platform for other labs and cancer institutes.</p>",
-            "description": "<p>The CDSA is a web-based platform to support the sharing, management, and analysis of digital pathology data.</p>",
-            "toolTypes": [
-                {
-                    "key": "datasets_databases",
-                    "label": "Datasets & Databases"
-                },
-                {
-                    "key": "analysis_tools",
-                    "label": "Analysis Tools"
-                }
-            ],
-            "toolSubtypes": null,
-            "researchAreas": [
-                {
-                    "key": "cancer_diagnosis",
-                    "label": "Cancer Diagnosis"
-                }
-            ],
-            "researchTypes": [
-                {
-                    "key": "translational",
-                    "label": "Translational"
-                },
-                {
-                    "key": "basic",
-                    "label": "Basic"
-                }
-            ],
-            "resourceAccess": {
-                "type": "open",
-                "notes": null
-            },
-            "doCs": [
-                {
-                    "key": "itcr",
-                    "label": "Informatics Technology for Cancer Research (ITCR)"
-                }
-            ],
-            "poCs": []
-        },
-        {
             "id": 85,
             "title": "Cancer Stat Fact Sheets (Stat Facts)",
             "website": "https://seer.cancer.gov/statfacts/",
@@ -938,6 +404,528 @@
                     "email": null
                 }
             ]
+        },
+        {
+            "id": 144,
+            "title": "Cancer Survival Analysis Software (CanSurv)",
+            "website": "https://surveillance.cancer.gov/cansurv/",
+            "body": "<p>CanSurv uses information from SEER*Stat software. For grouped survival data, it can fit both the standard survival models and the mixture cure survival models and it provides various graphs for model diagnosis. It can also fit parametric (cure) survival models to individually-listed data. The most recent version of the software has new options that provide more flexibility for other programs to read the calculated results.</p>",
+            "description": "<p>CanSurv is statistical software used to analyze population-based survival data, including grouped survival data and parametric (cure) survival models.</p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_public_health",
+                    "label": "Cancer & Public Health"
+                },
+                {
+                    "key": "cancer_survivorship",
+                    "label": "Cancer Survivorship"
+                },
+                {
+                    "key": "cancer_statistics",
+                    "label": "Cancer Statistics"
+                }
+            ],
+            "researchTypes": [],
+            "resourceAccess": {
+                "type": "register",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dccps",
+                    "label": "Division of Cancer Control and Population Sciences (DCCPS)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Angela",
+                        "middleName": null,
+                        "lastName": "Mariotto",
+                        "suffix": null
+                    },
+                    "title": "Chief, Data Analytics Branch, Surveillance Research Program",
+                    "phone": "240-276-6698",
+                    "email": "mariotta@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 62,
+            "title": "Data Dictionary Refine (D2Refine)",
+            "website": "https://github.com/caCDE-QA/D2Refine/wiki",
+            "body": "<p>D2Refine is an integrated platform that enables cancer study data/metadata harmonization and quality assurance. The platform is based on Open Refine and has been enhanced with a suite of plugins.</p>",
+            "description": "<p>D2Refine is an integrated platform based on Open Refine that enables cancer study data/metadata harmonization and quality assurance.</p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                },
+                {
+                    "key": "terminology",
+                    "label": "Terminology"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [],
+            "researchTypes": [],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "itcr",
+                    "label": "Informatics Technology for Cancer Research (ITCR)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 50,
+            "title": "Design, Monitoring, and Analysis of Bayesian Basket Discovery Trials",
+            "website": "https://brpnci.shinyapps.io/BasketTrials/",
+            "body": "<p>This application currently supports sample size planning and interim analysis for basket trials. The user specifies the number of strata and the prior probability that the drug is active in any particular stratum. Also, since in general there would be uncertainty on whether these strata are completely correlated or independent with regard to the distribution of drug activity, the user also specifies a prior probability corresponding to correlation of drug activity among strata. The more general situation where there are asymmetries among the strata with regard to the prior probability of drug activity will be implemented in the next version of this application.</p>",
+            "description": "<p>This web-based application implements a new method based on Bayesian principles for the design, monitoring, and analysis of basket trials.</p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                },
+                {
+                    "key": "community_research_tools",
+                    "label": "Community Research Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 89,
+            "title": "DevCan",
+            "website": "https://surveillance.cancer.gov/devcan/",
+            "body": "<p>Depending on user preference, the probability may be calculated either from birth (lifetime risk) or for a person who is a particular age. DevCan uses Surveillance, Epidemiology, and End Results (SEER) data to calculate incidence and Centers for Disease Control and Prevention/Nationaal Center for Health Statistics data to calculate mortality. This is a PC-based software. The current version supports rate editing, sensitivity analysis, user-defined databases, confidence intervals, and the ability to get risk estimates from any age to any age.</p>",
+            "description": "<p>This tool consists of statistical software and associated databases that compute the probability of being diagnosed with or dying of cancer for a particular selected cancer site.</p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_public_health",
+                    "label": "Cancer & Public Health"
+                },
+                {
+                    "key": "cancer_health_disparities",
+                    "label": "Cancer Health Disparities"
+                },
+                {
+                    "key": "cancer_statistics",
+                    "label": "Cancer Statistics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "register",
+                "notes": "Users must sign a terms of use agreement in order to download the software."
+            },
+            "doCs": [
+                {
+                    "key": "dccps",
+                    "label": "Division of Cancer Control and Population Sciences (DCCPS)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Susan",
+                        "middleName": null,
+                        "lastName": "Scott",
+                        "suffix": null
+                    },
+                    "title": "Public Health Advisor, Surveillance Research Program",
+                    "phone": "240-276-6951",
+                    "email": "scotts2@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "title": "DINC 2.0 (Docking INCrementally)",
+            "website": "http://dinc.kavrakilab.org",
+            "body": "<p>DINC 2.0 is a parallelized meta-docking method for the incremental docking of large ligands (currently using AutoDock 4).</p>",
+            "description": "<p>DINC 2.0 is a parallelized meta-docking method for the incremental docking of large ligands (currently using AutoDock 4).</p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "bioinformatics",
+                    "label": "Bioinformatics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "itcr",
+                    "label": "Informatics Technology for Cancer Research (ITCR)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 187,
+            "title": "Genetic Simulation Resources (GSR)",
+            "website": "https://popmodels.cancercontrol.cancer.gov/gsr/",
+            "body": "<p>Genetic simulation software is an important adjunct to research in genetic epidemiology and statistical genetics. The GSR provides a catalogue of more than 100 existing software packages that simulate genetic data of the human genome. The purpose of the GSR is to help investigators identify the genetic simulator most suitable for their research needs.</p>\n<p>The GSR characterizes applications by many different attributes, including simulation method, type of genetic variation, input/output formats, programming languages, and license information.</p>",
+            "description": "<p>The GSR provides a catalogue of existing software packages that simulate genetic data of the human genome.</p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic"
+                },
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dccps",
+                    "label": "Division of Cancer Control and Population Sciences (DCCPS)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 145,
+            "title": "Head*Bang PC Software",
+            "website": "https://surveillance.cancer.gov/headbang/",
+            "body": "<p>Head*Bang PC is non-parametric smoothing software for the analysis of spatial (geographic) patterns of cancer. The Head-Bang PC Software was developed to reveal underlying geographic patterns in data where the values to be smoothed do not have equal variances. Head-Bang 4.0 (64-bit only) was released in May 2017 and can be used both in Windows and as a console version.</p>",
+            "description": "<p>Head*Bang PC is nNon-parametric smoothing software for the analysis of spatial (geographic) patterns of cancer.</p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_statistics",
+                    "label": "Cancer Statistics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dccps",
+                    "label": "Division of Cancer Control and Population Sciences (DCCPS)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Li",
+                        "middleName": null,
+                        "lastName": "Zhu",
+                        "suffix": null
+                    },
+                    "title": "Mathematical Statistician, Statistical Research and Applications Branch, Surveillance Research Program",
+                    "phone": "240-276-6851",
+                    "email": "li.zhu@nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 185,
+            "title": "Healthy Eating Index (HEI)",
+            "website": "https://epi.grants.cancer.gov/hei/",
+            "body": "<p>The HEI is a measure of diet quality, independent of quantity, that can be used to assess compliance with the U.S. Dietary Guidelines for Americans and monitor changes in dietary patterns. The HEI also is a valuable tool for epidemiologic and economic research and can be used to evaluate nutrition interventions and consumer nutrition education programs. The HEI–2015 is the latest iteration of the HEI. The original HEI was released by the United States Department of Agriculture (USDA) in 1995. Changes made to the Dietary Guidelines for Americans have necessitated revisions to the original HEI. The HEI has been significantly updated through a collaboration with the USDA and NCI.</p>",
+            "description": "<p>The HEI is a scoring metric that can be used to determine overall diet quality as well as the quality of a range of dietary components.</p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_prevention",
+                    "label": "Cancer Prevention"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dccps",
+                    "label": "Division of Cancer Control and Population Sciences (DCCPS)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Jill",
+                        "middleName": null,
+                        "lastName": "Reedy",
+                        "suffix": null
+                    },
+                    "title": "Branch Chief, Risk Factor Assessment Branch",
+                    "phone": "240-276-6812",
+                    "email": "reedyj@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 90,
+            "title": "Joinpoint Trend Analysis Software",
+            "website": "https://surveillance.cancer.gov/joinpoint/",
+            "body": "<p>Statistical software for analyzing trend data (e.g., cancer incidence rates) using joinpoint models, that is, models where several different lines are connected together at the \"joinpoints\".  Cancer trends reported in NCI publications are calculated using the Joinpoint Regression Program to analyze rates calculated by the SEER*Stat software. Enables the user to test whether an apparent change in trend is statistically significant. Two versions of Joinpoint software are available:  desktop version (for a PC) and command-line version (for use in batch mode or called from other software, such as SAS or R).</p>",
+            "description": "<p>Joinpoint software is statistical software for analyzing trend data (e.g., cancer incidence rates) using joinpoint models. It is available in desktop version (for a PC) and command-line version (for use in batch mode or called from other software, such as SAS or R).</p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_public_health",
+                    "label": "Cancer & Public Health"
+                },
+                {
+                    "key": "cancer_health_disparities",
+                    "label": "Cancer Health Disparities"
+                },
+                {
+                    "key": "cancer_statistics",
+                    "label": "Cancer Statistics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "register",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dccps",
+                    "label": "Division of Cancer Control and Population Sciences (DCCPS)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Susan",
+                        "middleName": null,
+                        "lastName": "Scott",
+                        "suffix": null
+                    },
+                    "title": "Public Health Advisor, Surveillance Research Program",
+                    "phone": "240-276-6951",
+                    "email": "scotts2@mail.nih.gov"
+                },
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Eric (Rocky)",
+                        "middleName": null,
+                        "lastName": "Feuer",
+                        "suffix": null
+                    },
+                    "title": "Chief, Statistical Research and Applications Branch, Surveillance Research Program",
+                    "phone": "240-276-6772",
+                    "email": "feuerr@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 44,
+            "title": "Microsoft Excel Dose Level Assignment program for Accelerated Titration Designs",
+            "website": "https://brb.nci.nih.gov/programdownload/ExcelProgram.htm",
+            "body": "<p>We fit a stochastic model to data from 20 phase I trials of 9 different drugs. We then simulated new data from the model with the parameters estimated from the actual trials and evaluated the performance of alternative phase I designs on this simulated data. Four designs were evaluated. Accelerated titration designs appear to effectively reduce the number of patients under-treated, speed the completion of phase I trials, and provide a substantial increase in the information obtained. The downloadable Excel dose-level assignment program can be used for accelerated titration design for phase I clinical trial.</p>",
+            "description": "",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 186,
+            "title": "NCI Method for Assessing Usual Dietary Intakes",
+            "website": "https://epi.grants.cancer.gov/diet/usualintakes/",
+            "body": "<p>Usual dietary intake is the long-run average daily intake of a nutrient or food. The concept of long-term average daily intake, or \"usual intake,\" is important because dietary recommendations are intended to be met over time and diet-health hypotheses are based on dietary intakes over the long term. The NCI method can be used to estimate the distribution of usual intake for a population or subpopulation; assess the effects of individual covariates on consumption; and predict individual intake for use in a model to assess the relationship between diet and disease or other variable using the statistical technique of regression calibration.</p>",
+            "description": "<p>Researchers at NCI and elsewhere developed a method to estimate usual dietary intakes of foods and nutrients using 24-hour recalls.</p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_prevention",
+                    "label": "Cancer Prevention"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dccps",
+                    "label": "Division of Cancer Control and Population Sciences (DCCPS)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Jill",
+                        "middleName": null,
+                        "lastName": "Reedy",
+                        "suffix": null
+                    },
+                    "title": "Branch Chief, Risk Factor Assessment Branch",
+                    "phone": "240-276-6812",
+                    "email": "reedyj@mail.nih.gov"
+                }
+            ]
         }
     ],
     "facets": [
@@ -946,75 +934,63 @@
             "param": "researchAreas",
             "items": [
                 {
-                    "key": "cancer_omics",
-                    "label": "Cancer Omics",
-                    "count": 63,
-                    "selected": false
-                },
-                {
-                    "key": "cancer_biology",
-                    "label": "Cancer Biology",
-                    "count": 49,
-                    "selected": false
-                },
-                {
                     "key": "cancer_treatment",
                     "label": "Cancer Treatment",
-                    "count": 44,
+                    "count": 11,
                     "selected": false
                 },
                 {
                     "key": "cancer_statistics",
                     "label": "Cancer Statistics",
-                    "count": 14,
-                    "selected": false
-                },
-                {
-                    "key": "screening_detection",
-                    "label": "Screening & Detection",
-                    "count": 14,
-                    "selected": false
-                },
-                {
-                    "key": "bioinformatics",
-                    "label": "Bioinformatics",
-                    "count": 12,
-                    "selected": false
-                },
-                {
-                    "key": "cancer_diagnosis",
-                    "label": "Cancer Diagnosis",
-                    "count": 12,
+                    "count": 9,
                     "selected": false
                 },
                 {
                     "key": "cancer_health_disparities",
                     "label": "Cancer Health Disparities",
-                    "count": 12,
+                    "count": 7,
                     "selected": false
                 },
                 {
                     "key": "cancer_public_health",
                     "label": "Cancer & Public Health",
-                    "count": 12,
+                    "count": 6,
                     "selected": false
                 },
                 {
-                    "key": "causes_of_cancer",
-                    "label": "Causes of Cancer",
-                    "count": 6,
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics",
+                    "count": 3,
+                    "selected": false
+                },
+                {
+                    "key": "bioinformatics",
+                    "label": "Bioinformatics",
+                    "count": 2,
                     "selected": false
                 },
                 {
                     "key": "cancer_prevention",
                     "label": "Cancer Prevention",
-                    "count": 4,
+                    "count": 2,
                     "selected": false
                 },
                 {
                     "key": "cancer_survivorship",
                     "label": "Cancer Survivorship",
-                    "count": 3,
+                    "count": 2,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology",
+                    "count": 1,
+                    "selected": false
+                },
+                {
+                    "key": "causes_of_cancer",
+                    "label": "Causes of Cancer",
+                    "count": 1,
                     "selected": false
                 }
             ]
@@ -1024,27 +1000,27 @@
             "param": "researchTypes",
             "items": [
                 {
-                    "key": "basic",
-                    "label": "Basic",
-                    "count": 67,
-                    "selected": false
-                },
-                {
-                    "key": "translational",
-                    "label": "Translational",
-                    "count": 63,
-                    "selected": false
-                },
-                {
                     "key": "epidemiologic",
                     "label": "Epidemiologic",
-                    "count": 22,
+                    "count": 13,
                     "selected": false
                 },
                 {
                     "key": "clinical_trials",
                     "label": "Clinical Trials",
-                    "count": 19,
+                    "count": 11,
+                    "selected": false
+                },
+                {
+                    "key": "basic",
+                    "label": "Basic",
+                    "count": 4,
+                    "selected": false
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational",
+                    "count": 3,
                     "selected": false
                 },
                 {
@@ -1075,13 +1051,13 @@
                     "key": "statistical_software",
                     "label": "Statistical Software",
                     "count": 16,
-                    "selected": false
+                    "selected": true
                 },
                 {
                     "key": "modeling",
                     "label": "Modeling",
                     "count": 15,
-                    "selected": false
+                    "selected": true
                 },
                 {
                     "key": "imaging_analysis",
@@ -1110,7 +1086,7 @@
                 {
                     "key": "analysis_tools",
                     "label": "Analysis Tools",
-                    "count": 123,
+                    "count": 31,
                     "selected": true
                 }
             ]

@@ -1,0 +1,43 @@
+{
+    "id": 1,
+    "title": "Enhancer Linking by Methylation/Expression Relationships (ELMER)",
+    "website": "http://bioconductor.org/packages/release/bioc/html/ELMER.html",
+    "body": "<p>ELMER is a R tool for analysis of DNA methylation and expression datasets. Integrative analysis allows reconstruction of <em>in vivo</em> transcription factor networks altered in cancer, along with identification of the underlying gene regulatory sequences.</p>",
+    "description": "<p>ELMER is a R tool for analysis of DNA methylation and expression datasets.</p>",
+    "toolTypes": [
+        {
+            "key": "analysis_tools",
+            "label": "Analysis Tools"
+        }
+    ],
+    "toolSubtypes": [
+        {
+            "parentKey": "analysis_tools",
+            "key": "r_software",
+            "label": "R Software"
+        }
+    ],
+    "researchAreas": [
+        {
+            "key": "cancer_omics",
+            "label": "Cancer Omics"
+        }
+    ],
+    "researchTypes": [
+        {
+            "key": "basic",
+            "label": "Basic"
+        }
+    ],
+    "resourceAccess": {
+        "type": "open",
+        "notes": null
+    },
+    "doCs": [
+        {
+            "key": "itcr",
+            "label": "Informatics Technology for Cancer Research (ITCR)"
+        }
+    ],
+    "poCs": []
+}

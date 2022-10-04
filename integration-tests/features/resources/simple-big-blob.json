@@ -450,7 +450,7 @@
             "title": "Annual Report to the Nation on the Status of Cancer",
             "website": "https://seer.cancer.gov/report_to_nation/",
             "body": "<p>The report includes a special section to highlight a major topic in cancer surveillance. Recent topics include financial toxicity, progress toward Healthy People 2020 objectives, survival, prostate cancer, and molecular subtypes of breast cancer. This is an annual collaboration between NCI, North American Association of Central Cancer Registries, the Centers for Disease Control and Prevention, and the American Cancer Society. The agencies rotate between leading the report. Typically, the trends are by sex and race/ethnicity. The Surveillance, Epidemiology, and End Results (SEER) programwebsite hosts a microsite with summaries, factoids, links, and other shareable resources.</p>",
-            "description": "<p>The Annual Report to the Nation is a publication that provides an update of rates for new cases and deaths, as well as trends, for the most common cancers in the United States. </p>",
+            "description": "<p>The Annual Report to the Nation is a publication that provides an update of rates for new cases and deaths, as well as trends, for the most common cancers in the United States.</p>",
             "toolTypes": [
                 {
                     "key": "analysis_tools",
@@ -595,11 +595,11 @@
             ]
         },
         {
-            "id": 52,
+            "id": 51,
             "title": "Baysian Phase II Single Arm Clinical Trials",
-            "website": "https://brpnci.shinyapps.io/Phase2sim_v1/",
-            "body": "<p>The null hypothesis to be tested is that pt = pc against the alternative pt > pc.  If criteria for stopping at interim analysis are not met, additional accrual and outcome are simulated until a total of Nt patients are accrued to T. At the end of the trial, the posterior distribution of pt is updated again and the posterior probability pp_final that pt > pc is recomputed. If pp_final is ≥ 1- ε , then the null hypothesis is rejected, and superiority of T over C is declared. For the simulations, the user needs to specify the observed values for nc, xc, assumed values for pt, Nt and the proportion of total enrollment, after which the interim analysis is to be conducted. δ, ε and the number of trials to simulate are also specified by the user.</p>",
-            "description": "<p>This application supports the conduct of simulations for a single-arm phase II clinical trial of a new treatment (T) with a binary outcome variable.</p>",
+            "website": "https://brpnci.shinyapps.io/Phase2sim_survival_v1/",
+            "body": "<p>For simulations of single-arm trials for treatment (T),  assume that one interim analysis is conducted after nti events have occurred. By generating nti exponentially distributed event times (with rate parameter log(2)/mt), the parameters for the posterior gamma distribution of λt can be updated as αt = 1+nti and βt = 0.001+Σxti where Σxti is calculated as the sum of the nti simulated event times. For the simulations, users should specify the observed values of nc, mc, assumed value for mt, nt and the proportion of total events after which the interim analysis is to be conducted. h, ε and the number of trials to simulate should also be specified by the user. It is assumed that every subject is followed until event occurrence.</p>",
+            "description": "<p>This application supports the conduct of simulations for a single arm phase II clinical trial of a new treatment T with time to event outcome variable.</p>",
             "toolTypes": [
                 {
                     "key": "analysis_tools",
@@ -636,11 +636,11 @@
             "poCs": []
         },
         {
-            "id": 51,
+            "id": 52,
             "title": "Baysian Phase II Single Arm Clinical Trials",
-            "website": "https://brpnci.shinyapps.io/Phase2sim_survival_v1/",
-            "body": "<p>For simulations of single-arm trials for treatment (T),  assume that one interim analysis is conducted after nti events have occurred. By generating nti exponentially distributed event times (with rate parameter log(2)/mt), the parameters for the posterior gamma distribution of λt can be updated as αt = 1+nti and βt = 0.001+Σxti where Σxti is calculated as the sum of the nti simulated event times. For the simulations, users should specify the observed values of nc, mc, assumed value for mt, nt and the proportion of total events after which the interim analysis is to be conducted. h, ε and the number of trials to simulate should also be specified by the user. It is assumed that every subject is followed until event occurrence.</p>",
-            "description": "<p>This application supports the conduct of simulations for a single arm phase II clinical trial of a new treatment T with time to event outcome variable.</p>",
+            "website": "https://brpnci.shinyapps.io/Phase2sim_v1/",
+            "body": "<p>The null hypothesis to be tested is that pt = pc against the alternative pt > pc.  If criteria for stopping at interim analysis are not met, additional accrual and outcome are simulated until a total of Nt patients are accrued to T. At the end of the trial, the posterior distribution of pt is updated again and the posterior probability pp_final that pt > pc is recomputed. If pp_final is ≥ 1- ε , then the null hypothesis is rejected, and superiority of T over C is declared. For the simulations, the user needs to specify the observed values for nc, xc, assumed values for pt, Nt and the proportion of total enrollment, after which the interim analysis is to be conducted. δ, ε and the number of trials to simulate are also specified by the user.</p>",
+            "description": "<p>This application supports the conduct of simulations for a single-arm phase II clinical trial of a new treatment (T) with a binary outcome variable.</p>",
             "toolTypes": [
                 {
                     "key": "analysis_tools",
@@ -1019,7 +1019,7 @@
             "title": "Cancer Epidemiology Descriptive Cohort Database (CEDCD)",
             "website": "https://cedcd.nci.nih.gov/",
             "body": "<p>The CEDCD contains descriptive information about cohort studies that follow groups of persons over time for cancer incidence, mortality, and other health outcomes. The CEDCD is a searchable database that contains general study information (e.g., eligibility criteria and size), the type of data collected at baseline, cancer sites, number of participants diagnosed with cancer, and biospecimen information. All data included in this database are aggregated for each cohort; there are no individual-level data. The goal of the CEDCD is to facilitate collaboration and highlight the opportunities for research within existing cohort studies.</p>\n<p>Information in the CEDCD has been provided with approval from the cohort principal investigators.</p>",
-            "description": "<p>The CEDCD is a searchable database that contains information about cohort studies that follow groups of persons over time for cancer incidence, mortality, and other health outcomes. </p>",
+            "description": "<p>The CEDCD is a searchable database that contains information about cohort studies that follow groups of persons over time for cancer incidence, mortality, and other health outcomes.</p>",
             "toolTypes": [
                 {
                     "key": "datasets_databases",
@@ -1312,7 +1312,7 @@
             "title": "Cancer Query Systems (CanQues)",
             "website": "https://seer.cancer.gov/canques/",
             "body": "<p>CanQues does not perform calculations; instead, it displays reports using databases of statistics generated by other software. The web-based interface allows users to retrieve the statistics that are relevant to their research.</p>",
-            "description": "<p>CanQues applications provide access to incidence, mortality, survival, and prevalence statistics stored in online databases, as well as the probability of developing or dying from cancer.  </p>",
+            "description": "<p>CanQues applications provide access to incidence, mortality, survival, and prevalence statistics stored in online databases, as well as the probability of developing or dying from cancer.</p>",
             "toolTypes": [
                 {
                     "key": "datasets_databases",
@@ -1461,7 +1461,7 @@
             "title": "Cancer Statistics (CanStat) Animator",
             "website": "https://seer.cancer.gov/canstat/",
             "body": "<p>The CanStat Animator allows users to animate cancer trends over time by cancer site and cause of death, race and sex. Users can select the type of statistic and the variables to be shown in the graph, select the format of the graph by choosing from various graph options, and extract the statistics in a delimited format for further analyses using other software. The CanStat Animator provides access to: SEER Incidence for 1975-2014 for the SEER 9 registries; US Mortality for 1975-2014 for the entire United States; and relative survival for 1975-2013 for the SEER 9 registries.</p>",
-            "description": "<p>The CanStat Animator allows users to animate cancer trends over time by cancer site and cause of death, race and sex. </p>",
+            "description": "<p>The CanStat Animator allows users to animate cancer trends over time by cancer site and cause of death, race and sex.</p>",
             "toolTypes": [
                 {
                     "key": "datasets_databases",
@@ -1576,7 +1576,7 @@
             "title": "Cancer Target Discovery and Development (CTD^2) Dashboard",
             "website": "https://ctd2-dashboard.nci.nih.gov/dashboard/",
             "body": "<p>The CTD^2 Dashboard compiles the CTD^2 Network-generated conclusions, or “observations,” associated with a specific gene, cell line, animal model, or perturbagen. It provides supporting evidence with links to data, references, and to the validation strength of the evidence. Data is generated from multiple types of biological and analytical approaches used by CTD^2 centers. The dashboard allows easy navigation to a broad range  of computational and non-computational scientists.</p>",
-            "description": "<p>The CTD^2 Dashboard is a web interface that assembles - conclusions, or “observations,” generated by CTD2 Network centers with associated  supporting evidence. </p>",
+            "description": "<p>The CTD^2 Dashboard is a web interface that assembles - conclusions, or “observations,” generated by CTD2 Network centers with associated  supporting evidence.</p>",
             "toolTypes": [
                 {
                     "key": "datasets_databases",
@@ -1638,7 +1638,7 @@
             "title": "Cancer Target Discovery and Development (CTD^2) Data Portal",
             "website": "https://ocg.cancer.gov/programs/ctd2/data-portal",
             "body": "<p>The CTD^2 Network aims to understand tumor heterogeneity and drug resistance for the development of efficient strategies to identify optimal combinations of small molecules or immunotherapy with small molecules. The CTD^2 Data Portal provides access to raw and analyzed primary data generated from different types of approaches, e.g., chemical genetics (small molecules, natural products), genome-wide gain-of-function (cDNA expression libraries, CRISPR activation), genome-wide loss-of-function (siRNA, shRNA, CRISPR/Cas9, CRISPR interference), protein–protein interactions, and in vivo gain- and loss-of-function studies.</p>",
-            "description": "<p>CTD^2 Data Portal provides access to raw and analyzed primary data generated from different types of experimental and analytical approaches. </p>",
+            "description": "<p>CTD^2 Data Portal provides access to raw and analyzed primary data generated from different types of experimental and analytical approaches.</p>",
             "toolTypes": [
                 {
                     "key": "datasets_databases",
@@ -1700,7 +1700,7 @@
             "title": "Cancer Therapeutics Response Portal (CTRP)",
             "website": "https://www.broadinstitute.org/ctrp/",
             "body": "<p>CTRP hosts data that are generated by measuring cellular responses to an 'Informer Set' of small molecule probes and drugs. Users can mine for lineages or mutations enriched among cell lines sensitive to small molecules. By connecting cellular features to small molecule sensitivities, CTRP identifies new potential therapeutic vulnerabilities for different cancer types.</p>",
-            "description": "<p>CTRP is a resource of compound sensivity data (concentration–response curves) that can be mined to develop insights into small molecule mechanisms of action and novel therapeutic hypotheses. </p>",
+            "description": "<p>CTRP is a resource of compound sensivity data (concentration–response curves) that can be mined to develop insights into small molecule mechanisms of action and novel therapeutic hypotheses.</p>",
             "toolTypes": [
                 {
                     "key": "analysis_tools",
@@ -1798,7 +1798,7 @@
             "title": "Cancer Trials Support Unit (CTSU)",
             "website": "https://www.ctsu.org/public/",
             "body": "<p>CTSU provides centralized services to support the following goals and objectives:</p>\n<ul>\n<li>Facilitate investigator and research staff participation in selected NCI multi-center programs and their clinical trials.</li>\n<li>Increase investigator and patient awareness of and enrollment to cancer clinical trials.</li>\n<li>Provide standardized, integrated, and comprehensive support services to selected NCI multi-center programs.</li>\n<li>Identify best practices and streamline or eliminate redundant processes and procedures.</li>\n<li>Improve operational efficiency, enhance productivity, and deliver products offering measurable business value to selected NCI multi-center programs.</li>\n</ul>",
-            "description": "<p>CTSU is a service of NCI designed to facilitate access to NCI-funded clinical trials for qualified clinical sites and to support the management and conduct of those clinical trials.  </p>",
+            "description": "<p>CTSU is a service of NCI designed to facilitate access to NCI-funded clinical trials for qualified clinical sites and to support the management and conduct of those clinical trials.</p>",
             "toolTypes": [
                 {
                     "key": "clinical_research_tools",
@@ -1883,7 +1883,7 @@
             "title": "Candidate Cancer Allele cDNA Collection",
             "website": "https://www.addgene.org/kits/boehm-target-accelerator-cancer-collection/",
             "body": "<p>CTD2 researchers at the Broad Institute/DFCI have developed a collection of plasmids including mutant alleles found in sequencing studies of cancer. It includes somatic variants found in lung adenocarcinoma and across other cancer types. The clones enable researchers to characterize the function of the cancer variants in a high throughput experiments. In addition, a control collection of clones as part of the \"Genetic Pathway Reference Set\" provides a resource to generate benchmark perturbation data. These plasmids are collectively called the Broad Target Accelerator Plasmid Collections. The design and construction of these plasmids is described in the manuscripts and they are available through a distributor.</p>",
-            "description": "<p>This collection of plasmids includes mutant alleles found in sequencing studies of cancer. It includes somatic variants found in lung adenocarcinoma and across other cancer types. </p>",
+            "description": "<p>This collection of plasmids includes mutant alleles found in sequencing studies of cancer. It includes somatic variants found in lung adenocarcinoma and across other cancer types.</p>",
             "toolTypes": [
                 {
                     "key": "lab_tools",
@@ -2015,7 +2015,7 @@
             "title": "cDNA Clones with Rare and Recurrent Mutations found in Cancers",
             "website": "https://ocg.cancer.gov/programs/ctd2/supported-reagents/cdna-clones-rare-and-recurrent-mutations-found-cancers",
             "body": "<p>The CTD^2 center at the University of Texas MD Anderson Cancer Center has developed a high-throughput mutagenesis and molecular barcoding (HiTMMoB)   pipeline to construct mutant alleles open reading frame expression clones that are either found in recurrent cancer or are rare in cancers. These barcoded genes can be used for context-specific functional validation, detection of novel biomarkers (pathway activation), and targets (drug sensitivity).</p>",
-            "description": "<p>This resource is an open reading frame (ORF) expression library with clones of wild-type and somatic mutations found in recurrent cancer or that are rare in cancer . </p>",
+            "description": "<p>This resource is an open reading frame (ORF) expression library with clones of wild-type and somatic mutations found in recurrent cancer or that are rare in cancer .</p>",
             "toolTypes": [
                 {
                     "key": "lab_tools",
@@ -2948,7 +2948,7 @@
             "title": "Cohort Metadata Repository (CMR)",
             "website": "https://cmr.nci.nih.gov/",
             "body": "<p>The CMR is a tool that documents data harmonization across cohorts. Centralizing this information should reduce the labor-intensive effort of harmonization for future pooling projects. The CMR includes brief descriptions of the cohort studies and the data collected to provide context for harmonization along with the algorithms used to create the harmonized variables.</p>\n<p>Variables from each cohort included can be searched and compared to determine if harmonization is possible. Once harmonization has occurred, the harmonized variables and the specifications used to create the variables are requested to be documented in the CMR. The CMR contains only metadata (variable names, formats, codes, descriptions) and no individual-level data.</p>",
-            "description": "<p>The CMR documents previous data harmonization efforts. Variables from many cohorts can be searched and compared for harmonization schemas. The CMR contains only metadata and no individual-level data. </p>",
+            "description": "<p>The CMR documents previous data harmonization efforts. Variables from many cohorts can be searched and compared for harmonization schemas. The CMR contains only metadata and no individual-level data.</p>",
             "toolTypes": [
                 {
                     "key": "datasets_databases",
@@ -3042,7 +3042,7 @@
             "title": "Common Terminology Criteria for Adverse Events (CTCAE)",
             "website": "https://ctep.cancer.gov/protocolDevelopment/electronic_applications/ctc.htm",
             "body": "<p>A grading (severity) scale is provided for each AE term. The page includes resources for CTCAE v 5.0 and earlier.</p>",
-            "description": "<p>The NCI CTCAE is a descriptive terminology which can be utilized for adverse event (AE) reporting. </p>",
+            "description": "<p>The NCI CTCAE is a descriptive terminology which can be utilized for adverse event (AE) reporting.</p>",
             "toolTypes": [
                 {
                     "key": "clinical_research_tools",
@@ -3673,7 +3673,7 @@
             "title": "Detecting Mechanism of Action based Network Dysregulation (DeMAND)",
             "website": "https://califano.c2b2.columbia.edu/demand",
             "body": "<p>The DeMAND algorithm predicts drug mechanisms of action using gene expression data generated from control and perturbed cells. The data are then used to identify network dysregulation to determine both the interactions and the genes that are involved in the mechanism of action.</p>",
-            "description": "<p>DeMAND is an R-system algorithm that elucidates mechanisms of action of cellular perturbations (e.g., small molecule) by analyzing network dysregulations. </p>",
+            "description": "<p>DeMAND is an R-system algorithm that elucidates mechanisms of action of cellular perturbations (e.g., small molecule) by analyzing network dysregulations.</p>",
             "toolTypes": [
                 {
                     "key": "analysis_tools",
@@ -4252,7 +4252,7 @@
             "title": "Evaluation of Differential DependencY (EDDY)",
             "website": "https://biocomputing.tgen.org/software/EDDY/",
             "body": "<p>EDDY is a statistical test for estimating differential dependencies for a set of genes between two conditions. Dependencies can be represented and assessed graphically for the expression of a gene set within a particular cellular context. EDDY then calculates the divergence between the probability distributions of scored graphs for each condition. Finally, the statistical significance of this divergence is computed.</p>",
-            "description": "<p>EDDY is a statistical test for estimating differential dependencies for a set of genes between two conditions. </p>",
+            "description": "<p>EDDY is a statistical test for estimating differential dependencies for a set of genes between two conditions.</p>",
             "toolTypes": [
                 {
                     "key": "analysis_tools",
@@ -4487,7 +4487,7 @@
             "title": "Fast Stats",
             "website": "https://seer.cancer.gov/faststats/",
             "body": "<p>Statistics are presented as graphs and tables. The tool provides incidence and mortality rates. Users have the option to select long-term trends and build their own graphs and/or tables. This resource is eventually going to be replaced by SEER*Explorer, another interactive tool that includes survival and other statistics in addition to incidence and mortality.</p>",
-            "description": "<p>This interactive tool provides quick access to key Surveillance, Epidemiology, and End Results (SEER) and US cancer statistics for major cancer sites by age,sex, race/ethnicity, and data type. </p>",
+            "description": "<p>This interactive tool provides quick access to key Surveillance, Epidemiology, and End Results (SEER) and US cancer statistics for major cancer sites by age,sex, race/ethnicity, and data type.</p>",
             "toolTypes": [
                 {
                     "key": "datasets_databases",
@@ -4607,7 +4607,7 @@
             "id": 224,
             "title": "Functional Annotation of Somatic Mutations in Cancer (FASMIC)",
             "website": "http://ibl.mdanderson.org/fasmic/#!/",
-            "body": "<p> FASMIC is an interactive and open-access web portal for comprehensively querying and visualizing mutation-associated data. The queried gene is displayed in a tabular view with basic information for each mutation and details like summary (gene name, mutation, etc.), 3D structure, literature, mutation frequency, etc., under the table.</p>",
+            "body": "<p>FASMIC is an interactive and open-access web portal for comprehensively querying and visualizing mutation-associated data. The queried gene is displayed in a tabular view with basic information for each mutation and details like summary (gene name, mutation, etc.), 3D structure, literature, mutation frequency, etc., under the table.</p>",
             "description": "<p>FASMIC is an interactive and open-access web portal for comprehensively querying and visualizing mutation-associated data. The queried gene is displayed in a tabular view with basic information for each mutation and details like summary (gene name, mutation, etc.), 3D structure, literature, mutation frequency, etc., under the table.</p>",
             "toolTypes": [
                 {
@@ -4670,7 +4670,7 @@
             "title": "Functional Signature Ontology (FuSiOn)",
             "website": "http://fusion.yuhs.ac/v1/",
             "body": "<p>FuSiOn is an ontology map built from gene expression data resulting from human kinome perturbation screens using miRNA mimics, shRNAs, and natural products. The map links  bioactive molecules to the proteins and biological processes that they engage in cells.</p>",
-            "description": "<p>FuSiOn is a tool to to search for chemical and genetical perturbations that behave functionally similarly to a target gene of interest. </p>",
+            "description": "<p>FuSiOn is a tool to to search for chemical and genetical perturbations that behave functionally similarly to a target gene of interest.</p>",
             "toolTypes": [
                 {
                     "key": "analysis_tools",
@@ -4769,7 +4769,7 @@
             "title": "Gene-wise Prior Bayesian Group Factor Analysis (GBGFA)",
             "website": "https://github.com/olganikolova/gbgfa",
             "body": "<p>GBGFA explicitly models gene-centric dependencies when integrating genomic alterations data of the same gene from different platforms (e.g. copy number variation, gene expression and mutation data) to prioritize genes supported by multiple inputs. The multitask approach of this algorithm provides the ability to leverage similarities in the response profiles of drug groups, that are more likely to correspond to true biological effects.</p>",
-            "description": "<p>GBGFA explicitly models gene-centric dependencies when integrating genomic alterations data of the same gene from different platforms (e.g. copy number variation, gene expression and mutation data) to prioritize genes supported by multiple inputs. </p>",
+            "description": "<p>GBGFA explicitly models gene-centric dependencies when integrating genomic alterations data of the same gene from different platforms (e.g. copy number variation, gene expression and mutation data) to prioritize genes supported by multiple inputs.</p>",
             "toolTypes": [
                 {
                     "key": "analysis_tools",
@@ -4879,8 +4879,8 @@
             "id": 187,
             "title": "Genetic Simulation Resources (GSR)",
             "website": "https://popmodels.cancercontrol.cancer.gov/gsr/",
-            "body": "<p>Genetic simulation software is an important adjunct to research in genetic epidemiology and statistical genetics. The GSR provides a catalogue of more than 100 existing software packages that simulate genetic data of the human genome. The purpose of the GSR is to help investigators identify the genetic simulator most suitable for their research needs. </p>\n<p>The GSR characterizes applications by many different attributes, including simulation method, type of genetic variation, input/output formats, programming languages, and license information.</p>",
-            "description": "<p>The GSR provides a catalogue of existing software packages that simulate genetic data of the human genome. </p>",
+            "body": "<p>Genetic simulation software is an important adjunct to research in genetic epidemiology and statistical genetics. The GSR provides a catalogue of more than 100 existing software packages that simulate genetic data of the human genome. The purpose of the GSR is to help investigators identify the genetic simulator most suitable for their research needs.</p>\n<p>The GSR characterizes applications by many different attributes, including simulation method, type of genetic variation, input/output formats, programming languages, and license information.</p>",
+            "description": "<p>The GSR provides a catalogue of existing software packages that simulate genetic data of the human genome.</p>",
             "toolTypes": [
                 {
                     "key": "analysis_tools",
@@ -4921,7 +4921,7 @@
             "title": "Genome-Independent Identification of RNA Editing by Mutual Information (GIREMI)",
             "website": "https://github.com/zhqingit/giremi",
             "body": "<p>The current version of GIREMI focuses on detection of RNA editing sites without requiring genome sequence data. A new version is under development to separately identify RNA editing sites and genetic variants using RNA-seq data alone.</p>",
-            "description": "<p>GIREMI facilitates identification of single-nucleotide variants in RNA-seq data. </p>",
+            "description": "<p>GIREMI facilitates identification of single-nucleotide variants in RNA-seq data.</p>",
             "toolTypes": [
                 {
                     "key": "analysis_tools",
@@ -5117,7 +5117,7 @@
             "title": "Grid-Enabled Measures Database (GEM)",
             "website": "https://cancercontrol.cancer.gov/brp/research/gem.html",
             "body": "<p>GEM allows researchers to search for a construct (e.g., anxiety, depression), see a definition of the construct, view its associated theoretical foundation, and download different measures of the construct. Similarly, researchers can search for a measure and see attributes of that measure (e.g., definition, target population, author, reliability, validity), including the associated construct. GEM also allows researchers to add new information using Web 2.0 functionality. Based upon a \"wiki” platform, researchers help build the website by adding and editing measures and constructs and providing feedback and ratings. Researchers can also receive usage statistics about measures to help decide which measure to use in prospective research.</p>",
-            "description": "<p>GEM is a dynamic, web-based tool of behavioral and social science measures organized by theoretical constructs. GEM enables researchers to evaluate and use common measures and exchange harmonized data.   </p>",
+            "description": "<p>GEM is a dynamic, web-based tool of behavioral and social science measures organized by theoretical constructs. GEM enables researchers to evaluate and use common measures and exchange harmonized data.</p>",
             "toolTypes": [
                 {
                     "key": "datasets_databases",
@@ -5190,7 +5190,7 @@
             "title": "Guidelines for Collaborations with Industry",
             "website": "https://ctep.cancer.gov/industryCollaborations2/default.htm",
             "body": "<p>The goal of CTEP is to facilitate the process of bringing promising, novel investigational anticancer and anti-HIV agents to the public as quickly and as safely as possible. CTEP offers a unique combination of resources and expertise to assist an industry collaborator in clinical development of new therapeutic agents and the ability to evaluate investigational agents in a wide variety of tumor types and disease settings. These guidelines provide information regarding the process for co-developing an investigational anticancer agent with NCI. In addition, there are links to other online resources to assist with technology development, clinical development resources, and small business research funding.</p>",
-            "description": "<p>This section of the Cancer Therapy Evaluation Program (CTEP) website provides information regarding the process for co-developing an investigational anticancer agent with NCI. </p>",
+            "description": "<p>This section of the Cancer Therapy Evaluation Program (CTEP) website provides information regarding the process for co-developing an investigational anticancer agent with NCI.</p>",
             "toolTypes": [],
             "toolSubtypes": null,
             "researchAreas": [],
@@ -5209,7 +5209,7 @@
             "title": "GWAS Explorer PLCO Atlas",
             "website": "https://exploregwas.cancer.gov/plco-atlas/#/",
             "body": "<p>The GWAS Explorer PLCO Atlas is as an interactive tool to facilitate data sharing and enables researchers to search for, visualize, and download aggregated association results from the PLCO genome-wide association analyses (GWAS). The Prostate, Lung, Colorectal, Ovarian (PLCO) Cancer Screening Study was a large population-based randomized trial to determine the effects of screening on cancer-related mortality and secondary endpoints in men and women aged 55 to 74. The Atlas includes genotype data of 110,562 PLCO subjects with 200+ phenotypes collected from questionnaires, medical records, cancer registries, and the National Death Index. Descriptive characteristics, annotation of phenotypes, and links to other pertinent genomic resources are available.</p>",
-            "description": "<p>The GWAS Explorer PLCO Atlas is an interactive data sharing tool that enables researchers to search for, visualize, and download aggregated association results from the PLCO genome-wide association analyses (GWAS). </p>",
+            "description": "<p>The GWAS Explorer PLCO Atlas is an interactive data sharing tool that enables researchers to search for, visualize, and download aggregated association results from the PLCO genome-wide association analyses (GWAS).</p>",
             "toolTypes": [
                 {
                     "key": "datasets_databases",
@@ -5262,7 +5262,7 @@
             "id": 203,
             "title": "Handbook for Clinical Investigators Conducting Therapeutic Clinical Trials",
             "website": "https://ctep.cancer.gov/investigatorResources/investigators_handbook.htm",
-            "body": "<p>DCTD sponsors the majority of extramural treatment trials at NCI. Sponsorship or support of clinical trials includes funding, regulatory support, and/or agent distribution. </p>\n<p>Oncologists, nurses, pharmacists, research administrators, and data managers should find the information in this handbook useful in practical matters connected with protocol drafting and submissions, reporting requirements, agent accountability, and a host of other subjects. This handbook is written to guide the individual clinical investigator at the clinical trial site working alongside a team of health professionals and research staff. </p>",
+            "body": "<p>DCTD sponsors the majority of extramural treatment trials at NCI. Sponsorship or support of clinical trials includes funding, regulatory support, and/or agent distribution.</p>\n<p>Oncologists, nurses, pharmacists, research administrators, and data managers should find the information in this handbook useful in practical matters connected with protocol drafting and submissions, reporting requirements, agent accountability, and a host of other subjects. This handbook is written to guide the individual clinical investigator at the clinical trial site working alongside a team of health professionals and research staff.</p>",
             "description": "<p>This handbook explains the policies and implementing procedures for the conduct of therapeutic clinical trials sponsored by NCI’s Division of Cancer Treatment and Diagnosis (DCTD).</p>",
             "toolTypes": [
                 {
@@ -5836,7 +5836,7 @@
             "title": "Interactive Risk Attributable Program (IRAP)",
             "website": "https://dceg.cancer.gov/tools/risk-assessment/irap",
             "body": "<p>IRAP keeps a \"library\" of variables that the user has defined. A variable can take its value directly from the data file or it can be defined in terms of other variables in the library. Typically, the user will create a separate library for each data file that he or she uses. A library can be saved to disk, then loaded whenever the corresponding data file is used.\nOnce a library of variables has been created (or loaded from removable media), the user may define a model. IRAP supports six data sampling methods:</p>\n<ul>\n<li>Simple Random Sampling</li>\n<li>Stratified Random Sampling</li>\n<li>Frequency Matching</li>\n<li>Individual Matching</li>\n<li>Cohort Analysis</li>\n<li>Cross-Sectional Analysis</li>\n</ul>\n<p>After choosing the appropriate sampling method, the user defines a model by specifying the appropriate variable names. A model can contain both discrete and continuous variables. IRAP correctly parameterizes the discrete variables, so the user need not explicitly create \"dummy variables.\"\nOnce the model has been specified, the user tells IRAP to fit the model. The program asks for the names of the input and output files. It then reads the data and fits the model.\nWhile these three phases are conceptually distinct, they can be interwoven. For example, after fitting a model, the user may decide to combine two levels of exposure into one. It is easy to define a new variable, then rerun the model, substituting the new exposure variable for the old.</p>",
-            "description": "<p>IRAP is an interactive computer program that calculates both point estimates and confidence intervals for attributable risk, based on regression models. Modeling consists of three conceptual phases: creating a library of variables, defining the model, and running the model. </p>",
+            "description": "<p>IRAP is an interactive computer program that calculates both point estimates and confidence intervals for attributable risk, based on regression models. Modeling consists of three conceptual phases: creating a library of variables, defining the model, and running the model.</p>",
             "toolTypes": [
                 {
                     "key": "community_research_tools",
@@ -5886,7 +5886,7 @@
             "title": "Investigation of Serial Studies to Predict Your Therapeutic Response with Imaging and Molecular Analysis, I-SPY1",
             "website": "ftp://caftpd.nci.nih.gov/pub/caARRAY/experiments/caArray_EXP-597/",
             "body": "<p>Gene expression data files can be downloaded from an NCI-hosted FTP site.</p>",
-            "description": "<p>The I-SPY 1 TRIAL sought to identify indicators of response to neoadjuvant chemotherapy that predict survival in women with high-risk breast cancer. </p>",
+            "description": "<p>The I-SPY 1 TRIAL sought to identify indicators of response to neoadjuvant chemotherapy that predict survival in women with high-risk breast cancer.</p>",
             "toolTypes": [
                 {
                     "key": "datasets_databases",
@@ -6176,7 +6176,7 @@
             "title": "Know Your Chances",
             "website": "https://knowyourchances.cancer.gov/",
             "body": "<p>The Know Your Chances website provides interactive risk charts to put cancer in context. The risk charts show the likelihood of dying from a variety of cancer types and other diseases over a specific time frame. Because age, sex, and race are so important in determining a person's chances of dying from cancer or another disease, the charts allow the user to account for those factors.</p>",
-            "description": "<p>The Know Your Chances websites provides interactive risk charts that show the likelihood of dying from a variety of cancer types and other diseases over a specific time frame, with the ability to account for age, sex, and race. </p>",
+            "description": "<p>The Know Your Chances websites provides interactive risk charts that show the likelihood of dying from a variety of cancer types and other diseases over a specific time frame, with the ability to account for age, sex, and race.</p>",
             "toolTypes": [
                 {
                     "key": "datasets_databases",
@@ -6291,7 +6291,7 @@
             "title": "Linkage Disequilibrium (LD) Link",
             "website": "https://dceg.cancer.gov/tools/analysis/ldlink",
             "body": "<p>Exploring LD across ancestral populations is a powerful approach for investigating population-specific genetic structure as well as functionally mapping regions of disease susceptibility. LDlink applications allow users to easily and efficiently interrogate LD in population groups. LDlink consists of four modules for interactively exploring linkage disequilibrium: LDhap, LDmatrix, LDpair, and LDproxy. Modules are designed with an emphasis on ease of use, query flexibility, and interactive visualization of results. Haplotype tables and interactive plots generated by LDlink are tailored for investigators interested in mapping common and uncommon disease susceptibility loci with a focus on linking correlated alleles and highlighting potentially functional variants.</p>",
-            "description": "<p>LDlink is a suite of web-based applications designed to easily and efficiently interrogate linkage disequilibrium (LD) in population groups. </p>",
+            "description": "<p>LDlink is a suite of web-based applications designed to easily and efficiently interrogate linkage disequilibrium (LD) in population groups.</p>",
             "toolTypes": [
                 {
                     "key": "analysis_tools",
@@ -6345,7 +6345,7 @@
             "title": "Long Short-Term Memory Conditional Random Field (LSTM-CRF)",
             "website": "https://github.com/abhyudaynj/LSTM-CRF-models",
             "body": "<p>LSTM-CRF implements recurrent neural networks using several CRF-based inference methods.</p>",
-            "description": "<p>LSTM-CRF uses natural language processing methods for detecting adverse drug events, drug names, indications, and other medically relevant information from electronic health records. </p>",
+            "description": "<p>LSTM-CRF uses natural language processing methods for detecting adverse drug events, drug names, indications, and other medically relevant information from electronic health records.</p>",
             "toolTypes": [
                 {
                     "key": "clinical_research_tools",
@@ -6382,7 +6382,7 @@
             "title": "Mammalian Gene Collection (MGC)",
             "website": "https://mgc.nci.nih.gov/",
             "body": "<p>MGC provides researchers with unrestricted access to sequence-validated full-length protein-coding (FL-CDS) cDNA clones for human, mouse, and rat genes. MGC cDNA clones were obtained by screening of cDNA libraries, by transcript-specific RT-PCR  cloning, and by DNA synthesis of cDNA inserts.</p>",
-            "description": "<p>MGC is a bank of full-length open reading frame clones for the majority of protein-coding human and mouse genes. </p>",
+            "description": "<p>MGC is a bank of full-length open reading frame clones for the majority of protein-coding human and mouse genes.</p>",
             "toolTypes": [
                 {
                     "key": "lab_tools",
@@ -6506,7 +6506,7 @@
             "title": "MD Anderson Cell Line Project (MCLP) Data Portal",
             "website": "https://tcpaportal.org/mclp/#/",
             "body": "<p>The MCLP Data Portal is an interactive resource of proteomic, genomic, transcriptomic, and drug screening data of a large number of cancer cell lines. Protein expression levels (proteoimc) were measured using the reverse phase protein array platform. The MCLP platform provides four interactive modules: My Protein, Analysis, Visualization, and Data Sets.</p>",
-            "description": "<p>The MCLP Data Portal is a bioinformatic resource that enables researchers to explore, analyze, and visualize protein expression data of cancer cell lines. </p>",
+            "description": "<p>The MCLP Data Portal is a bioinformatic resource that enables researchers to explore, analyze, and visualize protein expression data of cancer cell lines.</p>",
             "toolTypes": [
                 {
                     "key": "analysis_tools",
@@ -6765,7 +6765,7 @@
             "title": "MethylMix",
             "website": "https://bioconductor.org/packages/3.1/bioc/html/MethylMix.html",
             "body": "<p>MethylMix uses a novel statistic, the differential methylation value (DM-value), to define methylation-driven subgroups. This algorithm could be used to identify differentially and transcriptionally predictive methylated genes within a disease by comparing them with the normal DNA methylation state. Matched gene expression data may also be used to identify functional methylation states by focsuing on methylation changes that effect gene expression.</p>",
-            "description": "<p>MethylMix is an algorithm to identify hyper- and hypomethylated genes for a disease. </p>",
+            "description": "<p>MethylMix is an algorithm to identify hyper- and hypomethylated genes for a disease.</p>",
             "toolTypes": [
                 {
                     "key": "analysis_tools",
@@ -6864,7 +6864,7 @@
             "title": "Mining Essentiality Data to Identify Critical Interactions for Cancer Drug Target Discovery and Development (MEDICI)",
             "website": "https://github.com/cooperlab/MEDICI",
             "body": "<p>MEDICI is a computational method which ranks known protein-protein interactions (PPIs). This approach combinesÂ Project AchillesÂ shRNA gene silencing data with network models of protein interaction pathways (NCI Pathway Interaction Database) in an analytic framework. The PPIs are ranked based on their cruciality for the survival and proliferation of cancer cells.</p>",
-            "description": "<p>MEDICI is a computational method which ranks known protein-protein interactions (PPIs). </p>",
+            "description": "<p>MEDICI is a computational method which ranks known protein-protein interactions (PPIs).</p>",
             "toolTypes": [
                 {
                     "key": "analysis_tools",
@@ -7033,7 +7033,7 @@
             "title": "Modulator Inference by Network Dynamics (MINDy2)/ Conditional Inference of Network Dynamics (CINDy)",
             "website": "https://wiki.c2b2.columbia.edu/califanolab/index.php/Software/MINDY2",
             "body": "<p>Modulator Inference by Network Dynamics (MINDy2)/ Conditional Inference of Network Dynamics (CINDy). MINDy2 and CINDy both infer modulatory events in the cell. They do this by screening a list of candidate modulator proteins and assessing their effect on the transcriptional control of a transcription factor of interest. CINDy uses a more sophisticated algorithm: while both try to assess the effects of a modulator over a transcriptional network, CINDy uses the entire expression range of the modulator.</p>",
-            "description": "<p>MINDy2 and CINDy both infer modulatory events in the cell by screening a list of candidate modulator proteins and assessing their effect on the transcriptional control of a transcription factor of interest. </p>",
+            "description": "<p>MINDy2 and CINDy both infer modulatory events in the cell by screening a list of candidate modulator proteins and assessing their effect on the transcriptional control of a transcription factor of interest.</p>",
             "toolTypes": [
                 {
                     "key": "analysis_tools",
@@ -7103,7 +7103,7 @@
             "title": "Molecular Target Data",
             "website": "https://wiki.nci.nih.gov/display/NCIDTPdata/Molecular+Target+Data",
             "body": "<p>Thousands of molecular targets have been measured in the NCI-60 human tumor cell lines. Measurements include protein levels, RNA measurements, mutation status and enzyme activity levels. Data sites allow searches for a target of interest, or a list of targets. The COMPARE program allows identification of targets or compounds with patterns that correlate with a target of interest.</p>",
-            "description": "<p>The Molecular Targets effort is a collaboration between qualified researchers and the NCI  Division of Cancer Treatment and Diagnosis (DCTD). The NCI-60 lab will provide NCI-60 cell line frozen cell pellets, DNA, or RNA for analysis in the external researchers’ labs. </p>",
+            "description": "<p>The Molecular Targets effort is a collaboration between qualified researchers and the NCI  Division of Cancer Treatment and Diagnosis (DCTD). The NCI-60 lab will provide NCI-60 cell line frozen cell pellets, DNA, or RNA for analysis in the external researchers’ labs.</p>",
             "toolTypes": [
                 {
                     "key": "datasets_databases",
@@ -7492,7 +7492,7 @@
             "title": "NCI Brain Neoplasia Data",
             "website": "ftp://caftpd.nci.nih.gov/pub/caARRAY/experiments/caArray_fine-00037/",
             "body": "<p>Data is available for analysis in the Georgetown Database of Cancer (<a href=\"https://gdoc.georgetown.edu/gdoc/\">G-DOC</a>).</p>\n<p>Gene expression files can be downloaded from a NCI-hosted FTP site.</p>",
-            "description": "<p>NCI Brain Neoplasia Data integrates clinical and functional genomics data from clinical trials involving brain tumor patients and provides the ability to perform <em>ad hoc</em> querying, reporting, and analysis across multiple data domains, including gene expression, gene copy number, and clinical data.  </p>",
+            "description": "<p>NCI Brain Neoplasia Data integrates clinical and functional genomics data from clinical trials involving brain tumor patients and provides the ability to perform <em>ad hoc</em> querying, reporting, and analysis across multiple data domains, including gene expression, gene copy number, and clinical data.</p>",
             "toolTypes": [
                 {
                     "key": "datasets_databases",
@@ -7513,8 +7513,8 @@
             "id": 179,
             "title": "NCI Cohort Consortium",
             "website": "https://epi.grants.cancer.gov/Consortia/cohort.html",
-            "body": "<p>The NCI Cohort Consortium promotes collaborative research projects for topics not easily addressed in a single study. The Consortium includes investigators responsible for more than 50 cohorts involving more than seven million people. The cohorts are international in scope and cover diverse populations. Extensive risk factor data are available on each cohort and biospecimens collected at baseline are available on approximately two million individuals. </p>\n<p>Application for membership will be open to the principal investigator of any cancer epidemiology cohort with at least 10,000 study participants, in which cancer occurrence is assessed and some risk factor data collected, who commits to scientific collaboration by contributing data for scientific research and participating in pooling studies.</p>",
-            "description": "<p>The NCI Cohort Consortium promotes large-scale research collaborations through pooling data and biospecimens collected from 50+ international cohort studies to conduct a wide range of cancer studies. </p>",
+            "body": "<p>The NCI Cohort Consortium promotes collaborative research projects for topics not easily addressed in a single study. The Consortium includes investigators responsible for more than 50 cohorts involving more than seven million people. The cohorts are international in scope and cover diverse populations. Extensive risk factor data are available on each cohort and biospecimens collected at baseline are available on approximately two million individuals.</p>\n<p>Application for membership will be open to the principal investigator of any cancer epidemiology cohort with at least 10,000 study participants, in which cancer occurrence is assessed and some risk factor data collected, who commits to scientific collaboration by contributing data for scientific research and participating in pooling studies.</p>",
+            "description": "<p>The NCI Cohort Consortium promotes large-scale research collaborations through pooling data and biospecimens collected from 50+ international cohort studies to conduct a wide range of cancer studies.</p>",
             "toolTypes": [
                 {
                     "key": "networks_consortiums",
@@ -7576,7 +7576,7 @@
             "title": "NCI Dictionary of Cancer Terms",
             "website": "https://www.cancer.gov/publications/dictionaries/cancer-terms",
             "body": "<p>The Dictionary of Cancer terms includes about 8,000 cancer and biomedical terms, defined in non-technical language. Terms and definitions are reviewed by a multidisciplinary panel of reviewers, and approximately 50 new and 50 revised terms are included each month.</p>\n<p>The dictionary is available as a stand-alone resource on every Cancer.gov webpage, and individual terms in many web documents are also directly linked to their dictionary definitions. The dictionary is also widely used by other institutions and websites.</p>",
-            "description": "<p>The Dictionary of Cancer Terms includes 8,000 cancer and biomedical terms, defined in non-technical language. </p>",
+            "description": "<p>The Dictionary of Cancer Terms includes 8,000 cancer and biomedical terms, defined in non-technical language.</p>",
             "toolTypes": [
                 {
                     "key": "terminology",
@@ -7630,7 +7630,7 @@
             "title": "NCI Drug Dictionary",
             "website": "https://www.cancer.gov/publications/dictionaries/cancer-drug",
             "body": "<p>The NCI Drug Dictionary contains technical definitions, alternate names, and links to related information for about 5,000 agents that are being used in the treatment of patients with cancer or cancer-related conditions. Each entry includes a link to a more detailed entry in the NCI Thesaurus, which provides the information presented, as well as links to open clinical trials in NCI's List of Cancer Clinical Trials.</p>",
-            "description": "<p>The NCI Drug Dictionary contains technical definitions and synonyms for drugs and agents used to treat patients with cancer or conditions related to cancer.  </p>",
+            "description": "<p>The NCI Drug Dictionary contains technical definitions and synonyms for drugs and agents used to treat patients with cancer or conditions related to cancer.</p>",
             "toolTypes": [
                 {
                     "key": "terminology",
@@ -8153,7 +8153,7 @@
             "title": "NCI Term Browser",
             "website": "https://nciterms.nci.nih.gov/ncitbrowser/pages/multiple_search.jsf?nav_type=terminologies",
             "body": "<p>Managed by NCI Enterprise Vocabulary Services (EVS), the NCI Term Browser provides access to ICD-9-CM, ICD-10-CM, the Common Terminology Criteria for Adverse Events (CTCAE), the Medical Dictionary for Regulatory Activities (MedDRA), the Systematized Nomenclature of Medicine Clinical Terms (SNOMED-CT), the National Drug File Reference Terminology (NDF-RT), the Gene Ontology (GO), and many other terminologies and ontologies used by NCI and its partners.</p>\n<p>Cross-terminology mappings and more than 500 terminology value set coding standards are also provided.</p>",
-            "description": "<p>The NCI Term Browser allows all terminologies hosted by NCI Enterprise Vocabulary Services (EVS) to be viewed and searched in an integrated environment. </p>",
+            "description": "<p>The NCI Term Browser allows all terminologies hosted by NCI Enterprise Vocabulary Services (EVS) to be viewed and searched in an integrated environment.</p>",
             "toolTypes": [
                 {
                     "key": "terminology",
@@ -8175,7 +8175,7 @@
             "title": "NCI Thesaurus (NCIt)",
             "website": "https://ncit.nci.nih.gov/ncitbrowser/",
             "body": "<p>Published monthly and managed by NCI Enterprise Vocabulary Services (EVS), the NCI Thesaurus, reference terminology and biomedical ontology is used in a growing number of NCI and other systems.</p>\n<p>The NCIt provides definitions, synonyms, and other information on more than 10,000 cancers and related diseases, 17,000 single agents and related substances, combination therapies, a federal Consolidated Health Informatics (CHI) standard anatomy section, and a wide range of other topics related to cancer and biomedical research. It is maintained by a multidisciplinary team of editors, who add about 700 new entries each month.</p>",
-            "description": "<p>The NCIt covers more than 100,000 concepts used in the coding of clinical care, translational and basic research, and public information and administrative activities.   </p>",
+            "description": "<p>The NCIt covers more than 100,000 concepts used in the coding of clinical care, translational and basic research, and public information and administrative activities.</p>",
             "toolTypes": [
                 {
                     "key": "terminology",
@@ -8266,7 +8266,7 @@
             "id": 98,
             "title": "NCI-60 Growth inhibition Data",
             "website": "https://wiki.nci.nih.gov/display/NCIDTPdata/NCI-60+Growth+Inhibition+Data",
-            "body": "<p>This resource provides access to compound and biologics submission and response data for the NCI-60 screen. The NCI-60 screen has been a free resouce available to all investigators to test new compounds with potential anticancer activity. The compounds are submitted through a registration website and data are returned to the investigator. Hundreds of peer-reviewed publications have included NCI-60 screen data. Reviews of this resource include <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/16990858\">Nat Rev Cancer</a>. 2006 Oct;6(10):813-23. These cell lines have been molecularly characterized in detail, including gene expression, mutations and other DNA alterations, protein expression, DNA methylation, and microRNA expression.  </p>",
+            "body": "<p>This resource provides access to compound and biologics submission and response data for the NCI-60 screen. The NCI-60 screen has been a free resouce available to all investigators to test new compounds with potential anticancer activity. The compounds are submitted through a registration website and data are returned to the investigator. Hundreds of peer-reviewed publications have included NCI-60 screen data. Reviews of this resource include <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/16990858\">Nat Rev Cancer</a>. 2006 Oct;6(10):813-23. These cell lines have been molecularly characterized in detail, including gene expression, mutations and other DNA alterations, protein expression, DNA methylation, and microRNA expression.</p>",
             "description": "<p>Compound sensitivity data for the NCI-60 production screen that includes single concentration triage and 5 concentration response data for compounds and biologics submitted by external investigators. The NCI-60 screen includes the 60 best-characterized human tumor cell lines with a 48 hour exposure and SRB endpoint.</p>",
             "toolTypes": [
                 {
@@ -8410,7 +8410,7 @@
             "title": "New Grantee Workshop",
             "website": "https://www.cancer.gov/about-nci/organization/dcb/researcher-resources#workshop",
             "body": "<p>DCB offers an annual workshop for new and early-stage investigators to familiarize them with the processes and standards of DCB, NCI and NIH. The workshop is designed for DCB grantees who have received their first independent NIH grant within the last year. New grantees are identified by the Division, and attendance is by invitation only. The workshop covers: Structure, roles, and inter-relationships of NIH, NCI, and DCB Branches within DCB NIH peer review process Competitive renewal applications Sources of supplemental funding Grantee responsibilities in managing their awards The workshop includes breakout sessions with DCB Program Directors and a seminar from an NCI-funded senior cancer researcher.</p>",
-            "description": "<p>DCB offers an annual workshop for new and early-stage investigators to familiarize them with the processes and standards of DCB, NCI and NIH. The workshop is designed for DCB grantees who have received their first independent NIH grant within the last year. </p>",
+            "description": "<p>DCB offers an annual workshop for new and early-stage investigators to familiarize them with the processes and standards of DCB, NCI and NIH. The workshop is designed for DCB grantees who have received their first independent NIH grant within the last year.</p>",
             "toolTypes": [
                 {
                     "key": "networks_consortiums",
@@ -8608,7 +8608,7 @@
             "title": "OncoPPi Portal",
             "website": "http://oncoppi.emory.edu",
             "body": "<p>The OncoPPi Portal facilitates discovery of new mechanisms to conrtol tumorigenesis through integration of genomic, pharmacological, clinical, and structural data with the network of cancer-associated protein–protein interactions (PPI) experimentally determined in cancer cells. This is an interactive web resource that allows users to access, explore, and prioritize cancer-relevant PPIs for target discovery.</p>",
-            "description": "<p>The OncoPPi Portal is  a resource of cancer-relevant protein–protein interactions that allows users to explore cancer vulnerabilities. </p>",
+            "description": "<p>The OncoPPi Portal is  a resource of cancer-relevant protein–protein interactions that allows users to explore cancer vulnerabilities.</p>",
             "toolTypes": [
                 {
                     "key": "datasets_databases",
@@ -9181,7 +9181,7 @@
             "title": "PiHelper",
             "website": "https://bit.ly/pihelper",
             "body": "<p>PiHelper integrates drug target and antibody target interactions from publicly available resources to facilitate research in systems pharmacology, perturbation biology, and proteomics. PiHelper can (1) import drug and antibody target information; (2) search the interactions; (3) visualize data interactively in a network; and (4) export interaction data for use in publications or other analysis tools.</p>",
-            "description": "<p>PiHelper integrates drug target and antibody target interactions from publicly available resources to facilitate research in systems pharmacology, perturbation biology, and proteomics. </p>",
+            "description": "<p>PiHelper integrates drug target and antibody target interactions from publicly available resources to facilitate research in systems pharmacology, perturbation biology, and proteomics.</p>",
             "toolTypes": [
                 {
                     "key": "analysis_tools",
@@ -9288,7 +9288,7 @@
             "title": "Project Achilles Portal",
             "website": "https://www.broadinstitute.org/achilles",
             "body": "<p>Project Achilles uses genome-wide pooled shRNA screens to identify and catalog genetic vulnerabilities associated with genetic or epigenetic changes across hundreds of cancer cell lines. In the Project Achilles portal, genes can be queried for essentiality across all cell lines. Data can be easily downloaded and visualized with GENE-E or the data analysis GenePattern module, PARIS.</p>",
-            "description": "<p>Genes can be queried for essentiality across all cell lines. Data can be easily downloaded and visualized with GENE-E or the data analysis GenePattern module, PARIS. </p>",
+            "description": "<p>Genes can be queried for essentiality across all cell lines. Data can be easily downloaded and visualized with GENE-E or the data analysis GenePattern module, PARIS.</p>",
             "toolTypes": [
                 {
                     "key": "analysis_tools",
@@ -9349,8 +9349,8 @@
             "id": 146,
             "title": "ProjPrev-Projected Prevalence Software",
             "website": "https://surveillance.cancer.gov/projprev/",
-            "body": "<p>Limited-duration prevalence represents the proportion of people alive on a certain day who had a diagnosis of the disease within a certain number of years. The ProjPrev software takes limited-duration prevalence statistics from SEER*Stat and applies them to a different population. The population would typically differ in year or geographic area. ProjPrev is primarily used to derive US prevalence by projecting SEER prevalence onto US populations. </p>",
-            "description": "<p>The ProjPrev software takes limited-duration prevalence statistics from SEER*Stat and applies them to a different population. ProjPrev is primarily used to derive US prevalence by projecting SEER prevalence onto US populations. </p>",
+            "body": "<p>Limited-duration prevalence represents the proportion of people alive on a certain day who had a diagnosis of the disease within a certain number of years. The ProjPrev software takes limited-duration prevalence statistics from SEER*Stat and applies them to a different population. The population would typically differ in year or geographic area. ProjPrev is primarily used to derive US prevalence by projecting SEER prevalence onto US populations.</p>",
+            "description": "<p>The ProjPrev software takes limited-duration prevalence statistics from SEER*Stat and applies them to a different population. ProjPrev is primarily used to derive US prevalence by projecting SEER prevalence onto US populations.</p>",
             "toolTypes": [
                 {
                     "key": "analysis_tools",
@@ -9408,7 +9408,7 @@
             "title": "Protein–Protein Interaction (PPI) Reagents",
             "website": "https://ocg.cancer.gov/resources/all-resources",
             "body": "<p>Numerous gene mutations give proteins new capabilities to bind cellular proteins and create new signaling pathways that drive tumor growth. The CTD^2 center at Emory University has created PPI expression vector libraries to discover and validate mutation-created PPIs as therapeutic targets for cancer.</p>",
-            "description": "<p>This resource is a collection of wild-type and mutant clones to study PPIs in mammalian cells.  </p>",
+            "description": "<p>This resource is a collection of wild-type and mutant clones to study PPIs in mammalian cells.</p>",
             "toolTypes": [
                 {
                     "key": "lab_tools",
@@ -9571,7 +9571,7 @@
             "title": "Questionnaire Development Resources",
             "website": "https://dceg.cancer.gov/tools/design/questionnaires",
             "body": "<p>This resource is a collection of questionnaires and questionnaire segments for use in a wide variety of epidemiological studies. Listings of publications are given where available. Topics covered by the questionnaires include:  Alcohol, Tobacco, and Recreational Drug Use; Anthropometric Measurements (measurements of the human body); Background Information; Breast Cancer Risk Factors; Family History of Cancer; EMF, Radon, and UVR Exposures; Ionizing Radiation Exposures; Household Exposures; Medical History; Non-alcoholic Beverage, Food, and Dietary Supplements; Occupational History and Exposures; Physical Activity; Prescriptions, Hormones, Immunizations; Reproductive History; Residential History</p>",
-            "description": "<p>This resource is a collection of questionnaires and questionnaire segments for use in a wide variety of epidemiological studies. </p>",
+            "description": "<p>This resource is a collection of questionnaires and questionnaire segments for use in a wide variety of epidemiological studies.</p>",
             "toolTypes": [
                 {
                     "key": "community_research_tools",
@@ -10057,7 +10057,7 @@
             "title": "Repository of Natural Products-Crude Extracts",
             "website": "https://dtp.cancer.gov/organization/npb/introduction.htm",
             "body": "<p>The Developmental Therapeutics Program's (DTP) Natural Products Repository is the world's largest storehouse of natural products. It houses close 170,000 extracts from samples of more than 70,000 plants and 10,000 marine organisms collected from more than 25 countries, plus more than 30,000 extracts of diverse bacteria and fungi. The Natural Products Repository, administered by the Natural Products Branch, provides  extramural researchers with natural products extracts for testing against any human disease.</p>",
-            "description": "<p>This repository is the world's largest storehouse of natural products for testing against any human disease. The respository consists of nearly 170,000 extracts from samples of more than 70,000 plants and 10,000 marine organisms collected from more than 25 countries, plus more than 30,000 extracts of diverse bacteria and fungi. </p>",
+            "description": "<p>This repository is the world's largest storehouse of natural products for testing against any human disease. The respository consists of nearly 170,000 extracts from samples of more than 70,000 plants and 10,000 marine organisms collected from more than 25 countries, plus more than 30,000 extracts of diverse bacteria and fungi.</p>",
             "toolTypes": [
                 {
                     "key": "lab_tools",
@@ -10295,7 +10295,7 @@
             "title": "SampleMap",
             "website": "https://tumormap.ucsc.edu",
             "body": "<p>SampleMap is a TumorMap version built for TCGA analysis that projects samples into a GoogleMap explorer to allow overlaying omics attributes to spot patterns quickly.</p>",
-            "description": "<p>SampleMap is a TumorMap version built for The Cancer Genome Atlas (TCGA) analysis that projects samples into a GoogleMap explorer to allow overlaying omics attributes to spot patterns quickly. </p>",
+            "description": "<p>SampleMap is a TumorMap version built for The Cancer Genome Atlas (TCGA) analysis that projects samples into a GoogleMap explorer to allow overlaying omics attributes to spot patterns quickly.</p>",
             "toolTypes": [
                 {
                     "key": "analysis_tools",
@@ -10336,7 +10336,7 @@
             "title": "Sarcoma Project Data",
             "website": "https://sarcoma.cancer.gov/sarcoma/downloads.xhtml",
             "body": "<p>This resource provides access to compound sensitivity data for approximately 450 compounds, including FDA-approved anticancer drugs and investigational agents on established adult and pediatric sarcoma cell lines .These data, along with gene expression data derived from Affymatrix exon arrays and microRNA expression determined from Nanostring technology, are available from the Sarcoma Project Data website. This study has been published (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/26351324\">Mol Cancer Ther</a>. 2015 Nov;14(11):2452-62. doi: 10.1158/1535-7163).</p>",
-            "description": "<p>The resource provides access to compound sensitivity data  for  human adult and pediatric sarcoma cell lines in the NCI-60 collectionwith 9 point concentration response and 4-day exposure plus gene expression and microRNA expression.  </p>",
+            "description": "<p>The resource provides access to compound sensitivity data  for  human adult and pediatric sarcoma cell lines in the NCI-60 collectionwith 9 point concentration response and 4-day exposure plus gene expression and microRNA expression.</p>",
             "toolTypes": [
                 {
                     "key": "datasets_databases",
@@ -10385,7 +10385,7 @@
             "title": "Screening Bayesian Evaluation and Analysis Method (ScreenBEAM)",
             "website": "https://github.com/jyyu/ScreenBEAM",
             "body": "<p>ScreenBEAM is an algorithm that measures gene-level activity to assess the effect of high-throughput RNAi or CRISPR screens through Bayesian hierarchical modeling. For both RNAi and CRISPR, multiple shRNAs or sgRNAs (respectively) are used to target a single gene. ScreenBEAM analyzes gene-level activity for the whole set of shRNAs or sgRNAs targeting the same gene (multi-probe analysis) instead of analyzing the effect of each individual shRNA or sgRNA on a given gene. This reduces false positive and negative rates of high-throughput RNAi or CRISPR screens. This algorithm can handle both microarray and next generation sequencing data as input.</p>",
-            "description": "<p>ScreenBEAM is an algorithm that measures gene-level activity to assess the effect of high-throughput RNA interference (RNAi) or Clustered Regularly Interspaced Short Palindromic Repeats (CRISPR) screens through Bayesian hierarchical modeling. </p>",
+            "description": "<p>ScreenBEAM is an algorithm that measures gene-level activity to assess the effect of high-throughput RNA interference (RNAi) or Clustered Regularly Interspaced Short Palindromic Repeats (CRISPR) screens through Bayesian hierarchical modeling.</p>",
             "toolTypes": [
                 {
                     "key": "analysis_tools",
@@ -10916,7 +10916,7 @@
             "title": "Small Cell Lung Cancer Project Data",
             "website": "https://sclccelllines.cancer.gov/sclc/downloads.xhtml",
             "body": "<p>This resource provides access to compound sensitivity data for approximately 500 compounds including FDA-approved anticancer drugs and investigational agents  on 63 established human small cell lung cancer cell lines in 9-point concentration response with an exposure time of 4 days.  These data, along with gene expression data derived from Affymatrix exon arrays and microRNA expression determined from Nanostring technology, are available at the website listed below. This study has been published (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/27247353\">J Natl Cancer Inst.</a> 2016 May 31;108(10).doi: 10.1093; <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/28766886\">Cancer Med.</a> 2017 Aug;6(8):1952-1964. doi: 10.1002).</p>",
-            "description": "<p>Compound sensitivity data , gene expression data, and microRNA expression data for 63 human small cell lung cancer cell lines. The FDA-approved anticancer drugs and about 400 investigational agents were tested in 9-point concentration response with an exposure time of 4 days. </p>",
+            "description": "<p>Compound sensitivity data , gene expression data, and microRNA expression data for 63 human small cell lung cancer cell lines. The FDA-approved anticancer drugs and about 400 investigational agents were tested in 9-point concentration response with an exposure time of 4 days.</p>",
             "toolTypes": [
                 {
                     "key": "datasets_databases",
@@ -11749,7 +11749,7 @@
             "title": "The Cancer Proteome Atlas (TCPA)",
             "website": "https://bioinformatics.mdanderson.org/main/TCPA",
             "body": "<p>Functional proteomics is the large-scale study of functional activity (e.g., expression, modificatins, etc.) of the proteins. TCPA is a comprehensive resource of cancer proteomics datasets mainly consisting of The Cancer Genome Atlas (TCGA) tumor tissue sample sets. This resource provides a unique opportunity to validate the findings from TCGA data and identify model cell lines for functional investigation. TCPA currently provides six modules: Summary, My Protein, Download, Visualization, Analysis, and Cell Line.</p>",
-            "description": "<p>TCPA is an interactive resource that enables researchers to analyze and visualize functional proteomic data of tumor samples.  </p>",
+            "description": "<p>TCPA is an interactive resource that enables researchers to analyze and visualize functional proteomic data of tumor samples.</p>",
             "toolTypes": [
                 {
                     "key": "analysis_tools",
@@ -11823,7 +11823,7 @@
             "title": "The Central Institutional Review Board (CIRB) for the National Cancer Institute",
             "website": "https://www.ncicirb.org/",
             "body": "<p>The NCI CIRB website includes guides for institutions, networks, and board members, as well as a database of studies reviewed or in review by the CIRB.</p>",
-            "description": "<p>The NCI CIRB is dedicated to protecting the rights and welfare of participants in cancer clinical trials by ensuring clinical trials are reviewed efficiently and with the highest ethical and quality standards.   </p>",
+            "description": "<p>The NCI CIRB is dedicated to protecting the rights and welfare of participants in cancer clinical trials by ensuring clinical trials are reviewed efficiently and with the highest ethical and quality standards.</p>",
             "toolTypes": [
                 {
                     "key": "clinical_research_tools",
@@ -12011,7 +12011,7 @@
             "title": "The ORFeome Collection (OC)",
             "website": "http://www.orfeomecollaboration.org",
             "body": "<p>OC is a collection of validated, expression-ready, full-length open reading frames for most of the currently defined human genes. Open reading frames are the protein-coding sequences of genes.)The international ORFeome Collaboration  was founded to provide the research community with a comprehensive set of full-length, high quality human ORF clones  in the Gateway cloning system ready to use for recombinant protein expression. The collection currently covers more than 17,000 RefSeq and Ensembl genes with more than 29,000 clones . All OC clones are fully sequence verified and annotated.</p>",
-            "description": "<p>The OC is a collection of validated, full-length human open reading frame (ORF) clones in the Gateway cloning system ready to use for recombinant protein expression. </p>",
+            "description": "<p>The OC is a collection of validated, full-length human open reading frame (ORF) clones in the Gateway cloning system ready to use for recombinant protein expression.</p>",
             "toolTypes": [
                 {
                     "key": "lab_tools",
@@ -12322,7 +12322,7 @@
             "id": 260,
             "title": "TP53 Database",
             "website": "https://tp53.isb-cgc.org/",
-            "body": "<p>The <em>TP53</em> database is meant to be a source of information on <em>TP53</em> variants for a broad range of scientists and clinicians who work in different research areas including basic research, pathology, epidemiology, and genetics. The <em>TP53</em> Database compiles various types of data and information from the literature and generalist databases on human <em>TP53</em> gene variations related to cancer. The data available include functional/structural data, somatic variants, germline variants, cell lines, mouse models, and experimentally induced variants.  </p>",
+            "body": "<p>The <em>TP53</em> database is meant to be a source of information on <em>TP53</em> variants for a broad range of scientists and clinicians who work in different research areas including basic research, pathology, epidemiology, and genetics. The <em>TP53</em> Database compiles various types of data and information from the literature and generalist databases on human <em>TP53</em> gene variations related to cancer. The data available include functional/structural data, somatic variants, germline variants, cell lines, mouse models, and experimentally induced variants.</p>",
             "description": "<p>The <em>TP53</em> Database allows users to explore TP53 variants, including  functional/structural data, somatic variants, germline variants, cell lines, mouse models, and experimentally induced variants.</p>",
             "toolTypes": [
                 {
@@ -12577,7 +12577,7 @@
             "title": "Virtual Inference of Protein-activity by Enriched Regulon analysis (VIPER)",
             "website": "http://califano.c2b2.columbia.edu/viper",
             "body": "<p>Methods to measure protein abundance on a proteome-wide scale using arrays or mass spectrometry technologies cover only a fraction of proteins, requiring large amounts of tissue, and do not directly capture protein activity. The VIPER algorithm uses the transcripts most directly affected by protein’s activityto rank relative protein activity on a sample-by-sample  basis by transforming a gene expression matrix into a protein activity matrix.</p>",
-            "description": "<p>The VIPER algorithm allows computational inference of protein activity on an individual sample from gene expression data. </p>",
+            "description": "<p>The VIPER algorithm allows computational inference of protein activity on an individual sample from gene expression data.</p>",
             "toolTypes": [
                 {
                     "key": "analysis_tools",
@@ -12750,7 +12750,7 @@
             "title": "Web Ontology Language Quality Assurance (OWL-QA)",
             "website": "https://github.com/caCDE-QA/owl-qa",
             "body": "<p>OWL-QA is an OWL-based QA tool for cancer study CDEs. The tool uses the combination of the NCI Thesaurus and additional disjointness axioms to detect potential errors and duplications in the data element definitions. The tool comprises three modules: Data Integration and Services Module, Compositional Expression Transformation Module, and OWL-based Quality Assurance Module.</p>",
-            "description": "<p>OWL-QA is an OWL-based QA tool for cancer study common data elements (CDEs). The tool uses the combination of the NCI Thesaurus and additional disjointness axioms to detect potential errors and duplications in the data element definitions. </p>",
+            "description": "<p>OWL-QA is an OWL-based QA tool for cancer study common data elements (CDEs). The tool uses the combination of the NCI Thesaurus and additional disjointness axioms to detect potential errors and duplications in the data element definitions.</p>",
             "toolTypes": [
                 {
                     "key": "terminology",

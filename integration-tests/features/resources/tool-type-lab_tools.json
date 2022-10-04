@@ -96,7 +96,7 @@
             "title": "Candidate Cancer Allele cDNA Collection",
             "website": "https://www.addgene.org/kits/boehm-target-accelerator-cancer-collection/",
             "body": "<p>CTD2 researchers at the Broad Institute/DFCI have developed a collection of plasmids including mutant alleles found in sequencing studies of cancer. It includes somatic variants found in lung adenocarcinoma and across other cancer types. The clones enable researchers to characterize the function of the cancer variants in a high throughput experiments. In addition, a control collection of clones as part of the \"Genetic Pathway Reference Set\" provides a resource to generate benchmark perturbation data. These plasmids are collectively called the Broad Target Accelerator Plasmid Collections. The design and construction of these plasmids is described in the manuscripts and they are available through a distributor.</p>",
-            "description": "<p>This collection of plasmids includes mutant alleles found in sequencing studies of cancer. It includes somatic variants found in lung adenocarcinoma and across other cancer types. </p>",
+            "description": "<p>This collection of plasmids includes mutant alleles found in sequencing studies of cancer. It includes somatic variants found in lung adenocarcinoma and across other cancer types.</p>",
             "toolTypes": [
                 {
                     "key": "lab_tools",
@@ -141,7 +141,7 @@
             "title": "cDNA Clones with Rare and Recurrent Mutations found in Cancers",
             "website": "https://ocg.cancer.gov/programs/ctd2/supported-reagents/cdna-clones-rare-and-recurrent-mutations-found-cancers",
             "body": "<p>The CTD^2 center at the University of Texas MD Anderson Cancer Center has developed a high-throughput mutagenesis and molecular barcoding (HiTMMoB)   pipeline to construct mutant alleles open reading frame expression clones that are either found in recurrent cancer or are rare in cancers. These barcoded genes can be used for context-specific functional validation, detection of novel biomarkers (pathway activation), and targets (drug sensitivity).</p>",
-            "description": "<p>This resource is an open reading frame (ORF) expression library with clones of wild-type and somatic mutations found in recurrent cancer or that are rare in cancer . </p>",
+            "description": "<p>This resource is an open reading frame (ORF) expression library with clones of wild-type and somatic mutations found in recurrent cancer or that are rare in cancer .</p>",
             "toolTypes": [
                 {
                     "key": "lab_tools",
@@ -644,7 +644,7 @@
             "title": "Mammalian Gene Collection (MGC)",
             "website": "https://mgc.nci.nih.gov/",
             "body": "<p>MGC provides researchers with unrestricted access to sequence-validated full-length protein-coding (FL-CDS) cDNA clones for human, mouse, and rat genes. MGC cDNA clones were obtained by screening of cDNA libraries, by transcript-specific RT-PCR  cloning, and by DNA synthesis of cDNA inserts.</p>",
-            "description": "<p>MGC is a bank of full-length open reading frame clones for the majority of protein-coding human and mouse genes. </p>",
+            "description": "<p>MGC is a bank of full-length open reading frame clones for the majority of protein-coding human and mouse genes.</p>",
             "toolTypes": [
                 {
                     "key": "lab_tools",
@@ -694,7 +694,7 @@
             "title": "Molecular Target Data",
             "website": "https://wiki.nci.nih.gov/display/NCIDTPdata/Molecular+Target+Data",
             "body": "<p>Thousands of molecular targets have been measured in the NCI-60 human tumor cell lines. Measurements include protein levels, RNA measurements, mutation status and enzyme activity levels. Data sites allow searches for a target of interest, or a list of targets. The COMPARE program allows identification of targets or compounds with patterns that correlate with a target of interest.</p>",
-            "description": "<p>The Molecular Targets effort is a collaboration between qualified researchers and the NCI  Division of Cancer Treatment and Diagnosis (DCTD). The NCI-60 lab will provide NCI-60 cell line frozen cell pellets, DNA, or RNA for analysis in the external researchers’ labs. </p>",
+            "description": "<p>The Molecular Targets effort is a collaboration between qualified researchers and the NCI  Division of Cancer Treatment and Diagnosis (DCTD). The NCI-60 lab will provide NCI-60 cell line frozen cell pellets, DNA, or RNA for analysis in the external researchers’ labs.</p>",
             "toolTypes": [
                 {
                     "key": "datasets_databases",

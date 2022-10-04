@@ -134,11 +134,11 @@
             ]
         },
         {
-            "id": 52,
+            "id": 51,
             "title": "Baysian Phase II Single Arm Clinical Trials",
-            "website": "https://brpnci.shinyapps.io/Phase2sim_v1/",
-            "body": "<p>The null hypothesis to be tested is that pt = pc against the alternative pt > pc.  If criteria for stopping at interim analysis are not met, additional accrual and outcome are simulated until a total of Nt patients are accrued to T. At the end of the trial, the posterior distribution of pt is updated again and the posterior probability pp_final that pt > pc is recomputed. If pp_final is ≥ 1- ε , then the null hypothesis is rejected, and superiority of T over C is declared. For the simulations, the user needs to specify the observed values for nc, xc, assumed values for pt, Nt and the proportion of total enrollment, after which the interim analysis is to be conducted. δ, ε and the number of trials to simulate are also specified by the user.</p>",
-            "description": "<p>This application supports the conduct of simulations for a single-arm phase II clinical trial of a new treatment (T) with a binary outcome variable.</p>",
+            "website": "https://brpnci.shinyapps.io/Phase2sim_survival_v1/",
+            "body": "<p>For simulations of single-arm trials for treatment (T),  assume that one interim analysis is conducted after nti events have occurred. By generating nti exponentially distributed event times (with rate parameter log(2)/mt), the parameters for the posterior gamma distribution of λt can be updated as αt = 1+nti and βt = 0.001+Σxti where Σxti is calculated as the sum of the nti simulated event times. For the simulations, users should specify the observed values of nc, mc, assumed value for mt, nt and the proportion of total events after which the interim analysis is to be conducted. h, ε and the number of trials to simulate should also be specified by the user. It is assumed that every subject is followed until event occurrence.</p>",
+            "description": "<p>This application supports the conduct of simulations for a single arm phase II clinical trial of a new treatment T with time to event outcome variable.</p>",
             "toolTypes": [
                 {
                     "key": "analysis_tools",
@@ -175,11 +175,11 @@
             "poCs": []
         },
         {
-            "id": 51,
+            "id": 52,
             "title": "Baysian Phase II Single Arm Clinical Trials",
-            "website": "https://brpnci.shinyapps.io/Phase2sim_survival_v1/",
-            "body": "<p>For simulations of single-arm trials for treatment (T),  assume that one interim analysis is conducted after nti events have occurred. By generating nti exponentially distributed event times (with rate parameter log(2)/mt), the parameters for the posterior gamma distribution of λt can be updated as αt = 1+nti and βt = 0.001+Σxti where Σxti is calculated as the sum of the nti simulated event times. For the simulations, users should specify the observed values of nc, mc, assumed value for mt, nt and the proportion of total events after which the interim analysis is to be conducted. h, ε and the number of trials to simulate should also be specified by the user. It is assumed that every subject is followed until event occurrence.</p>",
-            "description": "<p>This application supports the conduct of simulations for a single arm phase II clinical trial of a new treatment T with time to event outcome variable.</p>",
+            "website": "https://brpnci.shinyapps.io/Phase2sim_v1/",
+            "body": "<p>The null hypothesis to be tested is that pt = pc against the alternative pt > pc.  If criteria for stopping at interim analysis are not met, additional accrual and outcome are simulated until a total of Nt patients are accrued to T. At the end of the trial, the posterior distribution of pt is updated again and the posterior probability pp_final that pt > pc is recomputed. If pp_final is ≥ 1- ε , then the null hypothesis is rejected, and superiority of T over C is declared. For the simulations, the user needs to specify the observed values for nc, xc, assumed values for pt, Nt and the proportion of total enrollment, after which the interim analysis is to be conducted. δ, ε and the number of trials to simulate are also specified by the user.</p>",
+            "description": "<p>This application supports the conduct of simulations for a single-arm phase II clinical trial of a new treatment (T) with a binary outcome variable.</p>",
             "toolTypes": [
                 {
                     "key": "analysis_tools",
@@ -558,7 +558,7 @@
             "title": "Interactive Risk Attributable Program (IRAP)",
             "website": "https://dceg.cancer.gov/tools/risk-assessment/irap",
             "body": "<p>IRAP keeps a \"library\" of variables that the user has defined. A variable can take its value directly from the data file or it can be defined in terms of other variables in the library. Typically, the user will create a separate library for each data file that he or she uses. A library can be saved to disk, then loaded whenever the corresponding data file is used.\nOnce a library of variables has been created (or loaded from removable media), the user may define a model. IRAP supports six data sampling methods:</p>\n<ul>\n<li>Simple Random Sampling</li>\n<li>Stratified Random Sampling</li>\n<li>Frequency Matching</li>\n<li>Individual Matching</li>\n<li>Cohort Analysis</li>\n<li>Cross-Sectional Analysis</li>\n</ul>\n<p>After choosing the appropriate sampling method, the user defines a model by specifying the appropriate variable names. A model can contain both discrete and continuous variables. IRAP correctly parameterizes the discrete variables, so the user need not explicitly create \"dummy variables.\"\nOnce the model has been specified, the user tells IRAP to fit the model. The program asks for the names of the input and output files. It then reads the data and fits the model.\nWhile these three phases are conceptually distinct, they can be interwoven. For example, after fitting a model, the user may decide to combine two levels of exposure into one. It is easy to define a new variable, then rerun the model, substituting the new exposure variable for the old.</p>",
-            "description": "<p>IRAP is an interactive computer program that calculates both point estimates and confidence intervals for attributable risk, based on regression models. Modeling consists of three conceptual phases: creating a library of variables, defining the model, and running the model. </p>",
+            "description": "<p>IRAP is an interactive computer program that calculates both point estimates and confidence intervals for attributable risk, based on regression models. Modeling consists of three conceptual phases: creating a library of variables, defining the model, and running the model.</p>",
             "toolTypes": [
                 {
                     "key": "community_research_tools",
@@ -831,7 +831,7 @@
             "title": "Questionnaire Development Resources",
             "website": "https://dceg.cancer.gov/tools/design/questionnaires",
             "body": "<p>This resource is a collection of questionnaires and questionnaire segments for use in a wide variety of epidemiological studies. Listings of publications are given where available. Topics covered by the questionnaires include:  Alcohol, Tobacco, and Recreational Drug Use; Anthropometric Measurements (measurements of the human body); Background Information; Breast Cancer Risk Factors; Family History of Cancer; EMF, Radon, and UVR Exposures; Ionizing Radiation Exposures; Household Exposures; Medical History; Non-alcoholic Beverage, Food, and Dietary Supplements; Occupational History and Exposures; Physical Activity; Prescriptions, Hormones, Immunizations; Reproductive History; Residential History</p>",
-            "description": "<p>This resource is a collection of questionnaires and questionnaire segments for use in a wide variety of epidemiological studies. </p>",
+            "description": "<p>This resource is a collection of questionnaires and questionnaire segments for use in a wide variety of epidemiological studies.</p>",
             "toolTypes": [
                 {
                     "key": "community_research_tools",

@@ -1,4 +1,5 @@
 Feature: Users may look up resources by doing a text search
+
     Background:
         * url apiHost
 
@@ -11,5 +12,7 @@ Feature: Users may look up resources by doing a text search
         Then status 200
 
         Examples:
-            | searchText | expectation |
-            | community | text-search-community.json |
+            | searchText        | expectation                     |
+            | community         | text-search-single-term.json    |
+            | antiviral screen  | text-search-multiple-terms.json |
+            | termwithoutresults| text-search-no-results.json     |
