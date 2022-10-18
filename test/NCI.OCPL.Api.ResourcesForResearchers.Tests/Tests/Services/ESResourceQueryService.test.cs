@@ -1,19 +1,17 @@
 ﻿using System;
+using System.Collections.Generic;
 
+using Elasticsearch.Net;
+using FluentAssertions;
+using Nest;
+using Newtonsoft.Json.Linq;
 using Xunit;
+
+using NCI.OCPL.Api.Common.Testing;
+
 
 using NCI.OCPL.Api.ResourcesForResearchers.Models;
 using NCI.OCPL.Api.ResourcesForResearchers.Services;
-
-using Elasticsearch.Net;
-using Nest;
-
-using NCI.OCPL.Utils.Testing;
-
-using Newtonsoft.Json.Linq;
-using System.Collections.Generic;
-
-using FluentAssertions;
 
 namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
 {
@@ -64,7 +62,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             string actualPath = "";
             string expectedPath = "r4r_v1/resource/_search"; //Use index in config
 
-            JObject actualRequest = null;
+            JToken actualRequest = null;
             JObject expectedRequest = JObject.Parse(@"
                 {
                   ""from"": 0,
@@ -98,7 +96,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             //SearchResponse<Resource> <-- type
             conn.RegisterRequestHandlerForType<SearchResponse<Resource>>((req, res) =>
             {
-                actualPath = req.Path;
+                actualPath = req.Uri.AbsolutePath;
                 actualRequest = conn.GetRequestPost(req);
             });
 
@@ -142,7 +140,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             string actualPath = "";
             string expectedPath = "r4r_v1/resource/_search"; //Use index in config
 
-            JObject actualRequest = null;
+            JToken actualRequest = null;
             JObject expectedRequest = JObject.Parse(@"
                 {
                   ""from"": 20,
@@ -176,7 +174,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             //SearchResponse<Resource> <-- type
             conn.RegisterRequestHandlerForType<SearchResponse<Resource>>((req, res) =>
             {
-                actualPath = req.Path;
+                actualPath = req.Uri.AbsolutePath;
                 actualRequest = conn.GetRequestPost(req);
             });
 
@@ -221,7 +219,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             string actualPath = "";
             string expectedPath = "r4r_v1/resource/_search"; //Use index in config
 
-            JObject actualRequest = null;
+            JToken actualRequest = null;
             JObject expectedRequest = JObject.Parse(@"
                 {
                   ""from"": 0,
@@ -255,7 +253,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             //SearchResponse<Resource> <-- type
             conn.RegisterRequestHandlerForType<SearchResponse<Resource>>((req, res) =>
             {
-                actualPath = req.Path;
+                actualPath = req.Uri.AbsolutePath;
                 actualRequest = conn.GetRequestPost(req);
             });
 
@@ -300,7 +298,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             string actualPath = "";
             string expectedPath = "r4r_v1/resource/_search"; //Use index in config
 
-            JObject actualRequest = null;
+            JToken actualRequest = null;
             JObject expectedRequest = JObject.Parse(@"
                 {
                   ""from"": 20,
@@ -324,7 +322,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             //SearchResponse<Resource> <-- type
             conn.RegisterRequestHandlerForType<SearchResponse<Resource>>((req, res) =>
             {
-                actualPath = req.Path;
+                actualPath = req.Uri.AbsolutePath;
                 actualRequest = conn.GetRequestPost(req);
             });
 
@@ -359,7 +357,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             string actualPath = "";
             string expectedPath = "r4r_v1/resource/_search"; //Use index in config
 
-            JObject actualRequest = null;
+            JToken actualRequest = null;
             JObject expectedRequest = JObject.Parse(@"
                 {
                   ""from"": 0,
@@ -394,14 +392,14 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
                     }
                   },
 
-                } 
+                }
             ");
 
             ElasticsearchInterceptingConnection conn = new ElasticsearchInterceptingConnection();
             //SearchResponse<Resource> <-- type
             conn.RegisterRequestHandlerForType<SearchResponse<Resource>>((req, res) =>
             {
-                actualPath = req.Path;
+                actualPath = req.Uri.AbsolutePath;
                 actualRequest = conn.GetRequestPost(req);
             });
 
@@ -435,7 +433,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
 
 
             Assert.Equal(expectedPath, actualPath);
-            Assert.Equal(expectedRequest, actualRequest, new JTokenEqualityComparer());            
+            Assert.Equal(expectedRequest, actualRequest, new JTokenEqualityComparer());
         }
 
         [Fact]
@@ -446,7 +444,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             string actualPath = "";
             string expectedPath = "r4r_v1/resource/_search"; //Use index in config
 
-            JObject actualRequest = null;
+            JToken actualRequest = null;
             JObject expectedRequest = JObject.Parse(@"
                 {
                   ""from"": 0,
@@ -478,7 +476,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
                       ""filter"": [
                         {""term"": { ""researchTypes.key"": { ""value"": ""basic"" }}}
                       ],
-                      ""must"": [                        
+                      ""must"": [
                         {
                           ""bool"": {
                             ""should"": [
@@ -495,9 +493,9 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
                           }
                         }
                       ]
-                    } 
+                    }
                   }
-                } 
+                }
             ");
             /*
             */
@@ -506,7 +504,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             //SearchResponse<Resource> <-- type
             conn.RegisterRequestHandlerForType<SearchResponse<Resource>>((req, res) =>
             {
-                actualPath = req.Path;
+                actualPath = req.Uri.AbsolutePath;
                 actualRequest = conn.GetRequestPost(req);
             });
 

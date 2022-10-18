@@ -9,13 +9,15 @@ using System.Text;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
+using NCI.OCPL.Api.Common.Testing;
+
 using NCI.OCPL.Api.ResourcesForResearchers.Models;
 
 namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
 {
     /// <summary>
     /// Class used for mocking BestBet Match requests to Elasticsearch.  This should be
-    /// used as the base class of test specific Connections object passed into an ElasticClient. 
+    /// used as the base class of test specific Connections object passed into an ElasticClient.
     /// </summary>
     /// <seealso cref="NCI.OCPL.Utils.Testing.ElasticsearchInterceptingConnection" />
     public class ESResQSvcGetConn : ElasticsearchInterceptingConnection
@@ -37,7 +39,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
 
             //This section is for registering the intercepters for the request.
 
-            //Add Handlers            
+            //Add Handlers
             this.RegisterRequestHandlerForType<Nest.GetResponse<Resource>>((req, res) =>
             {
                 //Get the file name for this round

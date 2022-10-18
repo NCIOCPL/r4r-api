@@ -21,7 +21,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Controllers
     [Route("resources")]
     public class ResourcesController : Controller
     {
-        private IHostingEnvironment _environment;
+        private IWebHostEnvironment _environment;
         private readonly ILogger _logger;
         private readonly R4RAPIOptions _apiOptions;
         private readonly IResourceQueryService _queryService;
@@ -38,10 +38,10 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Controllers
         /// <param name="aggService">Agg service.</param>
         /// <param name="urlHelper">URL helper.</param>
         public ResourcesController(
-            IHostingEnvironment environment, 
+            IWebHostEnvironment environment,
             ILogger<ResourcesController> logger,
             IOptions<R4RAPIOptions> apiOptionsAccessor,
-            IResourceQueryService queryService, 
+            IResourceQueryService queryService,
             IResourceAggregationService aggService,
             IUrlHelper urlHelper)
         {
@@ -190,7 +190,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Controllers
 
             // Set default values for params
             //facetsBeingRequest is used because if we modify the original params
-            //then the OriginalString of the response will show the default 
+            //then the OriginalString of the response will show the default
             //include facets.
             string[] facetsBeingRequested = new string[] { };
             if (IsNullOrEmpty(includeFacets))

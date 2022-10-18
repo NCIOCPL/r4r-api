@@ -1,18 +1,17 @@
 ﻿using System;
+using System.Collections.Generic;
 
-using Xunit;
-
-using NCI.OCPL.Api.ResourcesForResearchers.Models;
-using NCI.OCPL.Api.ResourcesForResearchers.Services;
 
 using Elasticsearch.Net;
 using Nest;
-
-using NCI.OCPL.Utils.Testing;
-
 using Newtonsoft.Json.Linq;
-using System.Collections.Generic;
+using Xunit;
 
+
+using NCI.OCPL.Api.Common.Testing;
+
+using NCI.OCPL.Api.ResourcesForResearchers.Models;
+using NCI.OCPL.Api.ResourcesForResearchers.Services;
 using NCI.OCPL.Api.ResourcesForResearchers.Tests.Models;
 
 namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
@@ -26,15 +25,15 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
         public void GetKLA_TestFieldNull() {
             ElasticsearchInterceptingConnection conn = new ElasticsearchInterceptingConnection();
             ESResourceAggregationService aggSvc = this.GetService<ESResourceAggregationService>(conn);
-            
-            
+
+
             Assert.ThrowsAny<Exception>(() => {
                 KeyLabelAggResult[] aggResults = aggSvc.GetKeyLabelAggregation(
-                    null, 
+                    null,
                     new ResourceQuery {
                         Filters = new Dictionary<string,string[]> {
                         { "toolTypes", new string[] { "datasets_databases" } }
-                        } 
+                        }
                     }
                 );
             });
@@ -44,10 +43,10 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
         public void GetKLA_TestQueryNull() {
             ElasticsearchInterceptingConnection conn = new ElasticsearchInterceptingConnection();
             ESResourceAggregationService aggSvc = this.GetService<ESResourceAggregationService>(conn);
-            
+
             Assert.ThrowsAny<Exception>(() => {
                 KeyLabelAggResult[] aggResults = aggSvc.GetKeyLabelAggregation(
-                    "toolSubtypes", 
+                    "toolSubtypes",
                     null
                 );
             });
@@ -57,14 +56,14 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
         public void GetKLA_TestBadFacet() {
             ElasticsearchInterceptingConnection conn = new ElasticsearchInterceptingConnection();
             ESResourceAggregationService aggSvc = this.GetService<ESResourceAggregationService>(conn);
-            
+
             Assert.ThrowsAny<Exception>(() => {
                 KeyLabelAggResult[] aggResults = aggSvc.GetKeyLabelAggregation(
-                    "chicken", 
+                    "chicken",
                     new ResourceQuery {
                         Filters = new Dictionary<string,string[]> {
                         { "toolTypes", new string[] { "datasets_databases" } }
-                        } 
+                        }
                     }
                 );
             });
@@ -97,7 +96,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             string actualPath = "";
             string expectedPath = "r4r_v1/resource/_search"; //Use index in config
 
-            JObject actualRequest = null;
+            JToken actualRequest = null;
             JObject expectedRequest = JObject.Parse(@"
                 {
                     ""size"": 0,
@@ -116,7 +115,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
                             ""aggs"": {
                                 ""toolSubtypes_filter"": {
                                     ""filter"": {
-                                        ""term"": { ""toolSubtypes.parentKey"": { ""value"": ""datasets_databases"" } }                                        
+                                        ""term"": { ""toolSubtypes.parentKey"": { ""value"": ""datasets_databases"" } }
                                     },
                                     ""aggs"": {
                                         ""toolSubtypes_key"": {
@@ -137,7 +136,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
                             }
                         }
                     }
-                } 
+                }
             ");
             /*
             */
@@ -146,7 +145,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             //SearchResponse<Resource> <-- type
             conn.RegisterRequestHandlerForType<SearchResponse<Resource>>((req, res) =>
             {
-                actualPath = req.Path;
+                actualPath = req.Uri.AbsolutePath;
                 actualRequest = conn.GetRequestPost(req);
             });
 
@@ -154,11 +153,11 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             try
             {
                 KeyLabelAggResult[] aggResults = aggSvc.GetKeyLabelAggregation(
-                    "toolSubtypes", 
+                    "toolSubtypes",
                     new ResourceQuery {
                         Filters = new Dictionary<string,string[]> {
                         { "toolTypes", new string[] { "datasets_databases" } }
-                        } 
+                        }
                     }
                 );
             }
@@ -179,7 +178,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             string actualPath = "";
             string expectedPath = "r4r_v1/resource/_search"; //Use index in config
 
-            JObject actualRequest = null;
+            JToken actualRequest = null;
             JObject expectedRequest = JObject.Parse(@"
                 {
                     ""size"": 0,
@@ -206,11 +205,11 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
                                 ""toolSubtypes_filter"": {
                                     ""filter"": {
                                         ""bool"": {
-                                            ""should"": [                                                
+                                            ""should"": [
                                                 { ""term"": { ""toolSubtypes.parentKey"": { ""value"": ""datasets_databases"" } } },
                                                 { ""term"": { ""toolSubtypes.parentKey"": { ""value"": ""anothertype"" } } }
                                             ],
-                                            ""minimum_should_match"": 1                                     
+                                            ""minimum_should_match"": 1
                                         }
                                     },
                                     ""aggs"": {
@@ -232,7 +231,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
                             }
                         }
                     }
-                } 
+                }
             ");
             /*
             */
@@ -241,7 +240,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             //SearchResponse<Resource> <-- type
             conn.RegisterRequestHandlerForType<SearchResponse<Resource>>((req, res) =>
             {
-                actualPath = req.Path;
+                actualPath = req.Uri.AbsolutePath;
                 actualRequest = conn.GetRequestPost(req);
             });
 
@@ -276,7 +275,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             string actualPath = "";
             string expectedPath = "r4r_v1/resource/_search"; //Use index in config
 
-            JObject actualRequest = null;
+            JToken actualRequest = null;
             JObject expectedRequest = JObject.Parse(@"
                 {
                     ""size"": 0,
@@ -302,7 +301,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
                             }
                         }
                     }
-                } 
+                }
             ");
             /*
             */
@@ -311,7 +310,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             //SearchResponse<Resource> <-- type
             conn.RegisterRequestHandlerForType<SearchResponse<Resource>>((req, res) =>
             {
-                actualPath = req.Path;
+                actualPath = req.Uri.AbsolutePath;
                 actualRequest = conn.GetRequestPost(req);
             });
 
@@ -339,7 +338,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             string actualPath = "";
             string expectedPath = "r4r_v1/resource/_search"; //Use index in config
 
-            JObject actualRequest = null;
+            JToken actualRequest = null;
             JObject expectedRequest = JObject.Parse(@"
                 {
                     ""size"": 0,
@@ -365,16 +364,16 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
                             }
                         }
                     }
-                } 
+                }
             ");
             /*
-            */             
+            */
 
             ElasticsearchInterceptingConnection conn = new ElasticsearchInterceptingConnection();
             //SearchResponse<Resource> <-- type
             conn.RegisterRequestHandlerForType<SearchResponse<Resource>>((req, res) =>
             {
-                actualPath = req.Path;
+                actualPath = req.Uri.AbsolutePath;
                 actualRequest = conn.GetRequestPost(req);
             });
 

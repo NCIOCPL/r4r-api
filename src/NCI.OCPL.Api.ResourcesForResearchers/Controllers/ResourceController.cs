@@ -19,7 +19,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Controllers
     [Route("resource")]
     public class ResourceController : Controller
     {
-        private IHostingEnvironment _environment;
+        private IWebHostEnvironment _environment;
         private readonly ILogger _logger;
         private readonly IResourceQueryService _queryService;
 
@@ -29,7 +29,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Controllers
         /// <param name="environment">Environment.</param>
         /// <param name="logger">Logger.</param>
         /// <param name="queryService">Query service.</param>
-        public ResourceController(IHostingEnvironment environment, ILogger<ResourcesController> logger, IResourceQueryService queryService)
+        public ResourceController(IWebHostEnvironment environment, ILogger<ResourcesController> logger, IResourceQueryService queryService)
         {
             _environment = environment;
             _logger = logger;

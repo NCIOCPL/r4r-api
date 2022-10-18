@@ -1,6 +1,6 @@
 ﻿using System;
-
-using Xunit;
+using System.Collections.Generic;
+using System.Linq;
 
 using NCI.OCPL.Api.ResourcesForResearchers.Models;
 using NCI.OCPL.Api.ResourcesForResearchers.Services;
@@ -8,14 +8,15 @@ using NCI.OCPL.Api.ResourcesForResearchers.Services;
 using Elasticsearch.Net;
 using Nest;
 
-using NCI.OCPL.Utils.Testing;
-
-using Newtonsoft.Json.Linq;
-using System.Collections.Generic;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
-using System.Linq;
+using Newtonsoft.Json.Linq;
+using Xunit;
+
+using NCI.OCPL.Api.Common.Testing;
+using NCI.OCPL.Utils.Testing;
+
 
 namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
 {
@@ -41,7 +42,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             public IEnumerable<QueryContainer> TEST_GetFullTextQuery(string keyword, R4RAPIOptions.FullTextFieldConfig[] fields) => this.GetFullTextQuery(keyword, fields);
             public IEnumerable<QueryContainer> TEST_GetQueryForFullTextField(string field, string keyword, int boost, string[] matchTypes) => this.GetQueryForFullTextField(field, keyword, boost, matchTypes);
             public QueryContainer TEST_GetQueryForMatchType(string field, string keyword, int boost, string matchType) => this.GetQueryForMatchType(field, keyword, boost, matchType);
-            
+
         }
 
         #region GetFullQuery
@@ -99,7 +100,11 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
         [Theory, MemberData(nameof(GetFullQueryScenarioData))]
         public void GetFullQuery_Scenarios(string keyword, string[] expectedFullTextQuery, Dictionary<string, string[]> filters, string[] expectedFilters)
         {
+            IElasticClient client = new ElasticClient();
+
             var actual = this._junkSvc.TEST_GetFullQuery(keyword, filters);
+            string json = client.RequestResponseSerializer.SerializeToString((QueryContainer)actual);
+            JToken actualJson = JToken.Parse(json);
 
             string preKeyword = @"{ ""bool"": { ""must"": [ ";
             string postKeyword = @"], ";
@@ -107,8 +112,13 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             string postFilter = @"], ""minimum_should_match"": null, ""disable_coord"": null,""_name"": null,""boost"": null } }";
 
             string expected = preKeyword + string.Join(',', expectedFullTextQuery) + postKeyword + preFilter + string.Join(',', expectedFilters) + postFilter;
+            JToken expectedJSON = JToken.Parse(expected);
 
-            ElasticTools.AssertQueryJson(expected, actual);
+            System.IO.File.WriteAllText("/Users/learnb/git/r4r-api/expected.json", expected);
+            System.IO.File.WriteAllText("/Users/learnb/git/r4r-api/actual.json",   json);
+
+            //ElasticTools2.AssertQueryJson(expected, actual);
+            Assert.Equal(expectedJSON, actualJson, new JTokenEqualityComparer());
         }
 
         #endregion
@@ -119,7 +129,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             //Single Group, Single Param
             new object[] {
                 new Dictionary<string, string[]>{
-                    {"filterG1", new string[]{"filter1"}} 
+                    {"filterG1", new string[]{"filter1"}}
                 },
                 new string[]{
                     @"{ ""term"": { ""filterG1.key"": { ""value"": ""filter1"" } } }"
@@ -148,7 +158,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
                             ""should"": [
                                 { ""term"": { ""filterG1.key"": { ""value"": ""filter1"" } } },
                                 { ""term"": { ""filterG1.key"": { ""value"": ""filter2"" } } }
-                            ], 
+                            ],
                             ""minimum_should_match"": 1,
                             ""disable_coord"": null,
                             ""_name"": null,
@@ -221,7 +231,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             string post = @"], ""minimum_should_match"": null, ""disable_coord"": null,""_name"": null,""boost"": null}}";
             string expected = pre + string.Join(',', expectedFilters) + post;
 
-            ElasticTools.AssertQueryJson(expected, actual);
+            ElasticTools2.AssertQueryJson(expected, actual);
         }
 
         [Fact]
@@ -233,7 +243,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
 
         #endregion
 
-        #region GetQueryForFilterField 
+        #region GetQueryForFilterField
 
         [Fact]
         public void GetQueryForFilterField_GetEmpty()
@@ -256,7 +266,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
                         ""should"": [
                             { ""term"": { ""testfield"": { ""value"": ""testval"" } } },
                             { ""term"": { ""testfield"": { ""value"": ""testval2"" } } }
-                        ], 
+                        ],
                         ""minimum_should_match"": 1,
                         ""disable_coord"": null,
                         ""_name"": null,
@@ -265,19 +275,19 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
                 }
             ";
 
-            ElasticTools.AssertQueryJson(expectedStr, query);
+            ElasticTools2.AssertQueryJson(expectedStr, query);
         }
 
         [Fact]
         public void GetQueryForFilterField_GetSingle()
-        {            
+        {
 
             var query = this._junkSvc.TEST_GetQueryForFilterField("testfield", new string[] { "testval" });
             var expectedStr = @"
                 { ""term"": { ""testfield"": { ""value"": ""testval"" } } }
             ";
 
-            ElasticTools.AssertQueryJson(expectedStr, query);
+            ElasticTools2.AssertQueryJson(expectedStr, query);
 
         }
 
@@ -294,13 +304,13 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
                 { ""term"": { ""testfield"": { ""value"": ""testval"" } } }
             ";
 
-            ElasticTools.AssertQueryJson(expectedStr, query);
+            ElasticTools2.AssertQueryJson(expectedStr, query);
         }
 
         #endregion
 
         #region GetKeywordQuery
-        
+
         public static IEnumerable<object[]> GetKeywordQueryScenarioData => new[] {
             // Multiple fields, multiple match types
             new object[] {
@@ -330,7 +340,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             string post = @"], ""minimum_should_match"": null, ""disable_coord"": null,""_name"": null,""boost"": null } }";
             string expected = pre + string.Join(',', expectedFullTextQuery) + post;
 
-            ElasticTools.AssertQueryJson(expected, actual);
+            ElasticTools2.AssertQueryJson(expected, actual);
         }
 
         #endregion
@@ -377,7 +387,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
                         { ""match"": { ""testfield3"": { ""query"": ""testkeyword"", ""boost"": 1.0 } } },
                         { ""match"": { ""testfield3"": { ""query"": ""testkeyword"", ""boost"": 1.0, ""type"": ""phrase"" } } },
                         { ""match"": { ""testfield4"": { ""query"": ""testkeyword"", ""boost"": 1.0 } } },
-                        
+
                     "
                 }
             }
@@ -396,7 +406,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             string post = @"], ""minimum_should_match"": null, ""disable_coord"": null,""_name"": null,""boost"": null } }";
             string expected = pre + string.Join(',', expectedFullTextQuery) + post;
 
-            ElasticTools.AssertQueryJson(expected, actual);
+            ElasticTools2.AssertQueryJson(expected, actual);
         }
 
         // Full text query with two fields, one with multiple match types
@@ -426,7 +436,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
                 Should = fullTextQuery
             };
 
-            var expectedStr = @" 
+            var expectedStr = @"
                 {
                     ""bool"": {
                         ""should"": [
@@ -442,7 +452,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
                 }
             ";
 
-            ElasticTools.AssertQueryJson(expectedStr, actual);
+            ElasticTools2.AssertQueryJson(expectedStr, actual);
         }
 
         #endregion
@@ -513,7 +523,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             string post = @"], ""minimum_should_match"": null, ""disable_coord"": null,""_name"": null,""boost"": null } }";
             string expected = pre + string.Join(',', expectedFullTextFieldQueries) + post;
 
-            ElasticTools.AssertQueryJson(expected, actual);
+            ElasticTools2.AssertQueryJson(expected, actual);
         }
 
         // Queries for one field with multiple match types
@@ -526,7 +536,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
                 Should = fullTextFieldQueries
             };
 
-            var expectedStr = @" 
+            var expectedStr = @"
                 {
                     ""bool"": {
                         ""should"": [
@@ -541,7 +551,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
                 }
             ";
 
-            ElasticTools.AssertQueryJson(expectedStr, actual);
+            ElasticTools2.AssertQueryJson(expectedStr, actual);
         }
 
         // Queries for one field with single match type
@@ -554,7 +564,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
                 Should = fullTextFieldQueries
             };
 
-            var expectedStr = @" 
+            var expectedStr = @"
                 {
                     ""bool"": {
                         ""should"": [
@@ -568,7 +578,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
                 }
             ";
 
-            ElasticTools.AssertQueryJson(expectedStr, actual);
+            ElasticTools2.AssertQueryJson(expectedStr, actual);
         }
 
         #endregion
@@ -580,11 +590,11 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
         public void GetQueryForMatchType_Common()
         {
             var query = this._junkSvc.TEST_GetQueryForMatchType("testfield", "testkeyword", 1, "common");
-            var expectedStr = @" 
+            var expectedStr = @"
                 { ""common"": { ""testfield"": { ""query"": ""testkeyword"", ""cutoff_frequency"": 1.0, ""low_freq_operator"": ""and"", ""boost"": 1.0 } } }
             ";
 
-            ElasticTools.AssertQueryJson(expectedStr, query);
+            ElasticTools2.AssertQueryJson(expectedStr, query);
         }
 
         // MatchType "match"
@@ -592,11 +602,11 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
         public void GetQueryForMatchType_Match()
         {
             var query = this._junkSvc.TEST_GetQueryForMatchType("testfield", "testkeyword", 1, "match");
-            var expectedStr = @" 
+            var expectedStr = @"
                 { ""match"": { ""testfield"": { ""query"": ""testkeyword"", ""boost"": 1.0 } } }
             ";
 
-            ElasticTools.AssertQueryJson(expectedStr, query);
+            ElasticTools2.AssertQueryJson(expectedStr, query);
         }
 
         // MatchType "match_phrase"
@@ -604,11 +614,11 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
         public void GetQueryForMatchType_MatchPhrase()
         {
             var query = this._junkSvc.TEST_GetQueryForMatchType("testfield", "testkeyword", 1, "match_phrase");
-            var expectedStr = @" 
+            var expectedStr = @"
                 { ""match"": { ""testfield"": { ""query"": ""testkeyword"", ""boost"": 1.0, ""type"": ""phrase"" } } }
             ";
 
-            ElasticTools.AssertQueryJson(expectedStr, query);
+            ElasticTools2.AssertQueryJson(expectedStr, query);
         }
 
         // MatchType invalid

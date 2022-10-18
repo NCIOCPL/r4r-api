@@ -1,38 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Logging;
+﻿using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Hosting;
+
+using NCI.OCPL.Api.Common;
 
 namespace NCI.OCPL.Api.ResourcesForResearchers
 {
     /// <summary>
     /// The R4R API
     /// </summary>
-    public class Program
+    public class Program : NciApiProgramBase
     {
-
         /// <summary>
-        /// The entry point of the program, where the program control starts and ends.
+        /// The main entry point for running the API.
         /// </summary>
-        /// <param name="args">The command-line arguments.</param>
         public static void Main(string[] args)
         {
-            BuildWebHost(args).Run();
+            CreateHostBuilder<Startup>(args).Build().Run();
         }
-
-        /// <summary>
-        /// Builds the web host. (Gets an instance of the API)
-        /// </summary>
-        /// <returns>The web host.</returns>
-        /// <param name="args">Arguments.</param>
-        public static IWebHost BuildWebHost(string[] args) =>
-            WebHost.CreateDefaultBuilder(args)
-                .UseStartup<Startup>()
-                .Build();
     }
-}
+ }

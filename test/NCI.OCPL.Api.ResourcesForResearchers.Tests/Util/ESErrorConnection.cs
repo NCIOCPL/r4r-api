@@ -7,10 +7,12 @@ using System.Text;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
+using NCI.OCPL.Api.Common.Testing;
+
 namespace NCI.OCPL.Utils.Testing
 {
     /// <summary>
-    /// Class used for mocking requests to Elasticsearch that return an error. 
+    /// Class used for mocking requests to Elasticsearch that return an error.
     /// </summary>
     /// <seealso cref="NCI.OCPL.Api.BestBets.Tests.Util.ElasticsearchInterceptingConnection" />
     public class ESErrorConnection : ElasticsearchInterceptingConnection
@@ -21,7 +23,7 @@ namespace NCI.OCPL.Utils.Testing
         /// <param name="testErrorCode">HTTP status code to return</param>
         public ESErrorConnection(int testErrorCode)
         {
-            //Add Handlers            
+            //Add Handlers
             this.RegisterRequestHandlerForType<Nest.ClusterHealthResponse>((req, res) =>
             {
                 // Health check is a GET request (e.g. https://localhost:9299/_cluster/health/bestbets?pretty)
