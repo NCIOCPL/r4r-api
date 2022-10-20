@@ -58,14 +58,14 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
                             ""should"": [
                                 { ""common"": { ""title._fulltext"": { ""query"": ""testkeyword"", ""cutoff_frequency"": 1.0, ""low_freq_operator"": ""and"", ""boost"": 1.0 } } },
                                 { ""match"": { ""title._fulltext"": { ""query"": ""testkeyword"", ""boost"": 1.0 } } },
-                                { ""match"": { ""title._fulltext"": { ""query"": ""testkeyword"", ""boost"": 1.0, ""type"": ""phrase"" } } },
+                                { ""match_phrase"": { ""title._fulltext"": { ""query"": ""testkeyword"", ""boost"": 1.0 } } },
                                 { ""common"": { ""body._fulltext"": { ""query"": ""testkeyword"", ""cutoff_frequency"": 1.0, ""low_freq_operator"": ""and"", ""boost"": 1.0 } } },
                                 { ""match"": { ""body._fulltext"": { ""query"": ""testkeyword"", ""boost"": 1.0 } } },
-                                { ""match"": { ""body._fulltext"": { ""query"": ""testkeyword"", ""boost"": 1.0, ""type"": ""phrase"" } } },
+                                { ""match_phrase"": { ""body._fulltext"": { ""query"": ""testkeyword"", ""boost"": 1.0 } } },
                                 { ""match"": { ""pocs.lastname._fulltext"": { ""query"": ""testkeyword"", ""boost"": 1.0 } } },
                                 { ""match"": { ""pocs.firstname._fulltext"": { ""query"": ""testkeyword"", ""boost"": 1.0 } } },
                                 { ""match"": { ""pocs.middlename._fulltext"": { ""query"": ""testkeyword"", ""boost"": 1.0 } } }
-                            ], ""minimum_should_match"": null, ""disable_coord"": null, ""_name"": null, ""boost"": null
+                            ]
                         }
                     }"
                 },
@@ -80,7 +80,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
                             ""should"": [
                                 { ""term"": { ""filterG2.key"": { ""value"": ""filter1"" } } },
                                 { ""term"": { ""filterG2.key"": { ""value"": ""filter2"" } } }
-                            ], ""minimum_should_match"": 1, ""disable_coord"": null, ""_name"": null, ""boost"": null
+                            ], ""minimum_should_match"": 1
                         }
                     }",
                     @"
@@ -89,7 +89,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
                             ""should"": [
                                 { ""term"": { ""filterG1.key"": { ""value"": ""filter1"" } } },
                                 { ""term"": { ""filterG1.key"": { ""value"": ""filter2"" } } }
-                            ], ""minimum_should_match"": 1, ""disable_coord"": null, ""_name"": null, ""boost"": null
+                            ], ""minimum_should_match"": 1
                         }
                     }
                     "
@@ -109,15 +109,11 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             string preKeyword = @"{ ""bool"": { ""must"": [ ";
             string postKeyword = @"], ";
             string preFilter = @"""filter"": [";
-            string postFilter = @"], ""minimum_should_match"": null, ""disable_coord"": null,""_name"": null,""boost"": null } }";
+            string postFilter = @"] } }";
 
             string expected = preKeyword + string.Join(',', expectedFullTextQuery) + postKeyword + preFilter + string.Join(',', expectedFilters) + postFilter;
             JToken expectedJSON = JToken.Parse(expected);
 
-            System.IO.File.WriteAllText("/Users/learnb/git/r4r-api/expected.json", expected);
-            System.IO.File.WriteAllText("/Users/learnb/git/r4r-api/actual.json",   json);
-
-            //ElasticTools2.AssertQueryJson(expected, actual);
             Assert.Equal(expectedJSON, actualJson, new JTokenEqualityComparer());
         }
 
