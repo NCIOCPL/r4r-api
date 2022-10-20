@@ -1,0 +1,1071 @@
+{
+    "meta": {
+        "totalResults": 34,
+        "from": 0,
+        "originalQuery": "\/resources?size=20&from=0&q=trial%20summary"
+    },
+    "results": [
+        {
+            "id": 258,
+            "title": "Activities Completed over Time in 24 hours (ACT24)",
+            "website": "https:\/\/dceg.cancer.gov\/research\/how-we-study\/exposure-assessment\/physical-activities-completed-over-time-24-hours-act-24",
+            "body": "<p>Activities Completed over Time in 24 hours (ACT24) is a free, web-based tool to estimate daily summary values for physical activity and sedentary behavior, including time spent sitting and in different types and intensities of physical activity. ACT24 has been validated in studies of middle-aged and older adults and has been used to provide detailed portraits of human time use and energy expenditure at the population level. Researchers can register their projects, generate custom logins for participants to enter data via a secure participant site, and download data. An Application Programming Interface (API) is available to link ACT24 data to study management systems.<\/p>",
+            "description": "<p>Activities Completed over Time in 24 hours (ACT24) is a free, web-based tool for epidemiologic, interventional, behavioral, or clinical research on energy expenditure. ACT24 estimates daily summary values for physical activity and sedentary behavior, including time spent sitting and in different types and intensities of physical activity, based on previous-day recall reporting from participants.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "community_research_tools",
+                    "label": "Community Research Tools"
+                },
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "causes_of_cancer",
+                    "label": "Causes of Cancer"
+                },
+                {
+                    "key": "cancer_prevention",
+                    "label": "Cancer Prevention"
+                },
+                {
+                    "key": "cancer_health_disparities",
+                    "label": "Cancer Health Disparities"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "register",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dceg",
+                    "label": "Division of Cancer Epidemiology and Genetics (DCEG)"
+                },
+                {
+                    "key": "dccps",
+                    "label": "Division of Cancer Control and Population Sciences (DCCPS)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": "Dr.",
+                        "firstName": "Charles",
+                        "middleName": null,
+                        "lastName": "Matthews",
+                        "suffix": null
+                    },
+                    "title": "Senior Investigator",
+                    "phone": "240-276-7211",
+                    "email": "matthewsce@mail.nih.gov"
+                },
+                {
+                    "name": {
+                        "prefix": "Dr.",
+                        "firstName": "David",
+                        "middleName": null,
+                        "lastName": "Berrigan",
+                        "suffix": null
+                    },
+                    "title": "Program Director",
+                    "phone": "240-276-6752",
+                    "email": "berrigad@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 83,
+            "title": "Annual Report to the Nation on the Status of Cancer",
+            "website": "https:\/\/seer.cancer.gov\/report_to_nation\/",
+            "body": "<p>The report includes a special section to highlight a major topic in cancer surveillance. Recent topics include financial toxicity, progress toward Healthy People 2020 objectives, survival, prostate cancer, and molecular subtypes of breast cancer. This is an annual collaboration between NCI, North American Association of Central Cancer Registries, the Centers for Disease Control and Prevention, and the American Cancer Society. The agencies rotate between leading the report. Typically, the trends are by sex and race\/ethnicity. The Surveillance, Epidemiology, and End Results (SEER) programwebsite hosts a microsite with summaries, factoids, links, and other shareable resources.<\/p>",
+            "description": "<p>The Annual Report to the Nation is a publication that provides an update of rates for new cases and deaths, as well as trends, for the most common cancers in the United States.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_health_disparities",
+                    "label": "Cancer Health Disparities"
+                },
+                {
+                    "key": "cancer_survivorship",
+                    "label": "Cancer Survivorship"
+                },
+                {
+                    "key": "cancer_statistics",
+                    "label": "Cancer Statistics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dccps",
+                    "label": "Division of Cancer Control and Population Sciences (DCCPS)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Kathy",
+                        "middleName": null,
+                        "lastName": "Cronin",
+                        "suffix": null
+                    },
+                    "title": "Deputy Associate Director, Surveillance Research Program",
+                    "phone": "240-276-6836",
+                    "email": "cronink@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "title": "Apache Clinical Text and Knowledge Extraction System (cTAKES)",
+            "website": "http:\/\/ctakes.apache.org",
+            "body": "<p>cTAKES extracts deep phenotypic information from the clinical narrative at the document, episode, and patient level. The final output is a Fast Healthcare Interoperability Resources (FHIR)-compliant, patient-level phenotypic summary which can be consumed by research warehouses or the DeepPhe native visualization tool.<\/p>",
+            "description": "<p>cTAKES extracts deep phenotypic information from the clinical narrative at the document, episode, and patient level.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_diagnosis",
+                    "label": "Cancer Diagnosis"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "itcr",
+                    "label": "Informatics Technology for Cancer Research (ITCR)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 51,
+            "title": "Baysian Phase II Single Arm Clinical Trials",
+            "website": "https:\/\/brpnci.shinyapps.io\/Phase2sim_survival_v1\/",
+            "body": "<p>For simulations of single-arm trials for treatment (T),  assume that one interim analysis is conducted after nti events have occurred. By generating nti exponentially distributed event times (with rate parameter log(2)\/mt), the parameters for the posterior gamma distribution of λt can be updated as αt = 1+nti and βt = 0.001+Σxti where Σxti is calculated as the sum of the nti simulated event times. For the simulations, users should specify the observed values of nc, mc, assumed value for mt, nt and the proportion of total events after which the interim analysis is to be conducted. h, ε and the number of trials to simulate should also be specified by the user. It is assumed that every subject is followed until event occurrence.<\/p>",
+            "description": "<p>This application supports the conduct of simulations for a single arm phase II clinical trial of a new treatment T with time to event outcome variable.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                },
+                {
+                    "key": "community_research_tools",
+                    "label": "Community Research Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 52,
+            "title": "Baysian Phase II Single Arm Clinical Trials",
+            "website": "https:\/\/brpnci.shinyapps.io\/Phase2sim_v1\/",
+            "body": "<p>The null hypothesis to be tested is that pt = pc against the alternative pt > pc.  If criteria for stopping at interim analysis are not met, additional accrual and outcome are simulated until a total of Nt patients are accrued to T. At the end of the trial, the posterior distribution of pt is updated again and the posterior probability pp_final that pt > pc is recomputed. If pp_final is ≥ 1- ε , then the null hypothesis is rejected, and superiority of T over C is declared. For the simulations, the user needs to specify the observed values for nc, xc, assumed values for pt, Nt and the proportion of total enrollment, after which the interim analysis is to be conducted. δ, ε and the number of trials to simulate are also specified by the user.<\/p>",
+            "description": "<p>This application supports the conduct of simulations for a single-arm phase II clinical trial of a new treatment (T) with a binary outcome variable.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                },
+                {
+                    "key": "community_research_tools",
+                    "label": "Community Research Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 39,
+            "title": "Biomarker Stratified Randomized Design (Binary)",
+            "website": "https:\/\/brb.nci.nih.gov\/brb\/samplesize\/sdpap_binary.html",
+            "body": "<p>A randomized trial comparing new treatment (T) to control (C) includes both classifier-positive and classifier-negative patients. This program presumes  availability of binary classifier for biomarker predictive of benefit for new treatment. Sample size calculation for three analysis plans are provided. The first analysis plan determines sample size for the overall test comparing T to C for all randomized patients at reduced two-sided level alpha.  The second determines sample size for comparing T to C in the classifier-positive subset at two-sided .05 level.  For the third plan, first test for interaction between size of treatment effect and subset (classifier + or classifier -). If the interaction is non-significant, just compare treatments overall at two-sided significance level .05, otherwise, compare treatments within subsets at two-sided .05 level.<\/p>",
+            "description": "<p>This program performs stratified design with a prospective analysis plan and binary endpoint.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 40,
+            "title": "Biomarker Stratified Randomized Design (Time-to-Event)",
+            "website": "https:\/\/brb.nci.nih.gov\/brb\/samplesize\/sdpap_survival.html",
+            "body": "<p>A randomized trial comparing new treatment (T) to control (C) includes both classifier-positive and classifier-negative patients. The program presumes availability of time-to-event predictive of benefit for new treatment. Sample size calculation for three analysis plans are provided: A) Determine sample size for overall test comparing T to C for all randomized patients at reduced two-sided level alpha.  B) Determine sample size for comparing T to C in classifier positive subset at two-sided .05 level.  C) First test for interaction between size of treatment effect and subset (classifier + or classifier -). If interaction is non-significant, just compare treatments overall at two-sided significance level .05. Otherwise, compare treatments within subsets at two-sided .05 level.<\/p>",
+            "description": "<p>This program performs stratified design with prospective analysis plan and time-to-event endpoint.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 229,
+            "title": "Cancer Data Access System (CDAS)",
+            "website": "https:\/\/biometry.nci.nih.gov\/cdas\/",
+            "body": "<p>CDAS is a website to request data recorded from various research studies, including NLST, PLCO, and the Interactive Diet and Activity Tracking in AARP. For some studies, you may also request images or biospecimens.<\/p>\n<p>CDAS provides extensive public documentation for each study, including a trial summary, an overview of the data collected, and a searchable database of research projects and publications.<\/p>\n<p>Researchers interested in obtaining study data may begin a CDAS project for that study. All projects are reviewed by NCI trial leadership.<\/p>",
+            "description": "<p>CDAS is a submission and tracking system for data from the National Lung Screening Trial (NLST), the Prostate, Lung, Colorectal and Ovarian (PLCO) Cancer Screening Trial, and the Interactive Diet and Activity Tracking in AARP.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [],
+            "researchTypes": [],
+            "resourceAccess": {
+                "type": "register",
+                "notes": "After registration approval, materials are   available for a limited time."
+            },
+            "doCs": [],
+            "poCs": []
+        },
+        {
+            "id": 134,
+            "title": "Cancer Genome Characterization Initiative (CGCI) Data Matrix",
+            "website": "https:\/\/ocg.cancer.gov\/programs\/cgci\/data-matrix",
+            "body": "<p>CGCI Data Matrix contains whole-genome and transcriptomic sequencing from Burkitt lymphoma, HIV- associated tumors, medulloblastoma, and non-Hodgkin lymphoma types of cancers. Researchers can access up to four levels of data, from primary through higher level summary data for the molecular platform employed. To protect the privacy of patients, some clinical and genetic data require approval to access through NCBI\u2019s database for Genotypes and Phenotypes (dbGAP; <a href=\"http:\/\/www.ncbi.nlm.nih.gov\/gap\">http:\/\/www.ncbi.nlm.nih.gov\/gap<\/a>).<\/p>",
+            "description": "<p>The CGCI Data Matrix hosts genomic profiles (molecular characterization and sequence data) and clinical data for rare adult and  pediatric tumor types.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "ccg",
+                    "label": "Center for Cancer Genomics (CCG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": null,
+                        "middleName": null,
+                        "lastName": null,
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": null,
+                    "email": "ocg@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 85,
+            "title": "Cancer Stat Fact Sheets (Stat Facts)",
+            "website": "https:\/\/seer.cancer.gov\/statfacts\/",
+            "body": "<p>These statistical summaries provide a quick overview of frequently requested cancer statistics, which may include incidence, mortality, survival, stage, prevalence, and lifetime risk, by cancer site for a number of common cancer types. . Along with cancer types, Stat Facts also highlight statistics related to certain special topics such as cancer health disparities. The Surveillance, Epidemiology, and End Results (SEER) program posts several new stat facts a year. Recent new fact sheets include pages for specific childhood cancer sites.<\/p>",
+            "description": "<p>These fact sheets provide frequently requested cancer statistics, such as incidence, mortality, survival, stage, prevalence, and lifetime risk, for a number of common cancer types.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_health_disparities",
+                    "label": "Cancer Health Disparities"
+                },
+                {
+                    "key": "cancer_statistics",
+                    "label": "Cancer Statistics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dccps",
+                    "label": "Division of Cancer Control and Population Sciences (DCCPS)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Patricia",
+                        "middleName": null,
+                        "lastName": "Murphy",
+                        "suffix": null
+                    },
+                    "title": "Program Analyst, Surveillance Research Program",
+                    "phone": "240-276-6903",
+                    "email": null
+                }
+            ]
+        },
+        {
+            "id": 205,
+            "title": "Cancer Trials Support Unit (CTSU)",
+            "website": "https:\/\/www.ctsu.org\/public\/",
+            "body": "<p>CTSU provides centralized services to support the following goals and objectives:<\/p>\n<ul>\n<li>Facilitate investigator and research staff participation in selected NCI multi-center programs and their clinical trials.<\/li>\n<li>Increase investigator and patient awareness of and enrollment to cancer clinical trials.<\/li>\n<li>Provide standardized, integrated, and comprehensive support services to selected NCI multi-center programs.<\/li>\n<li>Identify best practices and streamline or eliminate redundant processes and procedures.<\/li>\n<li>Improve operational efficiency, enhance productivity, and deliver products offering measurable business value to selected NCI multi-center programs.<\/li>\n<\/ul>",
+            "description": "<p>CTSU is a service of NCI designed to facilitate access to NCI-funded clinical trials for qualified clinical sites and to support the management and conduct of those clinical trials.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "clinical_research_tools",
+                    "label": "Clinical Research Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [],
+            "researchTypes": [
+                {
+                    "key": "clinical",
+                    "label": "Clinical"
+                }
+            ],
+            "resourceAccess": {
+                "type": "register",
+                "notes": null
+            },
+            "doCs": [],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": null,
+                        "middleName": null,
+                        "lastName": null,
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": "1-888-823-5923",
+                    "email": "ctsucontact@westat.com"
+                }
+            ]
+        },
+        {
+            "id": 230,
+            "title": "Clinical Data Interchange Standards Consortium (CDISC) Terminology",
+            "website": "https:\/\/datascience.cancer.gov\/resources\/cancer-vocabulary\/cdisc-terminology",
+            "body": "<p>Managed by NCI Enterprise Vocabulary Services (EVS), CDISC to develop and support controlled terminology for all CDISC foundational standards:<\/p>\n<p><strong>SDTM<\/strong> - SDTM is an international standard for clinical research data and is approved by the Food and Drug Administration (FDA) as a standard electronic submission format. CDISC Questionnaires, Ratings, and Scales terminology is included in the SDTM terminology publication.<\/p>\n<p><strong>CDASH<\/strong> - CDISC leads the CDASH project, which develops clinical research study content standards in collaboration with 16 partner organizations, including NCI. CDASH terminology is a subset of SDTM terminology.<\/p>\n<p><strong>ADaM<\/strong> - CDISC leads the ADaM project, which supports efficient generation, replication, review, and submission of analysis results from clinical trial data.<\/p>\n<p><strong>Define-XML<\/strong> - CDISC leads the Define-XML terminology project, which defines the enumeration values found within the CDISC Define-XML data exchange standard. NCI EVS maintains and distributes Define-XML controlled terminology as part of NCI Thesaurus. More information is available at CDISC's Define-XML webpage.<\/p>\n<p><strong>SEND<\/strong> - CDISC leads the SEND project, which guides the organization, structure, and format of standard nonclinical tabulation datasets for interchange between organizations such as sponsors and CROs and for submission to a regulatory authority such as FDA. NCI EVS maintains and distributes SEND controlled terminology as part of NCI Thesaurus. More information is available at CDISC's SEND webpage.<\/p>\n<p><strong>Protocol Terminology<\/strong> - CDISC leads the Protocol Terminology project, which develops the semantics for commonly used research protocol entities. This project supports CDISC foundational standards for the Protocol Representation Model (PRM) and Clinical Trial Registry XML (CTR-XML).<\/p>\n<p><strong>CDISC Glossary<\/strong> - CDISC leads the Glossary project, which harmonizes definitions (including acronyms, abbreviations, and initials) used in the various standards initiatives undertaken by CDISC in clinical research. The glossary also serves the community of clinical researchers by selecting and defining terms pertaining to clinical research sponsored by the pharmaceutical industry or a federal agency.<\/p>",
+            "description": "<p>The NCI Enterprise Vocabulary Services (EVS) partners with CDISC to develop and support controlled terminology for all CDISC foundational standards, including Study Data Tabulation Model (SDTM), Clinical Data Acquisition Standards Harmonization (CDASH), Analysis Data Model (ADaM), Define-XML Terminology, Standard for the Exchange of Nonclinical Data (SEND), CDISC Protocol Terminology, and CDISC Glossary.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "terminology",
+                    "label": "Terminology"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [],
+            "researchTypes": [],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 50,
+            "title": "Design, Monitoring, and Analysis of Bayesian Basket Discovery Trials",
+            "website": "https:\/\/brpnci.shinyapps.io\/BasketTrials\/",
+            "body": "<p>This application currently supports sample size planning and interim analysis for basket trials. The user specifies the number of strata and the prior probability that the drug is active in any particular stratum. Also, since in general there would be uncertainty on whether these strata are completely correlated or independent with regard to the distribution of drug activity, the user also specifies a prior probability corresponding to correlation of drug activity among strata. The more general situation where there are asymmetries among the strata with regard to the prior probability of drug activity will be implemented in the next version of this application.<\/p>",
+            "description": "<p>This web-based application implements a new method based on Bayesian principles for the design, monitoring, and analysis of basket trials.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                },
+                {
+                    "key": "community_research_tools",
+                    "label": "Community Research Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 162,
+            "title": "Extensible Neuroimaging Archive Toolkit (XNAT)",
+            "website": "http:\/\/www.xnat.org",
+            "body": "<p>XNAT is an open-source imaging informatics platform designed to support institutional image repositories, image-based clinical trials, and translational imaging research.<\/p>",
+            "description": "<p>XNAT is an open-source imaging informatics platform designed to support institutional image repositories, image-based clinical trials, and translational imaging research.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                },
+                {
+                    "key": "screening_detection",
+                    "label": "Screening & Detection"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                },
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "itcr",
+                    "label": "Informatics Technology for Cancer Research (ITCR)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 224,
+            "title": "Functional Annotation of Somatic Mutations in Cancer (FASMIC)",
+            "website": "http:\/\/ibl.mdanderson.org\/fasmic\/#!\/",
+            "body": "<p>FASMIC is an interactive and open-access web portal for comprehensively querying and visualizing mutation-associated data. The queried gene is displayed in a tabular view with basic information for each mutation and details like summary (gene name, mutation, etc.), 3D structure, literature, mutation frequency, etc., under the table.<\/p>",
+            "description": "<p>FASMIC is an interactive and open-access web portal for comprehensively querying and visualizing mutation-associated data. The queried gene is displayed in a tabular view with basic information for each mutation and details like summary (gene name, mutation, etc.), 3D structure, literature, mutation frequency, etc., under the table.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                },
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "ccg",
+                    "label": "Center for Cancer Genomics (CCG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Han",
+                        "middleName": null,
+                        "lastName": "Liang",
+                        "suffix": "Ph.D."
+                    },
+                    "title": null,
+                    "phone": null,
+                    "email": "HLiang1@mdanderson.org"
+                }
+            ]
+        },
+        {
+            "id": 261,
+            "title": "GWAS Explorer PLCO Atlas",
+            "website": "https:\/\/exploregwas.cancer.gov\/plco-atlas\/#\/",
+            "body": "<p>The GWAS Explorer PLCO Atlas is as an interactive tool to facilitate data sharing and enables researchers to search for, visualize, and download aggregated association results from the PLCO genome-wide association analyses (GWAS). The Prostate, Lung, Colorectal, Ovarian (PLCO) Cancer Screening Study was a large population-based randomized trial to determine the effects of screening on cancer-related mortality and secondary endpoints in men and women aged 55 to 74. The Atlas includes genotype data of 110,562 PLCO subjects with 200+ phenotypes collected from questionnaires, medical records, cancer registries, and the National Death Index. Descriptive characteristics, annotation of phenotypes, and links to other pertinent genomic resources are available.<\/p>",
+            "description": "<p>The GWAS Explorer PLCO Atlas is an interactive data sharing tool that enables researchers to search for, visualize, and download aggregated association results from the PLCO genome-wide association analyses (GWAS).<\/p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                },
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "causes_of_cancer",
+                    "label": "Causes of Cancer"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dceg",
+                    "label": "Division of Cancer Epidemiology and Genetics (DCEG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Mitchell",
+                        "middleName": null,
+                        "lastName": "Machiela",
+                        "suffix": null
+                    },
+                    "title": "Stadtman Investigator",
+                    "phone": "240-760-6518",
+                    "email": "mitchell.machiela@nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 203,
+            "title": "Handbook for Clinical Investigators Conducting Therapeutic Clinical Trials",
+            "website": "https:\/\/ctep.cancer.gov\/investigatorResources\/investigators_handbook.htm",
+            "body": "<p>DCTD sponsors the majority of extramural treatment trials at NCI. Sponsorship or support of clinical trials includes funding, regulatory support, and\/or agent distribution.<\/p>\n<p>Oncologists, nurses, pharmacists, research administrators, and data managers should find the information in this handbook useful in practical matters connected with protocol drafting and submissions, reporting requirements, agent accountability, and a host of other subjects. This handbook is written to guide the individual clinical investigator at the clinical trial site working alongside a team of health professionals and research staff.<\/p>",
+            "description": "<p>This handbook explains the policies and implementing procedures for the conduct of therapeutic clinical trials sponsored by NCI\u2019s Division of Cancer Treatment and Diagnosis (DCTD).<\/p>",
+            "toolTypes": [
+                {
+                    "key": "clinical_research_tools",
+                    "label": "Clinical Research Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [],
+            "researchTypes": [
+                {
+                    "key": "clinical",
+                    "label": "Clinical"
+                }
+            ],
+            "resourceAccess": {
+                "type": "register",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": null,
+                        "middleName": null,
+                        "lastName": null,
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": null,
+                    "email": "NCICTEPiHandbook@mail.nih.gov."
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "title": "LesionTracker Web Image Viewer",
+            "website": "http:\/\/lesiontracker.ohif.org",
+            "body": "<p>LesionTracker Web Image Viewer is an extensible, open-source, zero-footprint web image viewer for oncology imaging. LesionTracker is a web browser-based platform for viewing and measuring lesion metrics for tracking oncology trials.<\/p>",
+            "description": "<p>LesionTracker Web Image Viewer is an extensible, open-source, zero-footprint web image viewer for oncology imaging. LesionTracker is a web browser-based platform for viewing and measuring lesion metrics for tracking oncology trials .<\/p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "screening_detection",
+                    "label": "Screening & Detection"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "itcr",
+                    "label": "Informatics Technology for Cancer Research (ITCR)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 44,
+            "title": "Microsoft Excel Dose Level Assignment program for Accelerated Titration Designs",
+            "website": "https:\/\/brb.nci.nih.gov\/programdownload\/ExcelProgram.htm",
+            "body": "<p>We fit a stochastic model to data from 20 phase I trials of 9 different drugs. We then simulated new data from the model with the parameters estimated from the actual trials and evaluated the performance of alternative phase I designs on this simulated data. Four designs were evaluated. Accelerated titration designs appear to effectively reduce the number of patients under-treated, speed the completion of phase I trials, and provide a substantial increase in the information obtained. The downloadable Excel dose-level assignment program can be used for accelerated titration design for phase I clinical trial.<\/p>",
+            "description": "",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 72,
+            "title": "National Clinical Trials Network (NCTN)\/NCI Community Research Oncology Program (NCORP) Data Archive",
+            "website": "https:\/\/nctn-data-archive.nci.nih.gov",
+            "body": "<p>NCI has created a centralized, controlled-access database, called the NCTN\/NCORP Data Archive, for storing and sharing datasets generated from clinical trials of the NCTN to make these datasets available in a timely manner, on appropriate terms and conditions, to researchers who wish to analyze the data in secondary studies to enhance the public health benefit of the original work.<\/p>",
+            "description": "<p>This data archive is a centralized, controlled-access database for storing and sharing datasets generated from clinical trials of the NCTN for use in secondary studies.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        }
+    ],
+    "facets": [
+        {
+            "title": "Research Area",
+            "param": "researchAreas",
+            "items": [
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment",
+                    "count": 19,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology",
+                    "count": 6,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_health_disparities",
+                    "label": "Cancer Health Disparities",
+                    "count": 6,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics",
+                    "count": 5,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_diagnosis",
+                    "label": "Cancer Diagnosis",
+                    "count": 4,
+                    "selected": false
+                },
+                {
+                    "key": "causes_of_cancer",
+                    "label": "Causes of Cancer",
+                    "count": 4,
+                    "selected": false
+                },
+                {
+                    "key": "screening_detection",
+                    "label": "Screening & Detection",
+                    "count": 3,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_prevention",
+                    "label": "Cancer Prevention",
+                    "count": 2,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_statistics",
+                    "label": "Cancer Statistics",
+                    "count": 2,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_survivorship",
+                    "label": "Cancer Survivorship",
+                    "count": 2,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_public_health",
+                    "label": "Cancer & Public Health",
+                    "count": 1,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "title": "Research Type",
+            "param": "researchTypes",
+            "items": [
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials",
+                    "count": 15,
+                    "selected": false
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational",
+                    "count": 9,
+                    "selected": false
+                },
+                {
+                    "key": "basic",
+                    "label": "Basic",
+                    "count": 7,
+                    "selected": false
+                },
+                {
+                    "key": "clinical",
+                    "label": "Clinical",
+                    "count": 5,
+                    "selected": false
+                },
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic",
+                    "count": 5,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "title": "Tool Type",
+            "param": "toolTypes",
+            "items": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools",
+                    "count": 17,
+                    "selected": false
+                },
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases",
+                    "count": 11,
+                    "selected": false
+                },
+                {
+                    "key": "community_research_tools",
+                    "label": "Community Research Tools",
+                    "count": 6,
+                    "selected": false
+                },
+                {
+                    "key": "terminology",
+                    "label": "Terminology",
+                    "count": 4,
+                    "selected": false
+                },
+                {
+                    "key": "clinical_research_tools",
+                    "label": "Clinical Research Tools",
+                    "count": 3,
+                    "selected": false
+                },
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools",
+                    "count": 2,
+                    "selected": false
+                },
+                {
+                    "key": "networks_consortiums",
+                    "label": "Networks\/Consortiums",
+                    "count": 1,
+                    "selected": false
+                }
+            ]
+        }
+    ]
+}

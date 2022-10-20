@@ -1,0 +1,166 @@
+{
+    "meta": {
+        "totalResults": 2,
+        "from": 0,
+        "originalQuery": "\/resources?size=20&from=0&q=ovarian"
+    },
+    "results": [
+        {
+            "id": 175,
+            "title": "Clinical Proteomic Tumor Analysis Consortium (CPTAC) Data Portal",
+            "website": "https:\/\/proteomics.cancer.gov\/data-portal",
+            "body": "<p>The Data Portal hosts the mass spectrometry data from the CPTAC program. A key component is the proteogenomic profiling of patient tumors, such as those from the breast, colorectal, and ovarian cancer programs in The Cancer Genome Atlas (TCGA). The portal also hosts data from completed programs and external studies.\nThe CPTAC program is the main data generator of the hosted data. Additional datasets from other programs such as APOLLO and ICPC are anticipated in the future.<\/p>",
+            "description": "<p>CPTAC analyzes cancer biospecimens by mass spectrometry, characterizing and quantifying their constituent proteins, or proteome. The CPTAC Data Portal is the centralized repository for the dissemination of proteomic data collected by the Proteome Characterization Centers (PCCs).<\/p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                },
+                {
+                    "key": "networks_consortiums",
+                    "label": "Networks\/Consortiums"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": "Subject to Data Use Agreement"
+            },
+            "doCs": [
+                {
+                    "key": "cssi",
+                    "label": "Center for Strategic Scientific Initiatives (CSSI)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 261,
+            "title": "GWAS Explorer PLCO Atlas",
+            "website": "https:\/\/exploregwas.cancer.gov\/plco-atlas\/#\/",
+            "body": "<p>The GWAS Explorer PLCO Atlas is as an interactive tool to facilitate data sharing and enables researchers to search for, visualize, and download aggregated association results from the PLCO genome-wide association analyses (GWAS). The Prostate, Lung, Colorectal, Ovarian (PLCO) Cancer Screening Study was a large population-based randomized trial to determine the effects of screening on cancer-related mortality and secondary endpoints in men and women aged 55 to 74. The Atlas includes genotype data of 110,562 PLCO subjects with 200+ phenotypes collected from questionnaires, medical records, cancer registries, and the National Death Index. Descriptive characteristics, annotation of phenotypes, and links to other pertinent genomic resources are available.<\/p>",
+            "description": "<p>The GWAS Explorer PLCO Atlas is an interactive data sharing tool that enables researchers to search for, visualize, and download aggregated association results from the PLCO genome-wide association analyses (GWAS).<\/p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                },
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "causes_of_cancer",
+                    "label": "Causes of Cancer"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dceg",
+                    "label": "Division of Cancer Epidemiology and Genetics (DCEG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Mitchell",
+                        "middleName": null,
+                        "lastName": "Machiela",
+                        "suffix": null
+                    },
+                    "title": "Stadtman Investigator",
+                    "phone": "240-760-6518",
+                    "email": "mitchell.machiela@nih.gov"
+                }
+            ]
+        }
+    ],
+    "facets": [
+        {
+            "title": "Research Area",
+            "param": "researchAreas",
+            "items": [
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics",
+                    "count": 1,
+                    "selected": false
+                },
+                {
+                    "key": "causes_of_cancer",
+                    "label": "Causes of Cancer",
+                    "count": 1,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "title": "Research Type",
+            "param": "researchTypes",
+            "items": [
+                {
+                    "key": "basic",
+                    "label": "Basic",
+                    "count": 1,
+                    "selected": false
+                },
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic",
+                    "count": 1,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "title": "Tool Type",
+            "param": "toolTypes",
+            "items": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases",
+                    "count": 2,
+                    "selected": false
+                },
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools",
+                    "count": 1,
+                    "selected": false
+                },
+                {
+                    "key": "networks_consortiums",
+                    "label": "Networks\/Consortiums",
+                    "count": 1,
+                    "selected": false
+                }
+            ]
+        }
+    ]
+}
