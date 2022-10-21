@@ -2,24 +2,21 @@ version: "3.7"
 
 services:
     elasticsearch:
-        image: elasticsearch:5.6.16
-        ## All of the ES settings can be set via the environment
-        ## vars.
+        build:
+            # Point to the root of the project.
+            context: ../../
+            # This path is relative to the context.
+            dockerfile: integration-tests/docker-r4r-api/elasticsearch/Dockerfile
+        # All of the ES settings can be set via the environment vars.
         environment:
-            - discovery.zen.ping.unicast.hosts=["127.0.0.1"]
-            - discovery.zen.minimum_master_nodes=1
+            - discovery.type=single-node
             - ES_JAVA_OPTS=-Xms750m -Xmx750m
-        ## These exposed ports are for debugging only. .NET +
-        ## Docker + MacOS == bad scene. (.NET always wants to
-        ## use the hosts name, and on a mac that is actually
-        ## a virtual machine, and not on the same network.)
         ports:
             - "9200:9200"
-            - "9300:9300"
         networks:
             r4rapi:
                 aliases:
-                    - elasticsearch
+                - elasticsearch
 
     api:
         build:
@@ -28,6 +25,14 @@ services:
             context: ../../
             ## This path is relative to the context. Fun, eh?
             dockerfile: integration-tests/docker-r4r-api/api/Dockerfile
+        volumes:
+            # Project root
+            - ../..:/app
+            # Integration configuration files we don't want in the source tree.
+            - ../../integration-tests/docker-r4r-api/api/runtime/appsettings.inttest.json:/app/src/NCI.OCPL.Api.ResourcesForResearchers/appsettings.inttest.json
+            - ../../integration-tests/docker-r4r-api/api/runtime/hosting.json:/app/src/NCI.OCPL.Api.ResourcesForResearchers/hosting.json
+            # Use the user's existing GitHub credentials
+            - ~/.nuget/NuGet/NuGet.Config:/root/.nuget/NuGet/NuGet.Config
         ports:
             # Lets make it one more than the default aspnetcore app
             - "5000:5000"
@@ -64,4 +69,4 @@ services:
     #         - api
 
 networks:
-  r4rapi:
+    r4rapi:
