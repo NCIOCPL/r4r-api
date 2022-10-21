@@ -30,7 +30,6 @@ services:
             - ../..:/app
             # Integration configuration files we don't want in the source tree.
             - ../../integration-tests/docker-r4r-api/api/runtime/appsettings.inttest.json:/app/src/NCI.OCPL.Api.ResourcesForResearchers/appsettings.inttest.json
-            - ../../integration-tests/docker-r4r-api/api/runtime/hosting.json:/app/src/NCI.OCPL.Api.ResourcesForResearchers/hosting.json
             # Use the user's existing GitHub credentials
             - ~/.nuget/NuGet/NuGet.Config:/root/.nuget/NuGet/NuGet.Config
         ports:

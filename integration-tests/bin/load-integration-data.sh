@@ -45,6 +45,6 @@ mapping_output=$(eval $MAPPING_LOAD_CMD)
 echo $mapping_output
 
 echo "Load the records"
-BULK_LOAD_CMD="curl -fsS -H \"Content-Type: application/x-ndjson\" -XPOST ${ELASTIC_HOST}/_bulk --data-binary \"@resources.jsonl\""
+BULK_LOAD_CMD="curl -fsS -H \"Content-Type: application/x-ndjson\" -XPOST ${ELASTIC_HOST}/_bulk --data-binary \"@data/resources.jsonl\""
 load_output=$(eval $BULK_LOAD_CMD)
 #echo $load_output
