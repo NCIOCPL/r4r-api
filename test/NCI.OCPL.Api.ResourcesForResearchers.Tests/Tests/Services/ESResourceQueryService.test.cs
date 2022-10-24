@@ -60,7 +60,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             //Create new ESRegAggConnection...
 
             string actualPath = "";
-            string expectedPath = "r4r_v1/resource/_search"; //Use index in config
+            string expectedPath = "/r4r_v1/_search"; //Use index in config
 
             JToken actualRequest = null;
             JObject expectedRequest = JObject.Parse(@"
@@ -138,7 +138,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             //Create new ESRegAggConnection...
 
             string actualPath = "";
-            string expectedPath = "r4r_v1/resource/_search"; //Use index in config
+            string expectedPath = "/r4r_v1/_search"; //Use index in config
 
             JToken actualRequest = null;
             JObject expectedRequest = JObject.Parse(@"
@@ -217,7 +217,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             //Create new ESRegAggConnection...
 
             string actualPath = "";
-            string expectedPath = "r4r_v1/resource/_search"; //Use index in config
+            string expectedPath = "/r4r_v1/_search"; //Use index in config
 
             JToken actualRequest = null;
             JObject expectedRequest = JObject.Parse(@"
@@ -296,7 +296,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             //Create new ESRegAggConnection...
 
             string actualPath = "";
-            string expectedPath = "r4r_v1/resource/_search"; //Use index in config
+            string expectedPath = "/r4r_v1/_search"; //Use index in config
 
             JToken actualRequest = null;
             JObject expectedRequest = JObject.Parse(@"
@@ -355,7 +355,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             //Create new ESRegAggConnection...
 
             string actualPath = "";
-            string expectedPath = "r4r_v1/resource/_search"; //Use index in config
+            string expectedPath = "/r4r_v1/_search"; //Use index in config
 
             JToken actualRequest = null;
             JObject expectedRequest = JObject.Parse(@"
@@ -442,7 +442,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             //Create new ESRegAggConnection...
 
             string actualPath = "";
-            string expectedPath = "r4r_v1/resource/_search"; //Use index in config
+            string expectedPath = "/r4r_v1/_search"; //Use index in config
 
             JToken actualRequest = null;
             JObject expectedRequest = JObject.Parse(@"
@@ -482,10 +482,10 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
                             ""should"": [
                               { ""common"": { ""title._fulltext"": { ""query"": ""CGCI"", ""cutoff_frequency"": 1.0, ""low_freq_operator"": ""and"", ""boost"": 1.0 } } },
                               { ""match"": { ""title._fulltext"": { ""query"": ""CGCI"", ""boost"": 1.0 } } },
-                              { ""match"": { ""title._fulltext"": { ""query"": ""CGCI"", ""boost"": 1.0, ""type"": ""phrase"" } } },
+                              { ""match_phrase"": { ""title._fulltext"": { ""query"": ""CGCI"", ""boost"": 1.0 } } },
                               { ""common"": { ""body._fulltext"": { ""query"": ""CGCI"", ""cutoff_frequency"": 1.0, ""low_freq_operator"": ""and"", ""boost"": 1.0 } } },
                               { ""match"": { ""body._fulltext"": { ""query"": ""CGCI"", ""boost"": 1.0 } } },
-                              { ""match"": { ""body._fulltext"": { ""query"": ""CGCI"", ""boost"": 1.0, ""type"": ""phrase"" } } },
+                              { ""match_phrase"": { ""body._fulltext"": { ""query"": ""CGCI"", ""boost"": 1.0 } } },
                               { ""match"": { ""pocs.lastname._fulltext"": { ""query"": ""CGCI"", ""boost"": 1.0 } } },
                               { ""match"": { ""pocs.firstname._fulltext"": { ""query"": ""CGCI"", ""boost"": 1.0 } } },
                               { ""match"": { ""pocs.middlename._fulltext"": { ""query"": ""CGCI"", ""boost"": 1.0 } } }

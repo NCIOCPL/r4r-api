@@ -94,7 +94,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             //Create new ESRegAggConnection...
 
             string actualPath = "";
-            string expectedPath = "r4r_v1/resource/_search"; //Use index in config
+            string expectedPath = "/r4r_v1/_search"; //Use index in config
 
             JToken actualRequest = null;
             JObject expectedRequest = JObject.Parse(@"
@@ -176,7 +176,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             //Create new ESRegAggConnection...
 
             string actualPath = "";
-            string expectedPath = "r4r_v1/resource/_search"; //Use index in config
+            string expectedPath = "/r4r_v1/_search"; //Use index in config
 
             JToken actualRequest = null;
             JObject expectedRequest = JObject.Parse(@"
@@ -273,7 +273,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             //Create new ESRegAggConnection...
 
             string actualPath = "";
-            string expectedPath = "r4r_v1/resource/_search"; //Use index in config
+            string expectedPath = "/r4r_v1/_search"; //Use index in config
 
             JToken actualRequest = null;
             JObject expectedRequest = JObject.Parse(@"
@@ -336,7 +336,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             //Create new ESRegAggConnection...
 
             string actualPath = "";
-            string expectedPath = "r4r_v1/resource/_search"; //Use index in config
+            string expectedPath = "/r4r_v1/_search"; //Use index in config
 
             JToken actualRequest = null;
             JObject expectedRequest = JObject.Parse(@"
