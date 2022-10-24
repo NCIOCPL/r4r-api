@@ -235,9 +235,10 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Services
             switch(matchType)
             {
                 case "common":
-                    // Replace CommonTermsQuery with MatchQuery.
-                    // Using Operator = Operator.And???
-                    // Gonna need tests.
+                    // This will break if/when we move to Elasticsearch 8.x.
+                    // The docs say we should replace CommonTermsQuery with MatchQuery.
+                    // This will require additional/updated tests.
+#pragma warning disable CS0618
                     return new CommonTermsQuery
                     {
                         Field = field,
@@ -246,6 +247,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Services
                         LowFrequencyOperator = Operator.And,
                         CutoffFrequency = 1
                     };
+#pragma warning restore CS0618
                 case "match":
                     return new MatchQuery
                     {

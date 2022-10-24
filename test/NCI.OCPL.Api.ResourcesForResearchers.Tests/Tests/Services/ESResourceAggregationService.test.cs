@@ -161,8 +161,8 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
                     }
                 );
             }
-            catch (Exception ex) {
-                int i = 1;
+            catch (Exception) {
+
             } //We don't care how it processes the results...
 
 
@@ -257,9 +257,8 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
                     }
                 );
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                int i = 1;
             } //We don't care how it processes the results...
 
 

@@ -234,7 +234,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
         public void GetAllFiltersForQuery_GetEmpty()
         {
             var actual = this._junkSvc.TEST_GetAllFiltersForQuery(new Dictionary<string, string[]>());
-            Assert.Equal(0, actual.Count());
+            Assert.Empty(actual);
         }
 
         #endregion
