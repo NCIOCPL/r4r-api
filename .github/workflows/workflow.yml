@@ -113,7 +113,7 @@ jobs:
       - name: Upload Published Artifact
         uses: actions/upload-artifact@v1
         with:
-          name: drug-dictionary-api-${{ matrix.operating-system }}
+          name: r4r-api-${{ matrix.operating-system }}
           path: out
 
   integration_tests:
@@ -136,7 +136,7 @@ jobs:
       - name: Download Published Artifact
         uses: actions/download-artifact@v1
         with:
-          name: drug-dictionary-api-ubuntu-latest
+          name: r4r-api-ubuntu-latest
           path: built-api
         ## using latest LTS releases - also it MUST be the SDK version.
       - name: Setup dotnet
