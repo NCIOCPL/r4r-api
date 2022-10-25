@@ -76,7 +76,8 @@ jobs:
     runs-on: ${{ matrix.operating-system }}
     strategy:
       matrix:
-        operating-system: [ubuntu-latest, windows-latest, macOS-latest]
+        #operating-system: [ubuntu-latest, windows-latest, macOS-latest]
+        operating-system: [windows-latest]
     steps:
       - uses: actions/checkout@v2
         ## using latest LTS releases - also it MUST be the SDK version.
