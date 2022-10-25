@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 ## Use the Environment var or the default
 if [[ -z "${ELASTIC_SEARCH_HOST}" ]]; then
     ELASTIC_HOST="http://localhost:9200"
@@ -47,4 +49,8 @@ echo $mapping_output
 echo "Load the records"
 BULK_LOAD_CMD="curl -fsS -H \"Content-Type: application/x-ndjson\" -XPOST ${ELASTIC_HOST}/_bulk --data-binary \"@resources.jsonl\""
 load_output=$(eval $BULK_LOAD_CMD)
-echo $load_output
+if [[ $? -eq 0 ]]; then
+    echo "Data loaded successfully."
+else
+    echo $load_output
+fi
