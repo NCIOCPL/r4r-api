@@ -77,7 +77,7 @@ jobs:
     strategy:
       matrix:
         #operating-system: [ubuntu-latest, windows-latest, macOS-latest]
-        operating-system: [windows-latest]
+        operating-system: [macOS-latest]
 
     steps:
 
@@ -152,7 +152,8 @@ jobs:
       - name: Download Published Artifact
         uses: actions/download-artifact@v1
         with:
-          name: r4r-api-ubuntu-latest
+          #name: r4r-api-ubuntu-latest
+          name: r4r-api-macOS-latest
           path: built-api
         ## using latest LTS releases - also it MUST be the SDK version.
 
