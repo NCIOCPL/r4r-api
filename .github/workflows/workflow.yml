@@ -76,8 +76,7 @@ jobs:
     runs-on: ${{ matrix.operating-system }}
     strategy:
       matrix:
-        #operating-system: [ubuntu-latest, windows-latest, macOS-latest]
-        operating-system: [macOS-latest]
+        operating-system: [ubuntu-latest, windows-latest, macOS-latest]
 
     steps:
 
