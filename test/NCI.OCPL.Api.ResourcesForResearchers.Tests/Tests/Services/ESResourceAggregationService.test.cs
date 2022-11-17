@@ -1,18 +1,17 @@
 ﻿using System;
+using System.Collections.Generic;
 
-using Xunit;
-
-using NCI.OCPL.Api.ResourcesForResearchers.Models;
-using NCI.OCPL.Api.ResourcesForResearchers.Services;
 
 using Elasticsearch.Net;
 using Nest;
-
-using NCI.OCPL.Utils.Testing;
-
 using Newtonsoft.Json.Linq;
-using System.Collections.Generic;
+using Xunit;
 
+
+using NCI.OCPL.Api.Common.Testing;
+
+using NCI.OCPL.Api.ResourcesForResearchers.Models;
+using NCI.OCPL.Api.ResourcesForResearchers.Services;
 using NCI.OCPL.Api.ResourcesForResearchers.Tests.Models;
 
 namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
@@ -23,48 +22,47 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
         #region Error Handling
 
         [Fact]
-        public void GetKLA_TestFieldNull() {
+        public async void GetKLA_TestFieldNull() {
             ElasticsearchInterceptingConnection conn = new ElasticsearchInterceptingConnection();
             ESResourceAggregationService aggSvc = this.GetService<ESResourceAggregationService>(conn);
-            
-            
-            Assert.ThrowsAny<Exception>(() => {
-                KeyLabelAggResult[] aggResults = aggSvc.GetKeyLabelAggregation(
-                    null, 
+
+            await Assert.ThrowsAnyAsync<Exception>(async () => {
+                KeyLabelAggResult[] aggResults = await aggSvc.GetKeyLabelAggregationAsync(
+                    null,
                     new ResourceQuery {
                         Filters = new Dictionary<string,string[]> {
                         { "toolTypes", new string[] { "datasets_databases" } }
-                        } 
+                        }
                     }
                 );
             });
         }
 
         [Fact]
-        public void GetKLA_TestQueryNull() {
+        public async void GetKLA_TestQueryNull() {
             ElasticsearchInterceptingConnection conn = new ElasticsearchInterceptingConnection();
             ESResourceAggregationService aggSvc = this.GetService<ESResourceAggregationService>(conn);
-            
-            Assert.ThrowsAny<Exception>(() => {
-                KeyLabelAggResult[] aggResults = aggSvc.GetKeyLabelAggregation(
-                    "toolSubtypes", 
+
+            await Assert.ThrowsAnyAsync<Exception>(async () => {
+                KeyLabelAggResult[] aggResults = await aggSvc.GetKeyLabelAggregationAsync(
+                    "toolSubtypes",
                     null
                 );
             });
         }
 
         [Fact]
-        public void GetKLA_TestBadFacet() {
+        public async void GetKLA_TestBadFacet() {
             ElasticsearchInterceptingConnection conn = new ElasticsearchInterceptingConnection();
             ESResourceAggregationService aggSvc = this.GetService<ESResourceAggregationService>(conn);
-            
-            Assert.ThrowsAny<Exception>(() => {
-                KeyLabelAggResult[] aggResults = aggSvc.GetKeyLabelAggregation(
-                    "chicken", 
+
+            await Assert.ThrowsAnyAsync<Exception>(async () => {
+                KeyLabelAggResult[] aggResults = await aggSvc.GetKeyLabelAggregationAsync(
+                    "chicken",
                     new ResourceQuery {
                         Filters = new Dictionary<string,string[]> {
                         { "toolTypes", new string[] { "datasets_databases" } }
-                        } 
+                        }
                     }
                 );
             });
@@ -74,12 +72,12 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
         #region Test Query Building
 
         [Fact]
-        public void GetKLA_Build_SubType_Missing_Tooltype() {
+        public async void GetKLA_Build_SubType_Missing_Tooltype() {
             ElasticsearchInterceptingConnection conn = new ElasticsearchInterceptingConnection();
             ESResourceAggregationService aggSvc = this.GetService<ESResourceAggregationService>(conn);
 
-            Assert.ThrowsAny<Exception>(() => {
-                KeyLabelAggResult[] aggResults = aggSvc.GetKeyLabelAggregation(
+            await Assert.ThrowsAnyAsync<Exception>(async () => {
+                KeyLabelAggResult[] aggResults = await aggSvc.GetKeyLabelAggregationAsync(
                     "toolSubtypes",
                     new ResourceQuery
                     {
@@ -90,14 +88,14 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
         }
 
         [Fact]
-        public void GetKLA_Build_SubType()
+        public async void GetKLA_Build_SubType()
         {
             //Create new ESRegAggConnection...
 
             string actualPath = "";
-            string expectedPath = "r4r_v1/resource/_search"; //Use index in config
+            string expectedPath = "/r4r_v1/_search"; //Use index in config
 
-            JObject actualRequest = null;
+            JToken actualRequest = null;
             JObject expectedRequest = JObject.Parse(@"
                 {
                     ""size"": 0,
@@ -116,7 +114,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
                             ""aggs"": {
                                 ""toolSubtypes_filter"": {
                                     ""filter"": {
-                                        ""term"": { ""toolSubtypes.parentKey"": { ""value"": ""datasets_databases"" } }                                        
+                                        ""term"": { ""toolSubtypes.parentKey"": { ""value"": ""datasets_databases"" } }
                                     },
                                     ""aggs"": {
                                         ""toolSubtypes_key"": {
@@ -137,7 +135,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
                             }
                         }
                     }
-                } 
+                }
             ");
             /*
             */
@@ -146,24 +144,24 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             //SearchResponse<Resource> <-- type
             conn.RegisterRequestHandlerForType<SearchResponse<Resource>>((req, res) =>
             {
-                actualPath = req.Path;
+                actualPath = req.Uri.AbsolutePath;
                 actualRequest = conn.GetRequestPost(req);
             });
 
             ESResourceAggregationService aggSvc = this.GetService<ESResourceAggregationService>(conn);
             try
             {
-                KeyLabelAggResult[] aggResults = aggSvc.GetKeyLabelAggregation(
-                    "toolSubtypes", 
+                KeyLabelAggResult[] aggResults = await aggSvc.GetKeyLabelAggregationAsync(
+                    "toolSubtypes",
                     new ResourceQuery {
                         Filters = new Dictionary<string,string[]> {
                         { "toolTypes", new string[] { "datasets_databases" } }
-                        } 
+                        }
                     }
                 );
             }
-            catch (Exception ex) {
-                int i = 1;
+            catch (Exception) {
+
             } //We don't care how it processes the results...
 
 
@@ -172,14 +170,14 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
         }
 
         [Fact]
-        public void GetKLA_Build_SubType_withMultitype()
+        public async void GetKLA_Build_SubType_withMultitype()
         {
             //Create new ESRegAggConnection...
 
             string actualPath = "";
-            string expectedPath = "r4r_v1/resource/_search"; //Use index in config
+            string expectedPath = "/r4r_v1/_search"; //Use index in config
 
-            JObject actualRequest = null;
+            JToken actualRequest = null;
             JObject expectedRequest = JObject.Parse(@"
                 {
                     ""size"": 0,
@@ -206,11 +204,11 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
                                 ""toolSubtypes_filter"": {
                                     ""filter"": {
                                         ""bool"": {
-                                            ""should"": [                                                
+                                            ""should"": [
                                                 { ""term"": { ""toolSubtypes.parentKey"": { ""value"": ""datasets_databases"" } } },
                                                 { ""term"": { ""toolSubtypes.parentKey"": { ""value"": ""anothertype"" } } }
                                             ],
-                                            ""minimum_should_match"": 1                                     
+                                            ""minimum_should_match"": 1
                                         }
                                     },
                                     ""aggs"": {
@@ -232,7 +230,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
                             }
                         }
                     }
-                } 
+                }
             ");
             /*
             */
@@ -241,14 +239,14 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             //SearchResponse<Resource> <-- type
             conn.RegisterRequestHandlerForType<SearchResponse<Resource>>((req, res) =>
             {
-                actualPath = req.Path;
+                actualPath = req.Uri.AbsolutePath;
                 actualRequest = conn.GetRequestPost(req);
             });
 
             ESResourceAggregationService aggSvc = this.GetService<ESResourceAggregationService>(conn);
             try
             {
-                KeyLabelAggResult[] aggResults = aggSvc.GetKeyLabelAggregation(
+                KeyLabelAggResult[] aggResults = await aggSvc.GetKeyLabelAggregationAsync(
                     "toolSubtypes",
                     new ResourceQuery
                     {
@@ -258,9 +256,8 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
                     }
                 );
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                int i = 1;
             } //We don't care how it processes the results...
 
 
@@ -269,14 +266,14 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
         }
 
         [Fact]
-        public void GetKeyLabelAggregation_Build_FilterRequestFacet()
+        public async void GetKeyLabelAggregation_Build_FilterRequestFacet()
         {
             //Create new ESRegAggConnection...
 
             string actualPath = "";
-            string expectedPath = "r4r_v1/resource/_search"; //Use index in config
+            string expectedPath = "/r4r_v1/_search"; //Use index in config
 
-            JObject actualRequest = null;
+            JToken actualRequest = null;
             JObject expectedRequest = JObject.Parse(@"
                 {
                     ""size"": 0,
@@ -302,7 +299,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
                             }
                         }
                     }
-                } 
+                }
             ");
             /*
             */
@@ -311,14 +308,14 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             //SearchResponse<Resource> <-- type
             conn.RegisterRequestHandlerForType<SearchResponse<Resource>>((req, res) =>
             {
-                actualPath = req.Path;
+                actualPath = req.Uri.AbsolutePath;
                 actualRequest = conn.GetRequestPost(req);
             });
 
             ESResourceAggregationService aggSvc = this.GetService<ESResourceAggregationService>(conn);
             try
             {
-                KeyLabelAggResult[] aggResults = aggSvc.GetKeyLabelAggregation("researchTypes", new ResourceQuery(){
+                KeyLabelAggResult[] aggResults = await aggSvc.GetKeyLabelAggregationAsync("researchTypes", new ResourceQuery(){
                     Filters = new Dictionary<string, string[]>{
                         { "researchTypes", new string[] { "basic"}}
                     }
@@ -333,13 +330,13 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
 
 
         [Fact]
-        public void GetKeyLabelAggregation_Build_EmptyQuery() {
+        public async void GetKeyLabelAggregation_Build_EmptyQuery() {
             //Create new ESRegAggConnection...
 
             string actualPath = "";
-            string expectedPath = "r4r_v1/resource/_search"; //Use index in config
+            string expectedPath = "/r4r_v1/_search"; //Use index in config
 
-            JObject actualRequest = null;
+            JToken actualRequest = null;
             JObject expectedRequest = JObject.Parse(@"
                 {
                     ""size"": 0,
@@ -365,38 +362,40 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
                             }
                         }
                     }
-                } 
+                }
             ");
             /*
-            */             
+            */
 
             ElasticsearchInterceptingConnection conn = new ElasticsearchInterceptingConnection();
             //SearchResponse<Resource> <-- type
             conn.RegisterRequestHandlerForType<SearchResponse<Resource>>((req, res) =>
             {
-                actualPath = req.Path;
+                actualPath = req.Uri.AbsolutePath;
                 actualRequest = conn.GetRequestPost(req);
             });
 
             ESResourceAggregationService aggSvc = this.GetService<ESResourceAggregationService>(conn);
             try
             {
-                KeyLabelAggResult[] aggResults = aggSvc.GetKeyLabelAggregation("researchTypes", new ResourceQuery());
+                KeyLabelAggResult[] aggResults = await aggSvc.GetKeyLabelAggregationAsync("researchTypes", new ResourceQuery());
             } catch (Exception) {} //We don't care how it processes the results...
 
 
             Assert.Equal(expectedPath, actualPath);
             Assert.Equal(expectedRequest, actualRequest, new JTokenEqualityComparer());
         }
+
         #endregion
 
         #region Test Results Parsing
+
         /// <summary>
         /// Tests non-nested aggregation without query
         /// THIS TEST IS FOR MAKING SURE THE RESULTS ARE MAPPED CORRECTLY
         /// </summary>
         [Fact]
-        public void GetKLA_Basic_NoQuery() {
+        public async void GetKLA_Basic_NoQuery() {
             //Create new ESRegAggConnection...
 
             IConnection conn = new ESResAggSvcConnection("ResearchTypes_EmptyQuery");
@@ -431,7 +430,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             };
 
             ESResourceAggregationService aggSvc = this.GetService<ESResourceAggregationService>(conn);
-            KeyLabelAggResult[] actualAggs = aggSvc.GetKeyLabelAggregation("researchTypes", new ResourceQuery());
+            KeyLabelAggResult[] actualAggs = await aggSvc.GetKeyLabelAggregationAsync("researchTypes", new ResourceQuery());
 
             //Order does matter here, so we can compare the arrays
             Assert.Equal(expectedAggs, actualAggs, new KeyLabelAggResultComparer());
@@ -440,7 +439,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
 
 
         [Fact]
-        public void GetKLA_SubType_NoQuery()
+        public async void GetKLA_SubType_NoQuery()
         {
             //Create new ESRegAggConnection...
 
@@ -481,7 +480,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             };
 
             ESResourceAggregationService aggSvc = this.GetService<ESResourceAggregationService>(conn);
-            KeyLabelAggResult[] actualAggs = aggSvc.GetKeyLabelAggregation(
+            KeyLabelAggResult[] actualAggs = await aggSvc.GetKeyLabelAggregationAsync(
                 "toolSubtypes",
                 new ResourceQuery
                 {
@@ -497,7 +496,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
         }
 
         [Fact]
-        public void GetKLA_SubType_NoMatches()
+        public async void GetKLA_SubType_NoMatches()
         {
             //Create new ESRegAggConnection...
 
@@ -507,7 +506,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             KeyLabelAggResult[] expectedAggs = new KeyLabelAggResult[] { };
 
             ESResourceAggregationService aggSvc = this.GetService<ESResourceAggregationService>(conn);
-            KeyLabelAggResult[] actualAggs = aggSvc.GetKeyLabelAggregation(
+            KeyLabelAggResult[] actualAggs = await aggSvc.GetKeyLabelAggregationAsync(
                 "toolSubtypes",
                 new ResourceQuery
                 {

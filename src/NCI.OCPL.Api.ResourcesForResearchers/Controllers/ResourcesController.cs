@@ -3,14 +3,19 @@ using System.Web;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Newtonsoft.Json;
+
+using NCI.OCPL.Api.Common;
+
 using NCI.OCPL.Api.ResourcesForResearchers.Models;
 using NCI.OCPL.Api.ResourcesForResearchers.Services;
-using Newtonsoft.Json;
 
 namespace NCI.OCPL.Api.ResourcesForResearchers.Controllers
 {
@@ -21,7 +26,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Controllers
     [Route("resources")]
     public class ResourcesController : Controller
     {
-        private IHostingEnvironment _environment;
+        private IWebHostEnvironment _environment;
         private readonly ILogger _logger;
         private readonly R4RAPIOptions _apiOptions;
         private readonly IResourceQueryService _queryService;
@@ -38,10 +43,10 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Controllers
         /// <param name="aggService">Agg service.</param>
         /// <param name="urlHelper">URL helper.</param>
         public ResourcesController(
-            IHostingEnvironment environment, 
+            IWebHostEnvironment environment,
             ILogger<ResourcesController> logger,
             IOptions<R4RAPIOptions> apiOptionsAccessor,
-            IResourceQueryService queryService, 
+            IResourceQueryService queryService,
             IResourceAggregationService aggService,
             IUrlHelper urlHelper)
         {
@@ -190,7 +195,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Controllers
 
             // Set default values for params
             //facetsBeingRequest is used because if we modify the original params
-            //then the OriginalString of the response will show the default 
+            //then the OriginalString of the response will show the default
             //include facets.
             string[] facetsBeingRequested = new string[] { };
             if (IsNullOrEmpty(includeFacets))
@@ -336,7 +341,8 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Controllers
         {
             foreach (var filterName in includeFacets)
             {
-                if (!_apiOptions.AvailableFacets.Keys.Contains(filterName))
+                if (String.IsNullOrWhiteSpace(filterName)
+                    || !_apiOptions.AvailableFacets.Keys.Contains(filterName))
                 {
                     return false;
                 }

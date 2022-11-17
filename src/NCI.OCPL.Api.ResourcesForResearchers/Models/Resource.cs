@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+
 using Nest;
 
 namespace NCI.OCPL.Api.ResourcesForResearchers.Models
@@ -9,7 +10,6 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Models
     /// <summary>
     /// Describes the information about a resource
     /// </summary>
-    [ElasticsearchType(Name = "resource")]
     public class Resource
     {
         /// <summary>

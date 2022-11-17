@@ -1,19 +1,17 @@
 ﻿using System;
+using System.Collections.Generic;
 
+using Elasticsearch.Net;
+using FluentAssertions;
+using Nest;
+using Newtonsoft.Json.Linq;
 using Xunit;
+
+using NCI.OCPL.Api.Common.Testing;
+
 
 using NCI.OCPL.Api.ResourcesForResearchers.Models;
 using NCI.OCPL.Api.ResourcesForResearchers.Services;
-
-using Elasticsearch.Net;
-using Nest;
-
-using NCI.OCPL.Utils.Testing;
-
-using Newtonsoft.Json.Linq;
-using System.Collections.Generic;
-
-using FluentAssertions;
 
 namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
 {
@@ -22,7 +20,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
         #region Test Gets
 
         [Fact]
-        public void Get_ValidID() {
+        public async void Get_ValidID() {
 
             //Create new ESRegAggConnection...
 
@@ -32,7 +30,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             Resource expected = StaticResourceData.GetRes101();
 
             ESResourceQueryService svc = this.GetService<ESResourceQueryService>(conn);
-            Resource actual = svc.Get("101");
+            Resource actual = await svc.GetAsync("101");
 
             //Order does matter here, so we can compare the arrays
             //Assert.Equal(expected, actual);
@@ -40,16 +38,16 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
         }
 
         [Fact]
-        public void Get_NotFound()
+        public async void Get_NotFound()
         {
             //Create new ESRegAggConnection...
             IConnection conn = new ESResQSvcGetConn("Resource_NotFound", 404);
 
             ESResourceQueryService svc = this.GetService<ESResourceQueryService>(conn);
 
-            Assert.ThrowsAny<Exception>(() =>
+            await Assert.ThrowsAnyAsync<Exception>(async () =>
             {
-                Resource actual = svc.Get("1010");
+                Resource actual = await svc.GetAsync("1010");
             });
         }
 
@@ -58,13 +56,13 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
         #region Test Query Building
 
         [Fact]
-        public void QueryResources_EmptyQuery() {
+        public async void QueryResources_EmptyQuery() {
             //Create new ESRegAggConnection...
 
             string actualPath = "";
-            string expectedPath = "r4r_v1/resource/_search"; //Use index in config
+            string expectedPath = "/r4r_v1/_search"; //Use index in config
 
-            JObject actualRequest = null;
+            JToken actualRequest = null;
             JObject expectedRequest = JObject.Parse(@"
                 {
                   ""from"": 0,
@@ -98,14 +96,14 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             //SearchResponse<Resource> <-- type
             conn.RegisterRequestHandlerForType<SearchResponse<Resource>>((req, res) =>
             {
-                actualPath = req.Path;
+                actualPath = req.Uri.AbsolutePath;
                 actualRequest = conn.GetRequestPost(req);
             });
 
             var svc = this.GetService<ESResourceQueryService>(conn);
             try
             {
-                var results = svc.QueryResources(
+                var results = await svc.QueryResourcesAsync(
                     query: new ResourceQuery
                     {
                         Keyword = null,
@@ -135,14 +133,14 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
         }
 
         [Fact]
-        public void QueryResources_From()
+        public async void QueryResources_From()
         {
             //Create new ESRegAggConnection...
 
             string actualPath = "";
-            string expectedPath = "r4r_v1/resource/_search"; //Use index in config
+            string expectedPath = "/r4r_v1/_search"; //Use index in config
 
-            JObject actualRequest = null;
+            JToken actualRequest = null;
             JObject expectedRequest = JObject.Parse(@"
                 {
                   ""from"": 20,
@@ -176,14 +174,14 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             //SearchResponse<Resource> <-- type
             conn.RegisterRequestHandlerForType<SearchResponse<Resource>>((req, res) =>
             {
-                actualPath = req.Path;
+                actualPath = req.Uri.AbsolutePath;
                 actualRequest = conn.GetRequestPost(req);
             });
 
             var svc = this.GetService<ESResourceQueryService>(conn);
             try
             {
-                var results = svc.QueryResources(
+                var results = await svc.QueryResourcesAsync(
                     query: new ResourceQuery
                     {
                         Keyword = null,
@@ -214,14 +212,14 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
         }
 
         [Fact]
-        public void QueryResources_Size()
+        public async void QueryResources_Size()
         {
             //Create new ESRegAggConnection...
 
             string actualPath = "";
-            string expectedPath = "r4r_v1/resource/_search"; //Use index in config
+            string expectedPath = "/r4r_v1/_search"; //Use index in config
 
-            JObject actualRequest = null;
+            JToken actualRequest = null;
             JObject expectedRequest = JObject.Parse(@"
                 {
                   ""from"": 0,
@@ -255,14 +253,14 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             //SearchResponse<Resource> <-- type
             conn.RegisterRequestHandlerForType<SearchResponse<Resource>>((req, res) =>
             {
-                actualPath = req.Path;
+                actualPath = req.Uri.AbsolutePath;
                 actualRequest = conn.GetRequestPost(req);
             });
 
             var svc = this.GetService<ESResourceQueryService>(conn);
             try
             {
-                var results = svc.QueryResources(
+                var results = await svc.QueryResourcesAsync(
                     query: new ResourceQuery
                     {
                         Keyword = null,
@@ -293,14 +291,14 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
         }
 
         [Fact]
-        public void QueryResources_SingleInclude()
+        public async void QueryResources_SingleInclude()
         {
             //Create new ESRegAggConnection...
 
             string actualPath = "";
-            string expectedPath = "r4r_v1/resource/_search"; //Use index in config
+            string expectedPath = "/r4r_v1/_search"; //Use index in config
 
-            JObject actualRequest = null;
+            JToken actualRequest = null;
             JObject expectedRequest = JObject.Parse(@"
                 {
                   ""from"": 20,
@@ -324,14 +322,14 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             //SearchResponse<Resource> <-- type
             conn.RegisterRequestHandlerForType<SearchResponse<Resource>>((req, res) =>
             {
-                actualPath = req.Path;
+                actualPath = req.Uri.AbsolutePath;
                 actualRequest = conn.GetRequestPost(req);
             });
 
             var svc = this.GetService<ESResourceQueryService>(conn);
             try
             {
-                var results = svc.QueryResources(
+                var results = await svc.QueryResourcesAsync(
                     query: new ResourceQuery
                     {
                         Keyword = null,
@@ -352,14 +350,14 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
         }
 
         [Fact]
-        public void QueryResources_SingleFilter()
+        public async void QueryResources_SingleFilter()
         {
             //Create new ESRegAggConnection...
 
             string actualPath = "";
-            string expectedPath = "r4r_v1/resource/_search"; //Use index in config
+            string expectedPath = "/r4r_v1/_search"; //Use index in config
 
-            JObject actualRequest = null;
+            JToken actualRequest = null;
             JObject expectedRequest = JObject.Parse(@"
                 {
                   ""from"": 0,
@@ -394,21 +392,21 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
                     }
                   },
 
-                } 
+                }
             ");
 
             ElasticsearchInterceptingConnection conn = new ElasticsearchInterceptingConnection();
             //SearchResponse<Resource> <-- type
             conn.RegisterRequestHandlerForType<SearchResponse<Resource>>((req, res) =>
             {
-                actualPath = req.Path;
+                actualPath = req.Uri.AbsolutePath;
                 actualRequest = conn.GetRequestPost(req);
             });
 
             var svc = this.GetService<ESResourceQueryService>(conn);
             try
             {
-                var results = svc.QueryResources(
+                var results = await svc.QueryResourcesAsync(
                     query: new ResourceQuery
                     {
                         Filters = new Dictionary<string, string[]>{
@@ -435,18 +433,18 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
 
 
             Assert.Equal(expectedPath, actualPath);
-            Assert.Equal(expectedRequest, actualRequest, new JTokenEqualityComparer());            
+            Assert.Equal(expectedRequest, actualRequest, new JTokenEqualityComparer());
         }
 
         [Fact]
-        public void QueryResources_SingleFilter_Keyword()
+        public async void QueryResources_SingleFilter_Keyword()
         {
             //Create new ESRegAggConnection...
 
             string actualPath = "";
-            string expectedPath = "r4r_v1/resource/_search"; //Use index in config
+            string expectedPath = "/r4r_v1/_search"; //Use index in config
 
-            JObject actualRequest = null;
+            JToken actualRequest = null;
             JObject expectedRequest = JObject.Parse(@"
                 {
                   ""from"": 0,
@@ -478,16 +476,16 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
                       ""filter"": [
                         {""term"": { ""researchTypes.key"": { ""value"": ""basic"" }}}
                       ],
-                      ""must"": [                        
+                      ""must"": [
                         {
                           ""bool"": {
                             ""should"": [
                               { ""common"": { ""title._fulltext"": { ""query"": ""CGCI"", ""cutoff_frequency"": 1.0, ""low_freq_operator"": ""and"", ""boost"": 1.0 } } },
                               { ""match"": { ""title._fulltext"": { ""query"": ""CGCI"", ""boost"": 1.0 } } },
-                              { ""match"": { ""title._fulltext"": { ""query"": ""CGCI"", ""boost"": 1.0, ""type"": ""phrase"" } } },
+                              { ""match_phrase"": { ""title._fulltext"": { ""query"": ""CGCI"", ""boost"": 1.0 } } },
                               { ""common"": { ""body._fulltext"": { ""query"": ""CGCI"", ""cutoff_frequency"": 1.0, ""low_freq_operator"": ""and"", ""boost"": 1.0 } } },
                               { ""match"": { ""body._fulltext"": { ""query"": ""CGCI"", ""boost"": 1.0 } } },
-                              { ""match"": { ""body._fulltext"": { ""query"": ""CGCI"", ""boost"": 1.0, ""type"": ""phrase"" } } },
+                              { ""match_phrase"": { ""body._fulltext"": { ""query"": ""CGCI"", ""boost"": 1.0 } } },
                               { ""match"": { ""pocs.lastname._fulltext"": { ""query"": ""CGCI"", ""boost"": 1.0 } } },
                               { ""match"": { ""pocs.firstname._fulltext"": { ""query"": ""CGCI"", ""boost"": 1.0 } } },
                               { ""match"": { ""pocs.middlename._fulltext"": { ""query"": ""CGCI"", ""boost"": 1.0 } } }
@@ -495,9 +493,9 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
                           }
                         }
                       ]
-                    } 
+                    }
                   }
-                } 
+                }
             ");
             /*
             */
@@ -506,14 +504,14 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             //SearchResponse<Resource> <-- type
             conn.RegisterRequestHandlerForType<SearchResponse<Resource>>((req, res) =>
             {
-                actualPath = req.Path;
+                actualPath = req.Uri.AbsolutePath;
                 actualRequest = conn.GetRequestPost(req);
             });
 
             var svc = this.GetService<ESResourceQueryService>(conn);
             try
             {
-                var results = svc.QueryResources(
+                var results = await svc.QueryResourcesAsync(
                     query: new ResourceQuery
                     {
                         Keyword = "CGCI",
