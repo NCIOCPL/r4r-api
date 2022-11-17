@@ -329,10 +329,21 @@ ASALocalRun/
 .vscode/tasks.json
 coverage.json
 lcov.info
-# Allow this specific bin directory
+
+
+###################################
+#### Customizations begin here ####
+###################################
+
+
+appsettings.*.json
+
+# Integration tests
 !/integration-tests/bin
+!integration-tests/**/appsettings.inttest.json
 /integration-tests/target
 
-/src/NCI.OCPL.Api.ResourcesForResearchers/appsettings.*.json
+
 log/*.txt
+/publish
 

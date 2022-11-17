@@ -21,7 +21,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Services
         /// <param name="client">A configured Elasticsearch client</param>
         /// <param name="apiOptionsAccessor">The R4RAPIOptions Accessor</param>
         /// <param name="logger">A logger for logging.</param>
-        public ESResourceAggregationService(IElasticClient client, IOptions<R4RAPIOptions> apiOptionsAccessor, ILogger<ESResourceAggregationService> logger) 
+        public ESResourceAggregationService(IElasticClient client, IOptions<R4RAPIOptions> apiOptionsAccessor, ILogger<ESResourceAggregationService> logger)
             : base(client, apiOptionsAccessor, logger) {}
 
 
@@ -61,8 +61,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Services
             }
 
             Indices index = Indices.Index(new string[] { this._apiOptions.AliasName });
-            Types types = Types.Type(new string[] { "resource" });
-            SearchRequest req = new SearchRequest(index, types)
+            SearchRequest req = new SearchRequest(index)
             {
                 Size = 0, //req.Size = 0; //Set the size to 0 in order to return no Resources
 
@@ -94,24 +93,13 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Services
         }
 
         /// <summary>
-        /// Gets the key label aggregation for a field
-        /// </summary>
-        /// <param name="field">The field to aggregate</param>
-        /// <param name="query">The query for the results</param>
-        /// <returns>The aggregation items</returns>
-        public KeyLabelAggResult[] GetKeyLabelAggregation(string field, ResourceQuery query)
-        {
-            return GetKeyLabelAggregationAsync(field, query).Result;
-        }
-
-        /// <summary>
         /// Gets a search query (the Query portion of a SearchRequest) with the
         /// requested facet's filter removed.
         /// </summary>
         /// <returns>The search query for facet.</returns>
         /// <param name="field">The facet filter being requested.</param>
         /// <param name="resourceQuery">Resource query.</param>
-        private QueryContainer GetSearchQueryForFacet(string field, ResourceQuery resourceQuery) 
+        private QueryContainer GetSearchQueryForFacet(string field, ResourceQuery resourceQuery)
         {
             QueryContainer query = null;
 
@@ -136,12 +124,13 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Services
         private IEnumerable<KeyLabelAggResult> ExtractAggResults(R4RAPIOptions.FacetConfig facetConfig, ISearchResponse<Resource> res)
         {
 
-            var currBucket = res.Aggs.Nested($"{facetConfig.FilterName}_agg");
+            //var currBucket = res.Aggs.Nested($"{facetConfig.FilterName}_agg");
+            var currBucket = res.Aggregations.Nested($"{facetConfig.FilterName}_agg");
 
             //We need to go one level deeper if this has a dependent filter
             if (!String.IsNullOrWhiteSpace(facetConfig.RequiresFilter)) {
                 currBucket = currBucket.Filter($"{facetConfig.FilterName}_filter");
-            } 
+            }
 
             var keys = currBucket.Terms($"{facetConfig.FilterName}_key");
 
@@ -151,7 +140,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Services
 
                 var label = "";
                 var labelBuckets = keyBucket.Terms($"{facetConfig.FilterName}_label").Buckets;
-                if (labelBuckets.Count > 0)
+                if (labelBuckets.Count() > 0)
                 {
                     label = labelBuckets.First().Key;
                 }
@@ -181,7 +170,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Services
                 Field = new Field($"{facetConfig.FilterName}.key"), //Set the field to rollup
                 Size = 999, //Use a large number to indicate unlimted (def is 10)
                             // Now, we need to get the labels for the keys and thus
-                            // we need to add a sub aggregate for this term.  
+                            // we need to add a sub aggregate for this term.
                             // Normally you would do this for something like city/state rollups
                 Aggregations = new TermsAggregation($"{facetConfig.FilterName}_label")
                 {

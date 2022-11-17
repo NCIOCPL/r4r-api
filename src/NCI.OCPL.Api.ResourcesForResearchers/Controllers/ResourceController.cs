@@ -2,13 +2,17 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Logging;
+using Newtonsoft.Json;
+
+using NCI.OCPL.Api.Common;
+
 using NCI.OCPL.Api.ResourcesForResearchers.Models;
 using NCI.OCPL.Api.ResourcesForResearchers.Services;
-using Newtonsoft.Json;
 
 namespace NCI.OCPL.Api.ResourcesForResearchers.Controllers
 {
@@ -19,7 +23,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Controllers
     [Route("resource")]
     public class ResourceController : Controller
     {
-        private IHostingEnvironment _environment;
+        private IWebHostEnvironment _environment;
         private readonly ILogger _logger;
         private readonly IResourceQueryService _queryService;
 
@@ -29,7 +33,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Controllers
         /// <param name="environment">Environment.</param>
         /// <param name="logger">Logger.</param>
         /// <param name="queryService">Query service.</param>
-        public ResourceController(IHostingEnvironment environment, ILogger<ResourcesController> logger, IResourceQueryService queryService)
+        public ResourceController(IWebHostEnvironment environment, ILogger<ResourcesController> logger, IResourceQueryService queryService)
         {
             _environment = environment;
             _logger = logger;
