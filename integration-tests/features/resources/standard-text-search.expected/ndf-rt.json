@@ -1,0 +1,125 @@
+{
+    "meta": {
+        "totalResults": 2,
+        "from": 0,
+        "originalQuery": "\/resources?size=20&from=0&q=ndf-rt"
+    },
+    "results": [
+        {
+            "id": 133,
+            "title": "Mammalian Gene Collection (MGC)",
+            "website": "https:\/\/mgc.nci.nih.gov\/",
+            "body": "<p>MGC provides researchers with unrestricted access to sequence-validated full-length protein-coding (FL-CDS) cDNA clones for human, mouse, and rat genes. MGC cDNA clones were obtained by screening of cDNA libraries, by transcript-specific RT-PCR  cloning, and by DNA synthesis of cDNA inserts.<\/p>",
+            "description": "<p>MGC is a bank of full-length open reading frame clones for the majority of protein-coding human and mouse genes.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "ccg",
+                    "label": "Center for Cancer Genomics (CCG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Preston",
+                        "middleName": null,
+                        "lastName": "Hunter",
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": null,
+                    "email": "preston.hunter@asu.edu"
+                }
+            ]
+        },
+        {
+            "id": 235,
+            "title": "NCI Term Browser",
+            "website": "https:\/\/nciterms.nci.nih.gov\/ncitbrowser\/pages\/multiple_search.jsf?nav_type=terminologies",
+            "body": "<p>Managed by NCI Enterprise Vocabulary Services (EVS), the NCI Term Browser provides access to ICD-9-CM, ICD-10-CM, the Common Terminology Criteria for Adverse Events (CTCAE), the Medical Dictionary for Regulatory Activities (MedDRA), the Systematized Nomenclature of Medicine Clinical Terms (SNOMED-CT), the National Drug File Reference Terminology (NDF-RT), the Gene Ontology (GO), and many other terminologies and ontologies used by NCI and its partners.<\/p>\n<p>Cross-terminology mappings and more than 500 terminology value set coding standards are also provided.<\/p>",
+            "description": "<p>The NCI Term Browser allows all terminologies hosted by NCI Enterprise Vocabulary Services (EVS) to be viewed and searched in an integrated environment.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "terminology",
+                    "label": "Terminology"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [],
+            "researchTypes": [],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [],
+            "poCs": []
+        }
+    ],
+    "facets": [
+        {
+            "title": "Research Area",
+            "param": "researchAreas",
+            "items": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology",
+                    "count": 1,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "title": "Research Type",
+            "param": "researchTypes",
+            "items": [
+                {
+                    "key": "basic",
+                    "label": "Basic",
+                    "count": 1,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "title": "Tool Type",
+            "param": "toolTypes",
+            "items": [
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools",
+                    "count": 1,
+                    "selected": false
+                },
+                {
+                    "key": "terminology",
+                    "label": "Terminology",
+                    "count": 1,
+                    "selected": false
+                }
+            ]
+        }
+    ]
+}

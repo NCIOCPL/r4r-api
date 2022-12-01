@@ -1,0 +1,46 @@
+{
+    "meta": {
+        "totalResults": 258,
+        "from": 0,
+        "originalQuery": "/resources?size=0&from=0&includeFacets=researchTypes"
+    },
+    "results": [],
+    "facets": [
+        {
+            "title": "Research Type",
+            "param": "researchTypes",
+            "items": [
+                {
+                    "key": "basic",
+                    "label": "Basic",
+                    "count": 128,
+                    "selected": false
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational",
+                    "count": 106,
+                    "selected": false
+                },
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic",
+                    "count": 54,
+                    "selected": false
+                },
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials",
+                    "count": 38,
+                    "selected": false
+                },
+                {
+                    "key": "clinical",
+                    "label": "Clinical",
+                    "count": 17,
+                    "selected": false
+                }
+            ]
+        }
+    ]
+}

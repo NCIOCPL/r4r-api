@@ -1,0 +1,1294 @@
+{
+    "meta": {
+        "totalResults": 62,
+        "from": 0,
+        "originalQuery": "\/resources?size=20&from=0&q=gene%20expression"
+    },
+    "results": [
+        {
+            "id": 250,
+            "title": "Algorithm for the Reconstruction of Accurate Cellular Networks (ARACNe)",
+            "website": "https:\/\/califano.c2b2.columbia.edu\/aracne",
+            "body": "<p>ARACNe uses microarray expression profiles to reconstruct tissue-specific gene regulatory transcriptional interactions in cellular networks. The method uses mutual information of two random variables to identify genes that are co-expressed, then applies the data processing inequality to filter out interactions that are likely to be indirect. This eliminates the vast majority of false-positive transcriptional interactions typically inferred by pairwise gene-expression correlation analysis. This tool could be used by researchers to determine novel driver genes and drug mechanisms of action.<\/p>",
+            "description": "<p>ARACNe is an algorithm for inferring direct regulatory relationships between transcriptional regulator proteins and target genes.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                },
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "bioinformatics",
+                    "label": "Bioinformatics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "ocg",
+                    "label": "Office of Cancer Genomics (OCG)"
+                },
+                {
+                    "key": "ccg",
+                    "label": "Center for Cancer Genomics (CCG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": "Dr.",
+                        "firstName": "Andrea",
+                        "middleName": null,
+                        "lastName": "Califano",
+                        "suffix": null
+                    },
+                    "title": "Clyde and Helen Wu Professor of Chemical and Systems Biology",
+                    "phone": null,
+                    "email": "ac2248@cumc.columbia.edu"
+                }
+            ]
+        },
+        {
+            "id": 75,
+            "title": "AMARETTO",
+            "website": "http:\/\/portals.broadinstitute.org\/pochetlab\/amaretto.html",
+            "body": "<p>AMARETTO is for multi-omics data fusion and reformulations for pan-etiology and pan-cancer applications. AMARETTO is an algorithm that integrates copy number, DNA methylation, and gene expression data to identify a set of driver genes by analyzing cancer samples and connects them to clusters of co-expressed genes.<\/p>",
+            "description": "<p>AMARETTO is an algorithm that integrates copy number, DNA methylation, and gene expression data to identify a set of driver genes by analyzing cancer samples and connects them to clusters of co-expressed genes.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "causes_of_cancer",
+                    "label": "Causes of Cancer"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "itcr",
+                    "label": "Informatics Technology for Cancer Research (ITCR)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 154,
+            "title": "Analytic Technique for Assessment of RNAi by Similarity (ATARiS)",
+            "website": "https:\/\/www.broadinstitute.org\/cancer\/ataris",
+            "body": "<p>RNAi reagents designed to target the same gene often induce different degrees of on-target and off-target gene suppression, resulting in inconsistent phenotypes. To address this, ATARiS tries to identify subsets of its RNAi reagents that produce a significantly similar phenotype across the screened smaples. This approach also computes a consistency score that represents the confidence that its observed phenotypic effects are the result of on-target gene suppression.<\/p>",
+            "description": "<p>ATARiS is a computational method designed to analyze the off-target effects in the data generated from RNAi screens.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "register",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "ccg",
+                    "label": "Center for Cancer Genomics (CCG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": null,
+                        "middleName": null,
+                        "lastName": null,
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": null,
+                    "email": "ataris@broadinstitute.org"
+                }
+            ]
+        },
+        {
+            "id": 67,
+            "title": "BioMuta",
+            "website": "https:\/\/hive.biochemistry.gwu.edu\/biomuta",
+            "body": "<p>BioMuta is an annotated SNV and disease association database in which variations are mapped to positions at genome, protein, and gene levels. The current BioMuta database (BioMuta v3.0) contains a total of 4,684,236 nsSNVs reported in 18,269 genes across 77 Disease Ontology cancer types. A small number of variants were added to BioMuta following manual literature review of PubMed abstracts.<\/p>",
+            "description": "<p>BioMuta is an annotated single-nucleotide variation (SNV) and disease association database in which variations are mapped to positions at genome, protein, and gene levels. The current database contains a total of 4,684,236 nonsynonymous SNVs (nsSNVs) reported in 18,269 genes across 77 Disease Ontology cancer types.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "itcr",
+                    "label": "Informatics Technology for Cancer Research (ITCR)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 48,
+            "title": "BRB-Seq Tools",
+            "website": "https:\/\/brb.nci.nih.gov\/seqtools\/",
+            "body": "<p>BRB-SeqTools can run in the Linux environment on local physical\/virtual machines or on remote servers such as Amazon Cloud. Variant-calling analysis can be conducted on both aligned RNA-Seq and DNA-Seq data using Samtools or GATK  Best-Practices pipeline tools. For human tumor data, the Variant Call Format (VCF) files generated by the variant-calling pipeline can be filtered and annotated using the somatic mutation annotation tools ANNOVAR or SnpEff to provide gene annotation,  an functional annotation , along with predicted effects of non-synonymous single-nucleotide variants calculated by SIFT and Polyphen-2. Additionally, for RNA-Seq data, gene-level raw count data files can be generated using HTSeq. The raw count data can be read into BRB-ArrayTools for gene expression analysis.<\/p>",
+            "description": "<p>BRB-SeqTools is a user-friendly pipeline tool that includes many well-known software applications designed to help general scientists preprocess and analyze Next Generation Sequencing (NGS) data. It supports the importing and preprocessing of both RNA-Seq and DNA-Seq data, in either FASTQ or BAM file format.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 126,
+            "title": "Cancer Target Discovery and Development (CTD^2) Dashboard",
+            "website": "https:\/\/ctd2-dashboard.nci.nih.gov\/dashboard\/",
+            "body": "<p>The CTD^2 Dashboard compiles the CTD^2 Network-generated conclusions, or \u201Cobservations,\u201D associated with a specific gene, cell line, animal model, or perturbagen. It provides supporting evidence with links to data, references, and to the validation strength of the evidence. Data is generated from multiple types of biological and analytical approaches used by CTD^2 centers. The dashboard allows easy navigation to a broad range  of computational and non-computational scientists.<\/p>",
+            "description": "<p>The CTD^2 Dashboard is a web interface that assembles - conclusions, or \u201Cobservations,\u201D generated by CTD2 Network centers with associated  supporting evidence.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "ccg",
+                    "label": "Center for Cancer Genomics (CCG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": null,
+                        "middleName": null,
+                        "lastName": null,
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": null,
+                    "email": "ocg@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 135,
+            "title": "Cancer Target Discovery and Development (CTD^2) Data Portal",
+            "website": "https:\/\/ocg.cancer.gov\/programs\/ctd2\/data-portal",
+            "body": "<p>The CTD^2 Network aims to understand tumor heterogeneity and drug resistance for the development of efficient strategies to identify optimal combinations of small molecules or immunotherapy with small molecules. The CTD^2 Data Portal provides access to raw and analyzed primary data generated from different types of approaches, e.g., chemical genetics (small molecules, natural products), genome-wide gain-of-function (cDNA expression libraries, CRISPR activation), genome-wide loss-of-function (siRNA, shRNA, CRISPR\/Cas9, CRISPR interference), protein\u2013protein interactions, and in vivo gain- and loss-of-function studies.<\/p>",
+            "description": "<p>CTD^2 Data Portal provides access to raw and analyzed primary data generated from different types of experimental and analytical approaches.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "ccg",
+                    "label": "Center for Cancer Genomics (CCG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": null,
+                        "middleName": null,
+                        "lastName": null,
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": null,
+                    "email": "ocg@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 136,
+            "title": "cDNA Clones with Rare and Recurrent Mutations found in Cancers",
+            "website": "https:\/\/ocg.cancer.gov\/programs\/ctd2\/supported-reagents\/cdna-clones-rare-and-recurrent-mutations-found-cancers",
+            "body": "<p>The CTD^2 center at the University of Texas MD Anderson Cancer Center has developed a high-throughput mutagenesis and molecular barcoding (HiTMMoB)   pipeline to construct mutant alleles open reading frame expression clones that are either found in recurrent cancer or are rare in cancers. These barcoded genes can be used for context-specific functional validation, detection of novel biomarkers (pathway activation), and targets (drug sensitivity).<\/p>",
+            "description": "<p>This resource is an open reading frame (ORF) expression library with clones of wild-type and somatic mutations found in recurrent cancer or that are rare in cancer .<\/p>",
+            "toolTypes": [
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "register",
+                "notes": "Material Transfer Agreement (MTA) required"
+            },
+            "doCs": [
+                {
+                    "key": "ccg",
+                    "label": "Center for Cancer Genomics (CCG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Gordon",
+                        "middleName": null,
+                        "lastName": "Mills",
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": null,
+                    "email": "millsg@ohsu.edu"
+                }
+            ]
+        },
+        {
+            "id": 128,
+            "title": "CERES",
+            "website": "https:\/\/depmap.org\/ceres\/",
+            "body": "<p>Studies have shown that genome-wide CRISPR-Cas9 inactivation of genes that are amplified need different analytical approaches for interpretation of the results. The Cas9 induces double strand breaks which lead to false-positive results. A computational method, CERES was developed for inferring gene essentiality from genome-wide CRISPR-Cas9 screens in cancer cell lines to correct the copy number effect. This approach decreases the false-positive results while taking into account the anti-proliferative copy-number effect.<\/p>",
+            "description": "<p>CERES is a method to infer gene essentiality from genome-wide CRISPR-Cas9 screens in cancer cell lines to correct the copy number effect. This approach decreases the false-positive results while taking into account the anti-proliferative copy-number effect.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                },
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "ccg",
+                    "label": "Center for Cancer Genomics (CCG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "David",
+                        "middleName": null,
+                        "lastName": "Quigley",
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": null,
+                    "email": "David.Quigley@ucsf.edu"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Cistrome",
+            "website": "http:\/\/cistrome.org\/Cistrome\/Cistrome_Project.html",
+            "body": "<p>Cistrome has curated and processed human\/mouse ChIP\/DNase-seq datasets in GEO, allowing users to search, browse, download ChIP-seq data signals, peaks, quality control, motifs, target genes and similar datasets.<\/p>",
+            "description": "<p>Cistrome has curated and processed human\/mouse ChIP\/DNase-seq datasets in Gene Expression  Omnibus (GEO ), allowing users to search, browse, download ChIP-seq data signals, peaks, quality control, motifs, target genes and similar datasets.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                },
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "itcr",
+                    "label": "Informatics Technology for Cancer Research (ITCR)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 176,
+            "title": "Clinical Proteomic Tumor Analysis Consortium (CPTAC) Antibody Portal",
+            "website": "https:\/\/proteomics.cancer.gov\/antibody-portal",
+            "body": "<p>The CPTAC Antibody Portal houses affinity reagents characterized and validated by NCI\u2019s Antibody Characterization Laboratory, located at the Frederick National Laboratory for Cancer Research. Upon entering the portal, users can browse by antibodies or antigens or select from a series of table filters on the left side of the page. Each antibody has background, characterization data with corresponding standard operating procedures, as well as links to the CPTAC assay portal (when applicable) and Developmental Studies Hybridoma Bank at the University of Iowa for purchase. Each antigen additionally has standard operating procedures and links to central repositories of protein and gene information, such as Uniprot, Ensembl, and Entrez. For those interested in affinity reagents to a specific protein target, the CPTAC Antibody Portal has an application form for reagent target requests to the NCI Antibody Characterization Program that is released on an annual basis.<\/p>",
+            "description": "<p>The CPTAC Antibody Portal serves as an NCI community resource that provides access to many highly characterized renewable affinity reagents with accompanying characterization data.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                },
+                {
+                    "key": "networks_consortiums",
+                    "label": "Networks\/Consortiums"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_diagnosis",
+                    "label": "Cancer Diagnosis"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": "Information regarding the antibodies is free, however, users will be redirected to the Developmental Studies Hybridoma Bank for purchasing."
+            },
+            "doCs": [
+                {
+                    "key": "cssi",
+                    "label": "Center for Strategic Scientific Initiatives (CSSI)"
+                },
+                {
+                    "key": "occpr",
+                    "label": "Office of Cancer Clinical Proteomics Research (OCCPR)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Tara",
+                        "middleName": null,
+                        "lastName": "Hiltke",
+                        "suffix": "Ph.D."
+                    },
+                    "title": "Program Director",
+                    "phone": "240-781-3435",
+                    "email": "hiltket@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 160,
+            "title": "Clustered Regularly Interspaced Short Palindromic Repeats (CRISPRi) plasmids",
+            "website": "http:\/\/www.addgene.org\/crispr\/qi-weissman\/",
+            "body": "<p>CTD^2 researchers at the University of California, San Francisco developed a modified  CRISPR\/dCas9 system. Catalytically inactive dCas9 enables modular and programmable RNA-guided genome regulation in eukaryotes. The CRISPR\/dCas9 system has several advantages.  It enables robust gene interference (CRISPRi) or activation (CRISPRa) in human cells, allows specific knockdown with minimal off-target effects in human cells,  works efficiently in human and yeast cells, and does not cause double-strand breaks.<\/p>",
+            "description": "<p>The CRISPR toolbox allows  for the precise regulation of gene expression in eukaryotic cells.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "ccg",
+                    "label": "Center for Cancer Genomics (CCG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": null,
+                        "middleName": null,
+                        "lastName": null,
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": null,
+                    "email": "ocg@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 242,
+            "title": "D3Oncoprint",
+            "website": "https:\/\/brb.nci.nih.gov\/d3oncoprint\/",
+            "body": "<p>D3Oncoprint is a standalone software program used to visualize and dynamically explore annotated genomic mutation files. D3Oncoprint provides access to curated variants lists from CIViC, My Cancer Genome, and FDA-approved drug indication listings to facilitate the use of genomic data for biomedical discovery and application. D3Oncoprint also includes curated gene lists to explore commonly investigated biological processes (e.g., BioCarta pathways, FoundationOne cancer panels). Our software provides a flexible environment to dynamically explore the variant mutation profiles provided as input. The focus on interactive visualization with biological and medical annotation significantly lowers the barriers between complex genomic data biomedical investigators. We hope that this resource provides an important means of empowering researchers to translate the information from the collected data sets to biological insights and clinical applications.<\/p>",
+            "description": "<p>D3Oncoprint is a standalone software program used to visualize and dynamically explore annotated genomic mutation files.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": "Dr.",
+                        "firstName": "Alida",
+                        "middleName": null,
+                        "lastName": "Palmisano",
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": "240-276-6484",
+                    "email": "alida.palmisano@nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 222,
+            "title": "DEMETER2",
+            "website": "https:\/\/depmap.org\/R2-D2\/",
+            "body": "<p>DEMETER2 is a computation method that estimates gene dependencies by integrating data from large-scale RNAi screens (targeting up to the whole transcriptome) with read-out of cell viabilities performed in cancer cell lines. This method infers gene dependency estimates and allows for corrections to eliminate batch effects.<\/p>",
+            "description": "<p>DEMETER2 is a computation method that estimates gene dependencies by integrating data from large-scale RNAi screens (targeting up to the whole transcriptome) with read-out of cell viabilities performed in cancer cell lines. This method infers gene dependency estimates and allows for corrections to eliminate batch effects and confounders due to gene amplifications.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "ccg",
+                    "label": "Center for Cancer Genomics (CCG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Aviad",
+                        "middleName": null,
+                        "lastName": "Tsherniak",
+                        "suffix": null
+                    },
+                    "title": "Associate Director, Cancer Data Science",
+                    "phone": null,
+                    "email": "aviad@broadinstitute.org"
+                }
+            ]
+        },
+        {
+            "id": 123,
+            "title": "Detecting Mechanism of Action based Network Dysregulation (DeMAND)",
+            "website": "https:\/\/califano.c2b2.columbia.edu\/demand",
+            "body": "<p>The DeMAND algorithm predicts drug mechanisms of action using gene expression data generated from control and perturbed cells. The data are then used to identify network dysregulation to determine both the interactions and the genes that are involved in the mechanism of action.<\/p>",
+            "description": "<p>DeMAND is an R-system algorithm that elucidates mechanisms of action of cellular perturbations (e.g., small molecule) by analyzing network dysregulations.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "register",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "ccg",
+                    "label": "Center for Cancer Genomics (CCG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Aristidis",
+                        "middleName": null,
+                        "lastName": "Floratos",
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": null,
+                    "email": "af2202@cumc.columbia.edu"
+                },
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Andrea",
+                        "middleName": null,
+                        "lastName": "Califano",
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": null,
+                    "email": "ac2248@cumc.columbia.edu"
+                },
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": null,
+                        "middleName": null,
+                        "lastName": null,
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": null,
+                    "email": "ac2248@cumc.columbia.edu"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Driver-gene Inference by Genetical-Genomics and Information Theory (DIGGIT)",
+            "website": "http:\/\/www.bioconductor.org\/packages\/release\/bioc\/html\/diggit.html",
+            "body": "<p>Genomic alterations that contribute to aberrant master regulator (MR) activity must be upstream of the MR, although the specific pathways involved may not be known. Master regulators are transcription factors that control the majority of genes differentially expressed between two molecular phenotypes. The DIGGIT package integrates patient-matched genomic mutation and gene expression data with corresponding gene regulatory networks to identify candidate driver mutations that are upstream of and directly perturb master regulators.<\/p>",
+            "description": "<p>DIGGIT is a bioconductor package for identifying genetic variants that lie upstream of master regulators and drive cellular phenotypes.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "ccg",
+                    "label": "Center for Cancer Genomics (CCG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Aristidis",
+                        "middleName": null,
+                        "lastName": "Floratos",
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": null,
+                    "email": "af2202@cumc.columbia.edu"
+                },
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Andrea",
+                        "middleName": null,
+                        "lastName": "Califano",
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": null,
+                    "email": "ac2248@cumc.columbia.edu"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "title": "Enhancer Linking by Methylation\/Expression Relationships (ELMER)",
+            "website": "http:\/\/bioconductor.org\/packages\/release\/bioc\/html\/ELMER.html",
+            "body": "<p>ELMER is a R tool for analysis of DNA methylation and expression datasets. Integrative analysis allows reconstruction of <em>in vivo<\/em> transcription factor networks altered in cancer, along with identification of the underlying gene regulatory sequences.<\/p>",
+            "description": "<p>ELMER is a R tool for analysis of DNA methylation and expression datasets.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "itcr",
+                    "label": "Informatics Technology for Cancer Research (ITCR)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 118,
+            "title": "Evaluation of Differential DependencY (EDDY)",
+            "website": "https:\/\/biocomputing.tgen.org\/software\/EDDY\/",
+            "body": "<p>EDDY is a statistical test for estimating differential dependencies for a set of genes between two conditions. Dependencies can be represented and assessed graphically for the expression of a gene set within a particular cellular context. EDDY then calculates the divergence between the probability distributions of scored graphs for each condition. Finally, the statistical significance of this divergence is computed.<\/p>",
+            "description": "<p>EDDY is a statistical test for estimating differential dependencies for a set of genes between two conditions.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "ccg",
+                    "label": "Center for Cancer Genomics (CCG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Gil",
+                        "middleName": null,
+                        "lastName": "Speyer",
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": null,
+                    "email": "gspeyer@tgen.org"
+                }
+            ]
+        },
+        {
+            "id": 224,
+            "title": "Functional Annotation of Somatic Mutations in Cancer (FASMIC)",
+            "website": "http:\/\/ibl.mdanderson.org\/fasmic\/#!\/",
+            "body": "<p>FASMIC is an interactive and open-access web portal for comprehensively querying and visualizing mutation-associated data. The queried gene is displayed in a tabular view with basic information for each mutation and details like summary (gene name, mutation, etc.), 3D structure, literature, mutation frequency, etc., under the table.<\/p>",
+            "description": "<p>FASMIC is an interactive and open-access web portal for comprehensively querying and visualizing mutation-associated data. The queried gene is displayed in a tabular view with basic information for each mutation and details like summary (gene name, mutation, etc.), 3D structure, literature, mutation frequency, etc., under the table.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                },
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "ccg",
+                    "label": "Center for Cancer Genomics (CCG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Han",
+                        "middleName": null,
+                        "lastName": "Liang",
+                        "suffix": "Ph.D."
+                    },
+                    "title": null,
+                    "phone": null,
+                    "email": "HLiang1@mdanderson.org"
+                }
+            ]
+        },
+        {
+            "id": 148,
+            "title": "Functional Signature Ontology (FuSiOn)",
+            "website": "http:\/\/fusion.yuhs.ac\/v1\/",
+            "body": "<p>FuSiOn is an ontology map built from gene expression data resulting from human kinome perturbation screens using miRNA mimics, shRNAs, and natural products. The map links  bioactive molecules to the proteins and biological processes that they engage in cells.<\/p>",
+            "description": "<p>FuSiOn is a tool to to search for chemical and genetical perturbations that behave functionally similarly to a target gene of interest.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "register",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "ccg",
+                    "label": "Center for Cancer Genomics (CCG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "John",
+                        "middleName": null,
+                        "lastName": "MacMillan",
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": null,
+                    "email": "john.macmillan@utsouthwestern.edu"
+                }
+            ]
+        }
+    ],
+    "facets": [
+        {
+            "title": "Research Area",
+            "param": "researchAreas",
+            "items": [
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics",
+                    "count": 45,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology",
+                    "count": 44,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment",
+                    "count": 23,
+                    "selected": false
+                },
+                {
+                    "key": "bioinformatics",
+                    "label": "Bioinformatics",
+                    "count": 7,
+                    "selected": false
+                },
+                {
+                    "key": "causes_of_cancer",
+                    "label": "Causes of Cancer",
+                    "count": 5,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_diagnosis",
+                    "label": "Cancer Diagnosis",
+                    "count": 2,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_health_disparities",
+                    "label": "Cancer Health Disparities",
+                    "count": 1,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_statistics",
+                    "label": "Cancer Statistics",
+                    "count": 1,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_survivorship",
+                    "label": "Cancer Survivorship",
+                    "count": 1,
+                    "selected": false
+                },
+                {
+                    "key": "screening_detection",
+                    "label": "Screening & Detection",
+                    "count": 1,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "title": "Research Type",
+            "param": "researchTypes",
+            "items": [
+                {
+                    "key": "basic",
+                    "label": "Basic",
+                    "count": 49,
+                    "selected": false
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational",
+                    "count": 39,
+                    "selected": false
+                },
+                {
+                    "key": "clinical",
+                    "label": "Clinical",
+                    "count": 3,
+                    "selected": false
+                },
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials",
+                    "count": 3,
+                    "selected": false
+                },
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic",
+                    "count": 3,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "title": "Tool Type",
+            "param": "toolTypes",
+            "items": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools",
+                    "count": 37,
+                    "selected": false
+                },
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases",
+                    "count": 18,
+                    "selected": false
+                },
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools",
+                    "count": 14,
+                    "selected": false
+                },
+                {
+                    "key": "terminology",
+                    "label": "Terminology",
+                    "count": 2,
+                    "selected": false
+                },
+                {
+                    "key": "networks_consortiums",
+                    "label": "Networks\/Consortiums",
+                    "count": 1,
+                    "selected": false
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1458 @@
+{
+    "meta": {
+        "totalResults": 20,
+        "from": 0,
+        "originalQuery": "/resources?size=20&from=0&researchAreas=cancer_diagnosis&researchAreas=cancer_survivorship&researchTypes=basic&researchTypes=epidemiologic&researchTypes=clinical"
+    },
+    "results": [
+        {
+            "id": 83,
+            "title": "Annual Report to the Nation on the Status of Cancer",
+            "website": "https://seer.cancer.gov/report_to_nation/",
+            "body": "<p>The report includes a special section to highlight a major topic in cancer surveillance. Recent topics include financial toxicity, progress toward Healthy People 2020 objectives, survival, prostate cancer, and molecular subtypes of breast cancer. This is an annual collaboration between NCI, North American Association of Central Cancer Registries, the Centers for Disease Control and Prevention, and the American Cancer Society. The agencies rotate between leading the report. Typically, the trends are by sex and race/ethnicity. The Surveillance, Epidemiology, and End Results (SEER) programwebsite hosts a microsite with summaries, factoids, links, and other shareable resources.</p>",
+            "description": "<p>The Annual Report to the Nation is a publication that provides an update of rates for new cases and deaths, as well as trends, for the most common cancers in the United States.</p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_health_disparities",
+                    "label": "Cancer Health Disparities"
+                },
+                {
+                    "key": "cancer_survivorship",
+                    "label": "Cancer Survivorship"
+                },
+                {
+                    "key": "cancer_statistics",
+                    "label": "Cancer Statistics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dccps",
+                    "label": "Division of Cancer Control and Population Sciences (DCCPS)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Kathy",
+                        "middleName": null,
+                        "lastName": "Cronin",
+                        "suffix": null
+                    },
+                    "title": "Deputy Associate Director, Surveillance Research Program",
+                    "phone": "240-276-6836",
+                    "email": "cronink@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Cancer Slide Digital Archive (CDSA)",
+            "website": "http://cancer.digitalslidearchive.net",
+            "body": "<p>The CDSA is a web-based platform to support the sharing, management, and analysis of digital pathology data. Emory University  currently hosts over 23,000 images from The Cancer Genome Atlas, and the software is being developed within the Informatics Technology for Cancer Research (ITCR) grant to be deployable as a digital pathology platform for other labs and cancer institutes.</p>",
+            "description": "<p>The CDSA is a web-based platform to support the sharing, management, and analysis of digital pathology data.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                },
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_diagnosis",
+                    "label": "Cancer Diagnosis"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                },
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "itcr",
+                    "label": "Informatics Technology for Cancer Research (ITCR)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 26,
+            "title": "Chernobyl Tissue Bank (CTB)",
+            "website": "http://www.chernobyltissuebank.com/",
+            "body": "<p>CTB is an international collaborative project that is supported by NCI’s Division of Cancer Biology and the Sasakawa Memorial Health Foundation of Japan with active participation from Russia and Ukraine, two countries heavily affected by the 1986 Chernobyl accident. CTB manages biospecimen resources and associated data sets that support studies on the biology of thyroid cancer, the major health consequence of the Chernobyl accident. For more information on this Tissue Bank, please visit the Chernobyl Tissue Bank website.</p>",
+            "description": "<p>CTB maintains a research resource that supports studies on the biology of thyroid cancer, the major health consequence of the Chernobyl accident.</p>",
+            "toolTypes": [
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "causes_of_cancer",
+                    "label": "Causes of Cancer"
+                },
+                {
+                    "key": "cancer_survivorship",
+                    "label": "Cancer Survivorship"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "clinical",
+                    "label": "Clinical"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "register",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dcb",
+                    "label": "Division of Cancer Biology (DCB)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Rihab",
+                        "middleName": null,
+                        "lastName": "Yassin",
+                        "suffix": "Ph.D."
+                    },
+                    "title": "Program Director",
+                    "phone": "240-276-6230",
+                    "email": "yassinr@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 176,
+            "title": "Clinical Proteomic Tumor Analysis Consortium (CPTAC) Antibody Portal",
+            "website": "https://proteomics.cancer.gov/antibody-portal",
+            "body": "<p>The CPTAC Antibody Portal houses affinity reagents characterized and validated by NCI’s Antibody Characterization Laboratory, located at the Frederick National Laboratory for Cancer Research. Upon entering the portal, users can browse by antibodies or antigens or select from a series of table filters on the left side of the page. Each antibody has background, characterization data with corresponding standard operating procedures, as well as links to the CPTAC assay portal (when applicable) and Developmental Studies Hybridoma Bank at the University of Iowa for purchase. Each antigen additionally has standard operating procedures and links to central repositories of protein and gene information, such as Uniprot, Ensembl, and Entrez. For those interested in affinity reagents to a specific protein target, the CPTAC Antibody Portal has an application form for reagent target requests to the NCI Antibody Characterization Program that is released on an annual basis.</p>",
+            "description": "<p>The CPTAC Antibody Portal serves as an NCI community resource that provides access to many highly characterized renewable affinity reagents with accompanying characterization data.</p>",
+            "toolTypes": [
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                },
+                {
+                    "key": "networks_consortiums",
+                    "label": "Networks/Consortiums"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_diagnosis",
+                    "label": "Cancer Diagnosis"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": "Information regarding the antibodies is free, however, users will be redirected to the Developmental Studies Hybridoma Bank for purchasing."
+            },
+            "doCs": [
+                {
+                    "key": "cssi",
+                    "label": "Center for Strategic Scientific Initiatives (CSSI)"
+                },
+                {
+                    "key": "occpr",
+                    "label": "Office of Cancer Clinical Proteomics Research (OCCPR)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Tara",
+                        "middleName": null,
+                        "lastName": "Hiltke",
+                        "suffix": "Ph.D."
+                    },
+                    "title": "Program Director",
+                    "phone": "240-781-3435",
+                    "email": "hiltket@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 177,
+            "title": "Clinical Proteomic Tumor Analysis Consortium (CPTAC) Assay Portal",
+            "website": "https://assays.cancer.gov",
+            "body": "<p>The CPTAC Assay Portal is a repository of highly characterized proteomic assays, standard operating procedures, and assay characterization/validation data in support of the National Institutes of Health’s Rigor and Reproducibility Principles and Guidelines. Upon entering the assay portal, users can search for an assay by entering a protein or peptide name, or they can filter assays by selecting the drop-down tab on the left side of the page. Each assay has background information along with a protein map, assay details, publication information, assay parameters, chromatograms, response curves, and repeatability measures. Additional resources include the standard operating procedures and instructions for viewing the peptide or protein in Panorama.</p>",
+            "description": "<p>The CPTAC Assay Portal serves as a centralized public repository of “fit-for-purpose,” multiplexed quantitative mass spectrometry-based proteomic targeted assays.</p>",
+            "toolTypes": [
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                },
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                },
+                {
+                    "key": "networks_consortiums",
+                    "label": "Networks/Consortiums"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_diagnosis",
+                    "label": "Cancer Diagnosis"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "cssi",
+                    "label": "Center for Strategic Scientific Initiatives (CSSI)"
+                },
+                {
+                    "key": "occpr",
+                    "label": "Office of Cancer Clinical Proteomics Research (OCCPR)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Chris",
+                        "middleName": null,
+                        "lastName": "Kinsingee",
+                        "suffix": "Ph.D."
+                    },
+                    "title": "Program Director",
+                    "phone": "240-781-3339",
+                    "email": "kinsingc@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 226,
+            "title": "Cooperative Human Tissue Network (CHTN)",
+            "website": "https://www.chtn.org/",
+            "body": "<p>The CHTN is a unique NCI-supported resource that provides human tissues and fluids from routine procedures to investigators who utilize human biospecimens in their research. Unlike tissue banks, the CHTN works prospectively with each investigator to tailor specimen acquisition and processing to meet their specific project requirements.</p>",
+            "description": "<p>The CHTN is a unique NCI-supported resource that provides human tissues and fluids from routine procedures to investigators who utilize human biospecimens in their research. Unlike tissue banks, the CHTN works prospectively with each investigator to tailor specimen acquisition and processing to meet their specific project requirements.</p>",
+            "toolTypes": [
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                },
+                {
+                    "key": "causes_of_cancer",
+                    "label": "Causes of Cancer"
+                },
+                {
+                    "key": "cancer_diagnosis",
+                    "label": "Cancer Diagnosis"
+                },
+                {
+                    "key": "screening_detection",
+                    "label": "Screening & Detection"
+                },
+                {
+                    "key": "cancer_health_disparities",
+                    "label": "Cancer Health Disparities"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "clinical",
+                    "label": "Clinical"
+                },
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Nicole",
+                        "middleName": null,
+                        "lastName": "Bollinger",
+                        "suffix": null
+                    },
+                    "title": "Central Coordinator",
+                    "phone": "(440) 477-5952",
+                    "email": "nbollinger@chtn.org"
+                }
+            ]
+        },
+        {
+            "id": 216,
+            "title": "Grid-Enabled Measures Database (GEM)",
+            "website": "https://cancercontrol.cancer.gov/brp/research/gem.html",
+            "body": "<p>GEM allows researchers to search for a construct (e.g., anxiety, depression), see a definition of the construct, view its associated theoretical foundation, and download different measures of the construct. Similarly, researchers can search for a measure and see attributes of that measure (e.g., definition, target population, author, reliability, validity), including the associated construct. GEM also allows researchers to add new information using Web 2.0 functionality. Based upon a \"wiki” platform, researchers help build the website by adding and editing measures and constructs and providing feedback and ratings. Researchers can also receive usage statistics about measures to help decide which measure to use in prospective research.</p>",
+            "description": "<p>GEM is a dynamic, web-based tool of behavioral and social science measures organized by theoretical constructs. GEM enables researchers to evaluate and use common measures and exchange harmonized data.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_survivorship",
+                    "label": "Cancer Survivorship"
+                },
+                {
+                    "key": "screening_detection",
+                    "label": "Screening & Detection"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                },
+                {
+                    "key": "cancer_public_health",
+                    "label": "Cancer & Public Health"
+                },
+                {
+                    "key": "cancer_health_disparities",
+                    "label": "Cancer Health Disparities"
+                },
+                {
+                    "key": "cancer_prevention",
+                    "label": "Cancer Prevention"
+                },
+                {
+                    "key": "cancer_diagnosis",
+                    "label": "Cancer Diagnosis"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "register",
+                "notes": null
+            },
+            "doCs": [],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Richard",
+                        "middleName": null,
+                        "lastName": "Moser",
+                        "suffix": null
+                    },
+                    "title": "Training Director and Research Methods Coordinator",
+                    "phone": "240-276-6915",
+                    "email": "moserr@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 86,
+            "title": "Modified UMS, Modified SemRep and SemMedDB-UTH",
+            "website": "https://skr3.nlm.nih.gov/SemMedDB/index_uth.html",
+            "body": "<p>Modified UMLS, modified SemRep and SemMedDB-UTH are resources (UMLS, SemMedDB-UT) and tools (SemRep) created and maintained by National Library of Medicine (NLM) that we  have modified for personalized cancer therapy and returned to the NLM.</p>",
+            "description": "<p>This database holds semantic predications extracted from MEDLINE citations with a version of SemRep that increases the number of predications on drug therapies for cancer.</p>",
+            "toolTypes": [
+                {
+                    "key": "terminology",
+                    "label": "Terminology"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_diagnosis",
+                    "label": "Cancer Diagnosis"
+                },
+                {
+                    "key": "bioinformatics",
+                    "label": "Bioinformatics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "clinical",
+                    "label": "Clinical"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "itcr",
+                    "label": "Informatics Technology for Cancer Research (ITCR)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 117,
+            "title": "National Institute of General Medical Sciences and National Cancer Institute (GM/CA)  X-ray Beamline",
+            "website": "http://www.gmca.anl.gov/",
+            "body": "<p>NCI partnered with the National Institute of General Medical Sciences (NIGMS) to fund the construction and management of a state-of-the-art macromolecular crystallography synchrotron beamline for determining structures of biologically important macromolecules. The beamline, known as the National Institute of General Medical Sciences and National Cancer Institute Collaborative Access Team (GM/CA CAT), is located at the Advanced Photon Source on the grounds of the Argonne National Laboratory near Chicago. NCI has a significant amount of beamtime dedicated for the use of its grantees. Investigators interested in taking experiments to this facility should contact the beamline directly or email Dr. J. Randy Knowlton (Jk339o@nih.gov) for additional information.</p>",
+            "description": "<p>This resource is a state-of-the-art macromolecular crystallography synchrotron beamline for determining structures of biologically important macromolecules. NCI has a significant amount of beamtime dedicated for the use of its grantees</p>",
+            "toolTypes": [
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                },
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "causes_of_cancer",
+                    "label": "Causes of Cancer"
+                },
+                {
+                    "key": "cancer_survivorship",
+                    "label": "Cancer Survivorship"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "register",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dcb",
+                    "label": "Division of Cancer Biology (DCB)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Dr. J. Randy",
+                        "middleName": null,
+                        "lastName": "Knowlton",
+                        "suffix": "Ph.D."
+                    },
+                    "title": "Program Director",
+                    "phone": "240-276-6210",
+                    "email": "Jk339o@nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 179,
+            "title": "NCI Cohort Consortium",
+            "website": "https://epi.grants.cancer.gov/Consortia/cohort.html",
+            "body": "<p>The NCI Cohort Consortium promotes collaborative research projects for topics not easily addressed in a single study. The Consortium includes investigators responsible for more than 50 cohorts involving more than seven million people. The cohorts are international in scope and cover diverse populations. Extensive risk factor data are available on each cohort and biospecimens collected at baseline are available on approximately two million individuals.</p>\n<p>Application for membership will be open to the principal investigator of any cancer epidemiology cohort with at least 10,000 study participants, in which cancer occurrence is assessed and some risk factor data collected, who commits to scientific collaboration by contributing data for scientific research and participating in pooling studies.</p>",
+            "description": "<p>The NCI Cohort Consortium promotes large-scale research collaborations through pooling data and biospecimens collected from 50+ international cohort studies to conduct a wide range of cancer studies.</p>",
+            "toolTypes": [
+                {
+                    "key": "networks_consortiums",
+                    "label": "Networks/Consortiums"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "causes_of_cancer",
+                    "label": "Causes of Cancer"
+                },
+                {
+                    "key": "cancer_survivorship",
+                    "label": "Cancer Survivorship"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dccps",
+                    "label": "Division of Cancer Control and Population Sciences (DCCPS)"
+                },
+                {
+                    "key": "dceg",
+                    "label": "Division of Cancer Epidemiology and Genetics (DCEG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Nonye",
+                        "middleName": null,
+                        "lastName": "Harvey",
+                        "suffix": null
+                    },
+                    "title": "Public Health Advisor, Office of the Associate Director, EGRP",
+                    "phone": "240-276-6898",
+                    "email": "harveyn@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 178,
+            "title": "NCI Mouse Repository",
+            "website": "https://frederick.cancer.gov/science/technology/mouserepository",
+            "body": "<p>The NCI Mouse Repository is a resource for mouse cancer models and associated strains that is available to all members of the scientific community (academic, non-profit, and commercial). NCI Mouse Repository strains are cryo-archived and distributed as frozen germoplasm (embryos and/or sperm). The repository also contains 1,501 genetically engineered mouse embryonic stem cells harboring conditional microRNA (miRNA) transgenes that can be used to study the role of miRNAs in cancer.</p>",
+            "description": "<p>The NCI Mouse Repository is a resource for mouse cancer models, associated strains, and genetically engineered mouse embryonic stem cells harboring conditional microRNA (miRNAs) transgenes.</p>",
+            "toolTypes": [
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "causes_of_cancer",
+                    "label": "Causes of Cancer"
+                },
+                {
+                    "key": "cancer_survivorship",
+                    "label": "Cancer Survivorship"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": "For mouse strains, a material transfer agreement will need to be signed by the Recipient Scientist and an Authorized Recipient Official of his/her institution."
+            },
+            "doCs": [
+                {
+                    "key": "dcb",
+                    "label": "Division of Cancer Biology (DCB)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": null,
+                        "middleName": null,
+                        "lastName": null,
+                        "suffix": null
+                    },
+                    "title": "NCI Mouse Repository Office",
+                    "phone": null,
+                    "email": "MouseRepository@nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 225,
+            "title": "NCI NCTN Navigator",
+            "website": "https://navigator.ctsu.org/navigator/login",
+            "body": "<p>Investigators can use the Navigator website to search the inventory of specimens and clinical data from cancer treatment trials.</p>",
+            "description": "<p>Investigators can use the Navigator website to search the inventory of specimens and clinical data from cancer treatment trials.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                },
+                {
+                    "key": "causes_of_cancer",
+                    "label": "Causes of Cancer"
+                },
+                {
+                    "key": "cancer_diagnosis",
+                    "label": "Cancer Diagnosis"
+                },
+                {
+                    "key": "cancer_health_disparities",
+                    "label": "Cancer Health Disparities"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "clinical",
+                    "label": "Clinical"
+                }
+            ],
+            "resourceAccess": {
+                "type": "register",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Irina",
+                        "middleName": null,
+                        "lastName": "Lubensky",
+                        "suffix": "MD"
+                    },
+                    "title": "Branch Chief",
+                    "phone": "240-276-5902",
+                    "email": "lubenskyi@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 156,
+            "title": "New Grantee Workshop",
+            "website": "https://www.cancer.gov/about-nci/organization/dcb/researcher-resources#workshop",
+            "body": "<p>DCB offers an annual workshop for new and early-stage investigators to familiarize them with the processes and standards of DCB, NCI and NIH. The workshop is designed for DCB grantees who have received their first independent NIH grant within the last year. New grantees are identified by the Division, and attendance is by invitation only. The workshop covers: Structure, roles, and inter-relationships of NIH, NCI, and DCB Branches within DCB NIH peer review process Competitive renewal applications Sources of supplemental funding Grantee responsibilities in managing their awards The workshop includes breakout sessions with DCB Program Directors and a seminar from an NCI-funded senior cancer researcher.</p>",
+            "description": "<p>DCB offers an annual workshop for new and early-stage investigators to familiarize them with the processes and standards of DCB, NCI and NIH. The workshop is designed for DCB grantees who have received their first independent NIH grant within the last year.</p>",
+            "toolTypes": [
+                {
+                    "key": "networks_consortiums",
+                    "label": "Networks/Consortiums"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "causes_of_cancer",
+                    "label": "Causes of Cancer"
+                },
+                {
+                    "key": "cancer_survivorship",
+                    "label": "Cancer Survivorship"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "register",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dcb",
+                    "label": "Division of Cancer Biology (DCB)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Susan",
+                        "middleName": null,
+                        "lastName": "McCarthy",
+                        "suffix": "Ph.D."
+                    },
+                    "title": "Program Director",
+                    "phone": "240-276-6200",
+                    "email": "mccarths@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 116,
+            "title": "NIH MHC (Major Histocompatibility Complex) Tetramer Program",
+            "website": "http://tetramer.yerkes.emory.edu/",
+            "body": "<p>This core facility provides custom synthesis and distribution of soluble MHC-peptide tetramer reagents that can be used to stain antigen-specific T cells. The facility is supported by a contract from the National Institute of Allergy and Infectious Diseases, with steering committee participation from NCI through DCB.</p>",
+            "description": "<p>This core facility provides custom synthesis and distribution of soluble MHC-peptide tetramer reagents that can be used to stain antigen-specific T cells. The facility is supported by a contract from the National Institute of Allergy and Infectious Diseases, with steering committee participation from NCI through DCB.</p>",
+            "toolTypes": [
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "causes_of_cancer",
+                    "label": "Causes of Cancer"
+                },
+                {
+                    "key": "cancer_survivorship",
+                    "label": "Cancer Survivorship"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "register",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dcb",
+                    "label": "Division of Cancer Biology (DCB)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Susan",
+                        "middleName": null,
+                        "lastName": "McCarthy",
+                        "suffix": "Ph.D."
+                    },
+                    "title": "Program Director",
+                    "phone": "240-276-6200",
+                    "email": "mccarths@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 81,
+            "title": "SEER*Explorer",
+            "website": "https://seer.cancer.gov/explorer/",
+            "body": "<p>SEER*Explorer is a new interactive website that provides easy access to a wide range of SEER cancer statistics. It provides detailed statistics for a cancer site by gender, race, calendar year, age, and for a selected number of cancer sites, by stage and histology. Users can create custom graphs and tables, download data and images, share links to results, and (coming soon) download SEER*Stat sessions.</p>",
+            "description": "<p>SEER*Explorer is an interactive website that provides easy access to detailed statistics for a cancer site by gender, race, calendar year, age, and for a selected number of cancer sites, by stage and histology.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_health_disparities",
+                    "label": "Cancer Health Disparities"
+                },
+                {
+                    "key": "cancer_survivorship",
+                    "label": "Cancer Survivorship"
+                },
+                {
+                    "key": "cancer_statistics",
+                    "label": "Cancer Statistics"
+                },
+                {
+                    "key": "cancer_public_health",
+                    "label": "Cancer & Public Health"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dccps",
+                    "label": "Division of Cancer Control and Population Sciences (DCCPS)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Patricia",
+                        "middleName": null,
+                        "lastName": "Murphy",
+                        "suffix": null
+                    },
+                    "title": "Program Analyst, Surveillance Research Program",
+                    "phone": "240-276-6903",
+                    "email": "patricia.murphy@nih.gov"
+                },
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Angela",
+                        "middleName": null,
+                        "lastName": "Mariotto",
+                        "suffix": null
+                    },
+                    "title": "Chief, Data Analytics Branch, Surveillance Research Program",
+                    "phone": "240-276-6698",
+                    "email": "mariotta@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 212,
+            "title": "The Cancer Patient Tobacco Use Questionnaire (C-TUQ)",
+            "website": "http://cancercontrol.cancer.gov/cancerandtobaccouse",
+            "body": "<p>C-TUQ asks cancer patients and survivors about their tobacco use through a self-administered questionnaire. The questionnaire, available in both short and extended form, can be used at study entry and during follow-up. Domains include cigarette smoking history and current use, use relative to cancer diagnosis and treatment, other tobacco product use, cessation, and second-hand exposure. The questionnaire is available in English and Spanish. C-TUQ was designed and validated by the NCI-American Association of Cancer Research Cancer Patient Tobacco Use Assessment Task Force. It can help yield important research variables and allow harmonization across studies.</p>",
+            "description": "<p>C-TUQ is a self-administered questionnaire for cancer patients and survivors. Domains include cigarette smoking history and current use, use relative to cancer diagnosis and treatment, other tobacco product use, cessation, and secondhand exposure.</p>",
+            "toolTypes": [
+                {
+                    "key": "community_research_tools",
+                    "label": "Community Research Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_public_health",
+                    "label": "Cancer & Public Health"
+                },
+                {
+                    "key": "cancer_prevention",
+                    "label": "Cancer Prevention"
+                },
+                {
+                    "key": "cancer_diagnosis",
+                    "label": "Cancer Diagnosis"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                },
+                {
+                    "key": "cancer_survivorship",
+                    "label": "Cancer Survivorship"
+                },
+                {
+                    "key": "screening_detection",
+                    "label": "Screening & Detection"
+                },
+                {
+                    "key": "cancer_health_disparities",
+                    "label": "Cancer Health Disparities"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "clinical",
+                    "label": "Clinical"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dccps",
+                    "label": "Division of Cancer Control and Population Sciences (DCCPS)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": "Dr.",
+                        "firstName": "Stephanie",
+                        "middleName": null,
+                        "lastName": "Land",
+                        "suffix": null
+                    },
+                    "title": "Program Director",
+                    "phone": "240-276-6946",
+                    "email": "stephanie.land@nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 32,
+            "title": "The International Registry of Werner Syndrome",
+            "website": "http://www.wernersyndrome.org/registry/registry.html",
+            "body": "<p>The International Registry of Werner Syndrome is the primary repository of samples and data from patients with Werner Syndrome (WS), and was established in 1988 as part of an objective to positionally clone the WS gene.    The registry ascertains and genotypes new pedigree cases from around the world, using lymphoblastoids and/or fibroblasts from human research participants, and provides genetic confirmation of classical WS. It also establishes and cryopreserves cell lines and other material from these pedigrees (both affected patients and their clinically unaffected siblings), including Epstein-Barr transformed peripheral blood B lymphocytes, primary skin fibroblasts, immortalized skin fibroblasts, WRN cDNA constructs, and others. All these materials are available for research.</p>",
+            "description": "<p>The International Registry of Werner Syndrome is the primary repository of samples and data from patients with Werner Syndrome (WS). The registry ascertains and genotypes new pedigree cases from around the world.</p>",
+            "toolTypes": [
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                },
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "causes_of_cancer",
+                    "label": "Causes of Cancer"
+                },
+                {
+                    "key": "cancer_survivorship",
+                    "label": "Cancer Survivorship"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "clinical",
+                    "label": "Clinical"
+                }
+            ],
+            "resourceAccess": {
+                "type": "register",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dcb",
+                    "label": "Division of Cancer Biology (DCB)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Rihab",
+                        "middleName": null,
+                        "lastName": "Yassin",
+                        "suffix": "Ph.D."
+                    },
+                    "title": "Program Director",
+                    "phone": "240-276-6230",
+                    "email": "yassinr@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 214,
+            "title": "Tobacco Control Monograph Series",
+            "website": "https://cancercontrol.cancer.gov/brp/tcrb/monographs",
+            "body": "<p>The NCI Tobacco Control Monograph Series provides ongoing and timely information about emerging public health issues in smoking and tobacco control. The series reduces the time between availability of information from research projects and the publication and wide dissemination of this information, and it enhances the rapidity with which NCI can use findings from research trials to reduce cancer morbidity and mortality. Monographs 1–22 are available online to download and hard copies can be ordered free of charge.</p>",
+            "description": "<p>The Tobacco Monograph Series provides timely information about emerging public health issues in smoking and tobacco use control.</p>",
+            "toolTypes": [
+                {
+                    "key": "community_research_tools",
+                    "label": "Community Research Tools"
+                },
+                {
+                    "key": "terminology",
+                    "label": "Terminology"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_public_health",
+                    "label": "Cancer & Public Health"
+                },
+                {
+                    "key": "cancer_prevention",
+                    "label": "Cancer Prevention"
+                },
+                {
+                    "key": "cancer_diagnosis",
+                    "label": "Cancer Diagnosis"
+                },
+                {
+                    "key": "cancer_survivorship",
+                    "label": "Cancer Survivorship"
+                },
+                {
+                    "key": "screening_detection",
+                    "label": "Screening & Detection"
+                },
+                {
+                    "key": "cancer_health_disparities",
+                    "label": "Cancer Health Disparities"
+                },
+                {
+                    "key": "causes_of_cancer",
+                    "label": "Causes of Cancer"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dccps",
+                    "label": "Division of Cancer Control and Population Sciences (DCCPS)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 260,
+            "title": "TP53 Database",
+            "website": "https://tp53.isb-cgc.org/",
+            "body": "<p>The <em>TP53</em> database is meant to be a source of information on <em>TP53</em> variants for a broad range of scientists and clinicians who work in different research areas including basic research, pathology, epidemiology, and genetics. The <em>TP53</em> Database compiles various types of data and information from the literature and generalist databases on human <em>TP53</em> gene variations related to cancer. The data available include functional/structural data, somatic variants, germline variants, cell lines, mouse models, and experimentally induced variants.</p>",
+            "description": "<p>The <em>TP53</em> Database allows users to explore TP53 variants, including  functional/structural data, somatic variants, germline variants, cell lines, mouse models, and experimentally induced variants.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                },
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "cancer_statistics",
+                    "label": "Cancer Statistics"
+                },
+                {
+                    "key": "cancer_diagnosis",
+                    "label": "Cancer Diagnosis"
+                },
+                {
+                    "key": "causes_of_cancer",
+                    "label": "Causes of Cancer"
+                },
+                {
+                    "key": "bioinformatics",
+                    "label": "Bioinformatics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic"
+                },
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dceg",
+                    "label": "Division of Cancer Epidemiology and Genetics (DCEG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Sharon",
+                        "middleName": null,
+                        "lastName": "Savage",
+                        "suffix": null
+                    },
+                    "title": "DCEG Clinical Director, Chief and Senior Investigator in the Clinical Genetics Branch",
+                    "phone": "240-276-7241",
+                    "email": "savagesh@mail.nih.gov"
+                },
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Kelvin Cesar",
+                        "middleName": null,
+                        "lastName": "de Andrade",
+                        "suffix": null
+                    },
+                    "title": "Research Fellow",
+                    "phone": "240-276-5110",
+                    "email": "kelvin.deandrade@nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 28,
+            "title": "Tumor Heterogenity Research Interactive Visualization Environment (THRIVE)",
+            "website": "http://www.csb.pitt.edu/ith/",
+            "body": "<p>THRIVE is a  platform for quantitative evaluation of intratumoral spatial heterogeneity in multiplexed immunofluorescence images, using characterization of the spatial interactions between different cellular phenotypes and non-cellular constituents in the tumor microenvironment.</p>",
+            "description": "<p>THRIVE is a platform for quantitative evaluation of intratumoral spatial heterogeneity in multiplexed immunofluorescence images.</p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_diagnosis",
+                    "label": "Cancer Diagnosis"
+                },
+                {
+                    "key": "screening_detection",
+                    "label": "Screening & Detection"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "itcr",
+                    "label": "Informatics Technology for Cancer Research (ITCR)"
+                }
+            ],
+            "poCs": []
+        }
+    ],
+    "facets": [
+        {
+            "title": "Research Area",
+            "param": "researchAreas",
+            "items": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology",
+                    "count": 91,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics",
+                    "count": 83,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment",
+                    "count": 56,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_health_disparities",
+                    "label": "Cancer Health Disparities",
+                    "count": 29,
+                    "selected": false
+                },
+                {
+                    "key": "causes_of_cancer",
+                    "label": "Causes of Cancer",
+                    "count": 29,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_public_health",
+                    "label": "Cancer & Public Health",
+                    "count": 22,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_statistics",
+                    "label": "Cancer Statistics",
+                    "count": 20,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_prevention",
+                    "label": "Cancer Prevention",
+                    "count": 19,
+                    "selected": false
+                },
+                {
+                    "key": "screening_detection",
+                    "label": "Screening & Detection",
+                    "count": 19,
+                    "selected": false
+                },
+                {
+                    "key": "bioinformatics",
+                    "label": "Bioinformatics",
+                    "count": 16,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_survivorship",
+                    "label": "Cancer Survivorship",
+                    "count": 12,
+                    "selected": true
+                },
+                {
+                    "key": "cancer_diagnosis",
+                    "label": "Cancer Diagnosis",
+                    "count": 11,
+                    "selected": true
+                }
+            ]
+        },
+        {
+            "title": "Research Type",
+            "param": "researchTypes",
+            "items": [
+                {
+                    "key": "translational",
+                    "label": "Translational",
+                    "count": 19,
+                    "selected": false
+                },
+                {
+                    "key": "basic",
+                    "label": "Basic",
+                    "count": 12,
+                    "selected": true
+                },
+                {
+                    "key": "clinical",
+                    "label": "Clinical",
+                    "count": 6,
+                    "selected": true
+                },
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic",
+                    "count": 6,
+                    "selected": true
+                },
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials",
+                    "count": 4,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "title": "Tool Type",
+            "param": "toolTypes",
+            "items": [
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools",
+                    "count": 8,
+                    "selected": false
+                },
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools",
+                    "count": 6,
+                    "selected": false
+                },
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases",
+                    "count": 6,
+                    "selected": false
+                },
+                {
+                    "key": "networks_consortiums",
+                    "label": "Networks/Consortiums",
+                    "count": 4,
+                    "selected": false
+                },
+                {
+                    "key": "community_research_tools",
+                    "label": "Community Research Tools",
+                    "count": 2,
+                    "selected": false
+                },
+                {
+                    "key": "terminology",
+                    "label": "Terminology",
+                    "count": 2,
+                    "selected": false
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,3019 @@
+{
+    "meta": {
+        "totalResults": 51,
+        "from": 0,
+        "originalQuery": "/resources?size=999&from=0&toolTypes=datasets_databases&researchAreas=cancer_biology&researchAreas=cancer_treatment"
+    },
+    "results": [
+        {
+            "id": 93,
+            "title": "AIDS Antiviral Screen Data",
+            "website": "https://wiki.nci.nih.gov/display/NCIDTPdata/AIDS+Antiviral+Screen+Data",
+            "body": "<p>The DTP AIDS Antiviral Screen has checked tens of thousands of compounds for evidence of anti-HIV activity. Screening results and chemical structural data on compounds that are not covered by a confidentiality agreement are available.</p>",
+            "description": "<p>This resource provides access to results and chemical structural data on compounds checked by the Developmental Therapeutics Program (DTP) AIDS Antiviral Screen.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                },
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "screening_detection",
+                    "label": "Screening & Detection"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 250,
+            "title": "Algorithm for the Reconstruction of Accurate Cellular Networks (ARACNe)",
+            "website": "https://califano.c2b2.columbia.edu/aracne",
+            "body": "<p>ARACNe uses microarray expression profiles to reconstruct tissue-specific gene regulatory transcriptional interactions in cellular networks. The method uses mutual information of two random variables to identify genes that are co-expressed, then applies the data processing inequality to filter out interactions that are likely to be indirect. This eliminates the vast majority of false-positive transcriptional interactions typically inferred by pairwise gene-expression correlation analysis. This tool could be used by researchers to determine novel driver genes and drug mechanisms of action.</p>",
+            "description": "<p>ARACNe is an algorithm for inferring direct regulatory relationships between transcriptional regulator proteins and target genes.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                },
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "bioinformatics",
+                    "label": "Bioinformatics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "ocg",
+                    "label": "Office of Cancer Genomics (OCG)"
+                },
+                {
+                    "key": "ccg",
+                    "label": "Center for Cancer Genomics (CCG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": "Dr.",
+                        "firstName": "Andrea",
+                        "middleName": null,
+                        "lastName": "Califano",
+                        "suffix": null
+                    },
+                    "title": "Clyde and Helen Wu Professor of Chemical and Systems Biology",
+                    "phone": null,
+                    "email": "ac2248@cumc.columbia.edu"
+                }
+            ]
+        },
+        {
+            "id": 134,
+            "title": "Cancer Genome Characterization Initiative (CGCI) Data Matrix",
+            "website": "https://ocg.cancer.gov/programs/cgci/data-matrix",
+            "body": "<p>CGCI Data Matrix contains whole-genome and transcriptomic sequencing from Burkitt lymphoma, HIV- associated tumors, medulloblastoma, and non-Hodgkin lymphoma types of cancers. Researchers can access up to four levels of data, from primary through higher level summary data for the molecular platform employed. To protect the privacy of patients, some clinical and genetic data require approval to access through NCBI’s database for Genotypes and Phenotypes (dbGAP; <a href=\"http://www.ncbi.nlm.nih.gov/gap\">http://www.ncbi.nlm.nih.gov/gap</a>).</p>",
+            "description": "<p>The CGCI Data Matrix hosts genomic profiles (molecular characterization and sequence data) and clinical data for rare adult and  pediatric tumor types.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "ccg",
+                    "label": "Center for Cancer Genomics (CCG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": null,
+                        "middleName": null,
+                        "lastName": null,
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": null,
+                    "email": "ocg@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 125,
+            "title": "Cancer Prevalence and Cost of Care Projections",
+            "website": "https://costprojections.cancer.gov/",
+            "body": "<p>This website provides tables and graphs showing cancer prevalence and costs of cancer care projected through 2020. Using Surveillance, Epidemiology, and End Results (SEER) data for incidence and survival in combination with Census data, the website has prevalence information by cancer site as well as for all sites combined. It also uses Medicare data to calculate the annualized mean net costs of care per patient. Users can see how much cancer care for each type costs the nation as a whole. Graphs have features such as breakdowns by phase of treatment as well.</p>",
+            "description": "<p>This website provides tables and graphs showing cancer prevalence and costs of cancer care projected through 2020 by cancer site and for all sites combined.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                },
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                },
+                {
+                    "key": "cancer_statistics",
+                    "label": "Cancer Statistics"
+                },
+                {
+                    "key": "cancer_public_health",
+                    "label": "Cancer & Public Health"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dccps",
+                    "label": "Division of Cancer Control and Population Sciences (DCCPS)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Angela",
+                        "middleName": null,
+                        "lastName": "Mariotto",
+                        "suffix": null
+                    },
+                    "title": "Chief, Data Analytics Branch, Surveillance Research Program",
+                    "phone": "240-276-6698",
+                    "email": "mariotta@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 126,
+            "title": "Cancer Target Discovery and Development (CTD^2) Dashboard",
+            "website": "https://ctd2-dashboard.nci.nih.gov/dashboard/",
+            "body": "<p>The CTD^2 Dashboard compiles the CTD^2 Network-generated conclusions, or “observations,” associated with a specific gene, cell line, animal model, or perturbagen. It provides supporting evidence with links to data, references, and to the validation strength of the evidence. Data is generated from multiple types of biological and analytical approaches used by CTD^2 centers. The dashboard allows easy navigation to a broad range  of computational and non-computational scientists.</p>",
+            "description": "<p>The CTD^2 Dashboard is a web interface that assembles - conclusions, or “observations,” generated by CTD2 Network centers with associated  supporting evidence.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "ccg",
+                    "label": "Center for Cancer Genomics (CCG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": null,
+                        "middleName": null,
+                        "lastName": null,
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": null,
+                    "email": "ocg@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 135,
+            "title": "Cancer Target Discovery and Development (CTD^2) Data Portal",
+            "website": "https://ocg.cancer.gov/programs/ctd2/data-portal",
+            "body": "<p>The CTD^2 Network aims to understand tumor heterogeneity and drug resistance for the development of efficient strategies to identify optimal combinations of small molecules or immunotherapy with small molecules. The CTD^2 Data Portal provides access to raw and analyzed primary data generated from different types of approaches, e.g., chemical genetics (small molecules, natural products), genome-wide gain-of-function (cDNA expression libraries, CRISPR activation), genome-wide loss-of-function (siRNA, shRNA, CRISPR/Cas9, CRISPR interference), protein–protein interactions, and in vivo gain- and loss-of-function studies.</p>",
+            "description": "<p>CTD^2 Data Portal provides access to raw and analyzed primary data generated from different types of experimental and analytical approaches.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "ccg",
+                    "label": "Center for Cancer Genomics (CCG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": null,
+                        "middleName": null,
+                        "lastName": null,
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": null,
+                    "email": "ocg@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 221,
+            "title": "Center for Strategic Scientific Initiatives (CSSI) Data Portal",
+            "website": "https://cssi-dcc.nci.nih.gov/cssiportal/",
+            "body": "<p>CSSI sponsors a diverse array of projects related to new technologies, standards, and preanalytical variables. Integrated management of the datasets across projects makes the data more accessible and usable by the cancer research community. The CSSI Data Coordinating Center (CSSI DCC) stores and manages access to data generated by cancer research funded or supported by NCI. This data is in the standard Investigation-Study-Assay tab-delimited format (ISA-TAB) format, which describes a scientific investigation, its study or studies, and assay data. The CSSI DCC Portal is a public repository of experiment-related information describing cancer research investigations. The portal can be used to browse, search, and access data generated through NCI-funded projects and other user-uploaded datasets.</p>",
+            "description": "<p>The portal provides a flexible data coordination framework housing multiple types of biologic data generated by cancer research supported by CSSI.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "cssi",
+                    "label": "Center for Strategic Scientific Initiatives (CSSI)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Michelle",
+                        "middleName": null,
+                        "lastName": "Berny-Lang",
+                        "suffix": null
+                    },
+                    "title": "Program Director",
+                    "phone": null,
+                    "email": "michelle.berny-lang@nih.gov"
+                },
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Sean",
+                        "middleName": null,
+                        "lastName": "Hanlon",
+                        "suffix": null
+                    },
+                    "title": "Associate Director",
+                    "phone": null,
+                    "email": "sean.hanlon@nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 94,
+            "title": "Chemical Data",
+            "website": "https://wiki.nci.nih.gov/display/NCIDTPdata/Chemical+Data",
+            "body": "<p>Compound sensitivity data for the NCI60 screen and similar screens run on sarcoma cell lines and small cell lung cancer cell lines, plus molecular target characterization data for the NCI60, sarcoma, and SCLC cell lines.</p>",
+            "description": "<p>Compound sensitivity data for the NCI60 screen and similar screens run on sarcoma cell lines and small cell lung cancer cell lines, plus molecular target characterization data for the NCI60, sarcoma,and SCLC cell lines.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "screening_detection",
+                    "label": "Screening & Detection"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 262,
+            "title": "Childhood Cancer Data Initiative (CCDI) Molecular Targets Platform (MTP)",
+            "website": "https://moleculartargets.ccdi.cancer.gov",
+            "body": "<p>The CCDI MTP is a knowledge base that extracts, organizes, annotates, and links to data on childhood cancers. This tool allows researchers to browse and identify associations between molecular targets, diseases, and drugs and can be used for systematic identification and prioritization of the pediatric molecular target list. This tool allows comparisons of childhood datasets with tabular and graphic visualizations of genomic data and facilitates prioritization of targets by reducing the time spent monitoring and organizing scientific and medical literature.</p>",
+            "description": "<p>The CCDI MTP allows researchers to browse and identify associations between molecular targets, diseases, and drugs specific for childhood cancers.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                },
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                },
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "screening_detection",
+                    "label": "Screening & Detection"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                },
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "cbiit",
+                    "label": "Center for Biomedical Informatics and Informatics Technology (CBIIT)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Subhashini",
+                        "middleName": null,
+                        "lastName": "Jagu",
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": "240-781-3325",
+                    "email": "jagus@nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Cistrome",
+            "website": "http://cistrome.org/Cistrome/Cistrome_Project.html",
+            "body": "<p>Cistrome has curated and processed human/mouse ChIP/DNase-seq datasets in GEO, allowing users to search, browse, download ChIP-seq data signals, peaks, quality control, motifs, target genes and similar datasets.</p>",
+            "description": "<p>Cistrome has curated and processed human/mouse ChIP/DNase-seq datasets in Gene Expression  Omnibus (GEO ), allowing users to search, browse, download ChIP-seq data signals, peaks, quality control, motifs, target genes and similar datasets.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                },
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "itcr",
+                    "label": "Informatics Technology for Cancer Research (ITCR)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 9,
+            "title": "CLAMP-Cancer",
+            "website": "https://clamp.uth.edu/",
+            "body": "<p>CLAMP-Cancer is a tool that can be used to quickly build customized natural language processing pipelines for extracting cancer information from pathology reports through  user-friendly interface with minimum programming knowledge.</p>",
+            "description": "<p>CLAMP-Cancer is a tool that can be used to quickly build customized natural language processing pipelines for extracting cancer information from pathology reports through a user-friendly interface with minimum programming knowledge.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                },
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                },
+                {
+                    "key": "cancer_diagnosis",
+                    "label": "Cancer Diagnosis"
+                },
+                {
+                    "key": "bioinformatics",
+                    "label": "Bioinformatics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "itcr",
+                    "label": "Informatics Technology for Cancer Research (ITCR)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 57,
+            "title": "Compound inhibition Bulk Data Download",
+            "website": "https://dtp.cancer.gov/dtpstandard/subsets/comp.jsp",
+            "body": "<p>Compound sensitivity data for the NCI-60 screen and similar screens run on sarcoma cell lines and small cell lung cancer cell lines.</p>",
+            "description": "<p>This data set offers compound sensitivity data for the NCI-60 screen and similar screens run on sarcoma cell lines and small cell lung cancer cell lines.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "bioinformatics",
+                    "label": "Bioinformatics"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 95,
+            "title": "Compound Sets",
+            "website": "https://wiki.nci.nih.gov/display/NCIDTPdata/Compound+Sets",
+            "body": "<p>Compound sensitivity data for the NCI60 screen and similar screens run on sarcoma cell lines and small cell lung cancer cell lines, plus molecular target characterization data for the NCI60, sarcoma, and SCLC cell lines.</p>",
+            "description": "<p>Compound sensitivity data for the NCI60 screen and similar screens run on sarcoma cell lines and small cell lung cancer cell lines, plus molecular target characterization data for the NCI60, sarcoma, and SCLC cell lines.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "screening_detection",
+                    "label": "Screening & Detection"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 58,
+            "title": "Developmental Therapeutics Program (DTP) Dose Response Bulk Data Download",
+            "website": "https://dtp.cancer.gov/dtpstandard/subsets/dose.jsp",
+            "body": "<p>Compound sensitivity data for the NCI-60 screen and similar screens run on sarcoma cell lines and small cell lung cancer cell lines.</p>",
+            "description": "<p>This dataset provides compound sensitivity data for the NCI-60 screen and similar screens run on sarcoma cell lines and small cell lung cancer cell lines.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "bioinformatics",
+                    "label": "Bioinformatics"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 108,
+            "title": "DICOM for Quantitative Imaging (dcmqi )",
+            "website": "https://github.com/QIICR/dcmqi",
+            "body": "<p>dcmqi is a free open-source library that implements conversion of data stored in commonly used research formats into the standard DICOM representation.</p>",
+            "description": "<p>dcmqi is a free open-source library that implements conversion of data stored in commonly used research formats into the standard DICOM representation.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                },
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "screening_detection",
+                    "label": "Screening & Detection"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "itcr",
+                    "label": "Informatics Technology for Cancer Research (ITCR)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 162,
+            "title": "Extensible Neuroimaging Archive Toolkit (XNAT)",
+            "website": "http://www.xnat.org",
+            "body": "<p>XNAT is an open-source imaging informatics platform designed to support institutional image repositories, image-based clinical trials, and translational imaging research.</p>",
+            "description": "<p>XNAT is an open-source imaging informatics platform designed to support institutional image repositories, image-based clinical trials, and translational imaging research.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                },
+                {
+                    "key": "screening_detection",
+                    "label": "Screening & Detection"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                },
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "itcr",
+                    "label": "Informatics Technology for Cancer Research (ITCR)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 224,
+            "title": "Functional Annotation of Somatic Mutations in Cancer (FASMIC)",
+            "website": "http://ibl.mdanderson.org/fasmic/#!/",
+            "body": "<p>FASMIC is an interactive and open-access web portal for comprehensively querying and visualizing mutation-associated data. The queried gene is displayed in a tabular view with basic information for each mutation and details like summary (gene name, mutation, etc.), 3D structure, literature, mutation frequency, etc., under the table.</p>",
+            "description": "<p>FASMIC is an interactive and open-access web portal for comprehensively querying and visualizing mutation-associated data. The queried gene is displayed in a tabular view with basic information for each mutation and details like summary (gene name, mutation, etc.), 3D structure, literature, mutation frequency, etc., under the table.</p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                },
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "ccg",
+                    "label": "Center for Cancer Genomics (CCG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Han",
+                        "middleName": null,
+                        "lastName": "Liang",
+                        "suffix": "Ph.D."
+                    },
+                    "title": null,
+                    "phone": null,
+                    "email": "HLiang1@mdanderson.org"
+                }
+            ]
+        },
+        {
+            "id": 168,
+            "title": "Genomic Data Commons (GDC)",
+            "website": "https://gdc.cancer.gov/",
+            "body": "<p>The GDC is a research program with a mission to provide the cancer research community with a unified data repository that enables data sharing across cancer genomic studies in support of precision medicine. GDC provides harmonized DNA and RNA sequencing data and other high-quality biospecimen, clinical, and molecular data. Web-based tools supporting fine-grained queries and advanced visualization and pipelines generating DNA sequence variants, mutation analyses, expression analyses, and more are also accessible.</p>",
+            "description": "<p>The GDC is a data sharing platform that provides access to harmonized genomic and de-identified clinical data from various large-scale cancer studies, along with web-based tools for data analysis and visualization.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                },
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                },
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                },
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "ccg",
+                    "label": "Center for Cancer Genomics (CCG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Peggy",
+                        "middleName": null,
+                        "lastName": "Wang",
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": null,
+                    "email": "peggy.wang@nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 216,
+            "title": "Grid-Enabled Measures Database (GEM)",
+            "website": "https://cancercontrol.cancer.gov/brp/research/gem.html",
+            "body": "<p>GEM allows researchers to search for a construct (e.g., anxiety, depression), see a definition of the construct, view its associated theoretical foundation, and download different measures of the construct. Similarly, researchers can search for a measure and see attributes of that measure (e.g., definition, target population, author, reliability, validity), including the associated construct. GEM also allows researchers to add new information using Web 2.0 functionality. Based upon a \"wiki” platform, researchers help build the website by adding and editing measures and constructs and providing feedback and ratings. Researchers can also receive usage statistics about measures to help decide which measure to use in prospective research.</p>",
+            "description": "<p>GEM is a dynamic, web-based tool of behavioral and social science measures organized by theoretical constructs. GEM enables researchers to evaluate and use common measures and exchange harmonized data.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_survivorship",
+                    "label": "Cancer Survivorship"
+                },
+                {
+                    "key": "screening_detection",
+                    "label": "Screening & Detection"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                },
+                {
+                    "key": "cancer_public_health",
+                    "label": "Cancer & Public Health"
+                },
+                {
+                    "key": "cancer_health_disparities",
+                    "label": "Cancer Health Disparities"
+                },
+                {
+                    "key": "cancer_prevention",
+                    "label": "Cancer Prevention"
+                },
+                {
+                    "key": "cancer_diagnosis",
+                    "label": "Cancer Diagnosis"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "register",
+                "notes": null
+            },
+            "doCs": [],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Richard",
+                        "middleName": null,
+                        "lastName": "Moser",
+                        "suffix": null
+                    },
+                    "title": "Training Director and Research Methods Coordinator",
+                    "phone": "240-276-6915",
+                    "email": "moserr@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 256,
+            "title": "Human Cancer Models Initiative (HCMI) Case Report Forms (CRFs)",
+            "website": "https://ocg.cancer.gov/programs/hcmi/resources",
+            "body": "<p>HCMI’s cancer type-specific CRFs have been developed through collaborations with international clinical experts and the clinical data elements have been standardized through the Cancer Data Standards Registry and Repository (caDSR). The Enrollment CRF data are collected at the patient index date, which includes initial pathologic diagnosis, sample procurement, or first patient visit. The Follow-up CRF data are collected at least 3 months after enrollment data collection following cancer model establishment. As the tumor types modeled through the HCMI are constantly updated, be sure to check back regularly for additional or updated CRFs.</p>",
+            "description": "<p>Cancer-type specific Enrollment and Follow-up CRFs for uniform clinical data collection</p>",
+            "toolTypes": [
+                {
+                    "key": "community_research_tools",
+                    "label": "Community Research Tools"
+                },
+                {
+                    "key": "clinical_research_tools",
+                    "label": "Clinical Research Tools"
+                },
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                },
+                {
+                    "key": "clinical",
+                    "label": "Clinical"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "ocg",
+                    "label": "Office of Cancer Genomics (OCG)"
+                },
+                {
+                    "key": "ccg",
+                    "label": "Center for Cancer Genomics (CCG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": "Dr.",
+                        "firstName": "Eva",
+                        "middleName": null,
+                        "lastName": "Tonsing-Carter",
+                        "suffix": null
+                    },
+                    "title": "Scientific Program Manager",
+                    "phone": null,
+                    "email": "ocg@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 257,
+            "title": "Human Cancer Models Initiative (HCMI) Informed Consent Template",
+            "website": "https://ocg.cancer.gov/programs/hcmi/resources",
+            "body": "<p>This informed consent template serves as a guide for creating informed consent documents for accrual of tissue samples from potential patients/participants for cancer model development, data acquisition, and distribution.</p>",
+            "description": "<p>Informed Consent Template for tissue accrual for cancer model development</p>",
+            "toolTypes": [
+                {
+                    "key": "community_research_tools",
+                    "label": "Community Research Tools"
+                },
+                {
+                    "key": "clinical_research_tools",
+                    "label": "Clinical Research Tools"
+                },
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                },
+                {
+                    "key": "clinical",
+                    "label": "Clinical"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "ocg",
+                    "label": "Office of Cancer Genomics (OCG)"
+                },
+                {
+                    "key": "ccg",
+                    "label": "Center for Cancer Genomics (CCG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": "Dr.",
+                        "firstName": "Eva",
+                        "middleName": null,
+                        "lastName": "Tonsing-Carter",
+                        "suffix": null
+                    },
+                    "title": "Scientific Program Manager",
+                    "phone": null,
+                    "email": "ocg@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 255,
+            "title": "Human Cancer Models Initiative (HCMI) Searchable Catalog",
+            "website": "https://hcmi-searchable-catalog.nci.nih.gov/",
+            "body": "<p><a href=\"https://hcmi-searchable-catalog.nci.nih.gov/\">HCMI Searchable Catalog</a> is a continuously updated resource for querying the available next-generation models developed by HCMI. Within the catalog, users can search by patient demographics, tumor, and model elements including age at diagnosis, sex, treatment information, clinical tumor diagnosis, primary site, clinical stage, and type of model (e.g. 3D-organoid, 2D-conditionally reprogrammed cells), etc. The links to model-associated clinical and molecular data stored at the <a href=\"https://gdc.cancer.gov\">Genomic Data Commons (GDC)</a> and the 3rd party model distributor are available within each model-specific page.</p>",
+            "description": "<p>A searchable catalog of next-generation cancer models and associated clinical and molecular data.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "bioinformatics",
+                    "label": "Bioinformatics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "ocg",
+                    "label": "Office of Cancer Genomics (OCG)"
+                },
+                {
+                    "key": "ccg",
+                    "label": "Center for Cancer Genomics (CCG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": "Dr.",
+                        "firstName": "Eva",
+                        "middleName": null,
+                        "lastName": "Tonsing-Carter",
+                        "suffix": null
+                    },
+                    "title": "Scientific Program Manager",
+                    "phone": null,
+                    "email": "ocg@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 231,
+            "title": "Investigation of Serial Studies to Predict Your Therapeutic Response with Imaging and Molecular Analysis, I-SPY1",
+            "website": "ftp://caftpd.nci.nih.gov/pub/caARRAY/experiments/caArray_EXP-597/",
+            "body": "<p>Gene expression data files can be downloaded from an NCI-hosted FTP site.</p>",
+            "description": "<p>The I-SPY 1 TRIAL sought to identify indicators of response to neoadjuvant chemotherapy that predict survival in women with high-risk breast cancer.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [],
+            "poCs": []
+        },
+        {
+            "id": 53,
+            "title": "Investigational New Drug (IND) Directory",
+            "website": "https://cipinddirectory.cancer.gov/",
+            "body": "<p>A centralized resource to facilitate the sharing of IND information that provides a listing of known INDs for investigational agents and contact information for the sponsors.</p>",
+            "description": "<p>A centralized resource to facilitate the sharing of investigational new drug information.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_diagnosis",
+                    "label": "Cancer Diagnosis"
+                },
+                {
+                    "key": "screening_detection",
+                    "label": "Screening & Detection"
+                },
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": null,
+                        "middleName": null,
+                        "lastName": null,
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": null,
+                    "email": "CIPINDDirectory@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 240,
+            "title": "Investigational New Drug (IND) Regulatory and Manufacturing Resources",
+            "website": "https://imaging.cancer.gov/programs_resources/IND_regulatory_manufacturing.htm",
+            "body": "<p>Regulatory documents for selected IND agents, including manfacturing procedures and non-clinical data. A subset of the documents filed for the INDs is being made available to the research community to implement routine synthesis of tracers at their own facilities and to assist investigators with the filing of their own INDs. Documents for several imaging agents are currently available.</p>",
+            "description": "<p>A resource to facilitate IND filing of selected investigational imaging agents.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_diagnosis",
+                    "label": "Cancer Diagnosis"
+                },
+                {
+                    "key": "screening_detection",
+                    "label": "Screening & Detection"
+                },
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 97,
+            "title": "Molecular Target Data",
+            "website": "https://wiki.nci.nih.gov/display/NCIDTPdata/Molecular+Target+Data",
+            "body": "<p>Thousands of molecular targets have been measured in the NCI-60 human tumor cell lines. Measurements include protein levels, RNA measurements, mutation status and enzyme activity levels. Data sites allow searches for a target of interest, or a list of targets. The COMPARE program allows identification of targets or compounds with patterns that correlate with a target of interest.</p>",
+            "description": "<p>The Molecular Targets effort is a collaboration between qualified researchers and the NCI  Division of Cancer Treatment and Diagnosis (DCTD). The NCI-60 lab will provide NCI-60 cell line frozen cell pellets, DNA, or RNA for analysis in the external researchers’ labs.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                },
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "screening_detection",
+                    "label": "Screening & Detection"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 243,
+            "title": "MutSpliceDB",
+            "website": "https://brb.nci.nih.gov/splicing",
+            "body": "<p>Splice site variants are one of the well-known classes of genetic alterations playing an important role in biology. Splice site mutations in cancer are most frequently observed as inactivating alterations in tumor suppressor genes (e.g., <em>TP53</em> or <em>RB1</em>) and to a lesser degree as activating alterations in oncogenes (e.g., <em>MET</em>). Interpreting the consequences of a specific splice site variant is not straightforward, especially if the variant is located outside of the canonical splice sites. Accurate interpretation of a splice site mutation’s impact can further our understanding of biology, influence patient treatment, and in case of germline splice site variants, may have relevance to familial disease predisposition. To facilitate the interpretation of splice site variant effects, the Biometric Research Program’s Computational and Systems Biology Branch developed MutSpliceDB: a database of splice sites variants, documenting variants effect(s) on splicing based on RNA-seq BAM files from sample(s) with splice site variants.</p>",
+            "description": "<p>MutSpliceDB is a database of splice sites variants and their effects on splicing.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "bioinformatics",
+                    "label": "Bioinformatics"
+                },
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": "Dr.",
+                        "firstName": "Dmitriy",
+                        "middleName": null,
+                        "lastName": "Sonkin",
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": "240-276-5678",
+                    "email": "dmitriy.sonkin@nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 72,
+            "title": "National Clinical Trials Network (NCTN)/NCI Community Research Oncology Program (NCORP) Data Archive",
+            "website": "https://nctn-data-archive.nci.nih.gov",
+            "body": "<p>NCI has created a centralized, controlled-access database, called the NCTN/NCORP Data Archive, for storing and sharing datasets generated from clinical trials of the NCTN to make these datasets available in a timely manner, on appropriate terms and conditions, to researchers who wish to analyze the data in secondary studies to enhance the public health benefit of the original work.</p>",
+            "description": "<p>This data archive is a centralized, controlled-access database for storing and sharing datasets generated from clinical trials of the NCTN for use in secondary studies.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 59,
+            "title": "NCI Almanac",
+            "website": "https://dtp.cancer.gov/ncialmanac/initializePage.do",
+            "body": "<p>Helps researchers identify potentially promising combinations of cancer drugs by providing data and analysis tools showing how well pairs of FDA-approved cancer drugs performed in killing tumors cells for the NCI-60 human tumor cell lines.</p>",
+            "description": "<p>This resource helps researchers identify potentially promising combinations of cancer drugs by providing data and analysis tools showing how well pairs of Federal Drug Administration (FDA)-approved cancer drugs performed in killing tumors cells for the NCI-60 human tumor cell lines.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                },
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                },
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 225,
+            "title": "NCI NCTN Navigator",
+            "website": "https://navigator.ctsu.org/navigator/login",
+            "body": "<p>Investigators can use the Navigator website to search the inventory of specimens and clinical data from cancer treatment trials.</p>",
+            "description": "<p>Investigators can use the Navigator website to search the inventory of specimens and clinical data from cancer treatment trials.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                },
+                {
+                    "key": "causes_of_cancer",
+                    "label": "Causes of Cancer"
+                },
+                {
+                    "key": "cancer_diagnosis",
+                    "label": "Cancer Diagnosis"
+                },
+                {
+                    "key": "cancer_health_disparities",
+                    "label": "Cancer Health Disparities"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "clinical",
+                    "label": "Clinical"
+                }
+            ],
+            "resourceAccess": {
+                "type": "register",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Irina",
+                        "middleName": null,
+                        "lastName": "Lubensky",
+                        "suffix": "MD"
+                    },
+                    "title": "Branch Chief",
+                    "phone": "240-276-5902",
+                    "email": "lubenskyi@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 227,
+            "title": "NCI Specimen Resource Locator (SRL)",
+            "website": "https://specimens.cancer.gov/",
+            "body": "<p>The SRL is a biospecimen resource database designed to help researchers locate resources that may have the samples needed for their investigational use. This publicly searchable database includes information about biospecimen banks and sample procurement services. The specimens and samples come from non-commercial, NCI- or non-NCI-funded resources. Investigators can search the database and gain access to thousands of specimens of various tumor, organ, and preservation methods. In the event a user is unsuccessful in finding the appropriate specimen resource, he or she may contact the NCI Tissue Expediter, a scientist who can further assist them. Also, the Tissue Expediter can assist researchers to identify potential collaborators when needed. The NCI and the NCI's SRL do not oversee or take responsibility for the content, quality or data of the specimen collections or resources participating in the SRL.</p>",
+            "description": "<p>The SRL is a biospecimen resource database designed to help researchers locate resources that may have the samples needed for their investigational use. This publicly searchable database includes information about biospecimen banks and sample procurement services. The specimens and samples come from non-commercial, NCI- or non-NCI-funded resources. Investigators can search the database and gain access to thousands of specimens of various tumor, organ, and preservation methods. In the event a user is unsuccessful in finding the appropriate specimen resource, he or she may contact the NCI Tissue Expediter, a scientist who can further assist them. Also, the Tissue Expediter can assist researchers to identify potential collaborators when needed. The NCI and the NCI's SRL do not oversee or take responsibility for the content, quality or data of the specimen collections or resources participating in the SRL.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                },
+                {
+                    "key": "screening_detection",
+                    "label": "Screening & Detection"
+                },
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "cancer_public_health",
+                    "label": "Cancer & Public Health"
+                },
+                {
+                    "key": "cancer_prevention",
+                    "label": "Cancer Prevention"
+                },
+                {
+                    "key": "cancer_health_disparities",
+                    "label": "Cancer Health Disparities"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "clinical",
+                    "label": "Clinical"
+                },
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Joanne",
+                        "middleName": null,
+                        "lastName": "Demchok",
+                        "suffix": null
+                    },
+                    "title": "Program Director",
+                    "phone": "240-276-5959",
+                    "email": null
+                }
+            ]
+        },
+        {
+            "id": 191,
+            "title": "NCI Transcriptional Pharmacodynamics Workbench (NCI TPW)",
+            "website": "https://tpwb.nci.nih.gov",
+            "body": "<p>The NCI TPW integrates cell-line sensitivity data for 15 clinically relevant anticancer agents with both basal transcript levels and agent-induced transcriptional changes for 12,704 genes at three time points across the NCI-60 panel. The NCI TPW further relates this information to exon mutation, protein expression, and multidrug resistance data and enables query of these data in the context of cellular pathways and receptors. This website has been developed using advanced computational and visualization tools for empowering developmental-therapeutics investigators worldwide and providing them access to the genome-wide characterization of the NCI-60 cell lines and the enormous time–course databases on genome-wide response to treatment with drugs.</p>",
+            "description": "<p>This resource provides drug-sensitivity and gene-expression data for NCI-60 cell lines exposed to 15 clinically relevant anticancer agents, as well as computational and visualization tools to analyze and explore these datasets.</p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                },
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "bioinformatics",
+                    "label": "Bioinformatics"
+                },
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "register",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": "Dr.",
+                        "firstName": "Alida",
+                        "middleName": null,
+                        "lastName": "Palmisano",
+                        "suffix": null
+                    },
+                    "title": "Research Fellow, Computational and Systems Biology Branch",
+                    "phone": null,
+                    "email": "ncitpwsupport@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 98,
+            "title": "NCI-60 Growth inhibition Data",
+            "website": "https://wiki.nci.nih.gov/display/NCIDTPdata/NCI-60+Growth+Inhibition+Data",
+            "body": "<p>This resource provides access to compound and biologics submission and response data for the NCI-60 screen. The NCI-60 screen has been a free resouce available to all investigators to test new compounds with potential anticancer activity. The compounds are submitted through a registration website and data are returned to the investigator. Hundreds of peer-reviewed publications have included NCI-60 screen data. Reviews of this resource include <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/16990858\">Nat Rev Cancer</a>. 2006 Oct;6(10):813-23. These cell lines have been molecularly characterized in detail, including gene expression, mutations and other DNA alterations, protein expression, DNA methylation, and microRNA expression.</p>",
+            "description": "<p>Compound sensitivity data for the NCI-60 production screen that includes single concentration triage and 5 concentration response data for compounds and biologics submitted by external investigators. The NCI-60 screen includes the 60 best-characterized human tumor cell lines with a 48 hour exposure and SRB endpoint.</p>",
+            "toolTypes": [
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                },
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "screening_detection",
+                    "label": "Screening & Detection"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 56,
+            "title": "NCI-60 Human Tumor Cell Lines Screen",
+            "website": "https://dtp.cancer.gov/discovery_development/nci-60/default.htm",
+            "body": "<p>The NCI-60 Human Tumor Cell Lines Screen was implemented in fully operational form in 1990 and utilizes 60 different human tumor cell lines to identify and characterize novel compounds with growth inhibition or killing of tumor cell lines.</p>",
+            "description": "<p>The NCI-60 Human Tumor Cell Lines Screen utilizes 60 different human tumor cell lines to identify and characterize novel compounds with growth inhibition or killing of tumor cell lines.</p>",
+            "toolTypes": [
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                },
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 55,
+            "title": "NCI-60 MicroXeno Data",
+            "website": "https://dtp.cancer.gov/databases_tools/microxeno_project.htm",
+            "body": "<p>The MicroXeno Project was initiated to generate genome-wide oligonucleotide microarray data for all subcutaneous xenograft models currently used within the DTP . The array data provided here is a reference dataset that can be used to study multiple xenograft models at multiple passage <em>in vivo</em>.</p>",
+            "description": "<p>The MicroXeno Project array data is a reference dataset that can be used to study multiple xenograft models at multiple passage <em>in vivo</em>.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                },
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 106,
+            "title": "OncoPPi Portal",
+            "website": "http://oncoppi.emory.edu",
+            "body": "<p>The OncoPPi Portal facilitates discovery of new mechanisms to conrtol tumorigenesis through integration of genomic, pharmacological, clinical, and structural data with the network of cancer-associated protein–protein interactions (PPI) experimentally determined in cancer cells. This is an interactive web resource that allows users to access, explore, and prioritize cancer-relevant PPIs for target discovery.</p>",
+            "description": "<p>The OncoPPi Portal is  a resource of cancer-relevant protein–protein interactions that allows users to explore cancer vulnerabilities.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "ccg",
+                    "label": "Center for Cancer Genomics (CCG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Andrei",
+                        "middleName": null,
+                        "lastName": "Ivanov",
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": null,
+                    "email": "andrey.ivanov@emory.edu"
+                }
+            ]
+        },
+        {
+            "id": 43,
+            "title": "OpenGeneMed",
+            "website": "https://brb.nci.nih.gov/OpenGeneMed/",
+            "body": "<p>OpenGeneMed is an informatics system to support clinical trial research. OpenGeneMed streamlines clinical trial management and it can be used by clinicians, lab personnel, statisticians, and other researchers as a communication hub. It automates the annotation of the genomic variants identified by sequencing, classifies the actionable mutations according to customizable rules, and facilitates quality control by the molecular characterization lab in the review of variants. OpenGeneMed collects baseline information of patients to determine eligibility for the panel of treatment regimens available. The system generates patient reports containing detected genomic alterations along with summarized information that can be used for treatment assignment by a supervising treatment review team.</p>",
+            "description": "<p>OpenGeneMed is an informatics system to support clinical trial research and streamline clinical trial management. It can also be used by clinicians, lab personnel, statisticians, and other researchers as a communication hub.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                },
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 31,
+            "title": "Patient-Derived Xenograft (PDX) Finder",
+            "website": "http://www.pdxfinder.org",
+            "body": "<p>PDX Finder, currently in the prototyping phase, is a tool for integrating, archiving and dessiminating information about PDX models and their associated data.</p>",
+            "description": "<p>PDX Finder, currently in the prototyping phase, is a tool for integrating , archiving, and dessiminating information about PDX models and their associated data.</p>",
+            "toolTypes": [
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                },
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "itcr",
+                    "label": "Informatics Technology for Cancer Research (ITCR)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 251,
+            "title": "Pediatric Genomic Data Inventory (PGDI)",
+            "website": "https://ocg.cancer.gov/programs/target/pgdi/overview",
+            "body": "<p>PGDI is an open-access resource for identifying and locating genomic datasets that can be used to further the understanding of childhood cancers and develop better treatment protocols for sick children. This resource lists ongoing and completed molecular characterization projects of pediatric cancer cohorts from the United States and other countries, along with some basic details and reference metadata.</p>",
+            "description": "<p>PGDI is an open-access resource for investigators to more easily locate molecular characterization projects of pediatric cancer cohorts being generated globally.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                },
+                {
+                    "key": "community_research_tools",
+                    "label": "Community Research Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": "To contribute data to the PGDI, researchers need to create a secure submitter account through the PGDI Contributor Application at ocg.cancer.gov/programs/target/pgdi/contributor-application."
+            },
+            "doCs": [
+                {
+                    "key": "ocg",
+                    "label": "Office of Cancer Genomics (OCG)"
+                },
+                {
+                    "key": "ccg",
+                    "label": "Center for Cancer Genomics (CCG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": null,
+                        "middleName": null,
+                        "lastName": null,
+                        "suffix": null
+                    },
+                    "title": "Office of Cancer Genomics",
+                    "phone": null,
+                    "email": "ocg@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 73,
+            "title": "Personalized Cancer Therapy",
+            "website": "https://pct.mdanderson.org/#/",
+            "body": "<p>The Personalized Cancer Therapy website is a curated website cataloging clinically actionable information for personalized cancer therapy, including clinically significant genetic variants and drug-gene association.</p>",
+            "description": "<p>The Personalized Cancer Therapy website is a curated website cataloging clinically actionable information for personalized cancer therapy, including clinically significant genetic variants and drug-gene association.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "itcr",
+                    "label": "Informatics Technology for Cancer Research (ITCR)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 45,
+            "title": "S-PLUS Program for the Analysis of Accelerated Titration Design",
+            "website": "https://brb.nci.nih.gov/programdownload/Methodologic.htm",
+            "body": "<p>The program fits the design model (yij = log(dij + a×Dij) + bi + eij) and provides maximum likelihood estimates of the model parameters along with the confidence intervals. This allows estimation of the dose-toxicity curve.</p>",
+            "description": "<p>The S-PLUS Program includes new \"accelerated titration designs\" for phase I clinical trials, along with a dose–toxicity model which can be used to evaluate the toxicity data. The dose–toxicity model can be used by investigators conducting phase I studies to assign the phase II starting dose.</p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                },
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 78,
+            "title": "Sarcoma Project Data",
+            "website": "https://sarcoma.cancer.gov/sarcoma/downloads.xhtml",
+            "body": "<p>This resource provides access to compound sensitivity data for approximately 450 compounds, including FDA-approved anticancer drugs and investigational agents on established adult and pediatric sarcoma cell lines .These data, along with gene expression data derived from Affymatrix exon arrays and microRNA expression determined from Nanostring technology, are available from the Sarcoma Project Data website. This study has been published (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/26351324\">Mol Cancer Ther</a>. 2015 Nov;14(11):2452-62. doi: 10.1158/1535-7163).</p>",
+            "description": "<p>The resource provides access to compound sensitivity data  for  human adult and pediatric sarcoma cell lines in the NCI-60 collectionwith 9 point concentration response and 4-day exposure plus gene expression and microRNA expression.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 167,
+            "title": "Small Cell Lung Cancer Project Data",
+            "website": "https://sclccelllines.cancer.gov/sclc/downloads.xhtml",
+            "body": "<p>This resource provides access to compound sensitivity data for approximately 500 compounds including FDA-approved anticancer drugs and investigational agents  on 63 established human small cell lung cancer cell lines in 9-point concentration response with an exposure time of 4 days.  These data, along with gene expression data derived from Affymatrix exon arrays and microRNA expression determined from Nanostring technology, are available at the website listed below. This study has been published (<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/27247353\">J Natl Cancer Inst.</a> 2016 May 31;108(10).doi: 10.1093; <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/28766886\">Cancer Med.</a> 2017 Aug;6(8):1952-1964. doi: 10.1002).</p>",
+            "description": "<p>Compound sensitivity data , gene expression data, and microRNA expression data for 63 human small cell lung cancer cell lines. The FDA-approved anticancer drugs and about 400 investigational agents were tested in 9-point concentration response with an exposure time of 4 days.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 115,
+            "title": "Text Information Extraction System (TIES)",
+            "website": "http://ties.dbmi.pitt.edu",
+            "body": "<p>TIES is a service-based software system for acquiring, deidentifying, and processing clinical text reports using natural language processing, and also for querying, sharing, and using this data to foster tissue- and image-based research within and between institutions.</p>",
+            "description": "<p>TIES is a service-based software system for acquiring, deidentifying, and processing clinical text reports using natural language processing, and also for querying, sharing, and using this data to foster tissue- and image-based research within and between institutions.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                },
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "bioinformatics",
+                    "label": "Bioinformatics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "itcr",
+                    "label": "Informatics Technology for Cancer Research (ITCR)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 3,
+            "title": "The BioMedical Evidence Graph (BMEG)",
+            "website": "http://bmeg.io",
+            "body": "<p>The BMEG is a cancer data integration platform that utilizes methods collected from DREAM challenges and applied to large datasets, such as The Cancer Genome Atlas, and makes them available for analysis using a high performance graph database. DREAM challenges are crowdsourcing challenges designed to evaluate model predictions and pathway inference algorithms in systems biology and medicine.</p>",
+            "description": "<p>The BMEG is a cancer data integration platform that utilizes methods collected from Dialogue for Reverse Engineering Assessments and Methods (DREAM) challenges and applied to large datasets, such as The Cancer Genome Atlas, and makes them available for analysis using a high performance graph database.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                },
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "itcr",
+                    "label": "Informatics Technology for Cancer Research (ITCR)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 32,
+            "title": "The International Registry of Werner Syndrome",
+            "website": "http://www.wernersyndrome.org/registry/registry.html",
+            "body": "<p>The International Registry of Werner Syndrome is the primary repository of samples and data from patients with Werner Syndrome (WS), and was established in 1988 as part of an objective to positionally clone the WS gene.    The registry ascertains and genotypes new pedigree cases from around the world, using lymphoblastoids and/or fibroblasts from human research participants, and provides genetic confirmation of classical WS. It also establishes and cryopreserves cell lines and other material from these pedigrees (both affected patients and their clinically unaffected siblings), including Epstein-Barr transformed peripheral blood B lymphocytes, primary skin fibroblasts, immortalized skin fibroblasts, WRN cDNA constructs, and others. All these materials are available for research.</p>",
+            "description": "<p>The International Registry of Werner Syndrome is the primary repository of samples and data from patients with Werner Syndrome (WS). The registry ascertains and genotypes new pedigree cases from around the world.</p>",
+            "toolTypes": [
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                },
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "causes_of_cancer",
+                    "label": "Causes of Cancer"
+                },
+                {
+                    "key": "cancer_survivorship",
+                    "label": "Cancer Survivorship"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "clinical",
+                    "label": "Clinical"
+                }
+            ],
+            "resourceAccess": {
+                "type": "register",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dcb",
+                    "label": "Division of Cancer Biology (DCB)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Rihab",
+                        "middleName": null,
+                        "lastName": "Yassin",
+                        "suffix": "Ph.D."
+                    },
+                    "title": "Program Director",
+                    "phone": "240-276-6230",
+                    "email": "yassinr@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 30,
+            "title": "The Network Data Exchange (NDEx)",
+            "website": "http://www.ndexbio.org/#/",
+            "body": "<p>NDEx is an online commons where scientists can upload, share, and publicly distribute biological networks and pathway models. The NDEx Project maintains a web-accessible public server and a documentation website. It provides seamless connectivity to Cytoscape as well as programmatic access using a variety of languages, including Python and Java.</p>",
+            "description": "<p>NDEx is an online commons where scientists can upload, share, and publicly distribute biological networks and pathway models.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                },
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "itcr",
+                    "label": "Informatics Technology for Cancer Research (ITCR)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 137,
+            "title": "Therapeutically Applicable Research to Generate Effective Treatments (TARGET) Data Matrix",
+            "website": "https://ocg.cancer.gov/programs/target/data-matrix",
+            "body": "<p>TARGET is a comprehensive molecular characterization initiative that utilizes state-of-the-art genomics tools to identify molecular changes that drive childhood cancers, including hematologic and solid tumors. The TARGET Data Matrix contains whole-genome and transcriptomic sequencing of acute lymphoblastic leukemia, acute myeloid leukemia, kidney tumors, neuroblastomas, and osteosarcoma pediatric cancer types. Researchers can access up to four levels of data, from primary through higher level summary data for the molecular platform employed. To protect the privacy of patients, some clinical and genetic data require approval to access through NCBI’s database for Genotypes and Phenotypes (dbGAP; <a href=\"http://www.ncbi.nlm.nih.gov/gap\">http://www.ncbi.nlm.nih.gov/gap</a>).</p>",
+            "description": "<p>The TARGET Data Matrix provides genomic profiles (molecular characterization and sequence data) and clinical data for pediatric cancers.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "register",
+                "notes": "NIHEXT required for controlled access data"
+            },
+            "doCs": [
+                {
+                    "key": "ccg",
+                    "label": "Center for Cancer Genomics (CCG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": null,
+                        "middleName": null,
+                        "lastName": null,
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": null,
+                    "email": "ocg@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 260,
+            "title": "TP53 Database",
+            "website": "https://tp53.isb-cgc.org/",
+            "body": "<p>The <em>TP53</em> database is meant to be a source of information on <em>TP53</em> variants for a broad range of scientists and clinicians who work in different research areas including basic research, pathology, epidemiology, and genetics. The <em>TP53</em> Database compiles various types of data and information from the literature and generalist databases on human <em>TP53</em> gene variations related to cancer. The data available include functional/structural data, somatic variants, germline variants, cell lines, mouse models, and experimentally induced variants.</p>",
+            "description": "<p>The <em>TP53</em> Database allows users to explore TP53 variants, including  functional/structural data, somatic variants, germline variants, cell lines, mouse models, and experimentally induced variants.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                },
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "cancer_statistics",
+                    "label": "Cancer Statistics"
+                },
+                {
+                    "key": "cancer_diagnosis",
+                    "label": "Cancer Diagnosis"
+                },
+                {
+                    "key": "causes_of_cancer",
+                    "label": "Causes of Cancer"
+                },
+                {
+                    "key": "bioinformatics",
+                    "label": "Bioinformatics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic"
+                },
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dceg",
+                    "label": "Division of Cancer Epidemiology and Genetics (DCEG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Sharon",
+                        "middleName": null,
+                        "lastName": "Savage",
+                        "suffix": null
+                    },
+                    "title": "DCEG Clinical Director, Chief and Senior Investigator in the Clinical Genetics Branch",
+                    "phone": "240-276-7241",
+                    "email": "savagesh@mail.nih.gov"
+                },
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Kelvin Cesar",
+                        "middleName": null,
+                        "lastName": "de Andrade",
+                        "suffix": null
+                    },
+                    "title": "Research Fellow",
+                    "phone": "240-276-5110",
+                    "email": "kelvin.deandrade@nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 246,
+            "title": "Vizome",
+            "website": "http://www.vizome.org/aml/",
+            "body": "<p>Beat AML study is a groundbreaking collaborative clinical study integrating genomics with data on acute myeloid leukemia (AML) patient sample sensitivity to a panel of novel targeted therapies. Vizome’s Beat AML data viewer allows easy access to clinical, genomic, transcriptomic, and functional analyses of AML samples. This tool could be used to predict novel treatment options.</p>",
+            "description": "<p>Vizome is a data browser used to access molecular characterization and drug response studies of clinically annotated adult acute myeloid leukemia cases.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                },
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "ccg",
+                    "label": "Center for Cancer Genomics (CCG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": "Dr.",
+                        "firstName": "Jeffrey",
+                        "middleName": "W",
+                        "lastName": "Tyner",
+                        "suffix": null
+                    },
+                    "title": "Associate Professor of Medicine",
+                    "phone": "503-346-0603",
+                    "email": "tynerj@ohsu.edu"
+                }
+            ]
+        },
+        {
+            "id": 99,
+            "title": "Yeast Anticancer Drug Screen",
+            "website": "https://wiki.nci.nih.gov/display/NCIDTPdata/Yeast+Anticancer+Drug+Screen",
+            "body": "<p>Compound sensitivity data for the NCI60 screen and similar screens run on sarcoma cell lines and small cell lung cancer cell lines, plus molecular target characterization data for the NCI60, sarcoma, and SCLC cell lines.</p>",
+            "description": "<p>Compound sensitivity data for the NCI60 screen and similar screens run on sarcoma cell lines and small cell lung cancer cell lines, plus molecular target characterization data for the NCI60, sarcoma, and SCLC cell lines.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "screening_detection",
+                    "label": "Screening & Detection"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        }
+    ],
+    "facets": [
+        {
+            "title": "Research Area",
+            "param": "researchAreas",
+            "items": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology",
+                    "count": 34,
+                    "selected": true
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment",
+                    "count": 34,
+                    "selected": true
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics",
+                    "count": 32,
+                    "selected": false
+                },
+                {
+                    "key": "screening_detection",
+                    "label": "Screening & Detection",
+                    "count": 19,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_health_disparities",
+                    "label": "Cancer Health Disparities",
+                    "count": 16,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_public_health",
+                    "label": "Cancer & Public Health",
+                    "count": 15,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_diagnosis",
+                    "label": "Cancer Diagnosis",
+                    "count": 12,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_statistics",
+                    "label": "Cancer Statistics",
+                    "count": 12,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_prevention",
+                    "label": "Cancer Prevention",
+                    "count": 10,
+                    "selected": false
+                },
+                {
+                    "key": "causes_of_cancer",
+                    "label": "Causes of Cancer",
+                    "count": 10,
+                    "selected": false
+                },
+                {
+                    "key": "bioinformatics",
+                    "label": "Bioinformatics",
+                    "count": 9,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_survivorship",
+                    "label": "Cancer Survivorship",
+                    "count": 3,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "title": "Research Type",
+            "param": "researchTypes",
+            "items": [
+                {
+                    "key": "basic",
+                    "label": "Basic",
+                    "count": 36,
+                    "selected": false
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational",
+                    "count": 31,
+                    "selected": false
+                },
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials",
+                    "count": 15,
+                    "selected": false
+                },
+                {
+                    "key": "clinical",
+                    "label": "Clinical",
+                    "count": 5,
+                    "selected": false
+                },
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic",
+                    "count": 4,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "title": "Tool Sub-Type",
+            "param": "toolSubtypes",
+            "items": [
+                {
+                    "key": "clinical_data",
+                    "label": "Clinical Data",
+                    "count": 20,
+                    "selected": false
+                },
+                {
+                    "key": "genomic_datasets",
+                    "label": "Genomic Datasets",
+                    "count": 13,
+                    "selected": false
+                },
+                {
+                    "key": "epidemiologic_data",
+                    "label": "Epidemiologic Data",
+                    "count": 5,
+                    "selected": false
+                },
+                {
+                    "key": "imaging",
+                    "label": "Imaging",
+                    "count": 5,
+                    "selected": false
+                },
+                {
+                    "key": "biological_networks",
+                    "label": "Biological Networks",
+                    "count": 3,
+                    "selected": false
+                },
+                {
+                    "key": "patient_registries",
+                    "label": "Patient Registries",
+                    "count": 3,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "title": "Tool Type",
+            "param": "toolTypes",
+            "items": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases",
+                    "count": 51,
+                    "selected": true
+                }
+            ]
+        }
+    ]
+}
