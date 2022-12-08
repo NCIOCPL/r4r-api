@@ -1,0 +1,1167 @@
+{
+    "meta": {
+        "totalResults": 68,
+        "from": 0,
+        "originalQuery": "\/resources?size=20&from=0&q=NCI%20EVS"
+    },
+    "results": [
+        {
+            "id": 83,
+            "title": "Annual Report to the Nation on the Status of Cancer",
+            "website": "https:\/\/seer.cancer.gov\/report_to_nation\/",
+            "body": "<p>The report includes a special section to highlight a major topic in cancer surveillance. Recent topics include financial toxicity, progress toward Healthy People 2020 objectives, survival, prostate cancer, and molecular subtypes of breast cancer. This is an annual collaboration between NCI, North American Association of Central Cancer Registries, the Centers for Disease Control and Prevention, and the American Cancer Society. The agencies rotate between leading the report. Typically, the trends are by sex and race\/ethnicity. The Surveillance, Epidemiology, and End Results (SEER) programwebsite hosts a microsite with summaries, factoids, links, and other shareable resources.<\/p>",
+            "description": "<p>The Annual Report to the Nation is a publication that provides an update of rates for new cases and deaths, as well as trends, for the most common cancers in the United States.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_health_disparities",
+                    "label": "Cancer Health Disparities"
+                },
+                {
+                    "key": "cancer_survivorship",
+                    "label": "Cancer Survivorship"
+                },
+                {
+                    "key": "cancer_statistics",
+                    "label": "Cancer Statistics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dccps",
+                    "label": "Division of Cancer Control and Population Sciences (DCCPS)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Kathy",
+                        "middleName": null,
+                        "lastName": "Cronin",
+                        "suffix": null
+                    },
+                    "title": "Deputy Associate Director, Surveillance Research Program",
+                    "phone": "240-276-6836",
+                    "email": "cronink@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 229,
+            "title": "Cancer Data Access System (CDAS)",
+            "website": "https:\/\/biometry.nci.nih.gov\/cdas\/",
+            "body": "<p>CDAS is a website to request data recorded from various research studies, including NLST, PLCO, and the Interactive Diet and Activity Tracking in AARP. For some studies, you may also request images or biospecimens.<\/p>\n<p>CDAS provides extensive public documentation for each study, including a trial summary, an overview of the data collected, and a searchable database of research projects and publications.<\/p>\n<p>Researchers interested in obtaining study data may begin a CDAS project for that study. All projects are reviewed by NCI trial leadership.<\/p>",
+            "description": "<p>CDAS is a submission and tracking system for data from the National Lung Screening Trial (NLST), the Prostate, Lung, Colorectal and Ovarian (PLCO) Cancer Screening Trial, and the Interactive Diet and Activity Tracking in AARP.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [],
+            "researchTypes": [],
+            "resourceAccess": {
+                "type": "register",
+                "notes": "After registration approval, materials are   available for a limited time."
+            },
+            "doCs": [],
+            "poCs": []
+        },
+        {
+            "id": 54,
+            "title": "Cancer Intervention and Surveillance Modeling Network",
+            "website": "https:\/\/cisnet.cancer.gov\/",
+            "body": "<p>CISNET is a consortium of NCI-sponsored investigators who use statistical and simulation modeling to examine the potential impacts of prevention, screening, and treatment on cancer incidence and mortality. These models can then project future trends and help determine optimal cancer control strategies. These models can also be used to guide public health research and priorities. Established in 2000, CISNET comprises nine cancer site groups: breast, prostate, colorectal, lung, cervical, gastric, uterine, bladder, and multiple myeloma. Many of the resources generated by the CISNET consortium are freely available on the website. Additionally, CISNET invites inquiries from outside groups regarding collaborations on cancer control issues that are amenable to modeling.<\/p>",
+            "description": "<p>CISNET is a consortium of NCI-sponsored investigator who use statistical and simulation modeling to predict the effects of cancer interventions.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "networks_consortiums",
+                    "label": "Networks\/Consortiums"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_health_disparities",
+                    "label": "Cancer Health Disparities"
+                },
+                {
+                    "key": "screening_detection",
+                    "label": "Screening & Detection"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                },
+                {
+                    "key": "cancer_prevention",
+                    "label": "Cancer Prevention"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "clinical",
+                    "label": "Clinical"
+                },
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dccps",
+                    "label": "Division of Cancer Control and Population Sciences (DCCPS)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Eric (Rocky)",
+                        "middleName": null,
+                        "lastName": "Feuer",
+                        "suffix": null
+                    },
+                    "title": "Chief, Statistical Research and Applications Branch, Surveillance Research Program",
+                    "phone": "240-276-6772",
+                    "email": "feuerr@mail.nih.gov"
+                },
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Susan",
+                        "middleName": null,
+                        "lastName": "Scott",
+                        "suffix": null
+                    },
+                    "title": "Public Health Advisor, Surveillance Research Program",
+                    "phone": "240-276-6951",
+                    "email": "scotts2@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 205,
+            "title": "Cancer Trials Support Unit (CTSU)",
+            "website": "https:\/\/www.ctsu.org\/public\/",
+            "body": "<p>CTSU provides centralized services to support the following goals and objectives:<\/p>\n<ul>\n<li>Facilitate investigator and research staff participation in selected NCI multi-center programs and their clinical trials.<\/li>\n<li>Increase investigator and patient awareness of and enrollment to cancer clinical trials.<\/li>\n<li>Provide standardized, integrated, and comprehensive support services to selected NCI multi-center programs.<\/li>\n<li>Identify best practices and streamline or eliminate redundant processes and procedures.<\/li>\n<li>Improve operational efficiency, enhance productivity, and deliver products offering measurable business value to selected NCI multi-center programs.<\/li>\n<\/ul>",
+            "description": "<p>CTSU is a service of NCI designed to facilitate access to NCI-funded clinical trials for qualified clinical sites and to support the management and conduct of those clinical trials.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "clinical_research_tools",
+                    "label": "Clinical Research Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [],
+            "researchTypes": [
+                {
+                    "key": "clinical",
+                    "label": "Clinical"
+                }
+            ],
+            "resourceAccess": {
+                "type": "register",
+                "notes": null
+            },
+            "doCs": [],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": null,
+                        "middleName": null,
+                        "lastName": null,
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": "1-888-823-5923",
+                    "email": "ctsucontact@westat.com"
+                }
+            ]
+        },
+        {
+            "id": 188,
+            "title": "Catalogue of Surveillance Systems",
+            "website": "https:\/\/www.nccor.org\/nccor-tools\/catalogue\/",
+            "body": "<p>The Catalogue of Surveillance Systems provides a platform to review, sort, and compare more than 100 surveillance systems relevant to childhood obesity research and evaluation of policy and environmental interventions. This resource helps researchers more easily investigate childhood obesity in America by increasing efficiency, effectiveness, and innovation in obesity research. It was developed by the National Collaborative on Childhood Obesity Research, and NCI staff are the project leads for the development and maintenance of this tool.<\/p>",
+            "description": "<p>The Catalogue of Surveillance Systems provides one-stop access to more than 100 publicly available datasets relevant to childhood obesity research.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_prevention",
+                    "label": "Cancer Prevention"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dccps",
+                    "label": "Division of Cancer Control and Population Sciences (DCCPS)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Jill",
+                        "middleName": null,
+                        "lastName": "Reedy",
+                        "suffix": null
+                    },
+                    "title": "Branch Chief, Risk Factor Assessment Branch",
+                    "phone": "240-276-6812",
+                    "email": "reedyj@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 221,
+            "title": "Center for Strategic Scientific Initiatives (CSSI) Data Portal",
+            "website": "https:\/\/cssi-dcc.nci.nih.gov\/cssiportal\/",
+            "body": "<p>CSSI sponsors a diverse array of projects related to new technologies, standards, and preanalytical variables. Integrated management of the datasets across projects makes the data more accessible and usable by the cancer research community. The CSSI Data Coordinating Center (CSSI DCC) stores and manages access to data generated by cancer research funded or supported by NCI. This data is in the standard Investigation-Study-Assay tab-delimited format (ISA-TAB) format, which describes a scientific investigation, its study or studies, and assay data. The CSSI DCC Portal is a public repository of experiment-related information describing cancer research investigations. The portal can be used to browse, search, and access data generated through NCI-funded projects and other user-uploaded datasets.<\/p>",
+            "description": "<p>The portal provides a flexible data coordination framework housing multiple types of biologic data generated by cancer research supported by CSSI.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "cssi",
+                    "label": "Center for Strategic Scientific Initiatives (CSSI)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Michelle",
+                        "middleName": null,
+                        "lastName": "Berny-Lang",
+                        "suffix": null
+                    },
+                    "title": "Program Director",
+                    "phone": null,
+                    "email": "michelle.berny-lang@nih.gov"
+                },
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Sean",
+                        "middleName": null,
+                        "lastName": "Hanlon",
+                        "suffix": null
+                    },
+                    "title": "Associate Director",
+                    "phone": null,
+                    "email": "sean.hanlon@nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 26,
+            "title": "Chernobyl Tissue Bank (CTB)",
+            "website": "http:\/\/www.chernobyltissuebank.com\/",
+            "body": "<p>CTB is an international collaborative project that is supported by NCI\u2019s Division of Cancer Biology and the Sasakawa Memorial Health Foundation of Japan with active participation from Russia and Ukraine, two countries heavily affected by the 1986 Chernobyl accident. CTB manages biospecimen resources and associated data sets that support studies on the biology of thyroid cancer, the major health consequence of the Chernobyl accident. For more information on this Tissue Bank, please visit the Chernobyl Tissue Bank website.<\/p>",
+            "description": "<p>CTB maintains a research resource that supports studies on the biology of thyroid cancer, the major health consequence of the Chernobyl accident.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "causes_of_cancer",
+                    "label": "Causes of Cancer"
+                },
+                {
+                    "key": "cancer_survivorship",
+                    "label": "Cancer Survivorship"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "clinical",
+                    "label": "Clinical"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "register",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dcb",
+                    "label": "Division of Cancer Biology (DCB)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Rihab",
+                        "middleName": null,
+                        "lastName": "Yassin",
+                        "suffix": "Ph.D."
+                    },
+                    "title": "Program Director",
+                    "phone": "240-276-6230",
+                    "email": "yassinr@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 230,
+            "title": "Clinical Data Interchange Standards Consortium (CDISC) Terminology",
+            "website": "https:\/\/datascience.cancer.gov\/resources\/cancer-vocabulary\/cdisc-terminology",
+            "body": "<p>Managed by NCI Enterprise Vocabulary Services (EVS), CDISC to develop and support controlled terminology for all CDISC foundational standards:<\/p>\n<p><strong>SDTM<\/strong> - SDTM is an international standard for clinical research data and is approved by the Food and Drug Administration (FDA) as a standard electronic submission format. CDISC Questionnaires, Ratings, and Scales terminology is included in the SDTM terminology publication.<\/p>\n<p><strong>CDASH<\/strong> - CDISC leads the CDASH project, which develops clinical research study content standards in collaboration with 16 partner organizations, including NCI. CDASH terminology is a subset of SDTM terminology.<\/p>\n<p><strong>ADaM<\/strong> - CDISC leads the ADaM project, which supports efficient generation, replication, review, and submission of analysis results from clinical trial data.<\/p>\n<p><strong>Define-XML<\/strong> - CDISC leads the Define-XML terminology project, which defines the enumeration values found within the CDISC Define-XML data exchange standard. NCI EVS maintains and distributes Define-XML controlled terminology as part of NCI Thesaurus. More information is available at CDISC's Define-XML webpage.<\/p>\n<p><strong>SEND<\/strong> - CDISC leads the SEND project, which guides the organization, structure, and format of standard nonclinical tabulation datasets for interchange between organizations such as sponsors and CROs and for submission to a regulatory authority such as FDA. NCI EVS maintains and distributes SEND controlled terminology as part of NCI Thesaurus. More information is available at CDISC's SEND webpage.<\/p>\n<p><strong>Protocol Terminology<\/strong> - CDISC leads the Protocol Terminology project, which develops the semantics for commonly used research protocol entities. This project supports CDISC foundational standards for the Protocol Representation Model (PRM) and Clinical Trial Registry XML (CTR-XML).<\/p>\n<p><strong>CDISC Glossary<\/strong> - CDISC leads the Glossary project, which harmonizes definitions (including acronyms, abbreviations, and initials) used in the various standards initiatives undertaken by CDISC in clinical research. The glossary also serves the community of clinical researchers by selecting and defining terms pertaining to clinical research sponsored by the pharmaceutical industry or a federal agency.<\/p>",
+            "description": "<p>The NCI Enterprise Vocabulary Services (EVS) partners with CDISC to develop and support controlled terminology for all CDISC foundational standards, including Study Data Tabulation Model (SDTM), Clinical Data Acquisition Standards Harmonization (CDASH), Analysis Data Model (ADaM), Define-XML Terminology, Standard for the Exchange of Nonclinical Data (SEND), CDISC Protocol Terminology, and CDISC Glossary.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "terminology",
+                    "label": "Terminology"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [],
+            "researchTypes": [],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 176,
+            "title": "Clinical Proteomic Tumor Analysis Consortium (CPTAC) Antibody Portal",
+            "website": "https:\/\/proteomics.cancer.gov\/antibody-portal",
+            "body": "<p>The CPTAC Antibody Portal houses affinity reagents characterized and validated by NCI\u2019s Antibody Characterization Laboratory, located at the Frederick National Laboratory for Cancer Research. Upon entering the portal, users can browse by antibodies or antigens or select from a series of table filters on the left side of the page. Each antibody has background, characterization data with corresponding standard operating procedures, as well as links to the CPTAC assay portal (when applicable) and Developmental Studies Hybridoma Bank at the University of Iowa for purchase. Each antigen additionally has standard operating procedures and links to central repositories of protein and gene information, such as Uniprot, Ensembl, and Entrez. For those interested in affinity reagents to a specific protein target, the CPTAC Antibody Portal has an application form for reagent target requests to the NCI Antibody Characterization Program that is released on an annual basis.<\/p>",
+            "description": "<p>The CPTAC Antibody Portal serves as an NCI community resource that provides access to many highly characterized renewable affinity reagents with accompanying characterization data.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                },
+                {
+                    "key": "networks_consortiums",
+                    "label": "Networks\/Consortiums"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_diagnosis",
+                    "label": "Cancer Diagnosis"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": "Information regarding the antibodies is free, however, users will be redirected to the Developmental Studies Hybridoma Bank for purchasing."
+            },
+            "doCs": [
+                {
+                    "key": "cssi",
+                    "label": "Center for Strategic Scientific Initiatives (CSSI)"
+                },
+                {
+                    "key": "occpr",
+                    "label": "Office of Cancer Clinical Proteomics Research (OCCPR)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Tara",
+                        "middleName": null,
+                        "lastName": "Hiltke",
+                        "suffix": "Ph.D."
+                    },
+                    "title": "Program Director",
+                    "phone": "240-781-3435",
+                    "email": "hiltket@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 57,
+            "title": "Compound inhibition Bulk Data Download",
+            "website": "https:\/\/dtp.cancer.gov\/dtpstandard\/subsets\/comp.jsp",
+            "body": "<p>Compound sensitivity data for the NCI-60 screen and similar screens run on sarcoma cell lines and small cell lung cancer cell lines.<\/p>",
+            "description": "<p>This data set offers compound sensitivity data for the NCI-60 screen and similar screens run on sarcoma cell lines and small cell lung cancer cell lines.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "bioinformatics",
+                    "label": "Bioinformatics"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 226,
+            "title": "Cooperative Human Tissue Network (CHTN)",
+            "website": "https:\/\/www.chtn.org\/",
+            "body": "<p>The CHTN is a unique NCI-supported resource that provides human tissues and fluids from routine procedures to investigators who utilize human biospecimens in their research. Unlike tissue banks, the CHTN works prospectively with each investigator to tailor specimen acquisition and processing to meet their specific project requirements.<\/p>",
+            "description": "<p>The CHTN is a unique NCI-supported resource that provides human tissues and fluids from routine procedures to investigators who utilize human biospecimens in their research. Unlike tissue banks, the CHTN works prospectively with each investigator to tailor specimen acquisition and processing to meet their specific project requirements.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                },
+                {
+                    "key": "causes_of_cancer",
+                    "label": "Causes of Cancer"
+                },
+                {
+                    "key": "cancer_diagnosis",
+                    "label": "Cancer Diagnosis"
+                },
+                {
+                    "key": "screening_detection",
+                    "label": "Screening & Detection"
+                },
+                {
+                    "key": "cancer_health_disparities",
+                    "label": "Cancer Health Disparities"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "clinical",
+                    "label": "Clinical"
+                },
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Nicole",
+                        "middleName": null,
+                        "lastName": "Bollinger",
+                        "suffix": null
+                    },
+                    "title": "Central Coordinator",
+                    "phone": "(440) 477-5952",
+                    "email": "nbollinger@chtn.org"
+                }
+            ]
+        },
+        {
+            "id": 58,
+            "title": "Developmental Therapeutics Program (DTP) Dose Response Bulk Data Download",
+            "website": "https:\/\/dtp.cancer.gov\/dtpstandard\/subsets\/dose.jsp",
+            "body": "<p>Compound sensitivity data for the NCI-60 screen and similar screens run on sarcoma cell lines and small cell lung cancer cell lines.<\/p>",
+            "description": "<p>This dataset provides compound sensitivity data for the NCI-60 screen and similar screens run on sarcoma cell lines and small cell lung cancer cell lines.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "bioinformatics",
+                    "label": "Bioinformatics"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 182,
+            "title": "Dietary Assessment Primer",
+            "website": "https:\/\/dietassessmentprimer.cancer.gov\/",
+            "body": "<p>NCI's Dietary Assessment Primer enables researchers to choose the most appropriate self-report diet instrument for a particular study by outlining the key features, benefits, and drawbacks of several instruments. The primer also covers key concepts in dietary assessment, explains how to minimize measurement error, and lists other dietary assessment resources.<\/p>\n<p>The Dietary Assessment Primer contains details on the major self-report instruments and guidance for using these instruments alone or in combination to address different research questions. It also contains recommendations for choosing a dietary assessment approach in research settings requiring group-level estimates.<\/p>",
+            "description": "<p>The purpose of the Primer primer is to help researchers determine the best way to assess diet for any study in which estimates of group intakes are required.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "training_resources",
+                    "label": "Training Resources"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [],
+            "researchTypes": [],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dccps",
+                    "label": "Division of Cancer Control and Population Sciences (DCCPS)"
+                },
+                {
+                    "key": "dcp",
+                    "label": "Division of Cancer Prevention (DCP)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Jill",
+                        "middleName": null,
+                        "lastName": "Reedy",
+                        "suffix": null
+                    },
+                    "title": "Branch Chief, Risk Factor Assessment Branch",
+                    "phone": "240-276-6812",
+                    "email": "reedyj@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 196,
+            "title": "FDA Terminology",
+            "website": "https:\/\/datascience.cancer.gov\/resources\/cancer-vocabulary\/fda-terminology",
+            "body": "<p>Managed by NCI Enterprise Vocabulary Services (EVS), FDA terms and codes and other terminology used by FDA are updated and made available for download from an NCI FTP site. FDA terminology subsets are available in each of these four main areas in Excel and text formats:<\/p>\n<ol>\n<li>\n<p>Structured Product Labeling (SPL) is a document markup standard approved by Health Level Seven (HL7). The SPL standard specifies use of some 42 sets of controlled terminology.<\/p>\n<\/li>\n<li>\n<p>Unique Ingredient Identifier (UNII) codes are being developed by FDA to uniquely identify all ingredients used in marketed medications in the United States, as well as substances in biologics, foods, and devices. Each UNII is assigned based on molecular structure or other immutable characteristics. FDA provides a full set of published UNII codes and a search page on a website now hosted by the National Library of Medicine (NLM) and updated approximately monthly.<\/p>\n<\/li>\n<li>\n<p>Individual Case Safety Report (ICSR) terminology is used to encode adverse event information for reporting purposes. Fourteen ICSR term sets are maintained.<\/p>\n<\/li>\n<li>\n<p>Event Problem Code terminology was developed by the Center for Devices and Radiological Health (CDRH) for reporting of medical device problems. Six CDRH term sets, covering Patient Problem Codes, Device Problem Codes, Device Component Codes, Medical Evaluation Conclusions, Medical Device Evaluation Methods, and Medical Device Evaluation Results are maintained.<\/p>\n<\/li>\n<li>\n<p>Global Unique Device Identification Database (GUDID) terminology was developed by CDRH to represent the attributes found in the GUDID, a repository of key device identification information related to a device's Unique Device Identifier (UDI). Labelers wanting to submit their device information using SPL format (and the FDA Electronic Submissions Gateway) will find all necessary codes in this terminology. Through use of the shared document standard, the GUDID terminology may share some codes with the SPL terminology listed separately on this page, but the SPL terminology does not contain all necessary device-related terms for GUDID.<\/p>\n<\/li>\n<\/ol>",
+            "description": "<p>More than 10,000 FDA terms and codes are stored in NCI Thesaurus (NCIt). This and other terminology used by FDA is updated and made available for download from an NCI File Transfer Protocol (FTP) site.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "terminology",
+                    "label": "Terminology"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [],
+            "researchTypes": [],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [],
+            "poCs": []
+        },
+        {
+            "id": 232,
+            "title": "Genomic Datasets in Database of Genotypes and Phenotypes (dbGaP)",
+            "website": "https:\/\/www.ncbi.nlm.nih.gov\/projects\/gapsolr\/facets.html",
+            "body": "<p>To see NCI studies in dbGaP, filter by NIH institute and select NCI.<\/p>",
+            "description": "<p>dbGaP was developed to archive and distribute the data and results from studies that have investigated the interaction of genotype and phenotype in humans. Over 150 NCI studies are now registered in dbGaP.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                }
+            ],
+            "researchTypes": [],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [],
+            "poCs": []
+        },
+        {
+            "id": 130,
+            "title": "Geographic Information Systems (GIS) and Science for Cancer Control",
+            "website": "https:\/\/gis.cancer.gov\/",
+            "body": "<p>Cancer researchers, cancer control planners, cancer advocacy groups, and public health officials are encouraged to use these resources in their efforts to help reduce the cancer burden in the United States. The most popular tools on this portal include NCI MapStories, NCI Cancer Atlas, Animated Historical Cancer Atlas, and NCI Tobacco Policy Viewer.<\/p>",
+            "description": "<p>This website provides resources for interactive mapping, exploring, and downloading geographically based cancer-related information.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                },
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_public_health",
+                    "label": "Cancer & Public Health"
+                },
+                {
+                    "key": "cancer_health_disparities",
+                    "label": "Cancer Health Disparities"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dccps",
+                    "label": "Division of Cancer Control and Population Sciences (DCCPS)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Zaria",
+                        "middleName": null,
+                        "lastName": "Tatalovich",
+                        "suffix": null
+                    },
+                    "title": "Geospatial Scientist, Statistical Research & Applications Branch, Surveillance Research Program",
+                    "phone": "240-276-6976",
+                    "email": "tatalovichzp@mail.ni.gov"
+                }
+            ]
+        },
+        {
+            "id": 211,
+            "title": "Guidelines for Collaborations with Industry",
+            "website": "https:\/\/ctep.cancer.gov\/industryCollaborations2\/default.htm",
+            "body": "<p>The goal of CTEP is to facilitate the process of bringing promising, novel investigational anticancer and anti-HIV agents to the public as quickly and as safely as possible. CTEP offers a unique combination of resources and expertise to assist an industry collaborator in clinical development of new therapeutic agents and the ability to evaluate investigational agents in a wide variety of tumor types and disease settings. These guidelines provide information regarding the process for co-developing an investigational anticancer agent with NCI. In addition, there are links to other online resources to assist with technology development, clinical development resources, and small business research funding.<\/p>",
+            "description": "<p>This section of the Cancer Therapy Evaluation Program (CTEP) website provides information regarding the process for co-developing an investigational anticancer agent with NCI.<\/p>",
+            "toolTypes": [],
+            "toolSubtypes": null,
+            "researchAreas": [],
+            "researchTypes": [],
+            "resourceAccess": null,
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 203,
+            "title": "Handbook for Clinical Investigators Conducting Therapeutic Clinical Trials",
+            "website": "https:\/\/ctep.cancer.gov\/investigatorResources\/investigators_handbook.htm",
+            "body": "<p>DCTD sponsors the majority of extramural treatment trials at NCI. Sponsorship or support of clinical trials includes funding, regulatory support, and\/or agent distribution.<\/p>\n<p>Oncologists, nurses, pharmacists, research administrators, and data managers should find the information in this handbook useful in practical matters connected with protocol drafting and submissions, reporting requirements, agent accountability, and a host of other subjects. This handbook is written to guide the individual clinical investigator at the clinical trial site working alongside a team of health professionals and research staff.<\/p>",
+            "description": "<p>This handbook explains the policies and implementing procedures for the conduct of therapeutic clinical trials sponsored by NCI\u2019s Division of Cancer Treatment and Diagnosis (DCTD).<\/p>",
+            "toolTypes": [
+                {
+                    "key": "clinical_research_tools",
+                    "label": "Clinical Research Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [],
+            "researchTypes": [
+                {
+                    "key": "clinical",
+                    "label": "Clinical"
+                }
+            ],
+            "resourceAccess": {
+                "type": "register",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": null,
+                        "middleName": null,
+                        "lastName": null,
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": null,
+                    "email": "NCICTEPiHandbook@mail.nih.gov."
+                }
+            ]
+        },
+        {
+            "id": 219,
+            "title": "Health Information National Trends Survey (HINTS)",
+            "website": "https:\/\/hints.cancer.gov\/",
+            "body": "<p>Since 2003, NCI\u2019s HINTS has tracked changes in the rapidly evolving health communication and information technology landscape. A biennial, cross-sectional survey, it collects nationally representative data about the American public\u2019s knowledge of, attitudes toward, and use of cancer- and health-related information. It has enabled a growing body of research that evaluates the effects of health communication, media, and health information technology on health and behavioral outcomes, health care quality, and health disparities.<\/p>\n<p>HINTS can be used to understand how adults use different communication channels to access and use health information; to obtain information about how cancer risks are perceived; and to create more effective health communication strategies across different populations.<\/p>",
+            "description": "<p>HINTS collects data about the use of cancer-related information by the American public. These data provide opportunities to understand and improve health communication.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_health_disparities",
+                    "label": "Cancer Health Disparities"
+                },
+                {
+                    "key": "cancer_public_health",
+                    "label": "Cancer & Public Health"
+                },
+                {
+                    "key": "cancer_prevention",
+                    "label": "Cancer Prevention"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": "Requires email"
+            },
+            "doCs": [
+                {
+                    "key": "dccps",
+                    "label": "Division of Cancer Control and Population Sciences (DCCPS)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": "Dr.",
+                        "firstName": "Kelly",
+                        "middleName": null,
+                        "lastName": "Blake",
+                        "suffix": null
+                    },
+                    "title": "Program Director",
+                    "phone": "240-281-5934",
+                    "email": "kelly.blake@nih.gov"
+                },
+                {
+                    "name": {
+                        "prefix": "Dr.",
+                        "firstName": "Richard",
+                        "middleName": null,
+                        "lastName": "Moser",
+                        "suffix": null
+                    },
+                    "title": "Training Director and Research Methods Coordinator",
+                    "phone": "240-276-6915",
+                    "email": "moserr@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 185,
+            "title": "Healthy Eating Index (HEI)",
+            "website": "https:\/\/epi.grants.cancer.gov\/hei\/",
+            "body": "<p>The HEI is a measure of diet quality, independent of quantity, that can be used to assess compliance with the U.S. Dietary Guidelines for Americans and monitor changes in dietary patterns. The HEI also is a valuable tool for epidemiologic and economic research and can be used to evaluate nutrition interventions and consumer nutrition education programs. The HEI\u20132015 is the latest iteration of the HEI. The original HEI was released by the United States Department of Agriculture (USDA) in 1995. Changes made to the Dietary Guidelines for Americans have necessitated revisions to the original HEI. The HEI has been significantly updated through a collaboration with the USDA and NCI.<\/p>",
+            "description": "<p>The HEI is a scoring metric that can be used to determine overall diet quality as well as the quality of a range of dietary components.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_prevention",
+                    "label": "Cancer Prevention"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dccps",
+                    "label": "Division of Cancer Control and Population Sciences (DCCPS)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Jill",
+                        "middleName": null,
+                        "lastName": "Reedy",
+                        "suffix": null
+                    },
+                    "title": "Branch Chief, Risk Factor Assessment Branch",
+                    "phone": "240-276-6812",
+                    "email": "reedyj@mail.nih.gov"
+                }
+            ]
+        }
+    ],
+    "facets": [
+        {
+            "title": "Research Area",
+            "param": "researchAreas",
+            "items": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology",
+                    "count": 24,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment",
+                    "count": 21,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_health_disparities",
+                    "label": "Cancer Health Disparities",
+                    "count": 12,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_prevention",
+                    "label": "Cancer Prevention",
+                    "count": 11,
+                    "selected": false
+                },
+                {
+                    "key": "causes_of_cancer",
+                    "label": "Causes of Cancer",
+                    "count": 11,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_survivorship",
+                    "label": "Cancer Survivorship",
+                    "count": 9,
+                    "selected": false
+                },
+                {
+                    "key": "screening_detection",
+                    "label": "Screening & Detection",
+                    "count": 9,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_diagnosis",
+                    "label": "Cancer Diagnosis",
+                    "count": 6,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics",
+                    "count": 6,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_public_health",
+                    "label": "Cancer & Public Health",
+                    "count": 6,
+                    "selected": false
+                },
+                {
+                    "key": "bioinformatics",
+                    "label": "Bioinformatics",
+                    "count": 3,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_statistics",
+                    "label": "Cancer Statistics",
+                    "count": 2,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "title": "Research Type",
+            "param": "researchTypes",
+            "items": [
+                {
+                    "key": "basic",
+                    "label": "Basic",
+                    "count": 27,
+                    "selected": false
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational",
+                    "count": 19,
+                    "selected": false
+                },
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic",
+                    "count": 14,
+                    "selected": false
+                },
+                {
+                    "key": "clinical",
+                    "label": "Clinical",
+                    "count": 11,
+                    "selected": false
+                },
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials",
+                    "count": 8,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "title": "Tool Type",
+            "param": "toolTypes",
+            "items": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases",
+                    "count": 21,
+                    "selected": false
+                },
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools",
+                    "count": 20,
+                    "selected": false
+                },
+                {
+                    "key": "terminology",
+                    "label": "Terminology",
+                    "count": 12,
+                    "selected": false
+                },
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools",
+                    "count": 9,
+                    "selected": false
+                },
+                {
+                    "key": "networks_consortiums",
+                    "label": "Networks\/Consortiums",
+                    "count": 6,
+                    "selected": false
+                },
+                {
+                    "key": "community_research_tools",
+                    "label": "Community Research Tools",
+                    "count": 4,
+                    "selected": false
+                },
+                {
+                    "key": "clinical_research_tools",
+                    "label": "Clinical Research Tools",
+                    "count": 3,
+                    "selected": false
+                },
+                {
+                    "key": "training_resources",
+                    "label": "Training Resources",
+                    "count": 2,
+                    "selected": false
+                }
+            ]
+        }
+    ]
+}

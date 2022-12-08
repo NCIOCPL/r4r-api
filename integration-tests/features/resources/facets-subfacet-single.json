@@ -1,0 +1,1248 @@
+{
+    "meta": {
+        "totalResults": 20,
+        "from": 0,
+        "originalQuery": "/resources?size=999&from=0&toolTypes=datasets_databases&toolSubtypes=genomic_datasets"
+    },
+    "results": [
+        {
+            "id": 250,
+            "title": "Algorithm for the Reconstruction of Accurate Cellular Networks (ARACNe)",
+            "website": "https://califano.c2b2.columbia.edu/aracne",
+            "body": "<p>ARACNe uses microarray expression profiles to reconstruct tissue-specific gene regulatory transcriptional interactions in cellular networks. The method uses mutual information of two random variables to identify genes that are co-expressed, then applies the data processing inequality to filter out interactions that are likely to be indirect. This eliminates the vast majority of false-positive transcriptional interactions typically inferred by pairwise gene-expression correlation analysis. This tool could be used by researchers to determine novel driver genes and drug mechanisms of action.</p>",
+            "description": "<p>ARACNe is an algorithm for inferring direct regulatory relationships between transcriptional regulator proteins and target genes.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                },
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "bioinformatics",
+                    "label": "Bioinformatics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "ocg",
+                    "label": "Office of Cancer Genomics (OCG)"
+                },
+                {
+                    "key": "ccg",
+                    "label": "Center for Cancer Genomics (CCG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": "Dr.",
+                        "firstName": "Andrea",
+                        "middleName": null,
+                        "lastName": "Califano",
+                        "suffix": null
+                    },
+                    "title": "Clyde and Helen Wu Professor of Chemical and Systems Biology",
+                    "phone": null,
+                    "email": "ac2248@cumc.columbia.edu"
+                }
+            ]
+        },
+        {
+            "id": 67,
+            "title": "BioMuta",
+            "website": "https://hive.biochemistry.gwu.edu/biomuta",
+            "body": "<p>BioMuta is an annotated SNV and disease association database in which variations are mapped to positions at genome, protein, and gene levels. The current BioMuta database (BioMuta v3.0) contains a total of 4,684,236 nsSNVs reported in 18,269 genes across 77 Disease Ontology cancer types. A small number of variants were added to BioMuta following manual literature review of PubMed abstracts.</p>",
+            "description": "<p>BioMuta is an annotated single-nucleotide variation (SNV) and disease association database in which variations are mapped to positions at genome, protein, and gene levels. The current database contains a total of 4,684,236 nonsynonymous SNVs (nsSNVs) reported in 18,269 genes across 77 Disease Ontology cancer types.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "itcr",
+                    "label": "Informatics Technology for Cancer Research (ITCR)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 134,
+            "title": "Cancer Genome Characterization Initiative (CGCI) Data Matrix",
+            "website": "https://ocg.cancer.gov/programs/cgci/data-matrix",
+            "body": "<p>CGCI Data Matrix contains whole-genome and transcriptomic sequencing from Burkitt lymphoma, HIV- associated tumors, medulloblastoma, and non-Hodgkin lymphoma types of cancers. Researchers can access up to four levels of data, from primary through higher level summary data for the molecular platform employed. To protect the privacy of patients, some clinical and genetic data require approval to access through NCBI’s database for Genotypes and Phenotypes (dbGAP; <a href=\"http://www.ncbi.nlm.nih.gov/gap\">http://www.ncbi.nlm.nih.gov/gap</a>).</p>",
+            "description": "<p>The CGCI Data Matrix hosts genomic profiles (molecular characterization and sequence data) and clinical data for rare adult and  pediatric tumor types.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "ccg",
+                    "label": "Center for Cancer Genomics (CCG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": null,
+                        "middleName": null,
+                        "lastName": null,
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": null,
+                    "email": "ocg@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 262,
+            "title": "Childhood Cancer Data Initiative (CCDI) Molecular Targets Platform (MTP)",
+            "website": "https://moleculartargets.ccdi.cancer.gov",
+            "body": "<p>The CCDI MTP is a knowledge base that extracts, organizes, annotates, and links to data on childhood cancers. This tool allows researchers to browse and identify associations between molecular targets, diseases, and drugs and can be used for systematic identification and prioritization of the pediatric molecular target list. This tool allows comparisons of childhood datasets with tabular and graphic visualizations of genomic data and facilitates prioritization of targets by reducing the time spent monitoring and organizing scientific and medical literature.</p>",
+            "description": "<p>The CCDI MTP allows researchers to browse and identify associations between molecular targets, diseases, and drugs specific for childhood cancers.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                },
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                },
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "screening_detection",
+                    "label": "Screening & Detection"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                },
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "cbiit",
+                    "label": "Center for Biomedical Informatics and Informatics Technology (CBIIT)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Subhashini",
+                        "middleName": null,
+                        "lastName": "Jagu",
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": "240-781-3325",
+                    "email": "jagus@nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Cistrome",
+            "website": "http://cistrome.org/Cistrome/Cistrome_Project.html",
+            "body": "<p>Cistrome has curated and processed human/mouse ChIP/DNase-seq datasets in GEO, allowing users to search, browse, download ChIP-seq data signals, peaks, quality control, motifs, target genes and similar datasets.</p>",
+            "description": "<p>Cistrome has curated and processed human/mouse ChIP/DNase-seq datasets in Gene Expression  Omnibus (GEO ), allowing users to search, browse, download ChIP-seq data signals, peaks, quality control, motifs, target genes and similar datasets.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                },
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "itcr",
+                    "label": "Informatics Technology for Cancer Research (ITCR)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 166,
+            "title": "Clinical Interpretation of Variants in Cancer (CIViC) Knowledgebase",
+            "website": "https://civic.genome.wustl.edu/home",
+            "body": "<p>CIViC is an open access, open source, community-driven web resource for Clinical Interpretation of Variants in Cancer. Our goal is to enable precision medicine by providing an educational forum for dissemination of knowledge and active discussion of the clinical significance of cancer genome alterations.</p>",
+            "description": "<p>CIViC is a community-driven web resource that enables precision medicine by providing an educational forum for dissemination of knowledge and active discussion of the clinical significance of cancer genome alterations.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "itcr",
+                    "label": "Informatics Technology for Cancer Research (ITCR)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 175,
+            "title": "Clinical Proteomic Tumor Analysis Consortium (CPTAC) Data Portal",
+            "website": "https://proteomics.cancer.gov/data-portal",
+            "body": "<p>The Data Portal hosts the mass spectrometry data from the CPTAC program. A key component is the proteogenomic profiling of patient tumors, such as those from the breast, colorectal, and ovarian cancer programs in The Cancer Genome Atlas (TCGA). The portal also hosts data from completed programs and external studies.\nThe CPTAC program is the main data generator of the hosted data. Additional datasets from other programs such as APOLLO and ICPC are anticipated in the future.</p>",
+            "description": "<p>CPTAC analyzes cancer biospecimens by mass spectrometry, characterizing and quantifying their constituent proteins, or proteome. The CPTAC Data Portal is the centralized repository for the dissemination of proteomic data collected by the Proteome Characterization Centers (PCCs).</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                },
+                {
+                    "key": "networks_consortiums",
+                    "label": "Networks/Consortiums"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": "Subject to Data Use Agreement"
+            },
+            "doCs": [
+                {
+                    "key": "cssi",
+                    "label": "Center for Strategic Scientific Initiatives (CSSI)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 224,
+            "title": "Functional Annotation of Somatic Mutations in Cancer (FASMIC)",
+            "website": "http://ibl.mdanderson.org/fasmic/#!/",
+            "body": "<p>FASMIC is an interactive and open-access web portal for comprehensively querying and visualizing mutation-associated data. The queried gene is displayed in a tabular view with basic information for each mutation and details like summary (gene name, mutation, etc.), 3D structure, literature, mutation frequency, etc., under the table.</p>",
+            "description": "<p>FASMIC is an interactive and open-access web portal for comprehensively querying and visualizing mutation-associated data. The queried gene is displayed in a tabular view with basic information for each mutation and details like summary (gene name, mutation, etc.), 3D structure, literature, mutation frequency, etc., under the table.</p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                },
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "ccg",
+                    "label": "Center for Cancer Genomics (CCG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Han",
+                        "middleName": null,
+                        "lastName": "Liang",
+                        "suffix": "Ph.D."
+                    },
+                    "title": null,
+                    "phone": null,
+                    "email": "HLiang1@mdanderson.org"
+                }
+            ]
+        },
+        {
+            "id": 168,
+            "title": "Genomic Data Commons (GDC)",
+            "website": "https://gdc.cancer.gov/",
+            "body": "<p>The GDC is a research program with a mission to provide the cancer research community with a unified data repository that enables data sharing across cancer genomic studies in support of precision medicine. GDC provides harmonized DNA and RNA sequencing data and other high-quality biospecimen, clinical, and molecular data. Web-based tools supporting fine-grained queries and advanced visualization and pipelines generating DNA sequence variants, mutation analyses, expression analyses, and more are also accessible.</p>",
+            "description": "<p>The GDC is a data sharing platform that provides access to harmonized genomic and de-identified clinical data from various large-scale cancer studies, along with web-based tools for data analysis and visualization.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                },
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                },
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                },
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "ccg",
+                    "label": "Center for Cancer Genomics (CCG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Peggy",
+                        "middleName": null,
+                        "lastName": "Wang",
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": null,
+                    "email": "peggy.wang@nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 232,
+            "title": "Genomic Datasets in Database of Genotypes and Phenotypes (dbGaP)",
+            "website": "https://www.ncbi.nlm.nih.gov/projects/gapsolr/facets.html",
+            "body": "<p>To see NCI studies in dbGaP, filter by NIH institute and select NCI.</p>",
+            "description": "<p>dbGaP was developed to archive and distribute the data and results from studies that have investigated the interaction of genotype and phenotype in humans. Over 150 NCI studies are now registered in dbGaP.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                }
+            ],
+            "researchTypes": [],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [],
+            "poCs": []
+        },
+        {
+            "id": 261,
+            "title": "GWAS Explorer PLCO Atlas",
+            "website": "https://exploregwas.cancer.gov/plco-atlas/#/",
+            "body": "<p>The GWAS Explorer PLCO Atlas is as an interactive tool to facilitate data sharing and enables researchers to search for, visualize, and download aggregated association results from the PLCO genome-wide association analyses (GWAS). The Prostate, Lung, Colorectal, Ovarian (PLCO) Cancer Screening Study was a large population-based randomized trial to determine the effects of screening on cancer-related mortality and secondary endpoints in men and women aged 55 to 74. The Atlas includes genotype data of 110,562 PLCO subjects with 200+ phenotypes collected from questionnaires, medical records, cancer registries, and the National Death Index. Descriptive characteristics, annotation of phenotypes, and links to other pertinent genomic resources are available.</p>",
+            "description": "<p>The GWAS Explorer PLCO Atlas is an interactive data sharing tool that enables researchers to search for, visualize, and download aggregated association results from the PLCO genome-wide association analyses (GWAS).</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                },
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "causes_of_cancer",
+                    "label": "Causes of Cancer"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dceg",
+                    "label": "Division of Cancer Epidemiology and Genetics (DCEG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Mitchell",
+                        "middleName": null,
+                        "lastName": "Machiela",
+                        "suffix": null
+                    },
+                    "title": "Stadtman Investigator",
+                    "phone": "240-760-6518",
+                    "email": "mitchell.machiela@nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 255,
+            "title": "Human Cancer Models Initiative (HCMI) Searchable Catalog",
+            "website": "https://hcmi-searchable-catalog.nci.nih.gov/",
+            "body": "<p><a href=\"https://hcmi-searchable-catalog.nci.nih.gov/\">HCMI Searchable Catalog</a> is a continuously updated resource for querying the available next-generation models developed by HCMI. Within the catalog, users can search by patient demographics, tumor, and model elements including age at diagnosis, sex, treatment information, clinical tumor diagnosis, primary site, clinical stage, and type of model (e.g. 3D-organoid, 2D-conditionally reprogrammed cells), etc. The links to model-associated clinical and molecular data stored at the <a href=\"https://gdc.cancer.gov\">Genomic Data Commons (GDC)</a> and the 3rd party model distributor are available within each model-specific page.</p>",
+            "description": "<p>A searchable catalog of next-generation cancer models and associated clinical and molecular data.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "bioinformatics",
+                    "label": "Bioinformatics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "ocg",
+                    "label": "Office of Cancer Genomics (OCG)"
+                },
+                {
+                    "key": "ccg",
+                    "label": "Center for Cancer Genomics (CCG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": "Dr.",
+                        "firstName": "Eva",
+                        "middleName": null,
+                        "lastName": "Tonsing-Carter",
+                        "suffix": null
+                    },
+                    "title": "Scientific Program Manager",
+                    "phone": null,
+                    "email": "ocg@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 243,
+            "title": "MutSpliceDB",
+            "website": "https://brb.nci.nih.gov/splicing",
+            "body": "<p>Splice site variants are one of the well-known classes of genetic alterations playing an important role in biology. Splice site mutations in cancer are most frequently observed as inactivating alterations in tumor suppressor genes (e.g., <em>TP53</em> or <em>RB1</em>) and to a lesser degree as activating alterations in oncogenes (e.g., <em>MET</em>). Interpreting the consequences of a specific splice site variant is not straightforward, especially if the variant is located outside of the canonical splice sites. Accurate interpretation of a splice site mutation’s impact can further our understanding of biology, influence patient treatment, and in case of germline splice site variants, may have relevance to familial disease predisposition. To facilitate the interpretation of splice site variant effects, the Biometric Research Program’s Computational and Systems Biology Branch developed MutSpliceDB: a database of splice sites variants, documenting variants effect(s) on splicing based on RNA-seq BAM files from sample(s) with splice site variants.</p>",
+            "description": "<p>MutSpliceDB is a database of splice sites variants and their effects on splicing.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "bioinformatics",
+                    "label": "Bioinformatics"
+                },
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": "Dr.",
+                        "firstName": "Dmitriy",
+                        "middleName": null,
+                        "lastName": "Sonkin",
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": "240-276-5678",
+                    "email": "dmitriy.sonkin@nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 233,
+            "title": "NCI Brain Neoplasia Data",
+            "website": "ftp://caftpd.nci.nih.gov/pub/caARRAY/experiments/caArray_fine-00037/",
+            "body": "<p>Data is available for analysis in the Georgetown Database of Cancer (<a href=\"https://gdoc.georgetown.edu/gdoc/\">G-DOC</a>).</p>\n<p>Gene expression files can be downloaded from a NCI-hosted FTP site.</p>",
+            "description": "<p>NCI Brain Neoplasia Data integrates clinical and functional genomics data from clinical trials involving brain tumor patients and provides the ability to perform <em>ad hoc</em> querying, reporting, and analysis across multiple data domains, including gene expression, gene copy number, and clinical data.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [],
+            "researchTypes": [],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [],
+            "poCs": []
+        },
+        {
+            "id": 191,
+            "title": "NCI Transcriptional Pharmacodynamics Workbench (NCI TPW)",
+            "website": "https://tpwb.nci.nih.gov",
+            "body": "<p>The NCI TPW integrates cell-line sensitivity data for 15 clinically relevant anticancer agents with both basal transcript levels and agent-induced transcriptional changes for 12,704 genes at three time points across the NCI-60 panel. The NCI TPW further relates this information to exon mutation, protein expression, and multidrug resistance data and enables query of these data in the context of cellular pathways and receptors. This website has been developed using advanced computational and visualization tools for empowering developmental-therapeutics investigators worldwide and providing them access to the genome-wide characterization of the NCI-60 cell lines and the enormous time–course databases on genome-wide response to treatment with drugs.</p>",
+            "description": "<p>This resource provides drug-sensitivity and gene-expression data for NCI-60 cell lines exposed to 15 clinically relevant anticancer agents, as well as computational and visualization tools to analyze and explore these datasets.</p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                },
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "bioinformatics",
+                    "label": "Bioinformatics"
+                },
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "register",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": "Dr.",
+                        "firstName": "Alida",
+                        "middleName": null,
+                        "lastName": "Palmisano",
+                        "suffix": null
+                    },
+                    "title": "Research Fellow, Computational and Systems Biology Branch",
+                    "phone": null,
+                    "email": "ncitpwsupport@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 76,
+            "title": "P-Mart",
+            "website": "https://pmart.labworks.org/index.html",
+            "body": "<p>P-Mart is a web-based software platform to enable analysis and exploration of publicly available cancer proteomic datasets, such as those generated by the CPTAC program.</p>",
+            "description": "<p>P-Mart is a web-based software platform to enable analysis and exploration of publicly available cancer proteomic datasets, such as those generated by the Clinical Proteomic Tumor Analysis Consortium (CPTAC) program.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                },
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "itcr",
+                    "label": "Informatics Technology for Cancer Research (ITCR)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 73,
+            "title": "Personalized Cancer Therapy",
+            "website": "https://pct.mdanderson.org/#/",
+            "body": "<p>The Personalized Cancer Therapy website is a curated website cataloging clinically actionable information for personalized cancer therapy, including clinically significant genetic variants and drug-gene association.</p>",
+            "description": "<p>The Personalized Cancer Therapy website is a curated website cataloging clinically actionable information for personalized cancer therapy, including clinically significant genetic variants and drug-gene association.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "itcr",
+                    "label": "Informatics Technology for Cancer Research (ITCR)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 137,
+            "title": "Therapeutically Applicable Research to Generate Effective Treatments (TARGET) Data Matrix",
+            "website": "https://ocg.cancer.gov/programs/target/data-matrix",
+            "body": "<p>TARGET is a comprehensive molecular characterization initiative that utilizes state-of-the-art genomics tools to identify molecular changes that drive childhood cancers, including hematologic and solid tumors. The TARGET Data Matrix contains whole-genome and transcriptomic sequencing of acute lymphoblastic leukemia, acute myeloid leukemia, kidney tumors, neuroblastomas, and osteosarcoma pediatric cancer types. Researchers can access up to four levels of data, from primary through higher level summary data for the molecular platform employed. To protect the privacy of patients, some clinical and genetic data require approval to access through NCBI’s database for Genotypes and Phenotypes (dbGAP; <a href=\"http://www.ncbi.nlm.nih.gov/gap\">http://www.ncbi.nlm.nih.gov/gap</a>).</p>",
+            "description": "<p>The TARGET Data Matrix provides genomic profiles (molecular characterization and sequence data) and clinical data for pediatric cancers.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "register",
+                "notes": "NIHEXT required for controlled access data"
+            },
+            "doCs": [
+                {
+                    "key": "ccg",
+                    "label": "Center for Cancer Genomics (CCG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": null,
+                        "middleName": null,
+                        "lastName": null,
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": null,
+                    "email": "ocg@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 260,
+            "title": "TP53 Database",
+            "website": "https://tp53.isb-cgc.org/",
+            "body": "<p>The <em>TP53</em> database is meant to be a source of information on <em>TP53</em> variants for a broad range of scientists and clinicians who work in different research areas including basic research, pathology, epidemiology, and genetics. The <em>TP53</em> Database compiles various types of data and information from the literature and generalist databases on human <em>TP53</em> gene variations related to cancer. The data available include functional/structural data, somatic variants, germline variants, cell lines, mouse models, and experimentally induced variants.</p>",
+            "description": "<p>The <em>TP53</em> Database allows users to explore TP53 variants, including  functional/structural data, somatic variants, germline variants, cell lines, mouse models, and experimentally induced variants.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                },
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "cancer_statistics",
+                    "label": "Cancer Statistics"
+                },
+                {
+                    "key": "cancer_diagnosis",
+                    "label": "Cancer Diagnosis"
+                },
+                {
+                    "key": "causes_of_cancer",
+                    "label": "Causes of Cancer"
+                },
+                {
+                    "key": "bioinformatics",
+                    "label": "Bioinformatics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic"
+                },
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dceg",
+                    "label": "Division of Cancer Epidemiology and Genetics (DCEG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Sharon",
+                        "middleName": null,
+                        "lastName": "Savage",
+                        "suffix": null
+                    },
+                    "title": "DCEG Clinical Director, Chief and Senior Investigator in the Clinical Genetics Branch",
+                    "phone": "240-276-7241",
+                    "email": "savagesh@mail.nih.gov"
+                },
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Kelvin Cesar",
+                        "middleName": null,
+                        "lastName": "de Andrade",
+                        "suffix": null
+                    },
+                    "title": "Research Fellow",
+                    "phone": "240-276-5110",
+                    "email": "kelvin.deandrade@nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 246,
+            "title": "Vizome",
+            "website": "http://www.vizome.org/aml/",
+            "body": "<p>Beat AML study is a groundbreaking collaborative clinical study integrating genomics with data on acute myeloid leukemia (AML) patient sample sensitivity to a panel of novel targeted therapies. Vizome’s Beat AML data viewer allows easy access to clinical, genomic, transcriptomic, and functional analyses of AML samples. This tool could be used to predict novel treatment options.</p>",
+            "description": "<p>Vizome is a data browser used to access molecular characterization and drug response studies of clinically annotated adult acute myeloid leukemia cases.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                },
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "ccg",
+                    "label": "Center for Cancer Genomics (CCG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": "Dr.",
+                        "firstName": "Jeffrey",
+                        "middleName": "W",
+                        "lastName": "Tyner",
+                        "suffix": null
+                    },
+                    "title": "Associate Professor of Medicine",
+                    "phone": "503-346-0603",
+                    "email": "tynerj@ohsu.edu"
+                }
+            ]
+        }
+    ],
+    "facets": [
+        {
+            "title": "Research Area",
+            "param": "researchAreas",
+            "items": [
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics",
+                    "count": 18,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology",
+                    "count": 12,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment",
+                    "count": 7,
+                    "selected": false
+                },
+                {
+                    "key": "bioinformatics",
+                    "label": "Bioinformatics",
+                    "count": 5,
+                    "selected": false
+                },
+                {
+                    "key": "causes_of_cancer",
+                    "label": "Causes of Cancer",
+                    "count": 2,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_diagnosis",
+                    "label": "Cancer Diagnosis",
+                    "count": 1,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_statistics",
+                    "label": "Cancer Statistics",
+                    "count": 1,
+                    "selected": false
+                },
+                {
+                    "key": "screening_detection",
+                    "label": "Screening & Detection",
+                    "count": 1,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "title": "Research Type",
+            "param": "researchTypes",
+            "items": [
+                {
+                    "key": "basic",
+                    "label": "Basic",
+                    "count": 14,
+                    "selected": false
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational",
+                    "count": 12,
+                    "selected": false
+                },
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials",
+                    "count": 3,
+                    "selected": false
+                },
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic",
+                    "count": 2,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "title": "Tool Sub-Type",
+            "param": "toolSubtypes",
+            "items": [
+                {
+                    "key": "clinical_data",
+                    "label": "Clinical Data",
+                    "count": 25,
+                    "selected": false
+                },
+                {
+                    "key": "epidemiologic_data",
+                    "label": "Epidemiologic Data",
+                    "count": 23,
+                    "selected": false
+                },
+                {
+                    "key": "genomic_datasets",
+                    "label": "Genomic Datasets",
+                    "count": 20,
+                    "selected": true
+                },
+                {
+                    "key": "imaging",
+                    "label": "Imaging",
+                    "count": 14,
+                    "selected": false
+                },
+                {
+                    "key": "biological_networks",
+                    "label": "Biological Networks",
+                    "count": 3,
+                    "selected": false
+                },
+                {
+                    "key": "patient_registries",
+                    "label": "Patient Registries",
+                    "count": 3,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "title": "Tool Type",
+            "param": "toolTypes",
+            "items": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases",
+                    "count": 20,
+                    "selected": true
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1095 @@
+{
+    "meta": {
+        "totalResults": 31,
+        "from": 0,
+        "originalQuery": "/resources?size=20&from=0&toolTypes=analysis_tools&toolSubtypes=modeling&toolSubtypes=statistical_software"
+    },
+    "results": [
+        {
+            "id": 170,
+            "title": "Age Period Cohort Analysis Web Tool",
+            "website": "https://dceg.cancer.gov/tools/analysis/apc",
+            "body": "<p>Age–period–cohort (APC) analysis can inform registry-based studies of cancer incidence and mortality, but concerns about statistical identifiability and interpretability, as well as the learning curves of statistical software packages, have limited its uptake. This tool contains a panel of easy-to-interpret estimable APC functions and corresponding Wald tests in R code that can be accessed through a user-friendly Web tool.</p>",
+            "description": "<p>Age Period Cohort Analysis Web Tool is a panel of easy-to-interpret estimable age–period–cohort (APC) functions and corresponding Wald tests in R code that can be accessed through a user-friendly webtool.</p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "causes_of_cancer",
+                    "label": "Causes of Cancer"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic"
+                }
+            ],
+            "resourceAccess": {
+                "type": null,
+                "notes": "License Agreement"
+            },
+            "doCs": [
+                {
+                    "key": "dceg",
+                    "label": "Division of Cancer Epidemiology and Genetics (DCEG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": null,
+                        "middleName": null,
+                        "lastName": null,
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": null,
+                    "email": "NCIAPCWebToolAdmin@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 102,
+            "title": "Allele-Specific Alternative mRNA processing (ASARP)",
+            "website": "https://www.ibp.ucla.edu/research/xiao/Software_files/ASARP/doc/asarp.html",
+            "body": "<p>ASARP is a software pipeline for prediction of allele-specific alternative RNA processing events using single RNA-seq data. The current version focuses on prediction of alternative splicing and alternative polyadenylation modulated by genetic variants.</p>",
+            "description": "<p>ASARP is a software pipeline for prediction of allele-specific alternative RNA processing events using single RNA-seq data. The current version focuses on prediction of alternative splicing and alternative polyadenylation modulated by genetic variants.</p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "itcr",
+                    "label": "Informatics Technology for Cancer Research (ITCR)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 83,
+            "title": "Annual Report to the Nation on the Status of Cancer",
+            "website": "https://seer.cancer.gov/report_to_nation/",
+            "body": "<p>The report includes a special section to highlight a major topic in cancer surveillance. Recent topics include financial toxicity, progress toward Healthy People 2020 objectives, survival, prostate cancer, and molecular subtypes of breast cancer. This is an annual collaboration between NCI, North American Association of Central Cancer Registries, the Centers for Disease Control and Prevention, and the American Cancer Society. The agencies rotate between leading the report. Typically, the trends are by sex and race/ethnicity. The Surveillance, Epidemiology, and End Results (SEER) programwebsite hosts a microsite with summaries, factoids, links, and other shareable resources.</p>",
+            "description": "<p>The Annual Report to the Nation is a publication that provides an update of rates for new cases and deaths, as well as trends, for the most common cancers in the United States.</p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_health_disparities",
+                    "label": "Cancer Health Disparities"
+                },
+                {
+                    "key": "cancer_survivorship",
+                    "label": "Cancer Survivorship"
+                },
+                {
+                    "key": "cancer_statistics",
+                    "label": "Cancer Statistics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dccps",
+                    "label": "Division of Cancer Control and Population Sciences (DCCPS)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Kathy",
+                        "middleName": null,
+                        "lastName": "Cronin",
+                        "suffix": null
+                    },
+                    "title": "Deputy Associate Director, Surveillance Research Program",
+                    "phone": "240-276-6836",
+                    "email": "cronink@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 51,
+            "title": "Baysian Phase II Single Arm Clinical Trials",
+            "website": "https://brpnci.shinyapps.io/Phase2sim_survival_v1/",
+            "body": "<p>For simulations of single-arm trials for treatment (T),  assume that one interim analysis is conducted after nti events have occurred. By generating nti exponentially distributed event times (with rate parameter log(2)/mt), the parameters for the posterior gamma distribution of λt can be updated as αt = 1+nti and βt = 0.001+Σxti where Σxti is calculated as the sum of the nti simulated event times. For the simulations, users should specify the observed values of nc, mc, assumed value for mt, nt and the proportion of total events after which the interim analysis is to be conducted. h, ε and the number of trials to simulate should also be specified by the user. It is assumed that every subject is followed until event occurrence.</p>",
+            "description": "<p>This application supports the conduct of simulations for a single arm phase II clinical trial of a new treatment T with time to event outcome variable.</p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                },
+                {
+                    "key": "community_research_tools",
+                    "label": "Community Research Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 52,
+            "title": "Baysian Phase II Single Arm Clinical Trials",
+            "website": "https://brpnci.shinyapps.io/Phase2sim_v1/",
+            "body": "<p>The null hypothesis to be tested is that pt = pc against the alternative pt > pc.  If criteria for stopping at interim analysis are not met, additional accrual and outcome are simulated until a total of Nt patients are accrued to T. At the end of the trial, the posterior distribution of pt is updated again and the posterior probability pp_final that pt > pc is recomputed. If pp_final is ≥ 1- ε , then the null hypothesis is rejected, and superiority of T over C is declared. For the simulations, the user needs to specify the observed values for nc, xc, assumed values for pt, Nt and the proportion of total enrollment, after which the interim analysis is to be conducted. δ, ε and the number of trials to simulate are also specified by the user.</p>",
+            "description": "<p>This application supports the conduct of simulations for a single-arm phase II clinical trial of a new treatment (T) with a binary outcome variable.</p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                },
+                {
+                    "key": "community_research_tools",
+                    "label": "Community Research Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 39,
+            "title": "Biomarker Stratified Randomized Design (Binary)",
+            "website": "https://brb.nci.nih.gov/brb/samplesize/sdpap_binary.html",
+            "body": "<p>A randomized trial comparing new treatment (T) to control (C) includes both classifier-positive and classifier-negative patients. This program presumes  availability of binary classifier for biomarker predictive of benefit for new treatment. Sample size calculation for three analysis plans are provided. The first analysis plan determines sample size for the overall test comparing T to C for all randomized patients at reduced two-sided level alpha.  The second determines sample size for comparing T to C in the classifier-positive subset at two-sided .05 level.  For the third plan, first test for interaction between size of treatment effect and subset (classifier + or classifier -). If the interaction is non-significant, just compare treatments overall at two-sided significance level .05, otherwise, compare treatments within subsets at two-sided .05 level.</p>",
+            "description": "<p>This program performs stratified design with a prospective analysis plan and binary endpoint.</p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 40,
+            "title": "Biomarker Stratified Randomized Design (Time-to-Event)",
+            "website": "https://brb.nci.nih.gov/brb/samplesize/sdpap_survival.html",
+            "body": "<p>A randomized trial comparing new treatment (T) to control (C) includes both classifier-positive and classifier-negative patients. The program presumes availability of time-to-event predictive of benefit for new treatment. Sample size calculation for three analysis plans are provided: A) Determine sample size for overall test comparing T to C for all randomized patients at reduced two-sided level alpha.  B) Determine sample size for comparing T to C in classifier positive subset at two-sided .05 level.  C) First test for interaction between size of treatment effect and subset (classifier + or classifier -). If interaction is non-significant, just compare treatments overall at two-sided significance level .05. Otherwise, compare treatments within subsets at two-sided .05 level.</p>",
+            "description": "<p>This program performs stratified design with prospective analysis plan and time-to-event endpoint.</p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 41,
+            "title": "Biomarker Targeted Randomized Design",
+            "website": "https://brb.nci.nih.gov/brb/samplesize/td.html",
+            "body": "<p>Targeted design randomizes only marker-positive patients to a treatment arm. Untargeted design does not measure the marker and randomizes all who otherwise are eligible. By inputting the probability of response for control arm, the proportion of patients who are classifier positive, the improvement in response probability for new treatment in classifier positive patients, the Improvement in response probability for new treatment in classifier negative patients, two-sided significance level, and power, this program calculates the total number of patients for untargeted design and randomized targeted design, as well as total number of patients screened for targeted design.</p>",
+            "description": "<p>This program calculates the sample size for biomarker targeted randomized design with binary outcome endpoint.</p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                },
+                {
+                    "key": "community_research_tools",
+                    "label": "Community Research Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 85,
+            "title": "Cancer Stat Fact Sheets (Stat Facts)",
+            "website": "https://seer.cancer.gov/statfacts/",
+            "body": "<p>These statistical summaries provide a quick overview of frequently requested cancer statistics, which may include incidence, mortality, survival, stage, prevalence, and lifetime risk, by cancer site for a number of common cancer types. . Along with cancer types, Stat Facts also highlight statistics related to certain special topics such as cancer health disparities. The Surveillance, Epidemiology, and End Results (SEER) program posts several new stat facts a year. Recent new fact sheets include pages for specific childhood cancer sites.</p>",
+            "description": "<p>These fact sheets provide frequently requested cancer statistics, such as incidence, mortality, survival, stage, prevalence, and lifetime risk, for a number of common cancer types.</p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_health_disparities",
+                    "label": "Cancer Health Disparities"
+                },
+                {
+                    "key": "cancer_statistics",
+                    "label": "Cancer Statistics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dccps",
+                    "label": "Division of Cancer Control and Population Sciences (DCCPS)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Patricia",
+                        "middleName": null,
+                        "lastName": "Murphy",
+                        "suffix": null
+                    },
+                    "title": "Program Analyst, Surveillance Research Program",
+                    "phone": "240-276-6903",
+                    "email": null
+                }
+            ]
+        },
+        {
+            "id": 144,
+            "title": "Cancer Survival Analysis Software (CanSurv)",
+            "website": "https://surveillance.cancer.gov/cansurv/",
+            "body": "<p>CanSurv uses information from SEER*Stat software. For grouped survival data, it can fit both the standard survival models and the mixture cure survival models and it provides various graphs for model diagnosis. It can also fit parametric (cure) survival models to individually-listed data. The most recent version of the software has new options that provide more flexibility for other programs to read the calculated results.</p>",
+            "description": "<p>CanSurv is statistical software used to analyze population-based survival data, including grouped survival data and parametric (cure) survival models.</p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_public_health",
+                    "label": "Cancer & Public Health"
+                },
+                {
+                    "key": "cancer_survivorship",
+                    "label": "Cancer Survivorship"
+                },
+                {
+                    "key": "cancer_statistics",
+                    "label": "Cancer Statistics"
+                }
+            ],
+            "researchTypes": [],
+            "resourceAccess": {
+                "type": "register",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dccps",
+                    "label": "Division of Cancer Control and Population Sciences (DCCPS)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Angela",
+                        "middleName": null,
+                        "lastName": "Mariotto",
+                        "suffix": null
+                    },
+                    "title": "Chief, Data Analytics Branch, Surveillance Research Program",
+                    "phone": "240-276-6698",
+                    "email": "mariotta@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 62,
+            "title": "Data Dictionary Refine (D2Refine)",
+            "website": "https://github.com/caCDE-QA/D2Refine/wiki",
+            "body": "<p>D2Refine is an integrated platform that enables cancer study data/metadata harmonization and quality assurance. The platform is based on Open Refine and has been enhanced with a suite of plugins.</p>",
+            "description": "<p>D2Refine is an integrated platform based on Open Refine that enables cancer study data/metadata harmonization and quality assurance.</p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                },
+                {
+                    "key": "terminology",
+                    "label": "Terminology"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [],
+            "researchTypes": [],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "itcr",
+                    "label": "Informatics Technology for Cancer Research (ITCR)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 50,
+            "title": "Design, Monitoring, and Analysis of Bayesian Basket Discovery Trials",
+            "website": "https://brpnci.shinyapps.io/BasketTrials/",
+            "body": "<p>This application currently supports sample size planning and interim analysis for basket trials. The user specifies the number of strata and the prior probability that the drug is active in any particular stratum. Also, since in general there would be uncertainty on whether these strata are completely correlated or independent with regard to the distribution of drug activity, the user also specifies a prior probability corresponding to correlation of drug activity among strata. The more general situation where there are asymmetries among the strata with regard to the prior probability of drug activity will be implemented in the next version of this application.</p>",
+            "description": "<p>This web-based application implements a new method based on Bayesian principles for the design, monitoring, and analysis of basket trials.</p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                },
+                {
+                    "key": "community_research_tools",
+                    "label": "Community Research Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 89,
+            "title": "DevCan",
+            "website": "https://surveillance.cancer.gov/devcan/",
+            "body": "<p>Depending on user preference, the probability may be calculated either from birth (lifetime risk) or for a person who is a particular age. DevCan uses Surveillance, Epidemiology, and End Results (SEER) data to calculate incidence and Centers for Disease Control and Prevention/Nationaal Center for Health Statistics data to calculate mortality. This is a PC-based software. The current version supports rate editing, sensitivity analysis, user-defined databases, confidence intervals, and the ability to get risk estimates from any age to any age.</p>",
+            "description": "<p>This tool consists of statistical software and associated databases that compute the probability of being diagnosed with or dying of cancer for a particular selected cancer site.</p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_public_health",
+                    "label": "Cancer & Public Health"
+                },
+                {
+                    "key": "cancer_health_disparities",
+                    "label": "Cancer Health Disparities"
+                },
+                {
+                    "key": "cancer_statistics",
+                    "label": "Cancer Statistics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "register",
+                "notes": "Users must sign a terms of use agreement in order to download the software."
+            },
+            "doCs": [
+                {
+                    "key": "dccps",
+                    "label": "Division of Cancer Control and Population Sciences (DCCPS)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Susan",
+                        "middleName": null,
+                        "lastName": "Scott",
+                        "suffix": null
+                    },
+                    "title": "Public Health Advisor, Surveillance Research Program",
+                    "phone": "240-276-6951",
+                    "email": "scotts2@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "title": "DINC 2.0 (Docking INCrementally)",
+            "website": "http://dinc.kavrakilab.org",
+            "body": "<p>DINC 2.0 is a parallelized meta-docking method for the incremental docking of large ligands (currently using AutoDock 4).</p>",
+            "description": "<p>DINC 2.0 is a parallelized meta-docking method for the incremental docking of large ligands (currently using AutoDock 4).</p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "bioinformatics",
+                    "label": "Bioinformatics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "itcr",
+                    "label": "Informatics Technology for Cancer Research (ITCR)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 187,
+            "title": "Genetic Simulation Resources (GSR)",
+            "website": "https://popmodels.cancercontrol.cancer.gov/gsr/",
+            "body": "<p>Genetic simulation software is an important adjunct to research in genetic epidemiology and statistical genetics. The GSR provides a catalogue of more than 100 existing software packages that simulate genetic data of the human genome. The purpose of the GSR is to help investigators identify the genetic simulator most suitable for their research needs.</p>\n<p>The GSR characterizes applications by many different attributes, including simulation method, type of genetic variation, input/output formats, programming languages, and license information.</p>",
+            "description": "<p>The GSR provides a catalogue of existing software packages that simulate genetic data of the human genome.</p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic"
+                },
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dccps",
+                    "label": "Division of Cancer Control and Population Sciences (DCCPS)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 145,
+            "title": "Head*Bang PC Software",
+            "website": "https://surveillance.cancer.gov/headbang/",
+            "body": "<p>Head*Bang PC is non-parametric smoothing software for the analysis of spatial (geographic) patterns of cancer. The Head-Bang PC Software was developed to reveal underlying geographic patterns in data where the values to be smoothed do not have equal variances. Head-Bang 4.0 (64-bit only) was released in May 2017 and can be used both in Windows and as a console version.</p>",
+            "description": "<p>Head*Bang PC is nNon-parametric smoothing software for the analysis of spatial (geographic) patterns of cancer.</p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_statistics",
+                    "label": "Cancer Statistics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dccps",
+                    "label": "Division of Cancer Control and Population Sciences (DCCPS)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Li",
+                        "middleName": null,
+                        "lastName": "Zhu",
+                        "suffix": null
+                    },
+                    "title": "Mathematical Statistician, Statistical Research and Applications Branch, Surveillance Research Program",
+                    "phone": "240-276-6851",
+                    "email": "li.zhu@nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 185,
+            "title": "Healthy Eating Index (HEI)",
+            "website": "https://epi.grants.cancer.gov/hei/",
+            "body": "<p>The HEI is a measure of diet quality, independent of quantity, that can be used to assess compliance with the U.S. Dietary Guidelines for Americans and monitor changes in dietary patterns. The HEI also is a valuable tool for epidemiologic and economic research and can be used to evaluate nutrition interventions and consumer nutrition education programs. The HEI–2015 is the latest iteration of the HEI. The original HEI was released by the United States Department of Agriculture (USDA) in 1995. Changes made to the Dietary Guidelines for Americans have necessitated revisions to the original HEI. The HEI has been significantly updated through a collaboration with the USDA and NCI.</p>",
+            "description": "<p>The HEI is a scoring metric that can be used to determine overall diet quality as well as the quality of a range of dietary components.</p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_prevention",
+                    "label": "Cancer Prevention"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dccps",
+                    "label": "Division of Cancer Control and Population Sciences (DCCPS)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Jill",
+                        "middleName": null,
+                        "lastName": "Reedy",
+                        "suffix": null
+                    },
+                    "title": "Branch Chief, Risk Factor Assessment Branch",
+                    "phone": "240-276-6812",
+                    "email": "reedyj@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 90,
+            "title": "Joinpoint Trend Analysis Software",
+            "website": "https://surveillance.cancer.gov/joinpoint/",
+            "body": "<p>Statistical software for analyzing trend data (e.g., cancer incidence rates) using joinpoint models, that is, models where several different lines are connected together at the \"joinpoints\".  Cancer trends reported in NCI publications are calculated using the Joinpoint Regression Program to analyze rates calculated by the SEER*Stat software. Enables the user to test whether an apparent change in trend is statistically significant. Two versions of Joinpoint software are available:  desktop version (for a PC) and command-line version (for use in batch mode or called from other software, such as SAS or R).</p>",
+            "description": "<p>Joinpoint software is statistical software for analyzing trend data (e.g., cancer incidence rates) using joinpoint models. It is available in desktop version (for a PC) and command-line version (for use in batch mode or called from other software, such as SAS or R).</p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_public_health",
+                    "label": "Cancer & Public Health"
+                },
+                {
+                    "key": "cancer_health_disparities",
+                    "label": "Cancer Health Disparities"
+                },
+                {
+                    "key": "cancer_statistics",
+                    "label": "Cancer Statistics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "register",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dccps",
+                    "label": "Division of Cancer Control and Population Sciences (DCCPS)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Susan",
+                        "middleName": null,
+                        "lastName": "Scott",
+                        "suffix": null
+                    },
+                    "title": "Public Health Advisor, Surveillance Research Program",
+                    "phone": "240-276-6951",
+                    "email": "scotts2@mail.nih.gov"
+                },
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Eric (Rocky)",
+                        "middleName": null,
+                        "lastName": "Feuer",
+                        "suffix": null
+                    },
+                    "title": "Chief, Statistical Research and Applications Branch, Surveillance Research Program",
+                    "phone": "240-276-6772",
+                    "email": "feuerr@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 44,
+            "title": "Microsoft Excel Dose Level Assignment program for Accelerated Titration Designs",
+            "website": "https://brb.nci.nih.gov/programdownload/ExcelProgram.htm",
+            "body": "<p>We fit a stochastic model to data from 20 phase I trials of 9 different drugs. We then simulated new data from the model with the parameters estimated from the actual trials and evaluated the performance of alternative phase I designs on this simulated data. Four designs were evaluated. Accelerated titration designs appear to effectively reduce the number of patients under-treated, speed the completion of phase I trials, and provide a substantial increase in the information obtained. The downloadable Excel dose-level assignment program can be used for accelerated titration design for phase I clinical trial.</p>",
+            "description": "",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 186,
+            "title": "NCI Method for Assessing Usual Dietary Intakes",
+            "website": "https://epi.grants.cancer.gov/diet/usualintakes/",
+            "body": "<p>Usual dietary intake is the long-run average daily intake of a nutrient or food. The concept of long-term average daily intake, or \"usual intake,\" is important because dietary recommendations are intended to be met over time and diet-health hypotheses are based on dietary intakes over the long term. The NCI method can be used to estimate the distribution of usual intake for a population or subpopulation; assess the effects of individual covariates on consumption; and predict individual intake for use in a model to assess the relationship between diet and disease or other variable using the statistical technique of regression calibration.</p>",
+            "description": "<p>Researchers at NCI and elsewhere developed a method to estimate usual dietary intakes of foods and nutrients using 24-hour recalls.</p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_prevention",
+                    "label": "Cancer Prevention"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dccps",
+                    "label": "Division of Cancer Control and Population Sciences (DCCPS)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Jill",
+                        "middleName": null,
+                        "lastName": "Reedy",
+                        "suffix": null
+                    },
+                    "title": "Branch Chief, Risk Factor Assessment Branch",
+                    "phone": "240-276-6812",
+                    "email": "reedyj@mail.nih.gov"
+                }
+            ]
+        }
+    ],
+    "facets": [
+        {
+            "title": "Research Area",
+            "param": "researchAreas",
+            "items": [
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment",
+                    "count": 11,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_statistics",
+                    "label": "Cancer Statistics",
+                    "count": 9,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_health_disparities",
+                    "label": "Cancer Health Disparities",
+                    "count": 7,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_public_health",
+                    "label": "Cancer & Public Health",
+                    "count": 6,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics",
+                    "count": 3,
+                    "selected": false
+                },
+                {
+                    "key": "bioinformatics",
+                    "label": "Bioinformatics",
+                    "count": 2,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_prevention",
+                    "label": "Cancer Prevention",
+                    "count": 2,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_survivorship",
+                    "label": "Cancer Survivorship",
+                    "count": 2,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology",
+                    "count": 1,
+                    "selected": false
+                },
+                {
+                    "key": "causes_of_cancer",
+                    "label": "Causes of Cancer",
+                    "count": 1,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "title": "Research Type",
+            "param": "researchTypes",
+            "items": [
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic",
+                    "count": 13,
+                    "selected": false
+                },
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials",
+                    "count": 11,
+                    "selected": false
+                },
+                {
+                    "key": "basic",
+                    "label": "Basic",
+                    "count": 4,
+                    "selected": false
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational",
+                    "count": 3,
+                    "selected": false
+                },
+                {
+                    "key": "clinical",
+                    "label": "Clinical",
+                    "count": 2,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "title": "Tool Sub-Type",
+            "param": "toolSubtypes",
+            "items": [
+                {
+                    "key": "genomic_analysis",
+                    "label": "Genomic Analysis",
+                    "count": 52,
+                    "selected": false
+                },
+                {
+                    "key": "data_visualization",
+                    "label": "Data Visualization",
+                    "count": 35,
+                    "selected": false
+                },
+                {
+                    "key": "statistical_software",
+                    "label": "Statistical Software",
+                    "count": 16,
+                    "selected": true
+                },
+                {
+                    "key": "modeling",
+                    "label": "Modeling",
+                    "count": 15,
+                    "selected": true
+                },
+                {
+                    "key": "imaging_analysis",
+                    "label": "Imaging Analysis",
+                    "count": 14,
+                    "selected": false
+                },
+                {
+                    "key": "r_software",
+                    "label": "R Software",
+                    "count": 12,
+                    "selected": false
+                },
+                {
+                    "key": "natural_language_processing",
+                    "label": "Natural Language Processing",
+                    "count": 3,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "title": "Tool Type",
+            "param": "toolTypes",
+            "items": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools",
+                    "count": 31,
+                    "selected": true
+                }
+            ]
+        }
+    ]
+}

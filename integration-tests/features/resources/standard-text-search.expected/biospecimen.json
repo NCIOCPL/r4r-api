@@ -1,0 +1,741 @@
+{
+    "meta": {
+        "totalResults": 11,
+        "from": 0,
+        "originalQuery": "\/resources?size=20&from=0&q=biospecimen"
+    },
+    "results": [
+        {
+            "id": 229,
+            "title": "Cancer Data Access System (CDAS)",
+            "website": "https:\/\/biometry.nci.nih.gov\/cdas\/",
+            "body": "<p>CDAS is a website to request data recorded from various research studies, including NLST, PLCO, and the Interactive Diet and Activity Tracking in AARP. For some studies, you may also request images or biospecimens.<\/p>\n<p>CDAS provides extensive public documentation for each study, including a trial summary, an overview of the data collected, and a searchable database of research projects and publications.<\/p>\n<p>Researchers interested in obtaining study data may begin a CDAS project for that study. All projects are reviewed by NCI trial leadership.<\/p>",
+            "description": "<p>CDAS is a submission and tracking system for data from the National Lung Screening Trial (NLST), the Prostate, Lung, Colorectal and Ovarian (PLCO) Cancer Screening Trial, and the Interactive Diet and Activity Tracking in AARP.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [],
+            "researchTypes": [],
+            "resourceAccess": {
+                "type": "register",
+                "notes": "After registration approval, materials are   available for a limited time."
+            },
+            "doCs": [],
+            "poCs": []
+        },
+        {
+            "id": 180,
+            "title": "Cancer Epidemiology Descriptive Cohort Database (CEDCD)",
+            "website": "https:\/\/cedcd.nci.nih.gov\/",
+            "body": "<p>The CEDCD contains descriptive information about cohort studies that follow groups of persons over time for cancer incidence, mortality, and other health outcomes. The CEDCD is a searchable database that contains general study information (e.g., eligibility criteria and size), the type of data collected at baseline, cancer sites, number of participants diagnosed with cancer, and biospecimen information. All data included in this database are aggregated for each cohort; there are no individual-level data. The goal of the CEDCD is to facilitate collaboration and highlight the opportunities for research within existing cohort studies.<\/p>\n<p>Information in the CEDCD has been provided with approval from the cohort principal investigators.<\/p>",
+            "description": "<p>The CEDCD is a searchable database that contains information about cohort studies that follow groups of persons over time for cancer incidence, mortality, and other health outcomes.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "causes_of_cancer",
+                    "label": "Causes of Cancer"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dccps",
+                    "label": "Division of Cancer Control and Population Sciences (DCCPS)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Joanne",
+                        "middleName": null,
+                        "lastName": "Elena",
+                        "suffix": null
+                    },
+                    "title": "Program Director, Clinical and Translational Epidemiology Branch",
+                    "phone": "240-276-6818",
+                    "email": "elenajw@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 26,
+            "title": "Chernobyl Tissue Bank (CTB)",
+            "website": "http:\/\/www.chernobyltissuebank.com\/",
+            "body": "<p>CTB is an international collaborative project that is supported by NCI\u2019s Division of Cancer Biology and the Sasakawa Memorial Health Foundation of Japan with active participation from Russia and Ukraine, two countries heavily affected by the 1986 Chernobyl accident. CTB manages biospecimen resources and associated data sets that support studies on the biology of thyroid cancer, the major health consequence of the Chernobyl accident. For more information on this Tissue Bank, please visit the Chernobyl Tissue Bank website.<\/p>",
+            "description": "<p>CTB maintains a research resource that supports studies on the biology of thyroid cancer, the major health consequence of the Chernobyl accident.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "causes_of_cancer",
+                    "label": "Causes of Cancer"
+                },
+                {
+                    "key": "cancer_survivorship",
+                    "label": "Cancer Survivorship"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "clinical",
+                    "label": "Clinical"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "register",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dcb",
+                    "label": "Division of Cancer Biology (DCB)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Rihab",
+                        "middleName": null,
+                        "lastName": "Yassin",
+                        "suffix": "Ph.D."
+                    },
+                    "title": "Program Director",
+                    "phone": "240-276-6230",
+                    "email": "yassinr@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 226,
+            "title": "Cooperative Human Tissue Network (CHTN)",
+            "website": "https:\/\/www.chtn.org\/",
+            "body": "<p>The CHTN is a unique NCI-supported resource that provides human tissues and fluids from routine procedures to investigators who utilize human biospecimens in their research. Unlike tissue banks, the CHTN works prospectively with each investigator to tailor specimen acquisition and processing to meet their specific project requirements.<\/p>",
+            "description": "<p>The CHTN is a unique NCI-supported resource that provides human tissues and fluids from routine procedures to investigators who utilize human biospecimens in their research. Unlike tissue banks, the CHTN works prospectively with each investigator to tailor specimen acquisition and processing to meet their specific project requirements.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                },
+                {
+                    "key": "causes_of_cancer",
+                    "label": "Causes of Cancer"
+                },
+                {
+                    "key": "cancer_diagnosis",
+                    "label": "Cancer Diagnosis"
+                },
+                {
+                    "key": "screening_detection",
+                    "label": "Screening & Detection"
+                },
+                {
+                    "key": "cancer_health_disparities",
+                    "label": "Cancer Health Disparities"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "clinical",
+                    "label": "Clinical"
+                },
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Nicole",
+                        "middleName": null,
+                        "lastName": "Bollinger",
+                        "suffix": null
+                    },
+                    "title": "Central Coordinator",
+                    "phone": "(440) 477-5952",
+                    "email": "nbollinger@chtn.org"
+                }
+            ]
+        },
+        {
+            "id": 168,
+            "title": "Genomic Data Commons (GDC)",
+            "website": "https:\/\/gdc.cancer.gov\/",
+            "body": "<p>The GDC is a research program with a mission to provide the cancer research community with a unified data repository that enables data sharing across cancer genomic studies in support of precision medicine. GDC provides harmonized DNA and RNA sequencing data and other high-quality biospecimen, clinical, and molecular data. Web-based tools supporting fine-grained queries and advanced visualization and pipelines generating DNA sequence variants, mutation analyses, expression analyses, and more are also accessible.<\/p>",
+            "description": "<p>The GDC is a data sharing platform that provides access to harmonized genomic and de-identified clinical data from various large-scale cancer studies, along with web-based tools for data analysis and visualization.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                },
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                },
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                },
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "ccg",
+                    "label": "Center for Cancer Genomics (CCG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Peggy",
+                        "middleName": null,
+                        "lastName": "Wang",
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": null,
+                    "email": "peggy.wang@nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 34,
+            "title": "NCI Best Practices for Biospecimen Resources Handbook, 2016",
+            "website": "https:\/\/biospecimens.cancer.gov\/bestpractices\/2016-NCIBestPractices.pdf",
+            "body": "<p>This publication outlines the operational, technical, ethical, legal, and policy best practices for NCI-supported biospecimen resources. NCI Best Practices incorporate key principles that define state-of-the-science biospecimen resource practices, promote biospecimen and data quality, and support adherence to ethical and legal requirements. This document is based on current published information and will be revised periodically as new information is generated from ongoing research projects. While adoption of the NCI Best Practices is voluntary, NCI believes that these principles optimize biospecimens for cancer research.<\/p>\n<p>This revision was published in March 2016.<\/p>",
+            "description": "<p>This publication outlines the operational, technical, ethical, legal, and policy best practices for NCI-supported biospecimen resources.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_health_disparities",
+                    "label": "Cancer Health Disparities"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                },
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 179,
+            "title": "NCI Cohort Consortium",
+            "website": "https:\/\/epi.grants.cancer.gov\/Consortia\/cohort.html",
+            "body": "<p>The NCI Cohort Consortium promotes collaborative research projects for topics not easily addressed in a single study. The Consortium includes investigators responsible for more than 50 cohorts involving more than seven million people. The cohorts are international in scope and cover diverse populations. Extensive risk factor data are available on each cohort and biospecimens collected at baseline are available on approximately two million individuals.<\/p>\n<p>Application for membership will be open to the principal investigator of any cancer epidemiology cohort with at least 10,000 study participants, in which cancer occurrence is assessed and some risk factor data collected, who commits to scientific collaboration by contributing data for scientific research and participating in pooling studies.<\/p>",
+            "description": "<p>The NCI Cohort Consortium promotes large-scale research collaborations through pooling data and biospecimens collected from 50+ international cohort studies to conduct a wide range of cancer studies.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "networks_consortiums",
+                    "label": "Networks\/Consortiums"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "causes_of_cancer",
+                    "label": "Causes of Cancer"
+                },
+                {
+                    "key": "cancer_survivorship",
+                    "label": "Cancer Survivorship"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dccps",
+                    "label": "Division of Cancer Control and Population Sciences (DCCPS)"
+                },
+                {
+                    "key": "dceg",
+                    "label": "Division of Cancer Epidemiology and Genetics (DCEG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Nonye",
+                        "middleName": null,
+                        "lastName": "Harvey",
+                        "suffix": null
+                    },
+                    "title": "Public Health Advisor, Office of the Associate Director, EGRP",
+                    "phone": "240-276-6898",
+                    "email": "harveyn@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 227,
+            "title": "NCI Specimen Resource Locator (SRL)",
+            "website": "https:\/\/specimens.cancer.gov\/",
+            "body": "<p>The SRL is a biospecimen resource database designed to help researchers locate resources that may have the samples needed for their investigational use. This publicly searchable database includes information about biospecimen banks and sample procurement services. The specimens and samples come from non-commercial, NCI- or non-NCI-funded resources. Investigators can search the database and gain access to thousands of specimens of various tumor, organ, and preservation methods. In the event a user is unsuccessful in finding the appropriate specimen resource, he or she may contact the NCI Tissue Expediter, a scientist who can further assist them. Also, the Tissue Expediter can assist researchers to identify potential collaborators when needed. The NCI and the NCI's SRL do not oversee or take responsibility for the content, quality or data of the specimen collections or resources participating in the SRL.<\/p>",
+            "description": "<p>The SRL is a biospecimen resource database designed to help researchers locate resources that may have the samples needed for their investigational use. This publicly searchable database includes information about biospecimen banks and sample procurement services. The specimens and samples come from non-commercial, NCI- or non-NCI-funded resources. Investigators can search the database and gain access to thousands of specimens of various tumor, organ, and preservation methods. In the event a user is unsuccessful in finding the appropriate specimen resource, he or she may contact the NCI Tissue Expediter, a scientist who can further assist them. Also, the Tissue Expediter can assist researchers to identify potential collaborators when needed. The NCI and the NCI's SRL do not oversee or take responsibility for the content, quality or data of the specimen collections or resources participating in the SRL.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                },
+                {
+                    "key": "screening_detection",
+                    "label": "Screening & Detection"
+                },
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "cancer_public_health",
+                    "label": "Cancer & Public Health"
+                },
+                {
+                    "key": "cancer_prevention",
+                    "label": "Cancer Prevention"
+                },
+                {
+                    "key": "cancer_health_disparities",
+                    "label": "Cancer Health Disparities"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "clinical",
+                    "label": "Clinical"
+                },
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Joanne",
+                        "middleName": null,
+                        "lastName": "Demchok",
+                        "suffix": null
+                    },
+                    "title": "Program Director",
+                    "phone": "240-276-5959",
+                    "email": null
+                }
+            ]
+        },
+        {
+            "id": 35,
+            "title": "Protocol - Snap-Freezing of Post-Surgical Tissue Biospecimens",
+            "website": "https:\/\/biospecimens.cancer.gov\/global\/pdfs\/NCI_BEBP_Snap-freezing_of_Post-surgical_Tissue_Biospecimens.pdf",
+            "body": "<p>This protocol provides evidence-based guidance for the proper snap-freezing of human tissue biospecimens. This guidance is intended to support the development and execution of evidence-based Standard Operating Procedures (SOPs) for human biospecimen collection, processing, and storage operations. It is applicable to all human tissues that are to be preserved by snap-freezing. Biospecimens preserved under these procedural guidelines are suitable for downstream analysis of DNA, RNA, protein, and morphology endpoints. Additional analytical endpoints, including but not limited to cell viability, cell sorting, drug sensitivity testing, or use as donor specimens for xenografts or primary tissue culture, do not fall within the scope of this document.<\/p>",
+            "description": "<p>This protocol provides evidence-based guidance for the proper snap-freezing of human tissue biospecimens.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 36,
+            "title": "Standard Operating Procedure (SOP) Collection for Biobanking and the Genome Tissue Expression (GTEx) Project",
+            "website": "https:\/\/biospecimens.cancer.gov\/resources\/sops\/library.asp",
+            "body": "<p>This library of SOPs addresses various biobanking practices used in initiatives such as the Cancer Human Biobank (caHUB). The caHUB has collected high quality biospecimens and associated data to enable genomic research in the GTEx project, a National Institutes of Health (NIH) Common Fund initiative. The success of GTEx depends on the ability to successfully procure and store high quality biospecimens for analysis. Successful collection of normal human biospecimens from rapid autopsies and organ donors requires complex operations and a stringent quality assurance and control process. For this reason, caHUB has created a large number of SOPs to govern operations in ethical and regulatory procedures; biospecimen collecting and tracking; data collection; production of collection and shipping kits and checklists; and pathology review.<\/p>",
+            "description": "<p>This resource is a library of SOPs for various biobanking practices to govern operations in ethical and regulatory procedures; biospecimen collecting and tracking; data collection; production of collection and shipping kits and checklists; and pathology review.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_health_disparities",
+                    "label": "Cancer Health Disparities"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 49,
+            "title": "The Biospecimen Research Database",
+            "website": "https:\/\/brd.nci.nih.gov\/brd\/",
+            "body": "<p>The Biospecimen Research Database is a database of SOPs and peer-reviewed articles in the field of human biospecimen science. Each literature curation has been created by a Ph.D.-level scientist to capture the following: (1) relevant parameters that include the biospecimen investigated (type and location, patient diagnosis), preservation method, analyte(s) of interest, and technology platform(s) used for analysis; (2) the pre-analytical factors investigated, including those relating to pre-acquisition, acquisition, preservation, processing, storage, and analysis; and (3) an original summary of relevant results. SOP documents are searchable by keyword or by curated fields (source organization, tier, applicable biospecimens, and topic).<\/p>",
+            "description": "<p>This is a database of Standard Operating Procedures (SOPs) and peer-reviewed articles in the field of human biospecimen science. SOP documents are searchable by keyword or by curated fields (source organization, tier, applicable biospecimens, and topic).<\/p>",
+            "toolTypes": [
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_health_disparities",
+                    "label": "Cancer Health Disparities"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                },
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        }
+    ],
+    "facets": [
+        {
+            "title": "Research Area",
+            "param": "researchAreas",
+            "items": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology",
+                    "count": 7,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_health_disparities",
+                    "label": "Cancer Health Disparities",
+                    "count": 5,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics",
+                    "count": 4,
+                    "selected": false
+                },
+                {
+                    "key": "causes_of_cancer",
+                    "label": "Causes of Cancer",
+                    "count": 4,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment",
+                    "count": 3,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_survivorship",
+                    "label": "Cancer Survivorship",
+                    "count": 2,
+                    "selected": false
+                },
+                {
+                    "key": "screening_detection",
+                    "label": "Screening & Detection",
+                    "count": 2,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_diagnosis",
+                    "label": "Cancer Diagnosis",
+                    "count": 1,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_prevention",
+                    "label": "Cancer Prevention",
+                    "count": 1,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_public_health",
+                    "label": "Cancer & Public Health",
+                    "count": 1,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "title": "Research Type",
+            "param": "researchTypes",
+            "items": [
+                {
+                    "key": "basic",
+                    "label": "Basic",
+                    "count": 6,
+                    "selected": false
+                },
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials",
+                    "count": 5,
+                    "selected": false
+                },
+                {
+                    "key": "clinical",
+                    "label": "Clinical",
+                    "count": 3,
+                    "selected": false
+                },
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic",
+                    "count": 3,
+                    "selected": false
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational",
+                    "count": 3,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "title": "Tool Type",
+            "param": "toolTypes",
+            "items": [
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools",
+                    "count": 6,
+                    "selected": false
+                },
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases",
+                    "count": 4,
+                    "selected": false
+                },
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools",
+                    "count": 1,
+                    "selected": false
+                },
+                {
+                    "key": "networks_consortiums",
+                    "label": "Networks\/Consortiums",
+                    "count": 1,
+                    "selected": false
+                }
+            ]
+        }
+    ]
+}

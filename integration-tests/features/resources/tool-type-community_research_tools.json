@@ -1,0 +1,1292 @@
+{
+    "meta": {
+        "totalResults": 21,
+        "from": 0,
+        "originalQuery": "/resources?size=20&from=0&toolTypes=community_research_tools"
+    },
+    "results": [
+        {
+            "id": 258,
+            "title": "Activities Completed over Time in 24 hours (ACT24)",
+            "website": "https://dceg.cancer.gov/research/how-we-study/exposure-assessment/physical-activities-completed-over-time-24-hours-act-24",
+            "body": "<p>Activities Completed over Time in 24 hours (ACT24) is a free, web-based tool to estimate daily summary values for physical activity and sedentary behavior, including time spent sitting and in different types and intensities of physical activity. ACT24 has been validated in studies of middle-aged and older adults and has been used to provide detailed portraits of human time use and energy expenditure at the population level. Researchers can register their projects, generate custom logins for participants to enter data via a secure participant site, and download data. An Application Programming Interface (API) is available to link ACT24 data to study management systems.</p>",
+            "description": "<p>Activities Completed over Time in 24 hours (ACT24) is a free, web-based tool for epidemiologic, interventional, behavioral, or clinical research on energy expenditure. ACT24 estimates daily summary values for physical activity and sedentary behavior, including time spent sitting and in different types and intensities of physical activity, based on previous-day recall reporting from participants.</p>",
+            "toolTypes": [
+                {
+                    "key": "community_research_tools",
+                    "label": "Community Research Tools"
+                },
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "causes_of_cancer",
+                    "label": "Causes of Cancer"
+                },
+                {
+                    "key": "cancer_prevention",
+                    "label": "Cancer Prevention"
+                },
+                {
+                    "key": "cancer_health_disparities",
+                    "label": "Cancer Health Disparities"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "register",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dceg",
+                    "label": "Division of Cancer Epidemiology and Genetics (DCEG)"
+                },
+                {
+                    "key": "dccps",
+                    "label": "Division of Cancer Control and Population Sciences (DCCPS)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": "Dr.",
+                        "firstName": "Charles",
+                        "middleName": null,
+                        "lastName": "Matthews",
+                        "suffix": null
+                    },
+                    "title": "Senior Investigator",
+                    "phone": "240-276-7211",
+                    "email": "matthewsce@mail.nih.gov"
+                },
+                {
+                    "name": {
+                        "prefix": "Dr.",
+                        "firstName": "David",
+                        "middleName": null,
+                        "lastName": "Berrigan",
+                        "suffix": null
+                    },
+                    "title": "Program Director",
+                    "phone": "240-276-6752",
+                    "email": "berrigad@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 183,
+            "title": "Automated Self-Administered 24-Hour (ASA24) Dietary Assessment Tool",
+            "website": "https://epi.grants.cancer.gov/asa24/",
+            "body": "<p>The ASA24 system is a freely -available, web-based software tool that enables automated and self-administered 24-hour dietary recalls and food records (food diaries). The ASA24 system can be used by researchers for epidemiologic, intervention, behavioral, or clinical research. Clinicians may use the ASA24 system for diet assessment and nutrition counseling, and educators may find it to be a useful teaching tool.</p>\n<p>The ASA24 system consists of Respondent and Researcher websites. For the Researcher website, researchers can customize ASA24 recalls and records to collect data on dietary supplements, food sources, TV and computer use during meals, location of meals, and with whom meals were eaten.</p>",
+            "description": "<p>ASA24 is a free web-based tool for epidemiologic, interventional, behavioral, or clinical research that enables multiple automatically coded self-administered 24-hour recalls and food records.</p>",
+            "toolTypes": [
+                {
+                    "key": "community_research_tools",
+                    "label": "Community Research Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_prevention",
+                    "label": "Cancer Prevention"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "register",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dccps",
+                    "label": "Division of Cancer Control and Population Sciences (DCCPS)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Kirsten",
+                        "middleName": null,
+                        "lastName": "Herrick",
+                        "suffix": null
+                    },
+                    "title": "Program Director, Risk Factor Assessment Branch",
+                    "phone": "240-276-5734",
+                    "email": "herrickka@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 51,
+            "title": "Baysian Phase II Single Arm Clinical Trials",
+            "website": "https://brpnci.shinyapps.io/Phase2sim_survival_v1/",
+            "body": "<p>For simulations of single-arm trials for treatment (T),  assume that one interim analysis is conducted after nti events have occurred. By generating nti exponentially distributed event times (with rate parameter log(2)/mt), the parameters for the posterior gamma distribution of λt can be updated as αt = 1+nti and βt = 0.001+Σxti where Σxti is calculated as the sum of the nti simulated event times. For the simulations, users should specify the observed values of nc, mc, assumed value for mt, nt and the proportion of total events after which the interim analysis is to be conducted. h, ε and the number of trials to simulate should also be specified by the user. It is assumed that every subject is followed until event occurrence.</p>",
+            "description": "<p>This application supports the conduct of simulations for a single arm phase II clinical trial of a new treatment T with time to event outcome variable.</p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                },
+                {
+                    "key": "community_research_tools",
+                    "label": "Community Research Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 52,
+            "title": "Baysian Phase II Single Arm Clinical Trials",
+            "website": "https://brpnci.shinyapps.io/Phase2sim_v1/",
+            "body": "<p>The null hypothesis to be tested is that pt = pc against the alternative pt > pc.  If criteria for stopping at interim analysis are not met, additional accrual and outcome are simulated until a total of Nt patients are accrued to T. At the end of the trial, the posterior distribution of pt is updated again and the posterior probability pp_final that pt > pc is recomputed. If pp_final is ≥ 1- ε , then the null hypothesis is rejected, and superiority of T over C is declared. For the simulations, the user needs to specify the observed values for nc, xc, assumed values for pt, Nt and the proportion of total enrollment, after which the interim analysis is to be conducted. δ, ε and the number of trials to simulate are also specified by the user.</p>",
+            "description": "<p>This application supports the conduct of simulations for a single-arm phase II clinical trial of a new treatment (T) with a binary outcome variable.</p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                },
+                {
+                    "key": "community_research_tools",
+                    "label": "Community Research Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 41,
+            "title": "Biomarker Targeted Randomized Design",
+            "website": "https://brb.nci.nih.gov/brb/samplesize/td.html",
+            "body": "<p>Targeted design randomizes only marker-positive patients to a treatment arm. Untargeted design does not measure the marker and randomizes all who otherwise are eligible. By inputting the probability of response for control arm, the proportion of patients who are classifier positive, the improvement in response probability for new treatment in classifier positive patients, the Improvement in response probability for new treatment in classifier negative patients, two-sided significance level, and power, this program calculates the total number of patients for untargeted design and randomized targeted design, as well as total number of patients screened for targeted design.</p>",
+            "description": "<p>This program calculates the sample size for biomarker targeted randomized design with binary outcome endpoint.</p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                },
+                {
+                    "key": "community_research_tools",
+                    "label": "Community Research Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 218,
+            "title": "Classification of Laws Associated with School Students (CLASS)",
+            "website": "https://class.cancer.gov/",
+            "body": "<p>CLASS can help researchers, policy makers, and schools monitor, classify, and evaluate the strength of school physical activity and nutrition policies across states and over time. Scores may also be used in larger evaluation studies to examine the relationship of state laws with student behavioral and school environment outcomes. CLASS data can be used to  compare codified state laws in nutrition and physical education to national standards; examine laws within and across grade levels; link the data with other surveillance, health, and education data sets; assess differences in codified state laws in nutrition and physical education across states over time; and  evaluate factors associated with implementation of laws.</p>",
+            "description": "<p>CLASS data, maps, and profiles can be used to compare physical education and nutrition laws from all 50 states and the District of Columbia with national standards and medians, allowing users to assess differences across states and changes over time.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                },
+                {
+                    "key": "community_research_tools",
+                    "label": "Community Research Tools"
+                },
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_prevention",
+                    "label": "Cancer Prevention"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dccps",
+                    "label": "Division of Cancer Control and Population Sciences (DCCPS)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": "Dr.",
+                        "firstName": "Frank",
+                        "middleName": null,
+                        "lastName": "Perna",
+                        "suffix": null
+                    },
+                    "title": "Program Director",
+                    "phone": "240-276-6782",
+                    "email": "pernafm@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 50,
+            "title": "Design, Monitoring, and Analysis of Bayesian Basket Discovery Trials",
+            "website": "https://brpnci.shinyapps.io/BasketTrials/",
+            "body": "<p>This application currently supports sample size planning and interim analysis for basket trials. The user specifies the number of strata and the prior probability that the drug is active in any particular stratum. Also, since in general there would be uncertainty on whether these strata are completely correlated or independent with regard to the distribution of drug activity, the user also specifies a prior probability corresponding to correlation of drug activity among strata. The more general situation where there are asymmetries among the strata with regard to the prior probability of drug activity will be implemented in the next version of this application.</p>",
+            "description": "<p>This web-based application implements a new method based on Bayesian principles for the design, monitoring, and analysis of basket trials.</p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                },
+                {
+                    "key": "community_research_tools",
+                    "label": "Community Research Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 184,
+            "title": "Diet History Questionnaire (DHQ)",
+            "website": "https://epi.grants.cancer.gov/dhq3/",
+            "body": "<p>DHQ III is the most recent version of the DHQ and it can be used by researchers, clinicians, or educators to assess food and dietary supplement intakes. DHQ III is available as a web-based tool only. There are four DHQ III questionnaires, available in both English and Spanish, that vary by time frame and inclusion of portion size questions. There have been two prior versions of DHQ, the original and DHQ II. There were Canadian and U.S. versions of the DHQ II, but the most recent iteration, DHQ III, does not yet have a Canadian version. DHQ II-Canada is still available for use.</p>",
+            "description": "<p>The DHQ is a freely available food frequency questionnaire (FFQ). It can be used by researchers, clinicians, or educators to assess food and dietary supplement intakes.</p>",
+            "toolTypes": [
+                {
+                    "key": "community_research_tools",
+                    "label": "Community Research Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_prevention",
+                    "label": "Cancer Prevention"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "register",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dccps",
+                    "label": "Division of Cancer Control and Population Sciences (DCCPS)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Kirsten",
+                        "middleName": null,
+                        "lastName": "Herrick",
+                        "suffix": null
+                    },
+                    "title": "Program Director, Risk Factor Assessment Branch",
+                    "phone": "240-276-5734",
+                    "email": "herrickka@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 256,
+            "title": "Human Cancer Models Initiative (HCMI) Case Report Forms (CRFs)",
+            "website": "https://ocg.cancer.gov/programs/hcmi/resources",
+            "body": "<p>HCMI’s cancer type-specific CRFs have been developed through collaborations with international clinical experts and the clinical data elements have been standardized through the Cancer Data Standards Registry and Repository (caDSR). The Enrollment CRF data are collected at the patient index date, which includes initial pathologic diagnosis, sample procurement, or first patient visit. The Follow-up CRF data are collected at least 3 months after enrollment data collection following cancer model establishment. As the tumor types modeled through the HCMI are constantly updated, be sure to check back regularly for additional or updated CRFs.</p>",
+            "description": "<p>Cancer-type specific Enrollment and Follow-up CRFs for uniform clinical data collection</p>",
+            "toolTypes": [
+                {
+                    "key": "community_research_tools",
+                    "label": "Community Research Tools"
+                },
+                {
+                    "key": "clinical_research_tools",
+                    "label": "Clinical Research Tools"
+                },
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                },
+                {
+                    "key": "clinical",
+                    "label": "Clinical"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "ocg",
+                    "label": "Office of Cancer Genomics (OCG)"
+                },
+                {
+                    "key": "ccg",
+                    "label": "Center for Cancer Genomics (CCG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": "Dr.",
+                        "firstName": "Eva",
+                        "middleName": null,
+                        "lastName": "Tonsing-Carter",
+                        "suffix": null
+                    },
+                    "title": "Scientific Program Manager",
+                    "phone": null,
+                    "email": "ocg@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 257,
+            "title": "Human Cancer Models Initiative (HCMI) Informed Consent Template",
+            "website": "https://ocg.cancer.gov/programs/hcmi/resources",
+            "body": "<p>This informed consent template serves as a guide for creating informed consent documents for accrual of tissue samples from potential patients/participants for cancer model development, data acquisition, and distribution.</p>",
+            "description": "<p>Informed Consent Template for tissue accrual for cancer model development</p>",
+            "toolTypes": [
+                {
+                    "key": "community_research_tools",
+                    "label": "Community Research Tools"
+                },
+                {
+                    "key": "clinical_research_tools",
+                    "label": "Clinical Research Tools"
+                },
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                },
+                {
+                    "key": "clinical",
+                    "label": "Clinical"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "ocg",
+                    "label": "Office of Cancer Genomics (OCG)"
+                },
+                {
+                    "key": "ccg",
+                    "label": "Center for Cancer Genomics (CCG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": "Dr.",
+                        "firstName": "Eva",
+                        "middleName": null,
+                        "lastName": "Tonsing-Carter",
+                        "suffix": null
+                    },
+                    "title": "Scientific Program Manager",
+                    "phone": null,
+                    "email": "ocg@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 198,
+            "title": "Interactive Risk Attributable Program (IRAP)",
+            "website": "https://dceg.cancer.gov/tools/risk-assessment/irap",
+            "body": "<p>IRAP keeps a \"library\" of variables that the user has defined. A variable can take its value directly from the data file or it can be defined in terms of other variables in the library. Typically, the user will create a separate library for each data file that he or she uses. A library can be saved to disk, then loaded whenever the corresponding data file is used.\nOnce a library of variables has been created (or loaded from removable media), the user may define a model. IRAP supports six data sampling methods:</p>\n<ul>\n<li>Simple Random Sampling</li>\n<li>Stratified Random Sampling</li>\n<li>Frequency Matching</li>\n<li>Individual Matching</li>\n<li>Cohort Analysis</li>\n<li>Cross-Sectional Analysis</li>\n</ul>\n<p>After choosing the appropriate sampling method, the user defines a model by specifying the appropriate variable names. A model can contain both discrete and continuous variables. IRAP correctly parameterizes the discrete variables, so the user need not explicitly create \"dummy variables.\"\nOnce the model has been specified, the user tells IRAP to fit the model. The program asks for the names of the input and output files. It then reads the data and fits the model.\nWhile these three phases are conceptually distinct, they can be interwoven. For example, after fitting a model, the user may decide to combine two levels of exposure into one. It is easy to define a new variable, then rerun the model, substituting the new exposure variable for the old.</p>",
+            "description": "<p>IRAP is an interactive computer program that calculates both point estimates and confidence intervals for attributable risk, based on regression models. Modeling consists of three conceptual phases: creating a library of variables, defining the model, and running the model.</p>",
+            "toolTypes": [
+                {
+                    "key": "community_research_tools",
+                    "label": "Community Research Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "causes_of_cancer",
+                    "label": "Causes of Cancer"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "register",
+                "notes": "License Agreement"
+            },
+            "doCs": [
+                {
+                    "key": "dceg",
+                    "label": "Division of Cancer Epidemiology and Genetics (DCEG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": "Dr.",
+                        "firstName": "Mitchell",
+                        "middleName": null,
+                        "lastName": "Gail",
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": null,
+                    "email": "gailm@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 189,
+            "title": "Measures Registry",
+            "website": "https://www.nccor.org/nccor-tools/measures/",
+            "body": "<p>The registry promotes the consistent use of common measures and research methods across childhood obesity research and prevention programs at the individual, community, and population levels. Each study in the registry contains information on study design, how to use the measure, and validity and reliability information. It was developed by the National Collaborative on Childhood Obesity Research, and NCI staff are the project leads for the development and maintenance of the Measures Registry.</p>",
+            "description": "<p>The Measures Registry is a searchable database of diet and physical activity measures relevant to childhood obesity research.</p>",
+            "toolTypes": [
+                {
+                    "key": "community_research_tools",
+                    "label": "Community Research Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_prevention",
+                    "label": "Cancer Prevention"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dccps",
+                    "label": "Division of Cancer Control and Population Sciences (DCCPS)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Jill",
+                        "middleName": null,
+                        "lastName": "Reedy",
+                        "suffix": null
+                    },
+                    "title": "Branch Chief, Risk Factor Assessment Branch",
+                    "phone": "240-276-6812",
+                    "email": "reedyj@mail.nih.gov"
+                },
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "David",
+                        "middleName": null,
+                        "lastName": "Berrigan",
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": "240-276-6752",
+                    "email": "berrigad@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 46,
+            "title": "Optimal Two Stage Phase II Design Software",
+            "website": "https://brb.nci.nih.gov/programdownload/Opt.htm",
+            "body": "<p>This downloadable file provides an easy to use, fast compiled C program that runs in a DOS window for computing optimal and minimax two-stage designs for phase II clinical trials. The program is based on the paper by <a href=\"https://brb.nci.nih.gov/techreport/Optimal2-StageDesigns.pdf\">R. Simon: \"Optimal two stage designs for phase II clinical trials\", Controlled Clinical Trials 10:1-10, 1989</a>. To use the program, open a DOS window using the command prompt menu item in your start menu. CD to the directory into which you have put the file, and execute it.</p>",
+            "description": "<p>This program can be used for computing optimal and minimax two-stage designs for phase II clinical trials.</p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                },
+                {
+                    "key": "community_research_tools",
+                    "label": "Community Research Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 251,
+            "title": "Pediatric Genomic Data Inventory (PGDI)",
+            "website": "https://ocg.cancer.gov/programs/target/pgdi/overview",
+            "body": "<p>PGDI is an open-access resource for identifying and locating genomic datasets that can be used to further the understanding of childhood cancers and develop better treatment protocols for sick children. This resource lists ongoing and completed molecular characterization projects of pediatric cancer cohorts from the United States and other countries, along with some basic details and reference metadata.</p>",
+            "description": "<p>PGDI is an open-access resource for investigators to more easily locate molecular characterization projects of pediatric cancer cohorts being generated globally.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                },
+                {
+                    "key": "community_research_tools",
+                    "label": "Community Research Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": "To contribute data to the PGDI, researchers need to create a secure submitter account through the PGDI Contributor Application at ocg.cancer.gov/programs/target/pgdi/contributor-application."
+            },
+            "doCs": [
+                {
+                    "key": "ocg",
+                    "label": "Office of Cancer Genomics (OCG)"
+                },
+                {
+                    "key": "ccg",
+                    "label": "Center for Cancer Genomics (CCG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": null,
+                        "middleName": null,
+                        "lastName": null,
+                        "suffix": null
+                    },
+                    "title": "Office of Cancer Genomics",
+                    "phone": null,
+                    "email": "ocg@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 200,
+            "title": "Pesticide-Exposure Matrix",
+            "website": "https://dceg.cancer.gov/tools/design/pesticide",
+            "body": "<p>The Pesticide-Exposure Matrix is designed to be used in conjunction with self-reported information about the types of pests that were treated in a person's home or garden. (<a href=\"https://dceg.cancer.gov/tools/design/pesticide/pesticide-example-questionnaire\">Example questionnaire</a>)   The matrix covers four distinct time periods (1976, 1980, 1990, and 2000), two categories of pesticide appliers (consumers, using products purchased in retail stores, and professional applicators such as pest control operators and lawn services), and 12 types of pests.Its derivation is described in full in Colt J, Cyr MJ, Zahm SH, Tobias GS, Hartge P. 2006. <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/17384773\">Inferring past pesticide-exposures: a matrix of individual active ingredients in home and garden pesticides used in past decades</a>. <em>Environmental Health Perspectives</em>).</p>",
+            "description": "<p>The Pesticide-Exposure Matrix was developed to help epidemiologists and other researchers identify the active ingredients to which people were likely exposed when their homes and gardens were treated for pests in past years.</p>",
+            "toolTypes": [
+                {
+                    "key": "community_research_tools",
+                    "label": "Community Research Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "causes_of_cancer",
+                    "label": "Causes of Cancer"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dceg",
+                    "label": "Division of Cancer Epidemiology and Genetics (DCEG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": null,
+                        "middleName": null,
+                        "lastName": null,
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": null,
+                    "email": "ncicontactdceg@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 127,
+            "title": "Questionnaire Development Resources",
+            "website": "https://dceg.cancer.gov/tools/design/questionnaires",
+            "body": "<p>This resource is a collection of questionnaires and questionnaire segments for use in a wide variety of epidemiological studies. Listings of publications are given where available. Topics covered by the questionnaires include:  Alcohol, Tobacco, and Recreational Drug Use; Anthropometric Measurements (measurements of the human body); Background Information; Breast Cancer Risk Factors; Family History of Cancer; EMF, Radon, and UVR Exposures; Ionizing Radiation Exposures; Household Exposures; Medical History; Non-alcoholic Beverage, Food, and Dietary Supplements; Occupational History and Exposures; Physical Activity; Prescriptions, Hormones, Immunizations; Reproductive History; Residential History</p>",
+            "description": "<p>This resource is a collection of questionnaires and questionnaire segments for use in a wide variety of epidemiological studies.</p>",
+            "toolTypes": [
+                {
+                    "key": "community_research_tools",
+                    "label": "Community Research Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_public_health",
+                    "label": "Cancer & Public Health"
+                },
+                {
+                    "key": "causes_of_cancer",
+                    "label": "Causes of Cancer"
+                },
+                {
+                    "key": "cancer_prevention",
+                    "label": "Cancer Prevention"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dceg",
+                    "label": "Division of Cancer Epidemiology and Genetics (DCEG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Gwen",
+                        "middleName": null,
+                        "lastName": "Murphy",
+                        "suffix": null
+                    },
+                    "title": "Ph.D., M.P.H. Staff Scientist, DCEG",
+                    "phone": "240-276-7199",
+                    "email": "murphygw@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 169,
+            "title": "Radiation Risk Assessment Tool (RadRAT)",
+            "website": "https://dceg.cancer.gov/tools/risk-assessment/radrat",
+            "body": "<p>\"RadRAT is an online calculator for estimating the lifetime risk of cancer incidence for members of the U.S. population (or countries with similar cancer incidence rates) from exposure to ionizing radiation for doses below 1 Gy.—The calculator works using organ-specific dose estimates according to age at exposure and sex. Lifetime total cancer risk and organ-specific risk estimates are reported along with a 90% uncertainty range.—The reported lifetime risks are based on the risk models for the eleven cancers included in the 2006 report of the National Academies of Sciences' BEIR VII Committee, <em>Health Risks from Exposure to Low Levels of Ionizing Radiation</em>, and on the risk models for an additional eight cancers that were, developed by NCI after the publication of the BEIR VII report.\"</p>",
+            "description": "<p>RadRAT is an online calculator for estimating the lifetime risk of cancer incidence for members of the U.S. population (or countries with similar cancer incidence rates) from exposure to ionizing radiation for doses below 1 Gy.</p>",
+            "toolTypes": [
+                {
+                    "key": "community_research_tools",
+                    "label": "Community Research Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "causes_of_cancer",
+                    "label": "Causes of Cancer"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dceg",
+                    "label": "Division of Cancer Epidemiology and Genetics (DCEG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": null,
+                        "middleName": null,
+                        "lastName": null,
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": null,
+                    "email": "ncicontactdceg@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 38,
+            "title": "Sample Size Planning for Developing Classifiers Using High Dimensional Data",
+            "website": "https://brb.nci.nih.gov/brb/samplesize/samplesize4GE.html",
+            "body": "<p>This program provides estimates of the sample size required for a training set in order to ensure the resulting binary classifier has an expected accuracy within a tolerance of the optimal accuracy. Classifier performance should also be assessed. This can be done by cross-validation (resampling) or by applying the classifier to an independent validation set. The sample sizes given by this program do not provide the sample size required for a validation set. The sample size provided here also does not address the precision of a cross-validated estimate of prediction accuracy. The program only considers sample sizes below 300. If more than 300 samples are needed, then an error message is returned indicating this.</p>",
+            "description": "<p>This progam provides estimates of the sample size required for a training set to develop classifiers using high demensional data.</p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                },
+                {
+                    "key": "community_research_tools",
+                    "label": "Community Research Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "bioinformatics",
+                    "label": "Bioinformatics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 212,
+            "title": "The Cancer Patient Tobacco Use Questionnaire (C-TUQ)",
+            "website": "http://cancercontrol.cancer.gov/cancerandtobaccouse",
+            "body": "<p>C-TUQ asks cancer patients and survivors about their tobacco use through a self-administered questionnaire. The questionnaire, available in both short and extended form, can be used at study entry and during follow-up. Domains include cigarette smoking history and current use, use relative to cancer diagnosis and treatment, other tobacco product use, cessation, and second-hand exposure. The questionnaire is available in English and Spanish. C-TUQ was designed and validated by the NCI-American Association of Cancer Research Cancer Patient Tobacco Use Assessment Task Force. It can help yield important research variables and allow harmonization across studies.</p>",
+            "description": "<p>C-TUQ is a self-administered questionnaire for cancer patients and survivors. Domains include cigarette smoking history and current use, use relative to cancer diagnosis and treatment, other tobacco product use, cessation, and secondhand exposure.</p>",
+            "toolTypes": [
+                {
+                    "key": "community_research_tools",
+                    "label": "Community Research Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_public_health",
+                    "label": "Cancer & Public Health"
+                },
+                {
+                    "key": "cancer_prevention",
+                    "label": "Cancer Prevention"
+                },
+                {
+                    "key": "cancer_diagnosis",
+                    "label": "Cancer Diagnosis"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                },
+                {
+                    "key": "cancer_survivorship",
+                    "label": "Cancer Survivorship"
+                },
+                {
+                    "key": "screening_detection",
+                    "label": "Screening & Detection"
+                },
+                {
+                    "key": "cancer_health_disparities",
+                    "label": "Cancer Health Disparities"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "clinical",
+                    "label": "Clinical"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dccps",
+                    "label": "Division of Cancer Control and Population Sciences (DCCPS)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": "Dr.",
+                        "firstName": "Stephanie",
+                        "middleName": null,
+                        "lastName": "Land",
+                        "suffix": null
+                    },
+                    "title": "Program Director",
+                    "phone": "240-276-6946",
+                    "email": "stephanie.land@nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 214,
+            "title": "Tobacco Control Monograph Series",
+            "website": "https://cancercontrol.cancer.gov/brp/tcrb/monographs",
+            "body": "<p>The NCI Tobacco Control Monograph Series provides ongoing and timely information about emerging public health issues in smoking and tobacco control. The series reduces the time between availability of information from research projects and the publication and wide dissemination of this information, and it enhances the rapidity with which NCI can use findings from research trials to reduce cancer morbidity and mortality. Monographs 1–22 are available online to download and hard copies can be ordered free of charge.</p>",
+            "description": "<p>The Tobacco Monograph Series provides timely information about emerging public health issues in smoking and tobacco use control.</p>",
+            "toolTypes": [
+                {
+                    "key": "community_research_tools",
+                    "label": "Community Research Tools"
+                },
+                {
+                    "key": "terminology",
+                    "label": "Terminology"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_public_health",
+                    "label": "Cancer & Public Health"
+                },
+                {
+                    "key": "cancer_prevention",
+                    "label": "Cancer Prevention"
+                },
+                {
+                    "key": "cancer_diagnosis",
+                    "label": "Cancer Diagnosis"
+                },
+                {
+                    "key": "cancer_survivorship",
+                    "label": "Cancer Survivorship"
+                },
+                {
+                    "key": "screening_detection",
+                    "label": "Screening & Detection"
+                },
+                {
+                    "key": "cancer_health_disparities",
+                    "label": "Cancer Health Disparities"
+                },
+                {
+                    "key": "causes_of_cancer",
+                    "label": "Causes of Cancer"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dccps",
+                    "label": "Division of Cancer Control and Population Sciences (DCCPS)"
+                }
+            ],
+            "poCs": []
+        }
+    ],
+    "facets": [
+        {
+            "title": "Research Area",
+            "param": "researchAreas",
+            "items": [
+                {
+                    "key": "cancer_prevention",
+                    "label": "Cancer Prevention",
+                    "count": 9,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment",
+                    "count": 7,
+                    "selected": false
+                },
+                {
+                    "key": "causes_of_cancer",
+                    "label": "Causes of Cancer",
+                    "count": 6,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_health_disparities",
+                    "label": "Cancer Health Disparities",
+                    "count": 4,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics",
+                    "count": 4,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_public_health",
+                    "label": "Cancer & Public Health",
+                    "count": 4,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology",
+                    "count": 3,
+                    "selected": false
+                },
+                {
+                    "key": "screening_detection",
+                    "label": "Screening & Detection",
+                    "count": 3,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_diagnosis",
+                    "label": "Cancer Diagnosis",
+                    "count": 2,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_survivorship",
+                    "label": "Cancer Survivorship",
+                    "count": 2,
+                    "selected": false
+                },
+                {
+                    "key": "bioinformatics",
+                    "label": "Bioinformatics",
+                    "count": 1,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "title": "Research Type",
+            "param": "researchTypes",
+            "items": [
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic",
+                    "count": 10,
+                    "selected": false
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational",
+                    "count": 8,
+                    "selected": false
+                },
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials",
+                    "count": 5,
+                    "selected": false
+                },
+                {
+                    "key": "basic",
+                    "label": "Basic",
+                    "count": 4,
+                    "selected": false
+                },
+                {
+                    "key": "clinical",
+                    "label": "Clinical",
+                    "count": 3,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "title": "Tool Sub-Type",
+            "param": "toolSubtypes",
+            "items": [
+                {
+                    "key": "questionnaire",
+                    "label": "Questionnaire",
+                    "count": 9,
+                    "selected": false
+                },
+                {
+                    "key": "sample_size_calculator",
+                    "label": "Sample Size Calculator",
+                    "count": 6,
+                    "selected": false
+                },
+                {
+                    "key": "risk_assessment",
+                    "label": "Risk Assessment",
+                    "count": 2,
+                    "selected": false
+                },
+                {
+                    "key": "survey",
+                    "label": "Survey",
+                    "count": 2,
+                    "selected": false
+                },
+                {
+                    "key": "screener",
+                    "label": "Screener",
+                    "count": 1,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "title": "Tool Type",
+            "param": "toolTypes",
+            "items": [
+                {
+                    "key": "community_research_tools",
+                    "label": "Community Research Tools",
+                    "count": 21,
+                    "selected": true
+                }
+            ]
+        }
+    ]
+}

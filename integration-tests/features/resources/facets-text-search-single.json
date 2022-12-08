@@ -1,0 +1,283 @@
+{
+    "meta": {
+        "totalResults": 4,
+        "from": 0,
+        "originalQuery": "/resources?size=999&from=0&q=lung&toolTypes=datasets_databases&toolSubtypes=clinical_data"
+    },
+    "results": [
+        {
+            "id": 94,
+            "title": "Chemical Data",
+            "website": "https://wiki.nci.nih.gov/display/NCIDTPdata/Chemical+Data",
+            "body": "<p>Compound sensitivity data for the NCI60 screen and similar screens run on sarcoma cell lines and small cell lung cancer cell lines, plus molecular target characterization data for the NCI60, sarcoma, and SCLC cell lines.</p>",
+            "description": "<p>Compound sensitivity data for the NCI60 screen and similar screens run on sarcoma cell lines and small cell lung cancer cell lines, plus molecular target characterization data for the NCI60, sarcoma,and SCLC cell lines.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "screening_detection",
+                    "label": "Screening & Detection"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 57,
+            "title": "Compound inhibition Bulk Data Download",
+            "website": "https://dtp.cancer.gov/dtpstandard/subsets/comp.jsp",
+            "body": "<p>Compound sensitivity data for the NCI-60 screen and similar screens run on sarcoma cell lines and small cell lung cancer cell lines.</p>",
+            "description": "<p>This data set offers compound sensitivity data for the NCI-60 screen and similar screens run on sarcoma cell lines and small cell lung cancer cell lines.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "bioinformatics",
+                    "label": "Bioinformatics"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 95,
+            "title": "Compound Sets",
+            "website": "https://wiki.nci.nih.gov/display/NCIDTPdata/Compound+Sets",
+            "body": "<p>Compound sensitivity data for the NCI60 screen and similar screens run on sarcoma cell lines and small cell lung cancer cell lines, plus molecular target characterization data for the NCI60, sarcoma, and SCLC cell lines.</p>",
+            "description": "<p>Compound sensitivity data for the NCI60 screen and similar screens run on sarcoma cell lines and small cell lung cancer cell lines, plus molecular target characterization data for the NCI60, sarcoma, and SCLC cell lines.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "screening_detection",
+                    "label": "Screening & Detection"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 99,
+            "title": "Yeast Anticancer Drug Screen",
+            "website": "https://wiki.nci.nih.gov/display/NCIDTPdata/Yeast+Anticancer+Drug+Screen",
+            "body": "<p>Compound sensitivity data for the NCI60 screen and similar screens run on sarcoma cell lines and small cell lung cancer cell lines, plus molecular target characterization data for the NCI60, sarcoma, and SCLC cell lines.</p>",
+            "description": "<p>Compound sensitivity data for the NCI60 screen and similar screens run on sarcoma cell lines and small cell lung cancer cell lines, plus molecular target characterization data for the NCI60, sarcoma, and SCLC cell lines.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "screening_detection",
+                    "label": "Screening & Detection"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        }
+    ],
+    "facets": [
+        {
+            "title": "Research Area",
+            "param": "researchAreas",
+            "items": [
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment",
+                    "count": 4,
+                    "selected": false
+                },
+                {
+                    "key": "screening_detection",
+                    "label": "Screening & Detection",
+                    "count": 3,
+                    "selected": false
+                },
+                {
+                    "key": "bioinformatics",
+                    "label": "Bioinformatics",
+                    "count": 1,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology",
+                    "count": 1,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "title": "Research Type",
+            "param": "researchTypes",
+            "items": [
+                {
+                    "key": "basic",
+                    "label": "Basic",
+                    "count": 4,
+                    "selected": false
+                },
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials",
+                    "count": 4,
+                    "selected": false
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational",
+                    "count": 1,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "title": "Tool Sub-Type",
+            "param": "toolSubtypes",
+            "items": [
+                {
+                    "key": "clinical_data",
+                    "label": "Clinical Data",
+                    "count": 4,
+                    "selected": true
+                },
+                {
+                    "key": "genomic_datasets",
+                    "label": "Genomic Datasets",
+                    "count": 1,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "title": "Tool Type",
+            "param": "toolTypes",
+            "items": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases",
+                    "count": 4,
+                    "selected": true
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,719 @@
+{
+    "meta": {
+        "totalResults": 13,
+        "from": 0,
+        "originalQuery": "\/resources?size=20&from=0&q=Anti-epileptic%20Agent"
+    },
+    "results": [
+        {
+            "id": 93,
+            "title": "AIDS Antiviral Screen Data",
+            "website": "https:\/\/wiki.nci.nih.gov\/display\/NCIDTPdata\/AIDS+Antiviral+Screen+Data",
+            "body": "<p>The DTP AIDS Antiviral Screen has checked tens of thousands of compounds for evidence of anti-HIV activity. Screening results and chemical structural data on compounds that are not covered by a confidentiality agreement are available.<\/p>",
+            "description": "<p>This resource provides access to results and chemical structural data on compounds checked by the Developmental Therapeutics Program (DTP) AIDS Antiviral Screen.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                },
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "screening_detection",
+                    "label": "Screening & Detection"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 128,
+            "title": "CERES",
+            "website": "https:\/\/depmap.org\/ceres\/",
+            "body": "<p>Studies have shown that genome-wide CRISPR-Cas9 inactivation of genes that are amplified need different analytical approaches for interpretation of the results. The Cas9 induces double strand breaks which lead to false-positive results. A computational method, CERES was developed for inferring gene essentiality from genome-wide CRISPR-Cas9 screens in cancer cell lines to correct the copy number effect. This approach decreases the false-positive results while taking into account the anti-proliferative copy-number effect.<\/p>",
+            "description": "<p>CERES is a method to infer gene essentiality from genome-wide CRISPR-Cas9 screens in cancer cell lines to correct the copy number effect. This approach decreases the false-positive results while taking into account the anti-proliferative copy-number effect.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                },
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "ccg",
+                    "label": "Center for Cancer Genomics (CCG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "David",
+                        "middleName": null,
+                        "lastName": "Quigley",
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": null,
+                    "email": "David.Quigley@ucsf.edu"
+                }
+            ]
+        },
+        {
+            "id": 211,
+            "title": "Guidelines for Collaborations with Industry",
+            "website": "https:\/\/ctep.cancer.gov\/industryCollaborations2\/default.htm",
+            "body": "<p>The goal of CTEP is to facilitate the process of bringing promising, novel investigational anticancer and anti-HIV agents to the public as quickly and as safely as possible. CTEP offers a unique combination of resources and expertise to assist an industry collaborator in clinical development of new therapeutic agents and the ability to evaluate investigational agents in a wide variety of tumor types and disease settings. These guidelines provide information regarding the process for co-developing an investigational anticancer agent with NCI. In addition, there are links to other online resources to assist with technology development, clinical development resources, and small business research funding.<\/p>",
+            "description": "<p>This section of the Cancer Therapy Evaluation Program (CTEP) website provides information regarding the process for co-developing an investigational anticancer agent with NCI.<\/p>",
+            "toolTypes": [],
+            "toolSubtypes": null,
+            "researchAreas": [],
+            "researchTypes": [],
+            "resourceAccess": null,
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 203,
+            "title": "Handbook for Clinical Investigators Conducting Therapeutic Clinical Trials",
+            "website": "https:\/\/ctep.cancer.gov\/investigatorResources\/investigators_handbook.htm",
+            "body": "<p>DCTD sponsors the majority of extramural treatment trials at NCI. Sponsorship or support of clinical trials includes funding, regulatory support, and\/or agent distribution.<\/p>\n<p>Oncologists, nurses, pharmacists, research administrators, and data managers should find the information in this handbook useful in practical matters connected with protocol drafting and submissions, reporting requirements, agent accountability, and a host of other subjects. This handbook is written to guide the individual clinical investigator at the clinical trial site working alongside a team of health professionals and research staff.<\/p>",
+            "description": "<p>This handbook explains the policies and implementing procedures for the conduct of therapeutic clinical trials sponsored by NCI\u2019s Division of Cancer Treatment and Diagnosis (DCTD).<\/p>",
+            "toolTypes": [
+                {
+                    "key": "clinical_research_tools",
+                    "label": "Clinical Research Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [],
+            "researchTypes": [
+                {
+                    "key": "clinical",
+                    "label": "Clinical"
+                }
+            ],
+            "resourceAccess": {
+                "type": "register",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": null,
+                        "middleName": null,
+                        "lastName": null,
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": null,
+                    "email": "NCICTEPiHandbook@mail.nih.gov."
+                }
+            ]
+        },
+        {
+            "id": 53,
+            "title": "Investigational New Drug (IND) Directory",
+            "website": "https:\/\/cipinddirectory.cancer.gov\/",
+            "body": "<p>A centralized resource to facilitate the sharing of IND information that provides a listing of known INDs for investigational agents and contact information for the sponsors.<\/p>",
+            "description": "<p>A centralized resource to facilitate the sharing of investigational new drug information.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_diagnosis",
+                    "label": "Cancer Diagnosis"
+                },
+                {
+                    "key": "screening_detection",
+                    "label": "Screening & Detection"
+                },
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": null,
+                        "middleName": null,
+                        "lastName": null,
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": null,
+                    "email": "CIPINDDirectory@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 240,
+            "title": "Investigational New Drug (IND) Regulatory and Manufacturing Resources",
+            "website": "https:\/\/imaging.cancer.gov\/programs_resources\/IND_regulatory_manufacturing.htm",
+            "body": "<p>Regulatory documents for selected IND agents, including manfacturing procedures and non-clinical data. A subset of the documents filed for the INDs is being made available to the research community to implement routine synthesis of tracers at their own facilities and to assist investigators with the filing of their own INDs. Documents for several imaging agents are currently available.<\/p>",
+            "description": "<p>A resource to facilitate IND filing of selected investigational imaging agents.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_diagnosis",
+                    "label": "Cancer Diagnosis"
+                },
+                {
+                    "key": "screening_detection",
+                    "label": "Screening & Detection"
+                },
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 195,
+            "title": "NCI Drug Dictionary",
+            "website": "https:\/\/www.cancer.gov\/publications\/dictionaries\/cancer-drug",
+            "body": "<p>The NCI Drug Dictionary contains technical definitions, alternate names, and links to related information for about 5,000 agents that are being used in the treatment of patients with cancer or cancer-related conditions. Each entry includes a link to a more detailed entry in the NCI Thesaurus, which provides the information presented, as well as links to open clinical trials in NCI's List of Cancer Clinical Trials.<\/p>",
+            "description": "<p>The NCI Drug Dictionary contains technical definitions and synonyms for drugs and agents used to treat patients with cancer or conditions related to cancer.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "terminology",
+                    "label": "Terminology"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [],
+            "researchTypes": [],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "ocpl",
+                    "label": "Office of Communications & Public Liaison (OCPL)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 164,
+            "title": "NCI Formulary",
+            "website": "https:\/\/nciformulary.cancer.gov",
+            "body": "<p>NCI agent formulary (NCI Formulary) is designed to expand the use of NCI Formulary pharmaceutical company collaborator proprietary agents for preclinical research or clinical trials and improve the clinical trial implementation process. Investigators from eligible institutions may submit proposals using the available NCI Formulary agents to conduct preclinical research or conduct investigator-sponsored clinical trials. The NCI Formulary is particularly useful to investigators who would like to perform combination studies that focus on agents targeting molecular pathways from multiple collaborating pharmaceutical companies.<\/p>",
+            "description": "<p>NCI agent formulary (NCI Formulary) is a public\u2013private partnership between NCI and pharmaceutical and biotechnology companies that provides NCI-funded US main-member Experimental Therapeutics Clinical Trials Network (ETCTN) and National Clinical Trials Network (NCTN) institutions and their investigators rapid access to agents for cancer clinical trial use or preclinical research.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "networks_consortiums",
+                    "label": "Networks\/Consortiums"
+                },
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                },
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                },
+                {
+                    "key": "clinical",
+                    "label": "Clinical"
+                },
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "register",
+                "notes": "Must be a United States NCI main-member ETCTN and NCTN institution investigator."
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": null,
+                        "middleName": null,
+                        "lastName": null,
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": null,
+                    "email": "NCIFormulary@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 197,
+            "title": "NCI Thesaurus (NCIt)",
+            "website": "https:\/\/ncit.nci.nih.gov\/ncitbrowser\/",
+            "body": "<p>Published monthly and managed by NCI Enterprise Vocabulary Services (EVS), the NCI Thesaurus, reference terminology and biomedical ontology is used in a growing number of NCI and other systems.<\/p>\n<p>The NCIt provides definitions, synonyms, and other information on more than 10,000 cancers and related diseases, 17,000 single agents and related substances, combination therapies, a federal Consolidated Health Informatics (CHI) standard anatomy section, and a wide range of other topics related to cancer and biomedical research. It is maintained by a multidisciplinary team of editors, who add about 700 new entries each month.<\/p>",
+            "description": "<p>The NCIt covers more than 100,000 concepts used in the coding of clinical care, translational and basic research, and public information and administrative activities.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "terminology",
+                    "label": "Terminology"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [],
+            "researchTypes": [],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [],
+            "poCs": []
+        },
+        {
+            "id": 191,
+            "title": "NCI Transcriptional Pharmacodynamics Workbench (NCI TPW)",
+            "website": "https:\/\/tpwb.nci.nih.gov",
+            "body": "<p>The NCI TPW integrates cell-line sensitivity data for 15 clinically relevant anticancer agents with both basal transcript levels and agent-induced transcriptional changes for 12,704 genes at three time points across the NCI-60 panel. The NCI TPW further relates this information to exon mutation, protein expression, and multidrug resistance data and enables query of these data in the context of cellular pathways and receptors. This website has been developed using advanced computational and visualization tools for empowering developmental-therapeutics investigators worldwide and providing them access to the genome-wide characterization of the NCI-60 cell lines and the enormous time\u2013course databases on genome-wide response to treatment with drugs.<\/p>",
+            "description": "<p>This resource provides drug-sensitivity and gene-expression data for NCI-60 cell lines exposed to 15 clinically relevant anticancer agents, as well as computational and visualization tools to analyze and explore these datasets.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                },
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "bioinformatics",
+                    "label": "Bioinformatics"
+                },
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "register",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": "Dr.",
+                        "firstName": "Alida",
+                        "middleName": null,
+                        "lastName": "Palmisano",
+                        "suffix": null
+                    },
+                    "title": "Research Fellow, Computational and Systems Biology Branch",
+                    "phone": null,
+                    "email": "ncitpwsupport@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 60,
+            "title": "Repository of Chemical Agents- Small Molecules and Isolated Natural Products",
+            "website": "https:\/\/dtp.cancer.gov\/organization\/dscb\/obtaining\/default.htm",
+            "body": "<p>The Developmental Therapeutics Program (DTP) maintains a repository of synthetic compounds and pure natural products that are available to investigators for non-clinical research purposes. The repository collection is a uniquely diverse set of more than 200,000 compounds that have been either submitted to DTP for biological evaluation or, in some cases, synthesized under DTP auspices.<\/p>",
+            "description": "<p>This is a repository of more than 200,000 synthetic compounds and pure natural products that are available to investigators for non-clinical research purposes.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 78,
+            "title": "Sarcoma Project Data",
+            "website": "https:\/\/sarcoma.cancer.gov\/sarcoma\/downloads.xhtml",
+            "body": "<p>This resource provides access to compound sensitivity data for approximately 450 compounds, including FDA-approved anticancer drugs and investigational agents on established adult and pediatric sarcoma cell lines .These data, along with gene expression data derived from Affymatrix exon arrays and microRNA expression determined from Nanostring technology, are available from the Sarcoma Project Data website. This study has been published (<a href=\"https:\/\/www.ncbi.nlm.nih.gov\/pubmed\/26351324\">Mol Cancer Ther<\/a>. 2015 Nov;14(11):2452-62. doi: 10.1158\/1535-7163).<\/p>",
+            "description": "<p>The resource provides access to compound sensitivity data  for  human adult and pediatric sarcoma cell lines in the NCI-60 collectionwith 9 point concentration response and 4-day exposure plus gene expression and microRNA expression.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 167,
+            "title": "Small Cell Lung Cancer Project Data",
+            "website": "https:\/\/sclccelllines.cancer.gov\/sclc\/downloads.xhtml",
+            "body": "<p>This resource provides access to compound sensitivity data for approximately 500 compounds including FDA-approved anticancer drugs and investigational agents  on 63 established human small cell lung cancer cell lines in 9-point concentration response with an exposure time of 4 days.  These data, along with gene expression data derived from Affymatrix exon arrays and microRNA expression determined from Nanostring technology, are available at the website listed below. This study has been published (<a href=\"https:\/\/www.ncbi.nlm.nih.gov\/pubmed\/27247353\">J Natl Cancer Inst.<\/a> 2016 May 31;108(10).doi: 10.1093; <a href=\"https:\/\/www.ncbi.nlm.nih.gov\/pubmed\/28766886\">Cancer Med.<\/a> 2017 Aug;6(8):1952-1964. doi: 10.1002).<\/p>",
+            "description": "<p>Compound sensitivity data , gene expression data, and microRNA expression data for 63 human small cell lung cancer cell lines. The FDA-approved anticancer drugs and about 400 investigational agents were tested in 9-point concentration response with an exposure time of 4 days.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        }
+    ],
+    "facets": [
+        {
+            "title": "Research Area",
+            "param": "researchAreas",
+            "items": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology",
+                    "count": 8,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment",
+                    "count": 5,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics",
+                    "count": 4,
+                    "selected": false
+                },
+                {
+                    "key": "screening_detection",
+                    "label": "Screening & Detection",
+                    "count": 3,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_diagnosis",
+                    "label": "Cancer Diagnosis",
+                    "count": 2,
+                    "selected": false
+                },
+                {
+                    "key": "bioinformatics",
+                    "label": "Bioinformatics",
+                    "count": 1,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "title": "Research Type",
+            "param": "researchTypes",
+            "items": [
+                {
+                    "key": "basic",
+                    "label": "Basic",
+                    "count": 6,
+                    "selected": false
+                },
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials",
+                    "count": 4,
+                    "selected": false
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational",
+                    "count": 4,
+                    "selected": false
+                },
+                {
+                    "key": "clinical",
+                    "label": "Clinical",
+                    "count": 2,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "title": "Tool Type",
+            "param": "toolTypes",
+            "items": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases",
+                    "count": 6,
+                    "selected": false
+                },
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools",
+                    "count": 4,
+                    "selected": false
+                },
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools",
+                    "count": 2,
+                    "selected": false
+                },
+                {
+                    "key": "terminology",
+                    "label": "Terminology",
+                    "count": 2,
+                    "selected": false
+                },
+                {
+                    "key": "clinical_research_tools",
+                    "label": "Clinical Research Tools",
+                    "count": 1,
+                    "selected": false
+                },
+                {
+                    "key": "networks_consortiums",
+                    "label": "Networks\/Consortiums",
+                    "count": 1,
+                    "selected": false
+                }
+            ]
+        }
+    ]
+}

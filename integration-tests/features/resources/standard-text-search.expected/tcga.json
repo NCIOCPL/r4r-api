@@ -1,0 +1,381 @@
+{
+    "meta": {
+        "totalResults": 6,
+        "from": 0,
+        "originalQuery": "\/resources?size=20&from=0&q=tcga"
+    },
+    "results": [
+        {
+            "id": 175,
+            "title": "Clinical Proteomic Tumor Analysis Consortium (CPTAC) Data Portal",
+            "website": "https:\/\/proteomics.cancer.gov\/data-portal",
+            "body": "<p>The Data Portal hosts the mass spectrometry data from the CPTAC program. A key component is the proteogenomic profiling of patient tumors, such as those from the breast, colorectal, and ovarian cancer programs in The Cancer Genome Atlas (TCGA). The portal also hosts data from completed programs and external studies.\nThe CPTAC program is the main data generator of the hosted data. Additional datasets from other programs such as APOLLO and ICPC are anticipated in the future.<\/p>",
+            "description": "<p>CPTAC analyzes cancer biospecimens by mass spectrometry, characterizing and quantifying their constituent proteins, or proteome. The CPTAC Data Portal is the centralized repository for the dissemination of proteomic data collected by the Proteome Characterization Centers (PCCs).<\/p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                },
+                {
+                    "key": "networks_consortiums",
+                    "label": "Networks\/Consortiums"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": "Subject to Data Use Agreement"
+            },
+            "doCs": [
+                {
+                    "key": "cssi",
+                    "label": "Center for Strategic Scientific Initiatives (CSSI)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 2,
+            "title": "Next-Generation Clustered Heat Maps (NG-CHM)",
+            "website": "http:\/\/bioinformatics.mdanderson.org\/TCGA\/NGCHMPortal",
+            "body": "<p>NG-CHMs are interactive heat maps of multiple tumor types and multiple data types profiled by TCGA.  The NG-CHM tool enables users to zoom and pan across the heatmap, alter its color scheme, generate production-quality PDFs, and link out from rows, columns, and individual heatmap entries to related statistics, databases, and other information. The maps provide an exploratory environment invaluable for identifying cancer sub-types or investigating genes or pathways of interest.<\/p>",
+            "description": "<p>NG-CHMs are interactive heat maps of multiple tumor types and multiple data types profiled by The Cancer Genome Atlas (TCGA) Project .<\/p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "itcr",
+                    "label": "Informatics Technology for Cancer Research (ITCR)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 91,
+            "title": "SampleMap",
+            "website": "https:\/\/tumormap.ucsc.edu",
+            "body": "<p>SampleMap is a TumorMap version built for TCGA analysis that projects samples into a GoogleMap explorer to allow overlaying omics attributes to spot patterns quickly.<\/p>",
+            "description": "<p>SampleMap is a TumorMap version built for The Cancer Genome Atlas (TCGA) analysis that projects samples into a GoogleMap explorer to allow overlaying omics attributes to spot patterns quickly.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "itcr",
+                    "label": "Informatics Technology for Cancer Research (ITCR)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 129,
+            "title": "The Cancer Genome Atlas Clinical Explorer",
+            "website": "https:\/\/genomeportal.stanford.edu\/pan-tcga",
+            "body": "<p>The TCGA Clinical Explorer is a web and mobile interface for identifying clinical - genomic driver associations. The Clinical Explorer interface provides a platform to query TCGA data using the following methods: 1) searching for clinically relevant genes, microRNAs, and proteins by name, cancer types, or clinical parameters, 2) searching for genomic and\/or proteomic profile changes by clinical parameters, or 3) testing two-hit hypotheses.<\/p>",
+            "description": "<p>The TCGA Clinical Explorer is a web and mobile interface for identifying clinical genomic driver associations. The Clinical Explorer interface provides a platform to query TCGA.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "ccg",
+                    "label": "Center for Cancer Genomics (CCG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Hojoon",
+                        "middleName": null,
+                        "lastName": "Lee",
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": null,
+                    "email": "hojoon.lee@stanford.edu"
+                },
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": null,
+                        "middleName": null,
+                        "lastName": null,
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": null,
+                    "email": "pan-tcga-project@stanford.edu"
+                }
+            ]
+        },
+        {
+            "id": 121,
+            "title": "The Cancer Proteome Atlas (TCPA)",
+            "website": "https:\/\/bioinformatics.mdanderson.org\/main\/TCPA",
+            "body": "<p>Functional proteomics is the large-scale study of functional activity (e.g., expression, modificatins, etc.) of the proteins. TCPA is a comprehensive resource of cancer proteomics datasets mainly consisting of The Cancer Genome Atlas (TCGA) tumor tissue sample sets. This resource provides a unique opportunity to validate the findings from TCGA data and identify model cell lines for functional investigation. TCPA currently provides six modules: Summary, My Protein, Download, Visualization, Analysis, and Cell Line.<\/p>",
+            "description": "<p>TCPA is an interactive resource that enables researchers to analyze and visualize functional proteomic data of tumor samples.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "ccg",
+                    "label": "Center for Cancer Genomics (CCG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Han",
+                        "middleName": null,
+                        "lastName": "Liang",
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": null,
+                    "email": "hliang1@mdanderson.org"
+                },
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": null,
+                        "middleName": null,
+                        "lastName": null,
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": null,
+                    "email": "tcpa_info@mdanderson.org"
+                }
+            ]
+        },
+        {
+            "id": 33,
+            "title": "University of California, Santa Cruz (UCSC) Xena",
+            "website": "http:\/\/xena.ucsc.edu",
+            "body": "<p>UCSC Xena securely analyzes and visualizes private functional genomics datasets in the context of public and shared genomic\/phenotypic datasets, such as The Cancer Genome Atlas (TCGA), International Cancer Genome Consortium (ICGC), Therapeutically Applicable Research to Generate Effective Treatments (TARGET), Genotype-Tissue Expression (GTEx), and TOIL (Scalable and Efficient Workflow Engine).<\/p>",
+            "description": "<p>UCSC Xena securely analyzes and visualizes private functional genomics datasets in the context of public and shared genomic\/phenotypic datasets, such as The Cancer Genome Atlas (TCGA), International Cancer Genome Consortium (ICGC), Therapeutically Applicable Research to Generate Effective Treatments (TARGET), Genotype-Tissue Expression (GTEx), and TOIL (Scalable and Efficient Workflow Engine).<\/p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "itcr",
+                    "label": "Informatics Technology for Cancer Research (ITCR)"
+                }
+            ],
+            "poCs": []
+        }
+    ],
+    "facets": [
+        {
+            "title": "Research Area",
+            "param": "researchAreas",
+            "items": [
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics",
+                    "count": 6,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology",
+                    "count": 2,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment",
+                    "count": 2,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "title": "Research Type",
+            "param": "researchTypes",
+            "items": [
+                {
+                    "key": "basic",
+                    "label": "Basic",
+                    "count": 6,
+                    "selected": false
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational",
+                    "count": 3,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "title": "Tool Type",
+            "param": "toolTypes",
+            "items": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools",
+                    "count": 5,
+                    "selected": false
+                },
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases",
+                    "count": 1,
+                    "selected": false
+                },
+                {
+                    "key": "networks_consortiums",
+                    "label": "Networks\/Consortiums",
+                    "count": 1,
+                    "selected": false
+                }
+            ]
+        }
+    ]
+}

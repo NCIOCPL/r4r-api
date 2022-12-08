@@ -1,0 +1,1043 @@
+{
+    "meta": {
+        "totalResults": 15,
+        "from": 0,
+        "originalQuery": "\/resources?size=20&from=0&q=tissue"
+    },
+    "results": [
+        {
+            "id": 250,
+            "title": "Algorithm for the Reconstruction of Accurate Cellular Networks (ARACNe)",
+            "website": "https:\/\/califano.c2b2.columbia.edu\/aracne",
+            "body": "<p>ARACNe uses microarray expression profiles to reconstruct tissue-specific gene regulatory transcriptional interactions in cellular networks. The method uses mutual information of two random variables to identify genes that are co-expressed, then applies the data processing inequality to filter out interactions that are likely to be indirect. This eliminates the vast majority of false-positive transcriptional interactions typically inferred by pairwise gene-expression correlation analysis. This tool could be used by researchers to determine novel driver genes and drug mechanisms of action.<\/p>",
+            "description": "<p>ARACNe is an algorithm for inferring direct regulatory relationships between transcriptional regulator proteins and target genes.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                },
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "bioinformatics",
+                    "label": "Bioinformatics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "ocg",
+                    "label": "Office of Cancer Genomics (OCG)"
+                },
+                {
+                    "key": "ccg",
+                    "label": "Center for Cancer Genomics (CCG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": "Dr.",
+                        "firstName": "Andrea",
+                        "middleName": null,
+                        "lastName": "Califano",
+                        "suffix": null
+                    },
+                    "title": "Clyde and Helen Wu Professor of Chemical and Systems Biology",
+                    "phone": null,
+                    "email": "ac2248@cumc.columbia.edu"
+                }
+            ]
+        },
+        {
+            "id": 26,
+            "title": "Chernobyl Tissue Bank (CTB)",
+            "website": "http:\/\/www.chernobyltissuebank.com\/",
+            "body": "<p>CTB is an international collaborative project that is supported by NCI\u2019s Division of Cancer Biology and the Sasakawa Memorial Health Foundation of Japan with active participation from Russia and Ukraine, two countries heavily affected by the 1986 Chernobyl accident. CTB manages biospecimen resources and associated data sets that support studies on the biology of thyroid cancer, the major health consequence of the Chernobyl accident. For more information on this Tissue Bank, please visit the Chernobyl Tissue Bank website.<\/p>",
+            "description": "<p>CTB maintains a research resource that supports studies on the biology of thyroid cancer, the major health consequence of the Chernobyl accident.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "causes_of_cancer",
+                    "label": "Causes of Cancer"
+                },
+                {
+                    "key": "cancer_survivorship",
+                    "label": "Cancer Survivorship"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "clinical",
+                    "label": "Clinical"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "register",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dcb",
+                    "label": "Division of Cancer Biology (DCB)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Rihab",
+                        "middleName": null,
+                        "lastName": "Yassin",
+                        "suffix": "Ph.D."
+                    },
+                    "title": "Program Director",
+                    "phone": "240-276-6230",
+                    "email": "yassinr@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 226,
+            "title": "Cooperative Human Tissue Network (CHTN)",
+            "website": "https:\/\/www.chtn.org\/",
+            "body": "<p>The CHTN is a unique NCI-supported resource that provides human tissues and fluids from routine procedures to investigators who utilize human biospecimens in their research. Unlike tissue banks, the CHTN works prospectively with each investigator to tailor specimen acquisition and processing to meet their specific project requirements.<\/p>",
+            "description": "<p>The CHTN is a unique NCI-supported resource that provides human tissues and fluids from routine procedures to investigators who utilize human biospecimens in their research. Unlike tissue banks, the CHTN works prospectively with each investigator to tailor specimen acquisition and processing to meet their specific project requirements.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                },
+                {
+                    "key": "causes_of_cancer",
+                    "label": "Causes of Cancer"
+                },
+                {
+                    "key": "cancer_diagnosis",
+                    "label": "Cancer Diagnosis"
+                },
+                {
+                    "key": "screening_detection",
+                    "label": "Screening & Detection"
+                },
+                {
+                    "key": "cancer_health_disparities",
+                    "label": "Cancer Health Disparities"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "clinical",
+                    "label": "Clinical"
+                },
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Nicole",
+                        "middleName": null,
+                        "lastName": "Bollinger",
+                        "suffix": null
+                    },
+                    "title": "Central Coordinator",
+                    "phone": "(440) 477-5952",
+                    "email": "nbollinger@chtn.org"
+                }
+            ]
+        },
+        {
+            "id": 107,
+            "title": "Cores Of Recurrent Events (CORE)",
+            "website": "http:\/\/cran.us.r-project.org\/web\/packages\/CORE\/",
+            "body": "<p>CORE is a statistically supported computational method for finding recurrently targeted regions in massive collections of genomic intervals, such as those arising from DNA copy number analysis of single tumor cells or bulk tumor tissues.<\/p>",
+            "description": "<p>CORE is a statistically supported computational method for finding recurrently targeted regions in massive collections of genomic intervals, such as those arising from DNA copy number analysis of single tumor cells or bulk tumor tissues.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "itcr",
+                    "label": "Informatics Technology for Cancer Research (ITCR)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 220,
+            "title": "Differential Allelic Cis-regulatory Effects-scan (DACRE-scan)",
+            "website": "https:\/\/github.com\/KChen-lab\/DACRE",
+            "body": "<p>DACRE-scan is a statistical tool that deconvolutes and integrates tumor DNA and RNA profiles from matched whole-exome and whole-transcriptome tissue sequencing data. This tool is being used to discover functional variants (somatic and germline) that are subject to differential allelic cis-regulatory effects.<\/p>",
+            "description": "<p>DACRE-scan is a statistical tool that deconvolutes and integrates tumor DNA and RNA profiles from matched whole-exome and whole-transcriptome tissue sequencing data. This tool is being used to discover functional variants (somatic and germline) that are subject to differential allelic cis-regulatory effects.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                },
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "ccg",
+                    "label": "Center for Cancer Genomics (CCG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": "Dr.",
+                        "firstName": "Ken",
+                        "middleName": null,
+                        "lastName": "Chen",
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": null,
+                    "email": "kchen3@mdanderson.org"
+                }
+            ]
+        },
+        {
+            "id": 257,
+            "title": "Human Cancer Models Initiative (HCMI) Informed Consent Template",
+            "website": "https:\/\/ocg.cancer.gov\/programs\/hcmi\/resources",
+            "body": "<p>This informed consent template serves as a guide for creating informed consent documents for accrual of tissue samples from potential patients\/participants for cancer model development, data acquisition, and distribution.<\/p>",
+            "description": "<p>Informed Consent Template for tissue accrual for cancer model development<\/p>",
+            "toolTypes": [
+                {
+                    "key": "community_research_tools",
+                    "label": "Community Research Tools"
+                },
+                {
+                    "key": "clinical_research_tools",
+                    "label": "Clinical Research Tools"
+                },
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                },
+                {
+                    "key": "clinical",
+                    "label": "Clinical"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "ocg",
+                    "label": "Office of Cancer Genomics (OCG)"
+                },
+                {
+                    "key": "ccg",
+                    "label": "Center for Cancer Genomics (CCG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": "Dr.",
+                        "firstName": "Eva",
+                        "middleName": null,
+                        "lastName": "Tonsing-Carter",
+                        "suffix": null
+                    },
+                    "title": "Scientific Program Manager",
+                    "phone": null,
+                    "email": "ocg@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 227,
+            "title": "NCI Specimen Resource Locator (SRL)",
+            "website": "https:\/\/specimens.cancer.gov\/",
+            "body": "<p>The SRL is a biospecimen resource database designed to help researchers locate resources that may have the samples needed for their investigational use. This publicly searchable database includes information about biospecimen banks and sample procurement services. The specimens and samples come from non-commercial, NCI- or non-NCI-funded resources. Investigators can search the database and gain access to thousands of specimens of various tumor, organ, and preservation methods. In the event a user is unsuccessful in finding the appropriate specimen resource, he or she may contact the NCI Tissue Expediter, a scientist who can further assist them. Also, the Tissue Expediter can assist researchers to identify potential collaborators when needed. The NCI and the NCI's SRL do not oversee or take responsibility for the content, quality or data of the specimen collections or resources participating in the SRL.<\/p>",
+            "description": "<p>The SRL is a biospecimen resource database designed to help researchers locate resources that may have the samples needed for their investigational use. This publicly searchable database includes information about biospecimen banks and sample procurement services. The specimens and samples come from non-commercial, NCI- or non-NCI-funded resources. Investigators can search the database and gain access to thousands of specimens of various tumor, organ, and preservation methods. In the event a user is unsuccessful in finding the appropriate specimen resource, he or she may contact the NCI Tissue Expediter, a scientist who can further assist them. Also, the Tissue Expediter can assist researchers to identify potential collaborators when needed. The NCI and the NCI's SRL do not oversee or take responsibility for the content, quality or data of the specimen collections or resources participating in the SRL.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                },
+                {
+                    "key": "screening_detection",
+                    "label": "Screening & Detection"
+                },
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "cancer_public_health",
+                    "label": "Cancer & Public Health"
+                },
+                {
+                    "key": "cancer_prevention",
+                    "label": "Cancer Prevention"
+                },
+                {
+                    "key": "cancer_health_disparities",
+                    "label": "Cancer Health Disparities"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "clinical",
+                    "label": "Clinical"
+                },
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Joanne",
+                        "middleName": null,
+                        "lastName": "Demchok",
+                        "suffix": null
+                    },
+                    "title": "Program Director",
+                    "phone": "240-276-5959",
+                    "email": null
+                }
+            ]
+        },
+        {
+            "id": 35,
+            "title": "Protocol - Snap-Freezing of Post-Surgical Tissue Biospecimens",
+            "website": "https:\/\/biospecimens.cancer.gov\/global\/pdfs\/NCI_BEBP_Snap-freezing_of_Post-surgical_Tissue_Biospecimens.pdf",
+            "body": "<p>This protocol provides evidence-based guidance for the proper snap-freezing of human tissue biospecimens. This guidance is intended to support the development and execution of evidence-based Standard Operating Procedures (SOPs) for human biospecimen collection, processing, and storage operations. It is applicable to all human tissues that are to be preserved by snap-freezing. Biospecimens preserved under these procedural guidelines are suitable for downstream analysis of DNA, RNA, protein, and morphology endpoints. Additional analytical endpoints, including but not limited to cell viability, cell sorting, drug sensitivity testing, or use as donor specimens for xenografts or primary tissue culture, do not fall within the scope of this document.<\/p>",
+            "description": "<p>This protocol provides evidence-based guidance for the proper snap-freezing of human tissue biospecimens.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 21,
+            "title": "Quantitative Imaging In Pathology (QUIP)",
+            "website": "https:\/\/sbu-bmi.github.io\/quip_distro\/",
+            "body": "<p>This site hosts web-accessible applications, tools, and data designed to support analysis, management, and exploration of whole slide tissue images for cancer research. QUIP includes the following tools:<\/p>\n<p>caMicroscope: A digital pathology data management and visualization plaform that enables interactive viewing of whole slide tissue images and segmentation results. caMicroscope can be also used independently of QUIP.<\/p>\n<p>FeatureExplorer: An interactive tool to allow patient-level feature exploration across multiple dimensions.<\/p>\n<p>FeatureScape: A visual analytics platform for exploring imaging features generated by analysis of whole slide tissue images.<\/p>",
+            "description": "<p>This site hosts web-accessible applications, tools, and data designed to support analysis, management, and exploration of whole slide tissue images for cancer research.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                },
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_diagnosis",
+                    "label": "Cancer Diagnosis"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "itcr",
+                    "label": "Informatics Technology for Cancer Research (ITCR)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 36,
+            "title": "Standard Operating Procedure (SOP) Collection for Biobanking and the Genome Tissue Expression (GTEx) Project",
+            "website": "https:\/\/biospecimens.cancer.gov\/resources\/sops\/library.asp",
+            "body": "<p>This library of SOPs addresses various biobanking practices used in initiatives such as the Cancer Human Biobank (caHUB). The caHUB has collected high quality biospecimens and associated data to enable genomic research in the GTEx project, a National Institutes of Health (NIH) Common Fund initiative. The success of GTEx depends on the ability to successfully procure and store high quality biospecimens for analysis. Successful collection of normal human biospecimens from rapid autopsies and organ donors requires complex operations and a stringent quality assurance and control process. For this reason, caHUB has created a large number of SOPs to govern operations in ethical and regulatory procedures; biospecimen collecting and tracking; data collection; production of collection and shipping kits and checklists; and pathology review.<\/p>",
+            "description": "<p>This resource is a library of SOPs for various biobanking practices to govern operations in ethical and regulatory procedures; biospecimen collecting and tracking; data collection; production of collection and shipping kits and checklists; and pathology review.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_health_disparities",
+                    "label": "Cancer Health Disparities"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 252,
+            "title": "Texomer",
+            "website": "https:\/\/github.com\/KChen-lab\/Texomer",
+            "body": "<p>Texomer integrates bulk whole exome and whole transcriptome sequencing data obtained from patient tissue samples and estimates tumor purity, intra-tumor heterogeneity, etc. This tool potentially improves molecular characterization and functional variant prediction of cancer samples.<\/p>",
+            "description": "<p>A statistical approach that improves molecular characterization of cancer samples by integrating cancer genome and transcriptome sequencing data obtained from patient tissue samples.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "bioinformatics",
+                    "label": "Bioinformatics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "ocg",
+                    "label": "Office of Cancer Genomics (OCG)"
+                },
+                {
+                    "key": "ccg",
+                    "label": "Center for Cancer Genomics (CCG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Fang",
+                        "middleName": null,
+                        "lastName": "Wang",
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": null,
+                    "email": "fwang9@mdanderson.org"
+                }
+            ]
+        },
+        {
+            "id": 115,
+            "title": "Text Information Extraction System (TIES)",
+            "website": "http:\/\/ties.dbmi.pitt.edu",
+            "body": "<p>TIES is a service-based software system for acquiring, deidentifying, and processing clinical text reports using natural language processing, and also for querying, sharing, and using this data to foster tissue- and image-based research within and between institutions.<\/p>",
+            "description": "<p>TIES is a service-based software system for acquiring, deidentifying, and processing clinical text reports using natural language processing, and also for querying, sharing, and using this data to foster tissue- and image-based research within and between institutions.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                },
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "bioinformatics",
+                    "label": "Bioinformatics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "itcr",
+                    "label": "Informatics Technology for Cancer Research (ITCR)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 121,
+            "title": "The Cancer Proteome Atlas (TCPA)",
+            "website": "https:\/\/bioinformatics.mdanderson.org\/main\/TCPA",
+            "body": "<p>Functional proteomics is the large-scale study of functional activity (e.g., expression, modificatins, etc.) of the proteins. TCPA is a comprehensive resource of cancer proteomics datasets mainly consisting of The Cancer Genome Atlas (TCGA) tumor tissue sample sets. This resource provides a unique opportunity to validate the findings from TCGA data and identify model cell lines for functional investigation. TCPA currently provides six modules: Summary, My Protein, Download, Visualization, Analysis, and Cell Line.<\/p>",
+            "description": "<p>TCPA is an interactive resource that enables researchers to analyze and visualize functional proteomic data of tumor samples.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "ccg",
+                    "label": "Center for Cancer Genomics (CCG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Han",
+                        "middleName": null,
+                        "lastName": "Liang",
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": null,
+                    "email": "hliang1@mdanderson.org"
+                },
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": null,
+                        "middleName": null,
+                        "lastName": null,
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": null,
+                    "email": "tcpa_info@mdanderson.org"
+                }
+            ]
+        },
+        {
+            "id": 33,
+            "title": "University of California, Santa Cruz (UCSC) Xena",
+            "website": "http:\/\/xena.ucsc.edu",
+            "body": "<p>UCSC Xena securely analyzes and visualizes private functional genomics datasets in the context of public and shared genomic\/phenotypic datasets, such as The Cancer Genome Atlas (TCGA), International Cancer Genome Consortium (ICGC), Therapeutically Applicable Research to Generate Effective Treatments (TARGET), Genotype-Tissue Expression (GTEx), and TOIL (Scalable and Efficient Workflow Engine).<\/p>",
+            "description": "<p>UCSC Xena securely analyzes and visualizes private functional genomics datasets in the context of public and shared genomic\/phenotypic datasets, such as The Cancer Genome Atlas (TCGA), International Cancer Genome Consortium (ICGC), Therapeutically Applicable Research to Generate Effective Treatments (TARGET), Genotype-Tissue Expression (GTEx), and TOIL (Scalable and Efficient Workflow Engine).<\/p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "itcr",
+                    "label": "Informatics Technology for Cancer Research (ITCR)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 151,
+            "title": "Virtual Inference of Protein-activity by Enriched Regulon analysis (VIPER)",
+            "website": "http:\/\/califano.c2b2.columbia.edu\/viper",
+            "body": "<p>Methods to measure protein abundance on a proteome-wide scale using arrays or mass spectrometry technologies cover only a fraction of proteins, requiring large amounts of tissue, and do not directly capture protein activity. The VIPER algorithm uses the transcripts most directly affected by protein\u2019s activityto rank relative protein activity on a sample-by-sample  basis by transforming a gene expression matrix into a protein activity matrix.<\/p>",
+            "description": "<p>The VIPER algorithm allows computational inference of protein activity on an individual sample from gene expression data.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "ccg",
+                    "label": "Center for Cancer Genomics (CCG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Aristidis",
+                        "middleName": null,
+                        "lastName": "Floratos",
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": null,
+                    "email": "af2202@cumc.columbia.edu"
+                },
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Andrea",
+                        "middleName": null,
+                        "lastName": "Califano",
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": null,
+                    "email": "ac2248@cumc.columbia.edu"
+                }
+            ]
+        }
+    ],
+    "facets": [
+        {
+            "title": "Research Area",
+            "param": "researchAreas",
+            "items": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology",
+                    "count": 12,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics",
+                    "count": 10,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment",
+                    "count": 4,
+                    "selected": false
+                },
+                {
+                    "key": "bioinformatics",
+                    "label": "Bioinformatics",
+                    "count": 3,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_health_disparities",
+                    "label": "Cancer Health Disparities",
+                    "count": 3,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_diagnosis",
+                    "label": "Cancer Diagnosis",
+                    "count": 2,
+                    "selected": false
+                },
+                {
+                    "key": "causes_of_cancer",
+                    "label": "Causes of Cancer",
+                    "count": 2,
+                    "selected": false
+                },
+                {
+                    "key": "screening_detection",
+                    "label": "Screening & Detection",
+                    "count": 2,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_prevention",
+                    "label": "Cancer Prevention",
+                    "count": 1,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_public_health",
+                    "label": "Cancer & Public Health",
+                    "count": 1,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_survivorship",
+                    "label": "Cancer Survivorship",
+                    "count": 1,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "title": "Research Type",
+            "param": "researchTypes",
+            "items": [
+                {
+                    "key": "basic",
+                    "label": "Basic",
+                    "count": 11,
+                    "selected": false
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational",
+                    "count": 11,
+                    "selected": false
+                },
+                {
+                    "key": "clinical",
+                    "label": "Clinical",
+                    "count": 4,
+                    "selected": false
+                },
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials",
+                    "count": 2,
+                    "selected": false
+                },
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic",
+                    "count": 1,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "title": "Tool Type",
+            "param": "toolTypes",
+            "items": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools",
+                    "count": 9,
+                    "selected": false
+                },
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases",
+                    "count": 5,
+                    "selected": false
+                },
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools",
+                    "count": 4,
+                    "selected": false
+                },
+                {
+                    "key": "clinical_research_tools",
+                    "label": "Clinical Research Tools",
+                    "count": 1,
+                    "selected": false
+                },
+                {
+                    "key": "community_research_tools",
+                    "label": "Community Research Tools",
+                    "count": 1,
+                    "selected": false
+                }
+            ]
+        }
+    ]
+}
