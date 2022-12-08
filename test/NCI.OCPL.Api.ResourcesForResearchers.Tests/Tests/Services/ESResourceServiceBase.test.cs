@@ -224,7 +224,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             string post = @"]}}";
             string expected = pre + string.Join(',', expectedFilters) + post;
 
-            ElasticTools2.AssertQueryJson(expected, actual);
+            QueryComparerUtil.AssertQueryJson(expected, actual);
         }
 
         [Fact]
@@ -264,7 +264,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
                 }
             ";
 
-            ElasticTools2.AssertQueryJson(expectedStr, query);
+            QueryComparerUtil.AssertQueryJson(expectedStr, query);
         }
 
         [Fact]
@@ -276,7 +276,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
                 { ""term"": { ""testfield"": { ""value"": ""testval"" } } }
             ";
 
-            ElasticTools2.AssertQueryJson(expectedStr, query);
+            QueryComparerUtil.AssertQueryJson(expectedStr, query);
 
         }
 
@@ -293,7 +293,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
                 { ""term"": { ""testfield"": { ""value"": ""testval"" } } }
             ";
 
-            ElasticTools2.AssertQueryJson(expectedStr, query);
+            QueryComparerUtil.AssertQueryJson(expectedStr, query);
         }
 
         #endregion
@@ -329,7 +329,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             string post = @"] } }";
             string expected = pre + string.Join(',', expectedFullTextQuery) + post;
 
-            ElasticTools2.AssertQueryJson(expected, actual);
+            QueryComparerUtil.AssertQueryJson(expected, actual);
         }
 
         #endregion
@@ -395,7 +395,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             string post = @"] } }";
             string expected = pre + string.Join(',', expectedFullTextQuery) + post;
 
-            ElasticTools2.AssertQueryJson(expected, actual);
+            QueryComparerUtil.AssertQueryJson(expected, actual);
         }
 
         // Full text query with two fields, one with multiple match types
@@ -437,7 +437,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
                 }
             ";
 
-            ElasticTools2.AssertQueryJson(expectedStr, actual);
+            QueryComparerUtil.AssertQueryJson(expectedStr, actual);
         }
 
         #endregion
@@ -508,7 +508,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             string post = @"] } }";
             string expected = pre + string.Join(',', expectedFullTextFieldQueries) + post;
 
-            ElasticTools2.AssertQueryJson(expected, actual);
+            QueryComparerUtil.AssertQueryJson(expected, actual);
         }
 
         // Queries for one field with multiple match types
@@ -532,7 +532,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
                 }
             ";
 
-            ElasticTools2.AssertQueryJson(expectedStr, actual);
+            QueryComparerUtil.AssertQueryJson(expectedStr, actual);
         }
 
         // Queries for one field with single match type
@@ -555,7 +555,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
                 }
             ";
 
-            ElasticTools2.AssertQueryJson(expectedStr, actual);
+            QueryComparerUtil.AssertQueryJson(expectedStr, actual);
         }
 
         #endregion
@@ -571,7 +571,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
                 { ""common"": { ""testfield"": { ""query"": ""testkeyword"", ""cutoff_frequency"": 1.0, ""low_freq_operator"": ""and"", ""boost"": 1.0 } } }
             ";
 
-            ElasticTools2.AssertQueryJson(expectedStr, query);
+            QueryComparerUtil.AssertQueryJson(expectedStr, query);
         }
 
         // MatchType "match"
@@ -583,7 +583,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
                 { ""match"": { ""testfield"": { ""query"": ""testkeyword"", ""boost"": 1.0 } } }
             ";
 
-            ElasticTools2.AssertQueryJson(expectedStr, query);
+            QueryComparerUtil.AssertQueryJson(expectedStr, query);
         }
 
         // MatchType "match_phrase"
@@ -595,7 +595,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
                 { ""match_phrase"": { ""testfield"": { ""query"": ""testkeyword"", ""boost"": 1.0 } } }
             ";
 
-            ElasticTools2.AssertQueryJson(expectedStr, query);
+            QueryComparerUtil.AssertQueryJson(expectedStr, query);
         }
 
         // MatchType invalid
