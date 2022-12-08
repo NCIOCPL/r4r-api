@@ -124,7 +124,6 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Services
         private IEnumerable<KeyLabelAggResult> ExtractAggResults(R4RAPIOptions.FacetConfig facetConfig, ISearchResponse<Resource> res)
         {
 
-            //var currBucket = res.Aggs.Nested($"{facetConfig.FilterName}_agg");
             var currBucket = res.Aggregations.Nested($"{facetConfig.FilterName}_agg");
 
             //We need to go one level deeper if this has a dependent filter

@@ -19,7 +19,7 @@ namespace NCI.OCPL.Utils.Testing
     /// <summary>
     /// Tools for mocking elasticsearch clients
     /// </summary>
-    public static class ElasticTools2
+    public static class QueryComparerUtil
     {
 
 
@@ -36,14 +36,6 @@ namespace NCI.OCPL.Utils.Testing
             string json = client.RequestResponseSerializer.SerializeToString(query);
 
             JObject actual = JObject.Parse(json);
-
-            // var pool = new SingleNodeConnectionPool(new Uri("http://localhost:9200"));
-            // var connectionSettings = new ConnectionSettings(pool, new ElasticsearchInterceptingConnection());
-
-            // JObject actual = JObject.Parse(JsonConvert.SerializeObject(query, new JsonSerializerSettings
-            // {
-            //     ContractResolver = new ElasticContractResolver(connectionSettings, new List<Func<Type, JsonConverter>>())
-            // }));
 
             Assert.Equal(expected, actual, new JTokenEqualityComparer());
         }

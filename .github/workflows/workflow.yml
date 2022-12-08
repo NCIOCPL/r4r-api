@@ -98,12 +98,21 @@ jobs:
               if [ "$RUNNER_OS" == "Windows" ]; then
                 dotnet test
               else
+                # GitHub Actions uses the latest version of the dotnet application to drive the build process.
+                # There's a known issue which causes the command line switches to be ignored. To work around it,
+                # we have to set environment variables (which msbuild will pick up as properties).
+                # dotnet test issue: https://github.com/microsoft/vstest/issues/4014
+                # coverliet issue: https://github.com/coverlet-coverage/coverlet/issues/1391
+                #
+                export CollectCoverage=true
+                export CoverletOutputFormat=lcov
+                export CoverletOutput="../../lcov"
                 dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=lcov /p:CoverletOutput=../../lcov test/**
               fi
         shell: bash
 
       - name: Save Code Coverage Output
-        uses: actions/upload-artifact@v1
+        uses: actions/upload-artifact@v3
         with:
           name: coverage-${{ matrix.operating-system }}
           path: lcov.info
@@ -125,7 +134,7 @@ jobs:
         shell: bash
 
       - name: Upload Published Artifact
-        uses: actions/upload-artifact@v1
+        uses: actions/upload-artifact@v3
         with:
           name: r4r-api-${{ matrix.operating-system }}
           path: out
@@ -151,7 +160,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Download Published Artifact
-        uses: actions/download-artifact@v1
+        uses: actions/download-artifact@v3
         with:
           name: r4r-api-ubuntu-latest
           path: built-api
@@ -221,7 +230,7 @@ jobs:
               exit 0
 
       - name: Upload Integration test results
-        uses: actions/upload-artifact@v1
+        uses: actions/upload-artifact@v3
         with:
           name: integration-test-results
           path: integration-tests/target
