@@ -1,0 +1,257 @@
+{
+    "meta": {
+        "totalResults": 2,
+        "from": 0,
+        "originalQuery": "\/resources?size=20&from=0&q=TP53"
+    },
+    "results": [
+        {
+            "id": 243,
+            "title": "MutSpliceDB",
+            "website": "https:\/\/brb.nci.nih.gov\/splicing",
+            "body": "<p>Splice site variants are one of the well-known classes of genetic alterations playing an important role in biology. Splice site mutations in cancer are most frequently observed as inactivating alterations in tumor suppressor genes (e.g., <em>TP53<\/em> or <em>RB1<\/em>) and to a lesser degree as activating alterations in oncogenes (e.g., <em>MET<\/em>). Interpreting the consequences of a specific splice site variant is not straightforward, especially if the variant is located outside of the canonical splice sites. Accurate interpretation of a splice site mutation\u2019s impact can further our understanding of biology, influence patient treatment, and in case of germline splice site variants, may have relevance to familial disease predisposition. To facilitate the interpretation of splice site variant effects, the Biometric Research Program\u2019s Computational and Systems Biology Branch developed MutSpliceDB: a database of splice sites variants, documenting variants effect(s) on splicing based on RNA-seq BAM files from sample(s) with splice site variants.<\/p>",
+            "description": "<p>MutSpliceDB is a database of splice sites variants and their effects on splicing.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "bioinformatics",
+                    "label": "Bioinformatics"
+                },
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": "Dr.",
+                        "firstName": "Dmitriy",
+                        "middleName": null,
+                        "lastName": "Sonkin",
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": "240-276-5678",
+                    "email": "dmitriy.sonkin@nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 260,
+            "title": "TP53 Database",
+            "website": "https:\/\/tp53.isb-cgc.org\/",
+            "body": "<p>The <em>TP53<\/em> database is meant to be a source of information on <em>TP53<\/em> variants for a broad range of scientists and clinicians who work in different research areas including basic research, pathology, epidemiology, and genetics. The <em>TP53<\/em> Database compiles various types of data and information from the literature and generalist databases on human <em>TP53<\/em> gene variations related to cancer. The data available include functional\/structural data, somatic variants, germline variants, cell lines, mouse models, and experimentally induced variants.<\/p>",
+            "description": "<p>The <em>TP53<\/em> Database allows users to explore TP53 variants, including  functional\/structural data, somatic variants, germline variants, cell lines, mouse models, and experimentally induced variants.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                },
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "cancer_statistics",
+                    "label": "Cancer Statistics"
+                },
+                {
+                    "key": "cancer_diagnosis",
+                    "label": "Cancer Diagnosis"
+                },
+                {
+                    "key": "causes_of_cancer",
+                    "label": "Causes of Cancer"
+                },
+                {
+                    "key": "bioinformatics",
+                    "label": "Bioinformatics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic"
+                },
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dceg",
+                    "label": "Division of Cancer Epidemiology and Genetics (DCEG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Sharon",
+                        "middleName": null,
+                        "lastName": "Savage",
+                        "suffix": null
+                    },
+                    "title": "DCEG Clinical Director, Chief and Senior Investigator in the Clinical Genetics Branch",
+                    "phone": "240-276-7241",
+                    "email": "savagesh@mail.nih.gov"
+                },
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Kelvin Cesar",
+                        "middleName": null,
+                        "lastName": "de Andrade",
+                        "suffix": null
+                    },
+                    "title": "Research Fellow",
+                    "phone": "240-276-5110",
+                    "email": "kelvin.deandrade@nih.gov"
+                }
+            ]
+        }
+    ],
+    "facets": [
+        {
+            "title": "Research Area",
+            "param": "researchAreas",
+            "items": [
+                {
+                    "key": "bioinformatics",
+                    "label": "Bioinformatics",
+                    "count": 2,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology",
+                    "count": 2,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics",
+                    "count": 2,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_diagnosis",
+                    "label": "Cancer Diagnosis",
+                    "count": 1,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_statistics",
+                    "label": "Cancer Statistics",
+                    "count": 1,
+                    "selected": false
+                },
+                {
+                    "key": "causes_of_cancer",
+                    "label": "Causes of Cancer",
+                    "count": 1,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "title": "Research Type",
+            "param": "researchTypes",
+            "items": [
+                {
+                    "key": "basic",
+                    "label": "Basic",
+                    "count": 2,
+                    "selected": false
+                },
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials",
+                    "count": 1,
+                    "selected": false
+                },
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic",
+                    "count": 1,
+                    "selected": false
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational",
+                    "count": 1,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "title": "Tool Type",
+            "param": "toolTypes",
+            "items": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases",
+                    "count": 2,
+                    "selected": false
+                },
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools",
+                    "count": 1,
+                    "selected": false
+                }
+            ]
+        }
+    ]
+}

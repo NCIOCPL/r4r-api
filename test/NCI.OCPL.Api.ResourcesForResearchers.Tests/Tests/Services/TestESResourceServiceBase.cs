@@ -30,8 +30,9 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
         /// <typeparam name="T">The 1st type parameter.</typeparam>
         protected T GetService<T>(IConnection connection) where T : class
         {
-            //While this has a URI, it does not matter, an InMemoryConnection never requests
-            //from the server.
+            // While this has a URI, it does not matter as long as the actual connection object
+            // is InMemoryConnection, ElasticsearchInterceptingConnection, or similar which doesn't
+            // actually make a request.
             var pool = new SingleNodeConnectionPool(new Uri("http://localhost:9200"));
 
             var connectionSettings = new ConnectionSettings(pool, connection);

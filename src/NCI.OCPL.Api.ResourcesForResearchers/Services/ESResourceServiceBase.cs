@@ -75,16 +75,16 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Services
         }
 
         /// <summary>
-        /// Gets a query object to be used for all filters. 
+        /// Gets a query object to be used for all filters.
         /// </summary>
         /// <remarks>
         /// When more than one filter is used we must use a Bool query (Must) to wrap the
-        /// TermQuery objects that represent the filters. When only one filter is used, 
+        /// TermQuery objects that represent the filters. When only one filter is used,
         /// then we only need to return a single TermQuery.
         /// </remarks>
         /// <returns>All of the filters for this query.  This is something that can be used for the filter
         /// portion of a bool query.</returns>
-        /// <param name="filtersList">A dictionary containing of all of the filters. 
+        /// <param name="filtersList">A dictionary containing of all of the filters.
         /// The key should be the name of the field to filter.
         /// The values are a list of all of the filters.
         /// </param>
@@ -92,7 +92,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Services
 
             //NOTE: This assumes there are not dependencies between fields. (e.g. toolType & toolSubtype)
             //Therefore we are not required to do any complicated nested queries. This will work if all
-            //the keys of the filters are unique. 
+            //the keys of the filters are unique.
             //e.g. toolType: foo|toolSubtype: bar && toolType: bazz| toolSubtype: bar would not work.
             IEnumerable<QueryContainer> queries = new QueryContainer[]{};
 
@@ -112,7 +112,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Services
         /// </summary>
         /// <remarks>
         /// When more than one filter is used we must use a Bool query (Should) to wrap the
-        /// TermQuery objects that represent the filters. When only one filter is used, 
+        /// TermQuery objects that represent the filters. When only one filter is used,
         /// then we only need to return a single TermQuery.
         /// </remarks>
         /// <returns>The QueryContainer to be used by the filter.</returns>
@@ -124,7 +124,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Services
 
             if (filters.Length == 0)
             {
-                throw new ArgumentException("Filters must contain at least one item");    
+                throw new ArgumentException("Filters must contain at least one item");
             }
 
             if (filters.Length == 1)
@@ -134,7 +134,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Services
             }
             else
             {
-                query = new BoolQuery { 
+                query = new BoolQuery {
                     Should = from filter in filters
                                 select (QueryContainer)GetQueryForField(field, filter),
                     MinimumShouldMatch = 1
@@ -166,7 +166,6 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Services
         /// </summary>
         /// <returns>The keyword query.</returns>
         /// <param name="keyword">Keyword.</param>
-        /// <param name="fields">Full text fields.</param>
         protected QueryContainer GetKeywordQuery(string keyword)
         {
             // Get list of full text fields from options for query building
@@ -204,7 +203,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Services
 
             return fullTextFieldQueries;
         }
-        
+
         /// <summary>
         /// Gets a QueryContainer for a given fulltext field.
         /// </summary>
@@ -236,6 +235,10 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Services
             switch(matchType)
             {
                 case "common":
+                    // This will break if/when we move to Elasticsearch 8.x.
+                    // The docs say we should replace CommonTermsQuery with MatchQuery.
+                    // This will require additional/updated tests.
+#pragma warning disable CS0618
                     return new CommonTermsQuery
                     {
                         Field = field,
@@ -244,6 +247,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Services
                         LowFrequencyOperator = Operator.And,
                         CutoffFrequency = 1
                     };
+#pragma warning restore CS0618
                 case "match":
                     return new MatchQuery
                     {

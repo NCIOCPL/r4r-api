@@ -2,9 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+
+using NCI.OCPL.Api.Common;
+
 using NCI.OCPL.Api.ResourcesForResearchers.Models;
+
 using Nest;
 
 namespace NCI.OCPL.Api.ResourcesForResearchers.Services
@@ -44,12 +49,12 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Services
 
             if (validID)
             {
-                IGetResponse<Resource> response = null;
+                GetResponse<Resource> response = null;
 
                 try
                 {
                     // Fetch the resource with the given ID from the API.
-                    response = await _elasticClient.GetAsync<Resource>(new GetRequest(this._apiOptions.AliasName, "resource", resID));
+                    response = await _elasticClient.GetAsync<Resource>(new GetRequest(this._apiOptions.AliasName, resID));
                 }
                 catch (Exception ex)
                 {
@@ -59,21 +64,21 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Services
                 }
 
                 // If the API's response isn't valid, throw an error and return 500 status code.
-                if (!response.IsValid)
+                if (!response.ApiCall.Success)
                 {
+                    _logger.LogDebug($"Failed Elasticsearch lookup for id '{id}'.\nDetails:\n\n{response.ApiCall.DebugInformation}");
                     throw new APIErrorException(500, "Errors occurred.");
                 }
 
-                // If the API finds the resource, return the resource.
-                if (response.Found && response.IsValid)
-                {
-                    resResult = response.Source;
-                }
-                // If the API cannot find the resource, throw an error and return 404 status code.
-                else if (!response.Found && response.IsValid)
+                // If no resource was found, throw a 404 error.
+                // This really should be decided by the controller, but refactoring is out of scope for now.
+                if (!response.Found)
                 {
                     throw new APIErrorException(404, "Resource not found.");
                 }
+
+                // Return the resource.
+                resResult = response.Source;
             }
             else
             {
@@ -85,19 +90,12 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Services
         }
 
         /// <summary>
-        /// Gets a resource from the API via its ID.
-        /// </summary>
-        /// <param name="id">The ID of the resource</param>
-        /// <returns>The resource</returns>
-        public Resource Get(string id) => GetAsync(id).Result;
-
-        /// <summary>
         /// Asynchronously gets the resources that match the given params
         /// </summary>
         /// <param name="query">Query parameters (optional)</param>
         /// <param name="size">Number of results to return (optional)</param>
         /// <param name="from">Beginning index for results (optional)</param>
-        /// <param name="includeFields">Fields to include (optional)</param>       
+        /// <param name="includeFields">Fields to include (optional)</param>
         /// <returns>Resource query result</returns>
         public async Task<ResourceQueryResult> QueryResourcesAsync(
             ResourceQuery query,
@@ -110,14 +108,13 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Services
 
             // Set up the SearchRequest to send to the API.
             Indices index = Indices.Index(new string[] { this._apiOptions.AliasName });
-            Types types = Types.Type(new string[] { "resource" });
-            SearchRequest request = new SearchRequest(index, types)
+            SearchRequest request = new SearchRequest(index)
             {
                 Size = size,
                 From = from,
                 Sort = new List<ISort>
                 {
-                    new SortField { Field = "title._sort", Order = SortOrder.Ascending }
+                    new FieldSort { Field = "title._sort", Order = SortOrder.Ascending }
                 },
                 //TODO:
                 Source = new SourceFilter
@@ -171,21 +168,6 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Services
 
             return queryResults;
         }
-
-        /// <summary>
-        /// Gets the resources that match the given params
-        /// </summary>
-        /// <param name="query">Query parameters (optional)</param>
-        /// <param name="size">Number of results to return (optional)</param>
-        /// <param name="from">Beginning index for results (optional)</param>
-        /// <param name="includeFields">Fields to include (optional)</param>       
-        /// <returns>Resource query result</returns>
-        public ResourceQueryResult QueryResources(
-            ResourceQuery query,
-            int size = 20,
-            int from = 0,
-            string[] includeFields = null
-        ) => QueryResourcesAsync(query, size, from, includeFields).Result;
 
     }
 }

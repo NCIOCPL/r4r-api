@@ -1,0 +1,1290 @@
+{
+    "meta": {
+        "totalResults": 42,
+        "from": 0,
+        "originalQuery": "/resources?size=20&from=0&toolTypes=lab_tools"
+    },
+    "results": [
+        {
+            "id": 93,
+            "title": "AIDS Antiviral Screen Data",
+            "website": "https://wiki.nci.nih.gov/display/NCIDTPdata/AIDS+Antiviral+Screen+Data",
+            "body": "<p>The DTP AIDS Antiviral Screen has checked tens of thousands of compounds for evidence of anti-HIV activity. Screening results and chemical structural data on compounds that are not covered by a confidentiality agreement are available.</p>",
+            "description": "<p>This resource provides access to results and chemical structural data on compounds checked by the Developmental Therapeutics Program (DTP) AIDS Antiviral Screen.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                },
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "screening_detection",
+                    "label": "Screening & Detection"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 228,
+            "title": "Cancer Nanotechnology Laboratory (caNanoLab) Portal",
+            "website": "https://cananolab.nci.nih.gov/caNanoLab/#/",
+            "body": "<p>caNanoLab is a data sharing portal designed to facilitate information sharing across the international biomedical nanotechnology research community to expedite and validate the use of nanotechnology in biomedicine.</p>\n<p>caNanoLab provides support for the annotation of nanomaterials with characterizations resulting from physico-chemical <em>in vitro</em> and <em>in vivo</em> assays and the sharing of these characterizations and associated nanotechnology protocols in a secure fashion.</p>",
+            "description": "<p>caNanoLab includes over 1,000 curated nanomaterials relevant in cancer with detailed characterizations and associated nanotechnology protocols and publications. Researchers can perform web-based queries and download reports for re-use and additional analysis.</p>",
+            "toolTypes": [
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "register",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "itcr",
+                    "label": "Informatics Technology for Cancer Research (ITCR)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 152,
+            "title": "Candidate Cancer Allele cDNA Collection",
+            "website": "https://www.addgene.org/kits/boehm-target-accelerator-cancer-collection/",
+            "body": "<p>CTD2 researchers at the Broad Institute/DFCI have developed a collection of plasmids including mutant alleles found in sequencing studies of cancer. It includes somatic variants found in lung adenocarcinoma and across other cancer types. The clones enable researchers to characterize the function of the cancer variants in a high throughput experiments. In addition, a control collection of clones as part of the \"Genetic Pathway Reference Set\" provides a resource to generate benchmark perturbation data. These plasmids are collectively called the Broad Target Accelerator Plasmid Collections. The design and construction of these plasmids is described in the manuscripts and they are available through a distributor.</p>",
+            "description": "<p>This collection of plasmids includes mutant alleles found in sequencing studies of cancer. It includes somatic variants found in lung adenocarcinoma and across other cancer types.</p>",
+            "toolTypes": [
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "ccg",
+                    "label": "Center for Cancer Genomics (CCG)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 136,
+            "title": "cDNA Clones with Rare and Recurrent Mutations found in Cancers",
+            "website": "https://ocg.cancer.gov/programs/ctd2/supported-reagents/cdna-clones-rare-and-recurrent-mutations-found-cancers",
+            "body": "<p>The CTD^2 center at the University of Texas MD Anderson Cancer Center has developed a high-throughput mutagenesis and molecular barcoding (HiTMMoB)   pipeline to construct mutant alleles open reading frame expression clones that are either found in recurrent cancer or are rare in cancers. These barcoded genes can be used for context-specific functional validation, detection of novel biomarkers (pathway activation), and targets (drug sensitivity).</p>",
+            "description": "<p>This resource is an open reading frame (ORF) expression library with clones of wild-type and somatic mutations found in recurrent cancer or that are rare in cancer .</p>",
+            "toolTypes": [
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "register",
+                "notes": "Material Transfer Agreement (MTA) required"
+            },
+            "doCs": [
+                {
+                    "key": "ccg",
+                    "label": "Center for Cancer Genomics (CCG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Gordon",
+                        "middleName": null,
+                        "lastName": "Mills",
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": null,
+                    "email": "millsg@ohsu.edu"
+                }
+            ]
+        },
+        {
+            "id": 128,
+            "title": "CERES",
+            "website": "https://depmap.org/ceres/",
+            "body": "<p>Studies have shown that genome-wide CRISPR-Cas9 inactivation of genes that are amplified need different analytical approaches for interpretation of the results. The Cas9 induces double strand breaks which lead to false-positive results. A computational method, CERES was developed for inferring gene essentiality from genome-wide CRISPR-Cas9 screens in cancer cell lines to correct the copy number effect. This approach decreases the false-positive results while taking into account the anti-proliferative copy-number effect.</p>",
+            "description": "<p>CERES is a method to infer gene essentiality from genome-wide CRISPR-Cas9 screens in cancer cell lines to correct the copy number effect. This approach decreases the false-positive results while taking into account the anti-proliferative copy-number effect.</p>",
+            "toolTypes": [
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                },
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "ccg",
+                    "label": "Center for Cancer Genomics (CCG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "David",
+                        "middleName": null,
+                        "lastName": "Quigley",
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": null,
+                    "email": "David.Quigley@ucsf.edu"
+                }
+            ]
+        },
+        {
+            "id": 26,
+            "title": "Chernobyl Tissue Bank (CTB)",
+            "website": "http://www.chernobyltissuebank.com/",
+            "body": "<p>CTB is an international collaborative project that is supported by NCI’s Division of Cancer Biology and the Sasakawa Memorial Health Foundation of Japan with active participation from Russia and Ukraine, two countries heavily affected by the 1986 Chernobyl accident. CTB manages biospecimen resources and associated data sets that support studies on the biology of thyroid cancer, the major health consequence of the Chernobyl accident. For more information on this Tissue Bank, please visit the Chernobyl Tissue Bank website.</p>",
+            "description": "<p>CTB maintains a research resource that supports studies on the biology of thyroid cancer, the major health consequence of the Chernobyl accident.</p>",
+            "toolTypes": [
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "causes_of_cancer",
+                    "label": "Causes of Cancer"
+                },
+                {
+                    "key": "cancer_survivorship",
+                    "label": "Cancer Survivorship"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "clinical",
+                    "label": "Clinical"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "register",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dcb",
+                    "label": "Division of Cancer Biology (DCB)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Rihab",
+                        "middleName": null,
+                        "lastName": "Yassin",
+                        "suffix": "Ph.D."
+                    },
+                    "title": "Program Director",
+                    "phone": "240-276-6230",
+                    "email": "yassinr@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 176,
+            "title": "Clinical Proteomic Tumor Analysis Consortium (CPTAC) Antibody Portal",
+            "website": "https://proteomics.cancer.gov/antibody-portal",
+            "body": "<p>The CPTAC Antibody Portal houses affinity reagents characterized and validated by NCI’s Antibody Characterization Laboratory, located at the Frederick National Laboratory for Cancer Research. Upon entering the portal, users can browse by antibodies or antigens or select from a series of table filters on the left side of the page. Each antibody has background, characterization data with corresponding standard operating procedures, as well as links to the CPTAC assay portal (when applicable) and Developmental Studies Hybridoma Bank at the University of Iowa for purchase. Each antigen additionally has standard operating procedures and links to central repositories of protein and gene information, such as Uniprot, Ensembl, and Entrez. For those interested in affinity reagents to a specific protein target, the CPTAC Antibody Portal has an application form for reagent target requests to the NCI Antibody Characterization Program that is released on an annual basis.</p>",
+            "description": "<p>The CPTAC Antibody Portal serves as an NCI community resource that provides access to many highly characterized renewable affinity reagents with accompanying characterization data.</p>",
+            "toolTypes": [
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                },
+                {
+                    "key": "networks_consortiums",
+                    "label": "Networks/Consortiums"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_diagnosis",
+                    "label": "Cancer Diagnosis"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": "Information regarding the antibodies is free, however, users will be redirected to the Developmental Studies Hybridoma Bank for purchasing."
+            },
+            "doCs": [
+                {
+                    "key": "cssi",
+                    "label": "Center for Strategic Scientific Initiatives (CSSI)"
+                },
+                {
+                    "key": "occpr",
+                    "label": "Office of Cancer Clinical Proteomics Research (OCCPR)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Tara",
+                        "middleName": null,
+                        "lastName": "Hiltke",
+                        "suffix": "Ph.D."
+                    },
+                    "title": "Program Director",
+                    "phone": "240-781-3435",
+                    "email": "hiltket@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 177,
+            "title": "Clinical Proteomic Tumor Analysis Consortium (CPTAC) Assay Portal",
+            "website": "https://assays.cancer.gov",
+            "body": "<p>The CPTAC Assay Portal is a repository of highly characterized proteomic assays, standard operating procedures, and assay characterization/validation data in support of the National Institutes of Health’s Rigor and Reproducibility Principles and Guidelines. Upon entering the assay portal, users can search for an assay by entering a protein or peptide name, or they can filter assays by selecting the drop-down tab on the left side of the page. Each assay has background information along with a protein map, assay details, publication information, assay parameters, chromatograms, response curves, and repeatability measures. Additional resources include the standard operating procedures and instructions for viewing the peptide or protein in Panorama.</p>",
+            "description": "<p>The CPTAC Assay Portal serves as a centralized public repository of “fit-for-purpose,” multiplexed quantitative mass spectrometry-based proteomic targeted assays.</p>",
+            "toolTypes": [
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                },
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                },
+                {
+                    "key": "networks_consortiums",
+                    "label": "Networks/Consortiums"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                },
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_diagnosis",
+                    "label": "Cancer Diagnosis"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "cssi",
+                    "label": "Center for Strategic Scientific Initiatives (CSSI)"
+                },
+                {
+                    "key": "occpr",
+                    "label": "Office of Cancer Clinical Proteomics Research (OCCPR)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Chris",
+                        "middleName": null,
+                        "lastName": "Kinsingee",
+                        "suffix": "Ph.D."
+                    },
+                    "title": "Program Director",
+                    "phone": "240-781-3339",
+                    "email": "kinsingc@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 160,
+            "title": "Clustered Regularly Interspaced Short Palindromic Repeats (CRISPRi) plasmids",
+            "website": "http://www.addgene.org/crispr/qi-weissman/",
+            "body": "<p>CTD^2 researchers at the University of California, San Francisco developed a modified  CRISPR/dCas9 system. Catalytically inactive dCas9 enables modular and programmable RNA-guided genome regulation in eukaryotes. The CRISPR/dCas9 system has several advantages.  It enables robust gene interference (CRISPRi) or activation (CRISPRa) in human cells, allows specific knockdown with minimal off-target effects in human cells,  works efficiently in human and yeast cells, and does not cause double-strand breaks.</p>",
+            "description": "<p>The CRISPR toolbox allows  for the precise regulation of gene expression in eukaryotic cells.</p>",
+            "toolTypes": [
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "ccg",
+                    "label": "Center for Cancer Genomics (CCG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": null,
+                        "middleName": null,
+                        "lastName": null,
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": null,
+                    "email": "ocg@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 226,
+            "title": "Cooperative Human Tissue Network (CHTN)",
+            "website": "https://www.chtn.org/",
+            "body": "<p>The CHTN is a unique NCI-supported resource that provides human tissues and fluids from routine procedures to investigators who utilize human biospecimens in their research. Unlike tissue banks, the CHTN works prospectively with each investigator to tailor specimen acquisition and processing to meet their specific project requirements.</p>",
+            "description": "<p>The CHTN is a unique NCI-supported resource that provides human tissues and fluids from routine procedures to investigators who utilize human biospecimens in their research. Unlike tissue banks, the CHTN works prospectively with each investigator to tailor specimen acquisition and processing to meet their specific project requirements.</p>",
+            "toolTypes": [
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                },
+                {
+                    "key": "causes_of_cancer",
+                    "label": "Causes of Cancer"
+                },
+                {
+                    "key": "cancer_diagnosis",
+                    "label": "Cancer Diagnosis"
+                },
+                {
+                    "key": "screening_detection",
+                    "label": "Screening & Detection"
+                },
+                {
+                    "key": "cancer_health_disparities",
+                    "label": "Cancer Health Disparities"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "clinical",
+                    "label": "Clinical"
+                },
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Nicole",
+                        "middleName": null,
+                        "lastName": "Bollinger",
+                        "suffix": null
+                    },
+                    "title": "Central Coordinator",
+                    "phone": "(440) 477-5952",
+                    "email": "nbollinger@chtn.org"
+                }
+            ]
+        },
+        {
+            "id": 96,
+            "title": "In Vivo Antitumor Assays",
+            "website": "https://wiki.nci.nih.gov/display/NCIDTPdata/In+Vivo+Antitumor+Assays",
+            "body": "<p>For approximately 30 years, the NCI used in vivo animal tumor models to screen compounds for potential antitumor activity. A detailed description of these models was published in Cancer Chemotherapy Reports Part 3, Vol. 3 No. 2, September 1972.</p>",
+            "description": "<p>For approximately 30 years, the NCI used in vivo animal tumor models to screen compounds for potential antitumor activity. A detailed description of these models was published in Cancer Chemotherapy Reports Part 3, Vol. 3 No. 2, September 1972.</p>",
+            "toolTypes": [
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "screening_detection",
+                    "label": "Screening & Detection"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 133,
+            "title": "Mammalian Gene Collection (MGC)",
+            "website": "https://mgc.nci.nih.gov/",
+            "body": "<p>MGC provides researchers with unrestricted access to sequence-validated full-length protein-coding (FL-CDS) cDNA clones for human, mouse, and rat genes. MGC cDNA clones were obtained by screening of cDNA libraries, by transcript-specific RT-PCR  cloning, and by DNA synthesis of cDNA inserts.</p>",
+            "description": "<p>MGC is a bank of full-length open reading frame clones for the majority of protein-coding human and mouse genes.</p>",
+            "toolTypes": [
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "ccg",
+                    "label": "Center for Cancer Genomics (CCG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Preston",
+                        "middleName": null,
+                        "lastName": "Hunter",
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": null,
+                    "email": "preston.hunter@asu.edu"
+                }
+            ]
+        },
+        {
+            "id": 97,
+            "title": "Molecular Target Data",
+            "website": "https://wiki.nci.nih.gov/display/NCIDTPdata/Molecular+Target+Data",
+            "body": "<p>Thousands of molecular targets have been measured in the NCI-60 human tumor cell lines. Measurements include protein levels, RNA measurements, mutation status and enzyme activity levels. Data sites allow searches for a target of interest, or a list of targets. The COMPARE program allows identification of targets or compounds with patterns that correlate with a target of interest.</p>",
+            "description": "<p>The Molecular Targets effort is a collaboration between qualified researchers and the NCI  Division of Cancer Treatment and Diagnosis (DCTD). The NCI-60 lab will provide NCI-60 cell line frozen cell pellets, DNA, or RNA for analysis in the external researchers’ labs.</p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                },
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "screening_detection",
+                    "label": "Screening & Detection"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 202,
+            "title": "National Cryo-Electron Microscopy Facility (NCEF)",
+            "website": "https://www.cancer.gov/research/resources/cryoem",
+            "body": "<p>NCI created the NCEF to provide cancer researchers with access to the latest cryo-EM technology for high resolution imaging, particularly researchers in academic labs to who do not have adequate access to these instruments. NCEF currently houses one Titan Krios microscope equipped with a Falcon II direct detector and a K2 Summit direct detector at the end of a Gatan imaging filter.</p>",
+            "description": "<p>The NCEF provides cancer researchers with access to the latest cryo-EM technology for high resolution imaging.</p>",
+            "toolTypes": [
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                },
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [],
+            "researchTypes": [],
+            "resourceAccess": {
+                "type": "register",
+                "notes": null
+            },
+            "doCs": [],
+            "poCs": []
+        },
+        {
+            "id": 117,
+            "title": "National Institute of General Medical Sciences and National Cancer Institute (GM/CA)  X-ray Beamline",
+            "website": "http://www.gmca.anl.gov/",
+            "body": "<p>NCI partnered with the National Institute of General Medical Sciences (NIGMS) to fund the construction and management of a state-of-the-art macromolecular crystallography synchrotron beamline for determining structures of biologically important macromolecules. The beamline, known as the National Institute of General Medical Sciences and National Cancer Institute Collaborative Access Team (GM/CA CAT), is located at the Advanced Photon Source on the grounds of the Argonne National Laboratory near Chicago. NCI has a significant amount of beamtime dedicated for the use of its grantees. Investigators interested in taking experiments to this facility should contact the beamline directly or email Dr. J. Randy Knowlton (Jk339o@nih.gov) for additional information.</p>",
+            "description": "<p>This resource is a state-of-the-art macromolecular crystallography synchrotron beamline for determining structures of biologically important macromolecules. NCI has a significant amount of beamtime dedicated for the use of its grantees</p>",
+            "toolTypes": [
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                },
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "causes_of_cancer",
+                    "label": "Causes of Cancer"
+                },
+                {
+                    "key": "cancer_survivorship",
+                    "label": "Cancer Survivorship"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "register",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dcb",
+                    "label": "Division of Cancer Biology (DCB)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": "Dr. J. Randy",
+                        "middleName": null,
+                        "lastName": "Knowlton",
+                        "suffix": "Ph.D."
+                    },
+                    "title": "Program Director",
+                    "phone": "240-276-6210",
+                    "email": "Jk339o@nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 34,
+            "title": "NCI Best Practices for Biospecimen Resources Handbook, 2016",
+            "website": "https://biospecimens.cancer.gov/bestpractices/2016-NCIBestPractices.pdf",
+            "body": "<p>This publication outlines the operational, technical, ethical, legal, and policy best practices for NCI-supported biospecimen resources. NCI Best Practices incorporate key principles that define state-of-the-science biospecimen resource practices, promote biospecimen and data quality, and support adherence to ethical and legal requirements. This document is based on current published information and will be revised periodically as new information is generated from ongoing research projects. While adoption of the NCI Best Practices is voluntary, NCI believes that these principles optimize biospecimens for cancer research.</p>\n<p>This revision was published in March 2016.</p>",
+            "description": "<p>This publication outlines the operational, technical, ethical, legal, and policy best practices for NCI-supported biospecimen resources.</p>",
+            "toolTypes": [
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_health_disparities",
+                    "label": "Cancer Health Disparities"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                },
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 164,
+            "title": "NCI Formulary",
+            "website": "https://nciformulary.cancer.gov",
+            "body": "<p>NCI agent formulary (NCI Formulary) is designed to expand the use of NCI Formulary pharmaceutical company collaborator proprietary agents for preclinical research or clinical trials and improve the clinical trial implementation process. Investigators from eligible institutions may submit proposals using the available NCI Formulary agents to conduct preclinical research or conduct investigator-sponsored clinical trials. The NCI Formulary is particularly useful to investigators who would like to perform combination studies that focus on agents targeting molecular pathways from multiple collaborating pharmaceutical companies.</p>",
+            "description": "<p>NCI agent formulary (NCI Formulary) is a public–private partnership between NCI and pharmaceutical and biotechnology companies that provides NCI-funded US main-member Experimental Therapeutics Clinical Trials Network (ETCTN) and National Clinical Trials Network (NCTN) institutions and their investigators rapid access to agents for cancer clinical trial use or preclinical research.</p>",
+            "toolTypes": [
+                {
+                    "key": "networks_consortiums",
+                    "label": "Networks/Consortiums"
+                },
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                },
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials"
+                },
+                {
+                    "key": "clinical",
+                    "label": "Clinical"
+                },
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "register",
+                "notes": "Must be a United States NCI main-member ETCTN and NCTN institution investigator."
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": null,
+                        "middleName": null,
+                        "lastName": null,
+                        "suffix": null
+                    },
+                    "title": null,
+                    "phone": null,
+                    "email": "NCIFormulary@mail.nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 178,
+            "title": "NCI Mouse Repository",
+            "website": "https://frederick.cancer.gov/science/technology/mouserepository",
+            "body": "<p>The NCI Mouse Repository is a resource for mouse cancer models and associated strains that is available to all members of the scientific community (academic, non-profit, and commercial). NCI Mouse Repository strains are cryo-archived and distributed as frozen germoplasm (embryos and/or sperm). The repository also contains 1,501 genetically engineered mouse embryonic stem cells harboring conditional microRNA (miRNA) transgenes that can be used to study the role of miRNAs in cancer.</p>",
+            "description": "<p>The NCI Mouse Repository is a resource for mouse cancer models, associated strains, and genetically engineered mouse embryonic stem cells harboring conditional microRNA (miRNAs) transgenes.</p>",
+            "toolTypes": [
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "causes_of_cancer",
+                    "label": "Causes of Cancer"
+                },
+                {
+                    "key": "cancer_survivorship",
+                    "label": "Cancer Survivorship"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": "For mouse strains, a material transfer agreement will need to be signed by the Recipient Scientist and an Authorized Recipient Official of his/her institution."
+            },
+            "doCs": [
+                {
+                    "key": "dcb",
+                    "label": "Division of Cancer Biology (DCB)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": null,
+                        "firstName": null,
+                        "middleName": null,
+                        "lastName": null,
+                        "suffix": null
+                    },
+                    "title": "NCI Mouse Repository Office",
+                    "phone": null,
+                    "email": "MouseRepository@nih.gov"
+                }
+            ]
+        },
+        {
+            "id": 74,
+            "title": "NCI Patient Derived Models Repository (PDMR)",
+            "website": "https://pdmr.cancer.gov",
+            "body": "<p>The NCI PDMR is a repository of low passage patient-derived xenografts (PDXs), cell lines (PDCs), organoids (PDOrg), and cancer associated fibroblasts (CAFs) available to investigators at both non-profit and for-profit institutions for a modest cost. The PDMR generates models from solid tumor histologies with a focus on complimenting existing publicly available models and filling in gaps where needed, for instance creating models for rare cancers (e.g., mesothelioma, Merkel cell carcinoma, osteosarcoma, salivary gland cancer, and others).  Available models include clinical history and molecular characterization information so investigators can select models best fit to their research.  Researchers not interested in performing wet lab studies can mine the metadata associated with the models using the NCI PDMR database.</p>",
+            "description": "<p>This repository inlcudes PDMs comprised of patient-derived xenografts (PDXs) and <em>in vitro</em> patient-derived cell cultures (PDCs), including mixed cell populations, clonal cell lines, and fibroblast cell lines.</p>",
+            "toolTypes": [
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                },
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_health_disparities",
+                    "label": "Cancer Health Disparities"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": []
+        },
+        {
+            "id": 244,
+            "title": "NCI Program for Natural Product Discovery Fraction Library",
+            "website": "https://dtp.cancer.gov/organization/npb/npnpd_prefractionated_library.htm",
+            "body": "<p>The NCI Program for Natural Product Discovery (NPNPD) fraction library is a set of partially purified natural product extract samples plated in 384-well plates for use in high-throughput screening by the worldwide research community. There are about 150,000 fractions in the initial set, and the fractions are provided in a set of 428 384-well plates. Each sample is provided in the amount of 10 micrograms in a volume of 2 microliters (5 mg/ml) dissolved in DMSO. The fractions are mixtures of natural compounds from plants, marine organisms, and microbes purified by reversed-phase chromatography to provide fractions with better assay performance and simpler subsequent compound isolation. The NPNPD fraction library is expected to grow to a total size of around 1,000,000 fractions by 2024. New sets of fractions will be available each year. Fractions are provided free to laboratories for screening against all disease states. Recipients will be expected to pay for the cost of shipping.</p>",
+            "description": "<p>This resource provides a library of partially purified natural product extract fractions for use in high-throughput screening. The fractions are derived from natural product extracts in the NCI Repository.</p>",
+            "toolTypes": [
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "screening_detection",
+                    "label": "Screening & Detection"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                },
+                {
+                    "key": "cancer_prevention",
+                    "label": "Cancer Prevention"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "basic",
+                    "label": "Basic"
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "register",
+                "notes": "Requires the signing of an MTA."
+            },
+            "doCs": [
+                {
+                    "key": "dctd",
+                    "label": "Division of Cancer Treatment and Diagnosis (DCTD)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": "Ms.",
+                        "firstName": "Carol",
+                        "middleName": null,
+                        "lastName": "Haggerty",
+                        "suffix": null
+                    },
+                    "title": "Repository Coordinator",
+                    "phone": "301-624-1269",
+                    "email": "haggerca@mail.nih.gov"
+                }
+            ]
+        }
+    ],
+    "facets": [
+        {
+            "title": "Research Area",
+            "param": "researchAreas",
+            "items": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology",
+                    "count": 34,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment",
+                    "count": 13,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics",
+                    "count": 9,
+                    "selected": false
+                },
+                {
+                    "key": "causes_of_cancer",
+                    "label": "Causes of Cancer",
+                    "count": 7,
+                    "selected": false
+                },
+                {
+                    "key": "screening_detection",
+                    "label": "Screening & Detection",
+                    "count": 6,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_health_disparities",
+                    "label": "Cancer Health Disparities",
+                    "count": 5,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_survivorship",
+                    "label": "Cancer Survivorship",
+                    "count": 5,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_diagnosis",
+                    "label": "Cancer Diagnosis",
+                    "count": 3,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_prevention",
+                    "label": "Cancer Prevention",
+                    "count": 2,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_public_health",
+                    "label": "Cancer & Public Health",
+                    "count": 1,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "title": "Research Type",
+            "param": "researchTypes",
+            "items": [
+                {
+                    "key": "basic",
+                    "label": "Basic",
+                    "count": 39,
+                    "selected": false
+                },
+                {
+                    "key": "translational",
+                    "label": "Translational",
+                    "count": 12,
+                    "selected": false
+                },
+                {
+                    "key": "clinical_trials",
+                    "label": "Clinical Trials",
+                    "count": 10,
+                    "selected": false
+                },
+                {
+                    "key": "clinical",
+                    "label": "Clinical",
+                    "count": 4,
+                    "selected": false
+                },
+                {
+                    "key": "epidemiologic",
+                    "label": "Epidemiologic",
+                    "count": 1,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "title": "Tool Sub-Type",
+            "param": "toolSubtypes",
+            "items": [
+                {
+                    "key": "reagents",
+                    "label": "Reagents",
+                    "count": 13,
+                    "selected": false
+                },
+                {
+                    "key": "biospecimen",
+                    "label": "Biospecimen",
+                    "count": 9,
+                    "selected": false
+                },
+                {
+                    "key": "cell_lines",
+                    "label": "Cell Lines",
+                    "count": 8,
+                    "selected": false
+                },
+                {
+                    "key": "protocols",
+                    "label": "Protocols",
+                    "count": 7,
+                    "selected": false
+                },
+                {
+                    "key": "assays",
+                    "label": "Assays",
+                    "count": 6,
+                    "selected": false
+                },
+                {
+                    "key": "vectors",
+                    "label": "Vectors",
+                    "count": 5,
+                    "selected": false
+                },
+                {
+                    "key": "animal_models",
+                    "label": "Animal Models",
+                    "count": 4,
+                    "selected": false
+                },
+                {
+                    "key": "compounds",
+                    "label": "Compounds",
+                    "count": 4,
+                    "selected": false
+                },
+                {
+                    "key": "plant_samples",
+                    "label": "Plant Samples",
+                    "count": 2,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "title": "Tool Type",
+            "param": "toolTypes",
+            "items": [
+                {
+                    "key": "lab_tools",
+                    "label": "Lab Tools",
+                    "count": 42,
+                    "selected": true
+                }
+            ]
+        }
+    ]
+}

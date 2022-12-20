@@ -1,0 +1,127 @@
+{
+    "meta": {
+        "totalResults": 1,
+        "from": 0,
+        "originalQuery": "\/resources?size=20&from=0&q=aml"
+    },
+    "results": [
+        {
+            "id": 246,
+            "title": "Vizome",
+            "website": "http:\/\/www.vizome.org\/aml\/",
+            "body": "<p>Beat AML study is a groundbreaking collaborative clinical study integrating genomics with data on acute myeloid leukemia (AML) patient sample sensitivity to a panel of novel targeted therapies. Vizome\u2019s Beat AML data viewer allows easy access to clinical, genomic, transcriptomic, and functional analyses of AML samples. This tool could be used to predict novel treatment options.<\/p>",
+            "description": "<p>Vizome is a data browser used to access molecular characterization and drug response studies of clinically annotated adult acute myeloid leukemia cases.<\/p>",
+            "toolTypes": [
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases"
+                },
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools"
+                }
+            ],
+            "toolSubtypes": null,
+            "researchAreas": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology"
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment"
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics"
+                }
+            ],
+            "researchTypes": [
+                {
+                    "key": "translational",
+                    "label": "Translational"
+                }
+            ],
+            "resourceAccess": {
+                "type": "open",
+                "notes": null
+            },
+            "doCs": [
+                {
+                    "key": "ccg",
+                    "label": "Center for Cancer Genomics (CCG)"
+                }
+            ],
+            "poCs": [
+                {
+                    "name": {
+                        "prefix": "Dr.",
+                        "firstName": "Jeffrey",
+                        "middleName": "W",
+                        "lastName": "Tyner",
+                        "suffix": null
+                    },
+                    "title": "Associate Professor of Medicine",
+                    "phone": "503-346-0603",
+                    "email": "tynerj@ohsu.edu"
+                }
+            ]
+        }
+    ],
+    "facets": [
+        {
+            "title": "Research Area",
+            "param": "researchAreas",
+            "items": [
+                {
+                    "key": "cancer_biology",
+                    "label": "Cancer Biology",
+                    "count": 1,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_omics",
+                    "label": "Cancer Omics",
+                    "count": 1,
+                    "selected": false
+                },
+                {
+                    "key": "cancer_treatment",
+                    "label": "Cancer Treatment",
+                    "count": 1,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "title": "Research Type",
+            "param": "researchTypes",
+            "items": [
+                {
+                    "key": "translational",
+                    "label": "Translational",
+                    "count": 1,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "title": "Tool Type",
+            "param": "toolTypes",
+            "items": [
+                {
+                    "key": "analysis_tools",
+                    "label": "Analysis Tools",
+                    "count": 1,
+                    "selected": false
+                },
+                {
+                    "key": "datasets_databases",
+                    "label": "Datasets & Databases",
+                    "count": 1,
+                    "selected": false
+                }
+            ]
+        }
+    ]
+}

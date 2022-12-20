@@ -22,7 +22,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Models
         /// <param name="y">The second KeyLabelAggResult</param>
         public bool Equals(KeyLabelAggResult x, KeyLabelAggResult y)
         {
-            if (x == y)
+            if (x == null && y == null)
                 return true;
 
             if (x == null || y == null)
@@ -35,7 +35,10 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Models
 
         public int GetHashCode(KeyLabelAggResult obj)
         {
-            throw new NotImplementedException();
+            return 0
+                ^obj.Count.GetHashCode()
+                ^obj.Key.GetHashCode()
+                ^obj.Label.GetHashCode();
         }
     }
 }
