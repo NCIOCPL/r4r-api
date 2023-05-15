@@ -91,14 +91,12 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Controllers
             // 1. Throw error if subToolType exists, but no toolType
             if (IsNullOrEmpty(toolTypes) && !IsNullOrEmpty(subTypes))
             {
-                _logger.LogError("Cannot have subtype without tooltype.", subTypes);
                 throw new ArgumentException("Cannot have subtype without tooltype.");
             }
 
             // 2. Throw error if multiple toolTypes exist
             if (toolTypes != null && toolTypes.Length > 1)
             {
-                _logger.LogError("Cannot have multiple tooltypes.", toolTypes);
                 throw new ArgumentException("Cannot have multiple tooltypes.");
             }
 
@@ -115,7 +113,6 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Controllers
                 {
                     if (tmpInt < 0)
                     {
-                        _logger.LogError($"Invalid size parameter: {strSize}.");
                         throw new APIErrorException(400, $"Bad request: Invalid size parameter {strSize}.");
                     }
 
@@ -123,7 +120,6 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Controllers
                 }
                 else
                 {
-                    _logger.LogError($"Invalid size parameter: {strSize}.");
                     throw new APIErrorException(400, $"Bad request: Invalid size parameter {strSize}.");
                 }
             }
@@ -141,7 +137,6 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Controllers
                 {
                     if (tmpInt < 0)
                     {
-                        _logger.LogError($"Invalid from parameter: {strFrom}.");
                         throw new APIErrorException(400, $"Bad request: Invalid from parameter {strFrom}.");
                     }
 
@@ -149,7 +144,6 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Controllers
                 }
                 else
                 {
-                    _logger.LogError($"Invalid from parameter: {strFrom}.");
                     throw new APIErrorException(400, $"Bad request: Invalid from parameter {strFrom}.");
                 }
             }
@@ -205,7 +199,6 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Controllers
             else if (!ValidateFacetList(includeFacets))
             {
                 //TODO: Actually list the invalid facets
-                _logger.LogError("Included facets in query are not valid.");
                 throw new APIErrorException(400, "Included facets in query are not valid.");
             } else {
                 facetsBeingRequested = includeFacets;
@@ -219,7 +212,6 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Controllers
             else if (!ValidateFieldList(includeFields))
             {
                 //TODO: Actually list the invalid fields
-                _logger.LogError("Included fields in query are not valid.");
                 throw new APIErrorException(400, "Included fields in query are not valid.");
             }
             else
