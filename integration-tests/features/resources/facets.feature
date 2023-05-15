@@ -70,6 +70,48 @@ Feature: Users can use facets to refine their search results.
         Then status 200
         And match response == expected
 
+    Scenario: Multiple toolTypes values are passed.
+        *   def expected = { Message: "Cannot have multiple tooltypes." }
+        *   def queryParams = {size: 999, toolTypes: ['analysis_tools', 'datasets_databases', 'lab_tools']}
+
+        Given path 'resources'
+        And params queryParams
+        When method get
+        Then status 400
+        And match response == expected
+
+
+    Scenario Outline: toolSubtypes is passed without a parent toolTypes value(s)
+
+        *   def expected = { Message: "Cannot have subtype without tooltype." }
+        *   def queryParams = {size: 999}
+        *   queryParams[subFacet] = eval(subFacetValues)
+
+        Given path 'resources'
+        And params queryParams
+        When method get
+        Then status 400
+        And match response == expected
+
+        Examples:
+            | subFacet     | subFacetValues                                             |
+            | toolSubtypes | ['genomic_datasets']                                       |
+            | toolSubtypes | ['data_visualization', 'statistical_software', 'modeling'] |
+
+
+    Scenario: toolSubtypes is passed with toolTypes (parent value) set to null.
+
+        *   def expected = { Message: "Cannot have subtype without tooltype." }
+        *   def queryParams = {size: 999}
+        *   queryParams['tooltype'] = null
+        *   queryParams['toolSubtypes'] = ['genomic_datasets']
+
+        Given path 'resources'
+        And params queryParams
+        When method get
+        Then status 400
+        And match response == expected
+
 
     Scenario Outline: Filter with subfacet
 
