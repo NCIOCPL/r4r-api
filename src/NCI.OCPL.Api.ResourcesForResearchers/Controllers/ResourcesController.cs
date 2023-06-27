@@ -86,20 +86,27 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Controllers
             [FromQuery(Name = "from")] string strFrom = null
         )
         {
+            // Remove any entries where an empty string was passed as the value.
+            toolTypes = TrimEmptyElements(toolTypes);
+            subTypes = TrimEmptyElements(subTypes);
+            researchAreas = TrimEmptyElements(researchAreas);
+            researchTypes = TrimEmptyElements(researchTypes);
+            docs = TrimEmptyElements(docs);
+            includeFields = TrimEmptyElements(includeFields);
+            includeFacets = TrimEmptyElements(includeFacets);
+
             // Validate query params here
 
             // 1. Throw error if subToolType exists, but no toolType
             if (IsNullOrEmpty(toolTypes) && !IsNullOrEmpty(subTypes))
             {
-                _logger.LogError("Cannot have subtype without tooltype.", subTypes);
-                throw new ArgumentException("Cannot have subtype without tooltype.");
+                throw new APIErrorException(400, "Cannot have subtype without tooltype.");
             }
 
             // 2. Throw error if multiple toolTypes exist
             if (toolTypes != null && toolTypes.Length > 1)
             {
-                _logger.LogError("Cannot have multiple tooltypes.", toolTypes);
-                throw new ArgumentException("Cannot have multiple tooltypes.");
+                throw new APIErrorException(400, "Cannot have multiple tooltypes.");
             }
 
             // 3. Throw error if size is invalid int
@@ -115,7 +122,6 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Controllers
                 {
                     if (tmpInt < 0)
                     {
-                        _logger.LogError($"Invalid size parameter: {strSize}.");
                         throw new APIErrorException(400, $"Bad request: Invalid size parameter {strSize}.");
                     }
 
@@ -123,7 +129,6 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Controllers
                 }
                 else
                 {
-                    _logger.LogError($"Invalid size parameter: {strSize}.");
                     throw new APIErrorException(400, $"Bad request: Invalid size parameter {strSize}.");
                 }
             }
@@ -141,7 +146,6 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Controllers
                 {
                     if (tmpInt < 0)
                     {
-                        _logger.LogError($"Invalid from parameter: {strFrom}.");
                         throw new APIErrorException(400, $"Bad request: Invalid from parameter {strFrom}.");
                     }
 
@@ -149,7 +153,6 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Controllers
                 }
                 else
                 {
-                    _logger.LogError($"Invalid from parameter: {strFrom}.");
                     throw new APIErrorException(400, $"Bad request: Invalid from parameter {strFrom}.");
                 }
             }
@@ -205,7 +208,6 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Controllers
             else if (!ValidateFacetList(includeFacets))
             {
                 //TODO: Actually list the invalid facets
-                _logger.LogError("Included facets in query are not valid.");
                 throw new APIErrorException(400, "Included facets in query are not valid.");
             } else {
                 facetsBeingRequested = includeFacets;
@@ -219,7 +221,6 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Controllers
             else if (!ValidateFieldList(includeFields))
             {
                 //TODO: Actually list the invalid fields
-                _logger.LogError("Included fields in query are not valid.");
                 throw new APIErrorException(400, "Included fields in query are not valid.");
             }
             else
@@ -290,10 +291,21 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Controllers
             return results;
         }
 
-        static bool IsNullOrEmpty(string[] myStringArray)
+        private static bool IsNullOrEmpty(string[] myStringArray)
         {
             return myStringArray == null || myStringArray.Length < 1;
         }
+
+        private static string[] TrimEmptyElements(string[] myStringArray)
+        {
+            if (myStringArray != null && myStringArray.Count() > 0)
+            {
+                myStringArray = myStringArray.Where(element => !String.IsNullOrWhiteSpace(element)).ToArray();
+            }
+
+            return myStringArray;
+        }
+
 
         /// <summary>
         /// Gets the default fields to include on returned results from the config

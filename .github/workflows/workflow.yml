@@ -20,59 +20,8 @@ env:
 
 jobs:
 
-  extract_build_info:
-    ## Gather metadata for the build artifact.
-    ##
-    ## This is done in a separate job so we don't have to figure out how to extract the
-    ## same information on every platform.
-    ## Ideally, this should be done in a GitHub Action.
-    name: Extract build metadata.
-    runs-on: ubuntu-latest
-    outputs:
-      build_name: ${{ steps.set_outputs.outputs.build_name }}
-      branch_name: ${{ steps.set_outputs.outputs.branch_name }}
-      commit_hash: ${{ steps.set_outputs.outputs.commit_hash }}
-      repo_owner: ${{ steps.set_outputs.outputs.repo_owner }}
-      repo_name: ${{ steps.set_outputs.outputs.repo_name }}
-
-    steps:
-      - name: Set outputs
-        id: set_outputs
-        run: |
-          ## PUSH
-          if [ "${{ github.event_name }}" == "push" ]; then
-            BUILD_NAME=$(sed -E 's/refs\/(heads|tags)\///; s/\//__/g;' <<< $GITHUB_REF)
-            BRANCH_NAME=$(sed -E 's/refs\/(heads|tags)\///;' <<< $GITHUB_REF)
-            COMMIT_HASH=$(echo "${GITHUB_SHA}")
-          ## PULL_REQUEST
-          elif [ "${{ github.event_name }}" == "pull_request" ]; then
-            BUILD_NAME=$(echo "pr-${{ github.event.pull_request.number }}")
-            BRANCH_NAME=$(echo "pr-${{ github.event.pull_request.number }}")
-            COMMIT_HASH=$(echo "${{ github.event.pull_request.head.sha }}")
-          else
-            ## ERROR
-            exit 1
-          fi
-          ## For step checks and artifact deployment path.
-          ## Same for push and PR
-          export REPO_FULL=${{ github.repository }}
-          export REPO_RE='([^/]+)/(.*)'
-          [[ "$REPO_FULL" =~ $REPO_RE ]]
-          REPO_OWNER=$(echo "${BASH_REMATCH[1]}")
-          REPO_NAME=$(echo "${BASH_REMATCH[2]}")
-          ## Set step outputs for later use
-          echo "build_name=${BUILD_NAME}" >> $GITHUB_OUTPUT
-          echo "branch_name=${BRANCH_NAME}" >> $GITHUB_OUTPUT
-          echo "commit_hash=${COMMIT_HASH}" >> $GITHUB_OUTPUT
-          echo "repo_owner=${REPO_OWNER}" >> $GITHUB_OUTPUT
-          echo "repo_name=${REPO_NAME}" >> $GITHUB_OUTPUT
-
-
   test_build_release:
     name: Test, Build, Publish on OS ${{ matrix.operating-system }}
-    needs: extract_build_info
-    env:
-      OWNER: ${{ needs.extract_build_info.outputs.repo_owner }}
     runs-on: ${{ matrix.operating-system }}
     strategy:
       matrix:
@@ -87,8 +36,8 @@ jobs:
       - name: Setup dotnet
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: '3.1.*'
-          source-url: "https://nuget.pkg.github.com/${{ env.OWNER }}/index.json"
+          dotnet-version: '6.0.*'
+          source-url: "https://nuget.pkg.github.com/${{ github.repository_owner }}/index.json"
 
       - name: Build with dotnet
         run: dotnet build --configuration Release /WarnAsError
@@ -122,16 +71,15 @@ jobs:
         run: |
           dotnet publish -c Release -o $GITHUB_WORKSPACE/out/r4r-api src/NCI.OCPL.Api.ResourcesForResearchers/
           cp tools/deploy-site.ps1 out/
+
+          ## directory for build-info.json
+          mkdir -p $GITHUB_WORKSPACE/out/r4r-api/wwwroot/
         shell: bash
 
       - name: Record metadata
-        env:
-          BUILD_INFO: ${{ toJson( needs.extract_build_info.outputs ) }}
-        run: |
-          echo "$BUILD_INFO"
-          mkdir $GITHUB_WORKSPACE/out/r4r-api/wwwroot/
-          echo "$BUILD_INFO" > $GITHUB_WORKSPACE/out/r4r-api/wwwroot/build-info.json
-        shell: bash
+        uses: nciocpl/build-info-action@v1.0.0
+        with:
+          output-name: "${{ github.workspace }}/out/r4r-api/wwwroot/build-info.json"
 
       - name: Upload Published Artifact
         uses: actions/upload-artifact@v3
@@ -169,8 +117,8 @@ jobs:
       - name: Setup dotnet
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: '3.1.*'
-          source-url: "https://nuget.pkg.github.com/${{ env.OWNER }}/index.json"
+          dotnet-version: '6.0.*'
+          source-url: "https://nuget.pkg.github.com/${{ github.repository_owner }}/index.json"
 
       - name: Load Data into elasticsearch & prepare for tests
         env:
