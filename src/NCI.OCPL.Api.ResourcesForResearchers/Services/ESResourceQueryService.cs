@@ -59,7 +59,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Services
                 catch (Exception ex)
                 {
                     // Throw an exception if an error occurs.
-                    _logger.LogError("Could not fetch resource ID " + resID, ex);
+                    _logger.LogError(ex, $"Could not fetch resource ID {resID}");
                     throw new APIErrorException(500, "Could not fetch resource ID " + resID);
                 }
 
@@ -140,7 +140,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Services
             catch (Exception ex)
             {
                 //TODO: Update error logger to include query
-                _logger.LogError("Could not fetch resources for query.", ex);
+                _logger.LogError(ex, "Could not fetch resources for query.");
                 throw new APIErrorException(500, "Could not fetch resources for query.");
             }
 
