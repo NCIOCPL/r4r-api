@@ -17,7 +17,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Services
         /// </summary>
         /// <param name="id">The ID of the resource</param>
         /// <returns>The resource</returns>
-        Task<Resource> GetAsync(string id);
+        Task<Resource> GetAsync(int id);
 
         /// <summary>
         /// Asynchronously gets the resources that match the given params

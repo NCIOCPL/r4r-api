@@ -44,10 +44,15 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Controllers
         /// Gets a Resource by the identifier.
         /// </summary>
         /// <returns>The by identifier.</returns>
-        /// <param name="id">Identifier.</param>
+        /// <param name="id">The resource's identifier.</param>
         [HttpGet("{id}")]
-        public async Task<Resource> GetById(string id)
+        public async Task<Resource> GetById(int id)
         {
+            if (id < 1)
+            {
+                throw new APIErrorException(400, "The resource identifier is invalid.");
+            }
+
             Resource result = await _queryService.GetAsync(id);
 
             if(result == null)
