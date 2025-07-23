@@ -12,18 +12,12 @@ Feature: Users may retrieve details about an individual resource.
         # No actual response body to check.
 
 
-    Scenario Outline: Resource ID does not exist
+    Scenario: Resource ID does not exist
 
-        Given path 'resource', id
+        Given path 'resource', 123456
         When method get
         Then status 404
         And match response == {"Message":"Resource not found."}
-
-        Examples:
-            | id      |
-            | -5      |
-            | 0       |
-            | 9999999 |
 
 
     Scenario Outline: Resource ID is not valid
@@ -35,6 +29,8 @@ Feature: Users may retrieve details about an individual resource.
 
         Examples:
             | id      |
+            | -5      |
+            | 0       |
             | chicken |
             | 1,2,3   |
             | 12.3456 |
