@@ -30,10 +30,9 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             Resource expected = StaticResourceData.GetRes101();
 
             ESResourceQueryService svc = this.GetService<ESResourceQueryService>(conn);
-            Resource actual = await svc.GetAsync("101");
+            Resource actual = await svc.GetAsync(101);
 
             //Order does matter here, so we can compare the arrays
-            //Assert.Equal(expected, actual);
             actual.Should().BeEquivalentTo(expected);
         }
 
@@ -47,7 +46,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
 
             await Assert.ThrowsAnyAsync<Exception>(async () =>
             {
-                Resource actual = await svc.GetAsync("1010");
+                Resource actual = await svc.GetAsync(1010);
             });
         }
 

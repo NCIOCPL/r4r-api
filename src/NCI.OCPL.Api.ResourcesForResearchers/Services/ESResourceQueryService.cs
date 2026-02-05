@@ -33,58 +33,40 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Services
         /// </summary>
         /// <param name="id">The ID of the resource</param>
         /// <returns>The resource</returns>
-        public async Task<Resource> GetAsync(string id)
+        public async Task<Resource> GetAsync(int id)
         {
             Resource resResult = null;
 
-            // If the given ID is null or empty, throw an exception.
-            if (string.IsNullOrWhiteSpace(id))
+            GetResponse<Resource> response = null;
+
+            try
             {
-                throw new ArgumentNullException("The resource identifier is null or an empty string.");
+                // Fetch the resource with the given ID from the API.
+                response = await _elasticClient.GetAsync<Resource>(new GetRequest(this._apiOptions.AliasName, id));
+            }
+            catch (Exception ex)
+            {
+                // Throw an exception if an error occurs.
+                _logger.LogError(ex, $"Could not fetch resource ID {id}");
+                throw new APIErrorException(500, "Could not fetch resource ID " + id);
             }
 
-            // Validate if given ID is correctly formatted as an int.
-            int resID;
-            bool validID = int.TryParse(id, out resID);
-
-            if (validID)
+            // If the API's response isn't valid, throw an error and return 500 status code.
+            if (!response.ApiCall.Success)
             {
-                GetResponse<Resource> response = null;
-
-                try
-                {
-                    // Fetch the resource with the given ID from the API.
-                    response = await _elasticClient.GetAsync<Resource>(new GetRequest(this._apiOptions.AliasName, resID));
-                }
-                catch (Exception ex)
-                {
-                    // Throw an exception if an error occurs.
-                    _logger.LogError(ex, $"Could not fetch resource ID {resID}");
-                    throw new APIErrorException(500, "Could not fetch resource ID " + resID);
-                }
-
-                // If the API's response isn't valid, throw an error and return 500 status code.
-                if (!response.ApiCall.Success)
-                {
-                    _logger.LogDebug($"Failed Elasticsearch lookup for id '{id}'.\nDetails:\n\n{response.ApiCall.DebugInformation}");
-                    throw new APIErrorException(500, "Errors occurred.");
-                }
-
-                // If no resource was found, throw a 404 error.
-                // This really should be decided by the controller, but refactoring is out of scope for now.
-                if (!response.Found)
-                {
-                    throw new APIErrorException(404, "Resource not found.");
-                }
-
-                // Return the resource.
-                resResult = response.Source;
+                _logger.LogDebug($"Failed Elasticsearch lookup for id '{id}'.\nDetails:\n\n{response.ApiCall.DebugInformation}");
+                throw new APIErrorException(500, "Errors occurred.");
             }
-            else
+
+            // If no resource was found, throw a 404 error.
+            // This really should be decided by the controller, but refactoring is out of scope for now.
+            if (!response.Found)
             {
-                // Throw an exception if the given ID is invalid (not an int).
-                throw new APIErrorException(400, "The resource identifier is invalid.");
+                throw new APIErrorException(404, "Resource not found.");
             }
+
+            // Return the resource.
+            resResult = response.Source;
 
             return resResult;
         }
