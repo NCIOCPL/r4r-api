@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="NCI.OCPL.Api.Common" Version="4.0.0-alpha2" />
+    <PackageReference Include="NCI.OCPL.Api.Common" Version="4.0.0-alpha3" />
     <PackageReference Include="Elastic.Clients.Elasticsearch" Version="8.19.*" />
   </ItemGroup>
 
