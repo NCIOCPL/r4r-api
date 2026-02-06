@@ -1,8 +1,8 @@
 ﻿using System;
+using System.Text.Json.Serialization;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Nest;
 
 namespace NCI.OCPL.Api.ResourcesForResearchers.Models
 {
@@ -15,14 +15,14 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Models
         /// The type of resource access
         /// </summary>
         /// <value>The type.</value>
-        [Keyword(Name = "type")]
+        [JsonPropertyName("type")]
         public string Type { get; set; }
 
         /// <summary>
         /// The notes about the resource access
         /// </summary>
         /// <value>The notes.</value>
-        [Keyword(Name = "notes")]
+        [JsonPropertyName("notes")]
         public string Notes { get; set; }
     }
 }

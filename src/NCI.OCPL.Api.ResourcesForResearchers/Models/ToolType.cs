@@ -1,8 +1,8 @@
 ﻿using System;
+using System.Text.Json.Serialization;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Nest;
 
 namespace NCI.OCPL.Api.ResourcesForResearchers.Models
 {
@@ -15,7 +15,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Models
         /// The parent key of a tool subtype
         /// </summary>
         /// <value>The parent key.</value>
-        [Nested(Name = "parentKey")]
+        [JsonPropertyName("parentKey")]
         public string ParentKey { get; set; }
     }
 }

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Nest;
+﻿using System.Text.Json.Serialization;
 
 namespace NCI.OCPL.Api.ResourcesForResearchers.Models
 {
@@ -15,14 +11,14 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Models
         /// The key of the item
         /// </summary>
         /// <value>The key.</value>
-        [Text(Name = "key")]
+        [JsonPropertyName("key")]
         public string Key { get; set; }
 
         /// <summary>
         /// The label of the item
         /// </summary>
         /// <value>The label.</value>
-        [Text(Name = "label")]
+        [JsonPropertyName("label")]
         public string Label { get; set; }
     }
 }

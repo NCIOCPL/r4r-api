@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Newtonsoft.Json;
+﻿using System.Text.Json;
 
 namespace NCI.OCPL.Api.ResourcesForResearchers.Models
 {
@@ -12,7 +8,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Models
     public class ErrorMessage
 {
         /// <summary>
-        /// The message to display 
+        /// The message to display
         /// </summary>
         /// <returns></returns>
         public string Message { get; set; }
@@ -23,7 +19,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Models
         /// <returns>A <see cref="T:System.String"/> that represents the current <see cref="T:R4RAPI.Models.ErrorMessage"/>.</returns>
         public override string ToString()
         {
-            return JsonConvert.SerializeObject(this);
+            return JsonSerializer.Serialize(this);
         }
     }
 }

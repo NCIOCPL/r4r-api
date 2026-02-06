@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace NCI.OCPL.Api.ResourcesForResearchers.Models
+﻿namespace NCI.OCPL.Api.ResourcesForResearchers.Models
 {
     /// <summary>
     /// Represents a Key/Label Aggregation. This is used when the filtering

@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 
 namespace NCI.OCPL.Api.ResourcesForResearchers.Models
 {
@@ -52,7 +51,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Models
 
             //Additional facets could be
             //Heirarchical - the facet allows nesting
-            //Range - the facet is a ranged facet 
+            //Range - the facet is a ranged facet
             //etc.
         }
 
@@ -133,8 +132,8 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Models
                 return false;
             }
 
-            if (this.AvailableFacets.Values.Any(v => 
-                    string.IsNullOrWhiteSpace(v.FilterName) || 
+            if (this.AvailableFacets.Values.Any(v =>
+                    string.IsNullOrWhiteSpace(v.FilterName) ||
                     string.IsNullOrWhiteSpace(v.Label) ||
                     (v.FacetType != FacetTypes.Single && v.FacetType != FacetTypes.Multiple)
                 )
@@ -143,7 +142,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Models
                 return false;
             }
 
-            if (this.AvailableFullTextFields.Values.Any(v => 
+            if (this.AvailableFullTextFields.Values.Any(v =>
                     string.IsNullOrWhiteSpace(v.FieldName) ||
                     v.MatchTypes.Any(m => string.IsNullOrWhiteSpace(m))
                 )

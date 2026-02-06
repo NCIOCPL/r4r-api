@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace NCI.OCPL.Api.ResourcesForResearchers.Models
+﻿namespace NCI.OCPL.Api.ResourcesForResearchers.Models
 {
     /// <summary>
     /// Describes the information about a facet
