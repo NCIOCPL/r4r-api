@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 
 
 using Elasticsearch.Net;
@@ -22,7 +23,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
         #region Error Handling
 
         [Fact]
-        public async void GetKLA_TestFieldNull() {
+        public async Task GetKLA_TestFieldNull() {
             ElasticsearchInterceptingConnection conn = new ElasticsearchInterceptingConnection();
             ESResourceAggregationService aggSvc = this.GetService<ESResourceAggregationService>(conn);
 
@@ -39,7 +40,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
         }
 
         [Fact]
-        public async void GetKLA_TestQueryNull() {
+        public async Task GetKLA_TestQueryNull() {
             ElasticsearchInterceptingConnection conn = new ElasticsearchInterceptingConnection();
             ESResourceAggregationService aggSvc = this.GetService<ESResourceAggregationService>(conn);
 
@@ -52,7 +53,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
         }
 
         [Fact]
-        public async void GetKLA_TestBadFacet() {
+        public async Task GetKLA_TestBadFacet() {
             ElasticsearchInterceptingConnection conn = new ElasticsearchInterceptingConnection();
             ESResourceAggregationService aggSvc = this.GetService<ESResourceAggregationService>(conn);
 
@@ -72,7 +73,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
         #region Test Query Building
 
         [Fact]
-        public async void GetKLA_Build_SubType_Missing_Tooltype() {
+        public async Task GetKLA_Build_SubType_Missing_Tooltype() {
             ElasticsearchInterceptingConnection conn = new ElasticsearchInterceptingConnection();
             ESResourceAggregationService aggSvc = this.GetService<ESResourceAggregationService>(conn);
 
@@ -88,7 +89,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
         }
 
         [Fact]
-        public async void GetKLA_Build_SubType()
+        public async Task GetKLA_Build_SubType()
         {
             //Create new ESRegAggConnection...
 
@@ -170,7 +171,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
         }
 
         [Fact]
-        public async void GetKLA_Build_SubType_withMultitype()
+        public async Task GetKLA_Build_SubType_withMultitype()
         {
             //Create new ESRegAggConnection...
 
@@ -266,7 +267,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
         }
 
         [Fact]
-        public async void GetKeyLabelAggregation_Build_FilterRequestFacet()
+        public async Task GetKeyLabelAggregation_Build_FilterRequestFacet()
         {
             //Create new ESRegAggConnection...
 
@@ -330,7 +331,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
 
 
         [Fact]
-        public async void GetKeyLabelAggregation_Build_EmptyQuery() {
+        public async Task GetKeyLabelAggregation_Build_EmptyQuery() {
             //Create new ESRegAggConnection...
 
             string actualPath = "";
@@ -395,7 +396,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
         /// THIS TEST IS FOR MAKING SURE THE RESULTS ARE MAPPED CORRECTLY
         /// </summary>
         [Fact]
-        public async void GetKLA_Basic_NoQuery() {
+        public async Task GetKLA_Basic_NoQuery() {
             //Create new ESRegAggConnection...
 
             IConnection conn = new ESResAggSvcConnection("ResearchTypes_EmptyQuery");
@@ -439,7 +440,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
 
 
         [Fact]
-        public async void GetKLA_SubType_NoQuery()
+        public async Task GetKLA_SubType_NoQuery()
         {
             //Create new ESRegAggConnection...
 
@@ -496,7 +497,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
         }
 
         [Fact]
-        public async void GetKLA_SubType_NoMatches()
+        public async Task GetKLA_SubType_NoMatches()
         {
             //Create new ESRegAggConnection...
 

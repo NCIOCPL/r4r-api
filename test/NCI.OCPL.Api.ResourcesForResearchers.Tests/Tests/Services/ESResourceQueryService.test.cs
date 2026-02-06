@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 
 using Elasticsearch.Net;
 using FluentAssertions;
@@ -20,7 +21,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
         #region Test Gets
 
         [Fact]
-        public async void Get_ValidID() {
+        public async Task Get_ValidID() {
 
             //Create new ESRegAggConnection...
 
@@ -37,7 +38,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
         }
 
         [Fact]
-        public async void Get_NotFound()
+        public async Task Get_NotFound()
         {
             //Create new ESRegAggConnection...
             IConnection conn = new ESResQSvcGetConn("Resource_NotFound", 404);
@@ -55,7 +56,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
         #region Test Query Building
 
         [Fact]
-        public async void QueryResources_EmptyQuery() {
+        public async Task QueryResources_EmptyQuery() {
             //Create new ESRegAggConnection...
 
             string actualPath = "";
@@ -132,7 +133,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
         }
 
         [Fact]
-        public async void QueryResources_From()
+        public async Task QueryResources_From()
         {
             //Create new ESRegAggConnection...
 
@@ -211,7 +212,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
         }
 
         [Fact]
-        public async void QueryResources_Size()
+        public async Task QueryResources_Size()
         {
             //Create new ESRegAggConnection...
 
@@ -290,7 +291,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
         }
 
         [Fact]
-        public async void QueryResources_SingleInclude()
+        public async Task QueryResources_SingleInclude()
         {
             //Create new ESRegAggConnection...
 
@@ -349,7 +350,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
         }
 
         [Fact]
-        public async void QueryResources_SingleFilter()
+        public async Task QueryResources_SingleFilter()
         {
             //Create new ESRegAggConnection...
 
@@ -436,7 +437,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
         }
 
         [Fact]
-        public async void QueryResources_SingleFilter_Keyword()
+        public async Task QueryResources_SingleFilter_Keyword()
         {
             //Create new ESRegAggConnection...
 
