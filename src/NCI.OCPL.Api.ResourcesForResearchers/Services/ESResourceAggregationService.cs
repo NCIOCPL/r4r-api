@@ -1,11 +1,17 @@
-﻿using System;
+﻿#nullable enable // This should be removed once we move to nullables globally.
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+
+using Elastic.Clients.Elasticsearch;
+using Elastic.Clients.Elasticsearch.Aggregations;
+using Elastic.Clients.Elasticsearch.QueryDsl;
+
 using NCI.OCPL.Api.ResourcesForResearchers.Models;
-using Nest;
-using System.Threading.Tasks;
 
 namespace NCI.OCPL.Api.ResourcesForResearchers.Services
 {
@@ -21,7 +27,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Services
         /// <param name="client">A configured Elasticsearch client</param>
         /// <param name="apiOptionsAccessor">The R4RAPIOptions Accessor</param>
         /// <param name="logger">A logger for logging.</param>
-        public ESResourceAggregationService(IElasticClient client, IOptions<R4RAPIOptions> apiOptionsAccessor, ILogger<ESResourceAggregationService> logger)
+        public ESResourceAggregationService(ElasticsearchClient client, IOptions<R4RAPIOptions> apiOptionsAccessor, ILogger<ESResourceAggregationService> logger)
             : base(client, apiOptionsAccessor, logger) {}
 
 
@@ -60,8 +66,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Services
                 throw new ArgumentException($"Facet, {facetConfig.FilterName}, requires filter, {facetConfig.RequiresFilter}");
             }
 
-            Indices index = Indices.Index(new string[] { this._apiOptions.AliasName });
-            SearchRequest req = new SearchRequest(index)
+            SearchRequest req = new SearchRequest(this._apiOptions.AliasName)
             {
                 Size = 0, //req.Size = 0; //Set the size to 0 in order to return no Resources
 
@@ -99,9 +104,9 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Services
         /// <returns>The search query for facet.</returns>
         /// <param name="field">The facet filter being requested.</param>
         /// <param name="resourceQuery">Resource query.</param>
-        private QueryContainer GetSearchQueryForFacet(string field, ResourceQuery resourceQuery)
+        private Query? GetSearchQueryForFacet(string field, ResourceQuery resourceQuery)
         {
-            QueryContainer query = null;
+            Query? query = null;
 
             var filteredFilters = from filter in resourceQuery.Filters
                                   where filter.Key != field
@@ -121,27 +126,29 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Services
         /// <returns>The simple aggs.</returns>
         /// <param name="facetConfig">Configuration for the field being aggregating</param>
         /// <param name="res">Res.</param>
-        private IEnumerable<KeyLabelAggResult> ExtractAggResults(R4RAPIOptions.FacetConfig facetConfig, ISearchResponse<Resource> res)
+        private IEnumerable<KeyLabelAggResult> ExtractAggResults(R4RAPIOptions.FacetConfig facetConfig, SearchResponse<Resource> res)
         {
 
-            var currBucket = res.Aggregations.Nested($"{facetConfig.FilterName}_agg");
+            var nestedAgg = res.Aggregations!.GetNested($"{facetConfig.FilterName}_agg");
+            var currBucket = nestedAgg!.Aggregations!;
 
             //We need to go one level deeper if this has a dependent filter
             if (!String.IsNullOrWhiteSpace(facetConfig.RequiresFilter)) {
-                currBucket = currBucket.Filter($"{facetConfig.FilterName}_filter");
+                var filterAgg = currBucket.GetFilter($"{facetConfig.FilterName}_filter");
+                currBucket = filterAgg!.Aggregations!;
             }
 
-            var keys = currBucket.Terms($"{facetConfig.FilterName}_key");
+            var keys = currBucket.GetStringTerms($"{facetConfig.FilterName}_key");
 
-            foreach(var keyBucket in keys.Buckets){
-                long count = keyBucket.DocCount ?? 0;
-                string key = keyBucket.Key;
+            foreach(var keyBucket in keys!.Buckets){
+                long count = keyBucket.DocCount;
+                string key = keyBucket.Key.ToString();
 
                 var label = "";
-                var labelBuckets = keyBucket.Terms($"{facetConfig.FilterName}_label").Buckets;
+                var labelBuckets = keyBucket.Aggregations!.GetStringTerms($"{facetConfig.FilterName}_label")!.Buckets;
                 if (labelBuckets.Count() > 0)
                 {
-                    label = labelBuckets.First().Key;
+                    label = labelBuckets.First().Key.ToString();
                 }
 
                 yield return new KeyLabelAggResult()
@@ -159,45 +166,63 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Services
         /// <returns>An AggregationDictionary containing the "query"</returns>
         /// <param name="facetConfig">Configuration for the field to aggregate</param>
         /// <param name="query"></param>
-        private AggregationDictionary GetAggQuery(R4RAPIOptions.FacetConfig facetConfig, ResourceQuery query)
+        private IDictionary<string, Aggregation> GetAggQuery(R4RAPIOptions.FacetConfig facetConfig, ResourceQuery query)
         {
 
             // If we *really* need the parentKey for this facet, then we must add it to the aggregation.
             // however, we may not really need it.
-            var keyLabelAggregate = new TermsAggregation($"{facetConfig.FilterName}_key")
+            var keyLabelAggregate = new Dictionary<string, Aggregation>
             {
-                Field = new Field($"{facetConfig.FilterName}.key"), //Set the field to rollup
-                Size = 999, //Use a large number to indicate unlimted (def is 10)
-                            // Now, we need to get the labels for the keys and thus
-                            // we need to add a sub aggregate for this term.
-                            // Normally you would do this for something like city/state rollups
-                Aggregations = new TermsAggregation($"{facetConfig.FilterName}_label")
+                { $"{facetConfig.FilterName}_key", new Aggregation
                 {
-                    Field = new Field($"{facetConfig.FilterName}.label")
-                }
+                    Terms = new TermsAggregation
+                    {
+                        Field = $"{facetConfig.FilterName}.key", //Set the field to rollup
+                        Size = 999 //Use a large number to indicate unlimted (def is 10)
+                    },
+                    // Now, we need to get the labels for the keys and thus
+                    // we need to add a sub aggregate for this term.
+                    // Normally you would do this for something like city/state rollups
+                    Aggregations = new Dictionary<string, Aggregation>
+                    {
+                        { $"{facetConfig.FilterName}_label", new Aggregation
+                        {
+                            Terms = new TermsAggregation
+                            {
+                                Field = $"{facetConfig.FilterName}.label"
+                            }
+                        }}
+                    }
+                }}
             };
 
-            AggregationDictionary aggBody = keyLabelAggregate;
+            IDictionary<string, Aggregation> aggBody = keyLabelAggregate;
             // This facet requires a parent and thus needs a filter aggregate
             // to wrap the keyLabelAggregate
             if (!String.IsNullOrWhiteSpace(facetConfig.RequiresFilter)) {
-                aggBody = new FilterAggregation($"{facetConfig.FilterName}_filter")
+                aggBody = new Dictionary<string, Aggregation>
                 {
-                    Filter = this.GetQueryForFilterField($"{facetConfig.FilterName}.parentKey", query.Filters[facetConfig.RequiresFilter]),
-                    Aggregations = keyLabelAggregate
+                    { $"{facetConfig.FilterName}_filter", new Aggregation
+                    {
+                        Filter = this.GetQueryForFilterField($"{facetConfig.FilterName}.parentKey", query.Filters[facetConfig.RequiresFilter]),
+                        Aggregations = keyLabelAggregate
+                    }}
                 };
             }
 
             //Start with a nested aggregation
-            var agg = new NestedAggregation($"{facetConfig.FilterName}_agg")
+            return new Dictionary<string, Aggregation>
             {
-                Path = new Field(facetConfig.FilterName), //Set the path of the nested agg
-
-                // Add the sub aggregates (bucket keys)
-                Aggregations = aggBody
+                { $"{facetConfig.FilterName}_agg", new Aggregation
+                {
+                    Nested = new NestedAggregation
+                    {
+                        Path = facetConfig.FilterName //Set the path of the nested agg
+                    },
+                    // Add the sub aggregates (bucket keys)
+                    Aggregations = aggBody
+                }}
             };
-
-            return agg;
         }
 
     }

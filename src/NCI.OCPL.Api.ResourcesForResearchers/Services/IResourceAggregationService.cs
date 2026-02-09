@@ -1,5 +1,5 @@
-﻿using System;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
+
 using NCI.OCPL.Api.ResourcesForResearchers.Models;
 
 namespace NCI.OCPL.Api.ResourcesForResearchers.Services

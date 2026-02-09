@@ -1,9 +1,14 @@
-﻿using System;
+﻿#nullable enable // This should be removed once we move to nullables globally.
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using Nest;
+
+using Elastic.Clients.Elasticsearch;
+using Elastic.Clients.Elasticsearch.QueryDsl;
+
 using NCI.OCPL.Api.ResourcesForResearchers.Models;
 
 
@@ -18,7 +23,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Services
         /// <summary>
         /// The elasticsearch client
         /// </summary>
-        protected readonly IElasticClient _elasticClient;
+        protected readonly ElasticsearchClient _elasticClient;
 
         /// <summary>
         /// The API options.
@@ -36,7 +41,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Services
         /// <param name="client">An instance of a <see cref="T:Nest.ElasticClient"/>Client.</param>
         /// <param name="apiOptionsAccessor">API options accessor.</param>
         /// <param name="logger">Logger.</param>
-        public ESResourceServiceBase(IElasticClient client, IOptions<R4RAPIOptions> apiOptionsAccessor, ILogger logger)
+        public ESResourceServiceBase(ElasticsearchClient client, IOptions<R4RAPIOptions> apiOptionsAccessor, ILogger logger)
         {
             this._elasticClient = client;
             this._apiOptions = apiOptionsAccessor.Value.IsValid() ? apiOptionsAccessor.Value : throw new Exception("R4RAPIOptions is misconfigured.");
@@ -50,21 +55,21 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Services
         /// <returns>A QueryContainer representing the entire query.  </returns>
         /// <param name="keyword">Keyword for the search</param>
         /// <param name="filtersList">The complete filters list</param>
-        protected QueryContainer GetFullQuery(string keyword, Dictionary<string, string[]> filtersList) {
-            QueryContainer query = null;
+        protected Query? GetFullQuery(string keyword, Dictionary<string, string[]> filtersList) {
+            Query? query = null;
 
-            QueryContainer keywordQuery = GetKeywordQuery(keyword);
-            IEnumerable<QueryContainer> filtersQueries = GetAllFiltersForQuery(filtersList);
+            Query? keywordQuery = GetKeywordQuery(keyword);
+            ICollection<Query> filtersQueries = GetAllFiltersForQuery(filtersList);
 
-            if (keywordQuery != null && filtersQueries.Count() > 0) {
+            if (keywordQuery != null && filtersQueries.Count > 0) {
                 query = new BoolQuery
                 {
                     Filter = filtersQueries,
-                    Must = new QueryContainer[] { keywordQuery }
+                    Must = new Query[] { keywordQuery }
                 };
             } else if (keywordQuery != null) {
                 query = keywordQuery;
-            } else if (filtersQueries.Count() > 0) {
+            } else if (filtersQueries.Count > 0) {
                 query = new BoolQuery
                 {
                     Filter = filtersQueries
@@ -88,20 +93,20 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Services
         /// The key should be the name of the field to filter.
         /// The values are a list of all of the filters.
         /// </param>
-        protected IEnumerable<QueryContainer> GetAllFiltersForQuery(Dictionary<string,string[]> filtersList) {
+        protected ICollection<Query> GetAllFiltersForQuery(Dictionary<string,string[]> filtersList) {
 
             //NOTE: This assumes there are not dependencies between fields. (e.g. toolType & toolSubtype)
             //Therefore we are not required to do any complicated nested queries. This will work if all
             //the keys of the filters are unique.
             //e.g. toolType: foo|toolSubtype: bar && toolType: bazz| toolSubtype: bar would not work.
-            IEnumerable<QueryContainer> queries = new QueryContainer[]{};
+            ICollection<Query> queries = new Query[]{};
 
             if (filtersList.Count == 1) {
                 KeyValuePair<string, string[]> filter = filtersList.First();
-                queries = new QueryContainer[] { GetQueryForFilterField($"{filter.Key}.key", filter.Value) };
+                queries = new Query[] { GetQueryForFilterField($"{filter.Key}.key", filter.Value) };
             } else if (filtersList.Count > 1) {
-                queries = from filter in filtersList
-                          select GetQueryForFilterField($"{filter.Key}.key", filter.Value);
+                queries = (from filter in filtersList
+                          select GetQueryForFilterField($"{filter.Key}.key", filter.Value)).ToList();
             }
 
             return queries;
@@ -119,8 +124,8 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Services
         /// <param name="field">The field to filter on.</param>
         /// <param name="filters">The filters to turn into the query</param>
         /// <exception cref="ArgumentNullException">If there are 0 items in the filters list</exception>
-        protected QueryContainer GetQueryForFilterField(string field, string[] filters) {
-            QueryContainer query = null;
+        protected Query GetQueryForFilterField(string field, string[] filters) {
+            Query? query = null;
 
             if (filters.Length == 0)
             {
@@ -135,13 +140,13 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Services
             else
             {
                 query = new BoolQuery {
-                    Should = from filter in filters
-                                select (QueryContainer)GetQueryForField(field, filter),
+                    Should = (from filter in filters
+                                select (Query)GetQueryForField(field, filter)).ToList(),
                     MinimumShouldMatch = 1
                 };
             }
 
-            return query;
+            return query!;
         }
 
         /// <summary>
@@ -166,10 +171,10 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Services
         /// </summary>
         /// <returns>The keyword query.</returns>
         /// <param name="keyword">Keyword.</param>
-        protected QueryContainer GetKeywordQuery(string keyword)
+        protected Query? GetKeywordQuery(string keyword)
         {
             // Get list of full text fields from options for query building
-            R4RAPIOptions.FullTextFieldConfig[] fullTextFieldsList = null;
+            R4RAPIOptions.FullTextFieldConfig[] fullTextFieldsList;
             try
             {
                 fullTextFieldsList = this._apiOptions.AvailableFullTextFields.Select(f => f.Value).ToArray();
@@ -180,7 +185,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Services
                 throw new Exception("Could not fetch full text fields from configuration.", ex);
             }
 
-            QueryContainer query = null;
+            Query? query = null;
             if (!string.IsNullOrEmpty(keyword))
             {
                 query = new BoolQuery
@@ -197,9 +202,9 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Services
         /// <returns>The QueryContainers for all fulltext fields.</returns>
         /// <param name="keyword">Keyword text.</param>
         /// <param name="fields">Full-text fields.</param>
-        protected IEnumerable<QueryContainer> GetFullTextQuery(string keyword, R4RAPIOptions.FullTextFieldConfig[] fields)
+        protected ICollection<Query> GetFullTextQuery(string keyword, R4RAPIOptions.FullTextFieldConfig[] fields)
         {
-            QueryContainer[] fullTextFieldQueries = fields.SelectMany(f => GetQueryForFullTextField(f.FieldName, keyword, f.Boost, f.MatchTypes)).ToArray();
+            Query[] fullTextFieldQueries = fields.SelectMany(f => GetQueryForFullTextField(f.FieldName, keyword, f.Boost, f.MatchTypes)).ToArray();
 
             return fullTextFieldQueries;
         }
@@ -212,12 +217,10 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Services
         /// <param name="keyword">Keyword text.</param>
         /// <param name="boost">Boost.</param>
         /// <param name="matchTypes">Match types.</param>
-        protected IEnumerable<QueryContainer> GetQueryForFullTextField(string field, string keyword, int boost, string[] matchTypes)
+        protected ICollection<Query> GetQueryForFullTextField(string field, string keyword, int boost, string[] matchTypes)
         {
-            IEnumerable<QueryContainer> fullTextFieldQuery = new QueryContainer[] { };
-
-            fullTextFieldQuery = from matchType in matchTypes
-                                 select GetQueryForMatchType(field, keyword, boost, matchType);
+            ICollection<Query> fullTextFieldQuery = (from matchType in matchTypes
+                                 select GetQueryForMatchType(field, keyword, boost, matchType)).ToList();
 
             return fullTextFieldQuery;
         }
@@ -230,7 +233,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Services
         /// <param name="keyword">Keyword text.</param>
         /// <param name="boost">Boost.</param>
         /// <param name="matchType">Match type.</param>
-        protected QueryContainer GetQueryForMatchType(string field, string keyword, int boost, string matchType)
+        protected Query GetQueryForMatchType(string field, string keyword, int boost, string matchType)
         {
             switch(matchType)
             {
@@ -244,7 +247,6 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Services
                         Field = field,
                         Query = keyword,
                         Boost = boost,
-                        LowFrequencyOperator = Operator.And,
                         CutoffFrequency = 1
                     };
 #pragma warning restore CS0618

@@ -1,16 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
-
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
+using Elastic.Clients.Elasticsearch;
+using Elastic.Clients.Elasticsearch.Core.Search;
+
 using NCI.OCPL.Api.Common;
-
 using NCI.OCPL.Api.ResourcesForResearchers.Models;
-
-using Nest;
 
 namespace NCI.OCPL.Api.ResourcesForResearchers.Services
 {
@@ -25,7 +23,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Services
         /// <param name="client">A configured Elasticsearch client</param>
         /// <param name="apiOptionsAccessor">An accessor for the API options</param>
         /// <param name="logger">A logger for logging.</param>
-        public ESResourceQueryService(IElasticClient client, IOptions<R4RAPIOptions> apiOptionsAccessor, ILogger<ESResourceQueryService> logger)
+        public ESResourceQueryService(ElasticsearchClient client, IOptions<R4RAPIOptions> apiOptionsAccessor, ILogger<ESResourceQueryService> logger)
             : base(client, apiOptionsAccessor, logger) { }
 
         /// <summary>
@@ -52,9 +50,9 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Services
             }
 
             // If the API's response isn't valid, throw an error and return 500 status code.
-            if (!response.ApiCall.Success)
+            if (!response.IsValidResponse)
             {
-                _logger.LogDebug($"Failed Elasticsearch lookup for id '{id}'.\nDetails:\n\n{response.ApiCall.DebugInformation}");
+                _logger.LogDebug($"Failed Elasticsearch lookup for id '{id}'.\nDetails:\n\n{response.DebugInformation}");
                 throw new APIErrorException(500, "Errors occurred.");
             }
 
@@ -89,20 +87,19 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Services
             ResourceQueryResult queryResults = new ResourceQueryResult();
 
             // Set up the SearchRequest to send to the API.
-            Indices index = Indices.Index(new string[] { this._apiOptions.AliasName });
-            SearchRequest request = new SearchRequest(index)
+            SearchRequest request = new SearchRequest(this._apiOptions.AliasName)
             {
                 Size = size,
                 From = from,
-                Sort = new List<ISort>
+                Sort = new List<SortOptions>
                 {
-                    new FieldSort { Field = "title._sort", Order = SortOrder.Ascending }
+                    new SortOptions { Field = new FieldSort { Field = "title._sort", Order = SortOrder.Asc } }
                 },
                 //TODO:
-                Source = new SourceFilter
+                Source = new SourceConfig(new SourceFilter
                 {
                     Includes = includeFields
-                }
+                })
             };
 
             //Add in the query
@@ -112,7 +109,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Services
                 request.Query = searchQuery;
             }
 
-            ISearchResponse<Resource> response = null;
+            SearchResponse<Resource> response = null;
 
             try
             {
@@ -127,7 +124,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Services
             }
 
             // If the API's response isn't valid, throw an error and return 500 status code.
-            if (!response.IsValid)
+            if (!response.IsValidResponse)
             {
                 _logger.LogError("Bad request.");
                 throw new APIErrorException(500, "Errors occurred.");
