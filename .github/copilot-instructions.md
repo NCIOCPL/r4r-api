@@ -7,6 +7,7 @@
 - Write clear and concise code comments where necessary.
 - Follow the existing coding style and conventions used in the repository.
 - Ensure proper error handling and input validation.
+- Follow modern best practices for security and performance.
 
 ## Elasticsearch
 

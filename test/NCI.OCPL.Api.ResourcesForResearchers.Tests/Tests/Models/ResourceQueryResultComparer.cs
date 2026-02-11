@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
+
 using NCI.OCPL.Api.ResourcesForResearchers.Models;
 
 namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Models

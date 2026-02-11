@@ -1,19 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text.Json;
 using System.Threading.Tasks;
 
-
-using Elasticsearch.Net;
-using Nest;
-using Newtonsoft.Json.Linq;
-using Xunit;
-
-
+using Elastic.Transport;
 using NCI.OCPL.Api.Common.Testing;
+using Xunit;
 
 using NCI.OCPL.Api.ResourcesForResearchers.Models;
 using NCI.OCPL.Api.ResourcesForResearchers.Services;
 using NCI.OCPL.Api.ResourcesForResearchers.Tests.Models;
+using Elastic.Clients.Elasticsearch.Snapshot;
+using System.Text;
+using Elastic.Clients.Elasticsearch;
+using System.Text.Json.Nodes;
 
 namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
 {
@@ -24,7 +24,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
 
         [Fact]
         public async Task GetKLA_TestFieldNull() {
-            ElasticsearchInterceptingConnection conn = new ElasticsearchInterceptingConnection();
+            InMemoryConnection conn = new InMemoryConnection(new byte[0], statusCode: 200);
             ESResourceAggregationService aggSvc = this.GetService<ESResourceAggregationService>(conn);
 
             await Assert.ThrowsAnyAsync<Exception>(async () => {
@@ -41,7 +41,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
 
         [Fact]
         public async Task GetKLA_TestQueryNull() {
-            ElasticsearchInterceptingConnection conn = new ElasticsearchInterceptingConnection();
+            InMemoryConnection conn = new InMemoryConnection(new byte[0], statusCode: 200);
             ESResourceAggregationService aggSvc = this.GetService<ESResourceAggregationService>(conn);
 
             await Assert.ThrowsAnyAsync<Exception>(async () => {
@@ -54,7 +54,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
 
         [Fact]
         public async Task GetKLA_TestBadFacet() {
-            ElasticsearchInterceptingConnection conn = new ElasticsearchInterceptingConnection();
+            InMemoryConnection conn = new InMemoryConnection(new byte[0], statusCode: 200);
             ESResourceAggregationService aggSvc = this.GetService<ESResourceAggregationService>(conn);
 
             await Assert.ThrowsAnyAsync<Exception>(async () => {
@@ -74,7 +74,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
 
         [Fact]
         public async Task GetKLA_Build_SubType_Missing_Tooltype() {
-            ElasticsearchInterceptingConnection conn = new ElasticsearchInterceptingConnection();
+            InMemoryConnection conn = new InMemoryConnection(new byte[0], statusCode: 200);
             ESResourceAggregationService aggSvc = this.GetService<ESResourceAggregationService>(conn);
 
             await Assert.ThrowsAnyAsync<Exception>(async () => {
@@ -96,8 +96,8 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             string actualPath = "";
             string expectedPath = "/r4r_v1/_search"; //Use index in config
 
-            JToken actualRequest = null;
-            JObject expectedRequest = JObject.Parse(@"
+            JsonNode actualRequest = null;
+            JsonNode expectedRequest = JsonNode.Parse(@"
                 {
                     ""size"": 0,
                     ""query"": {
@@ -141,15 +141,12 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             /*
             */
 
-            ElasticsearchInterceptingConnection conn = new ElasticsearchInterceptingConnection();
-            //SearchResponse<Resource> <-- type
-            conn.RegisterRequestHandlerForType<SearchResponse<Resource>>((req, res) =>
-            {
-                actualPath = req.Uri.AbsolutePath;
-                actualRequest = conn.GetRequestPost(req);
+            var callback = new Action<ApiCallDetails>(details => {
+                actualPath = details.Uri.AbsolutePath;
+                actualRequest = JsonNode.Parse(Encoding.UTF8.GetString(details.RequestBodyInBytes));
             });
 
-            ESResourceAggregationService aggSvc = this.GetService<ESResourceAggregationService>(conn);
+            ESResourceAggregationService aggSvc = this.GetService<ESResourceAggregationService>(callback);
             try
             {
                 KeyLabelAggResult[] aggResults = await aggSvc.GetKeyLabelAggregationAsync(
@@ -167,7 +164,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
 
 
             Assert.Equal(expectedPath, actualPath);
-            Assert.Equal(expectedRequest, actualRequest, new JTokenEqualityComparer());
+            Assert.True(JsonNode.DeepEquals(expectedRequest, actualRequest));
         }
 
         [Fact]
@@ -178,8 +175,8 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             string actualPath = "";
             string expectedPath = "/r4r_v1/_search"; //Use index in config
 
-            JToken actualRequest = null;
-            JObject expectedRequest = JObject.Parse(@"
+            JsonNode actualRequest = null;
+            JsonNode expectedRequest = JsonNode.Parse(@"
                 {
                     ""size"": 0,
                     ""query"": {
@@ -236,15 +233,12 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             /*
             */
 
-            ElasticsearchInterceptingConnection conn = new ElasticsearchInterceptingConnection();
-            //SearchResponse<Resource> <-- type
-            conn.RegisterRequestHandlerForType<SearchResponse<Resource>>((req, res) =>
-            {
-                actualPath = req.Uri.AbsolutePath;
-                actualRequest = conn.GetRequestPost(req);
+            var callback = new Action<ApiCallDetails>(details => {
+                actualPath = details.Uri.AbsolutePath;
+                actualRequest = JsonNode.Parse(Encoding.UTF8.GetString(details.RequestBodyInBytes));
             });
 
-            ESResourceAggregationService aggSvc = this.GetService<ESResourceAggregationService>(conn);
+            ESResourceAggregationService aggSvc = this.GetService<ESResourceAggregationService>(callback);
             try
             {
                 KeyLabelAggResult[] aggResults = await aggSvc.GetKeyLabelAggregationAsync(
@@ -263,7 +257,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
 
 
             Assert.Equal(expectedPath, actualPath);
-            Assert.Equal(expectedRequest, actualRequest, new JTokenEqualityComparer());
+            Assert.True(JsonNode.DeepEquals(expectedRequest, actualRequest));
         }
 
         [Fact]
@@ -274,8 +268,8 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             string actualPath = "";
             string expectedPath = "/r4r_v1/_search"; //Use index in config
 
-            JToken actualRequest = null;
-            JObject expectedRequest = JObject.Parse(@"
+            JsonNode actualRequest = null;
+            JsonNode expectedRequest = JsonNode.Parse(@"
                 {
                     ""size"": 0,
                     ""aggs"": {
@@ -305,15 +299,12 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             /*
             */
 
-            ElasticsearchInterceptingConnection conn = new ElasticsearchInterceptingConnection();
-            //SearchResponse<Resource> <-- type
-            conn.RegisterRequestHandlerForType<SearchResponse<Resource>>((req, res) =>
-            {
-                actualPath = req.Uri.AbsolutePath;
-                actualRequest = conn.GetRequestPost(req);
+            var callback = new Action<ApiCallDetails>(details => {
+                actualPath = details.Uri.AbsolutePath;
+                actualRequest = JsonNode.Parse(Encoding.UTF8.GetString(details.RequestBodyInBytes));
             });
 
-            ESResourceAggregationService aggSvc = this.GetService<ESResourceAggregationService>(conn);
+            ESResourceAggregationService aggSvc = this.GetService<ESResourceAggregationService>(callback);
             try
             {
                 KeyLabelAggResult[] aggResults = await aggSvc.GetKeyLabelAggregationAsync("researchTypes", new ResourceQuery(){
@@ -326,7 +317,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
 
 
             Assert.Equal(expectedPath, actualPath);
-            Assert.Equal(expectedRequest, actualRequest, new JTokenEqualityComparer());
+            Assert.True(JsonNode.DeepEquals(expectedRequest, actualRequest));
         }
 
 
@@ -337,8 +328,8 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             string actualPath = "";
             string expectedPath = "/r4r_v1/_search"; //Use index in config
 
-            JToken actualRequest = null;
-            JObject expectedRequest = JObject.Parse(@"
+            JsonNode actualRequest = null;
+            JsonNode expectedRequest = JsonNode.Parse(@"
                 {
                     ""size"": 0,
                     ""aggs"": {
@@ -368,15 +359,12 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             /*
             */
 
-            ElasticsearchInterceptingConnection conn = new ElasticsearchInterceptingConnection();
-            //SearchResponse<Resource> <-- type
-            conn.RegisterRequestHandlerForType<SearchResponse<Resource>>((req, res) =>
-            {
-                actualPath = req.Uri.AbsolutePath;
-                actualRequest = conn.GetRequestPost(req);
+            var callback = new Action<ApiCallDetails>(details => {
+                actualPath = details.Uri.AbsolutePath;
+                actualRequest = JsonNode.Parse(Encoding.UTF8.GetString(details.RequestBodyInBytes));
             });
 
-            ESResourceAggregationService aggSvc = this.GetService<ESResourceAggregationService>(conn);
+            ESResourceAggregationService aggSvc = this.GetService<ESResourceAggregationService>(callback);
             try
             {
                 KeyLabelAggResult[] aggResults = await aggSvc.GetKeyLabelAggregationAsync("researchTypes", new ResourceQuery());
@@ -384,7 +372,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
 
 
             Assert.Equal(expectedPath, actualPath);
-            Assert.Equal(expectedRequest, actualRequest, new JTokenEqualityComparer());
+            Assert.True(JsonNode.DeepEquals(expectedRequest, actualRequest));
         }
 
         #endregion
@@ -399,7 +387,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
         public async Task GetKLA_Basic_NoQuery() {
             //Create new ESRegAggConnection...
 
-            IConnection conn = new ESResAggSvcConnection("ResearchTypes_EmptyQuery");
+            IRequestInvoker conn = new ESResAggSvcConnection("ResearchTypes_EmptyQuery");
 
             //Expected Aggs
             KeyLabelAggResult[] expectedAggs = new KeyLabelAggResult[] {
@@ -444,7 +432,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
         {
             //Create new ESRegAggConnection...
 
-            IConnection conn = new ESResAggSvcConnection("SubtoolTypes_WithToolType");
+            InMemoryConnection conn = new ESResAggSvcConnection("SubtoolTypes_WithToolType");
 
             //Expected Aggs
             KeyLabelAggResult[] expectedAggs = new KeyLabelAggResult[] {
@@ -501,7 +489,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
         {
             //Create new ESRegAggConnection...
 
-            IConnection conn = new ESResAggSvcConnection("SubtoolTypes_WithToolType_NoResults");
+            InMemoryConnection conn = new ESResAggSvcConnection("SubtoolTypes_WithToolType_NoResults");
 
             //Expected Aggs
             KeyLabelAggResult[] expectedAggs = new KeyLabelAggResult[] { };
