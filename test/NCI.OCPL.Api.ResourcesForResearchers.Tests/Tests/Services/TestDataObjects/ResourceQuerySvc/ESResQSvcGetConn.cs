@@ -1,17 +1,4 @@
-﻿using System;
-using System.IO;
-using System.Threading.Tasks;
-
-using Elasticsearch.Net;
-
-using NCI.OCPL.Utils.Testing;
-using System.Text;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
-
-using NCI.OCPL.Api.Common.Testing;
-
-using NCI.OCPL.Api.ResourcesForResearchers.Models;
+﻿using NCI.OCPL.Api.Common.Testing;
 
 namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
 {
@@ -20,38 +7,17 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
     /// used as the base class of test specific Connections object passed into an ElasticClient.
     /// </summary>
     /// <seealso cref="NCI.OCPL.Utils.Testing.ElasticsearchInterceptingConnection" />
-    public class ESResQSvcGetConn : ElasticsearchInterceptingConnection
+    public class ESResQSvcGetConn : InMemoryConnection
     {
 
         /// <summary>
-        /// Gets the prefix of a testdata file for this test.
-        /// </summary>
-        /// <returns></returns>
-        private string TestFile { get; set; }
-
-        /// <summary>
-        /// Creates a new instance of the ESResAggSvcConnection class
+        /// Creates a new instance of the ESResQSvcGetConn class
         /// </summary>
         /// <param name="testFile">The JSON file for the test response</param>
+        /// <param name="status">The HTTP status code for the mock response</param>
         public ESResQSvcGetConn(string testFile, int status = 200)
+            : base(TestingTools.GetTestFileAsBytes($"ESResQuerySvcData/{testFile}.json"), statusCode: status)
         {
-            this.TestFile = testFile;
-
-            //This section is for registering the intercepters for the request.
-
-            //Add Handlers
-            this.RegisterRequestHandlerForType<Nest.GetResponse<Resource>>((req, res) =>
-            {
-                //Get the file name for this round
-                res.Stream = TestingTools.GetTestFileAsStream(GetTestFileName());
-
-                res.StatusCode = status;
-            });
-        }
-
-        private string GetTestFileName()
-        {
-            return $"ESResQuerySvcData/{TestFile}.json";
         }
     }
 }

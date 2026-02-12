@@ -1,20 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.Json.Nodes;
 
-using NCI.OCPL.Api.ResourcesForResearchers.Models;
-using NCI.OCPL.Api.ResourcesForResearchers.Services;
-
-using Elasticsearch.Net;
-using Nest;
-
+using Elastic.Clients.Elasticsearch;
+using Elastic.Clients.Elasticsearch.QueryDsl;
+using Elastic.Transport.Extensions;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
 using Xunit;
 
 using NCI.OCPL.Api.Common.Testing;
+using NCI.OCPL.Api.ResourcesForResearchers.Models;
+using NCI.OCPL.Api.ResourcesForResearchers.Services;
 using NCI.OCPL.Utils.Testing;
 
 
@@ -25,23 +23,23 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
         readonly ServiceBaseTester _junkSvc;
 
         public ESResourceServiceBase_Tests(){
-            this._junkSvc = this.GetService<ServiceBaseTester>(new ElasticsearchInterceptingConnection());
+            this._junkSvc = this.GetService<ServiceBaseTester>(new InMemoryConnection(new byte[0], statusCode: 200));
         }
 
         public class ServiceBaseTester : ESResourceServiceBase
         {
 
-            public ServiceBaseTester(IElasticClient client, IOptions<R4RAPIOptions> apiOptionsAccessor, ILogger logger): base(client, apiOptionsAccessor, logger) {}
+            public ServiceBaseTester(ElasticsearchClient client, IOptions<R4RAPIOptions> apiOptionsAccessor, ILogger logger): base(client, apiOptionsAccessor, logger) {}
 
             //Wrapping protected methods for testing
-            public QueryContainer TEST_GetFullQuery(string keyword, Dictionary<string, string[]> filtersList) => this.GetFullQuery(keyword, filtersList);
-            public QueryContainer TEST_GetKeywordQuery(string keyword) => this.GetKeywordQuery(keyword);
-            public IEnumerable<QueryContainer> TEST_GetAllFiltersForQuery(Dictionary<string, string[]> filtersList) => this.GetAllFiltersForQuery(filtersList);
-            public QueryContainer TEST_GetQueryForFilterField(string field, string[] filters) => this.GetQueryForFilterField(field, filters);
+            public Query TEST_GetFullQuery(string keyword, Dictionary<string, string[]> filtersList) => this.GetFullQuery(keyword, filtersList);
+            public Query TEST_GetKeywordQuery(string keyword) => this.GetKeywordQuery(keyword);
+            public IEnumerable<Query> TEST_GetAllFiltersForQuery(Dictionary<string, string[]> filtersList) => this.GetAllFiltersForQuery(filtersList);
+            public Query TEST_GetQueryForFilterField(string field, string[] filters) => this.GetQueryForFilterField(field, filters);
             public TermQuery TEST_GetQueryForField(string field, string value) => this.GetQueryForField(field, value);
-            public IEnumerable<QueryContainer> TEST_GetFullTextQuery(string keyword, R4RAPIOptions.FullTextFieldConfig[] fields) => this.GetFullTextQuery(keyword, fields);
-            public IEnumerable<QueryContainer> TEST_GetQueryForFullTextField(string field, string keyword, int boost, string[] matchTypes) => this.GetQueryForFullTextField(field, keyword, boost, matchTypes);
-            public QueryContainer TEST_GetQueryForMatchType(string field, string keyword, int boost, string matchType) => this.GetQueryForMatchType(field, keyword, boost, matchType);
+            public ICollection<Query> TEST_GetFullTextQuery(string keyword, R4RAPIOptions.FullTextFieldConfig[] fields) => this.GetFullTextQuery(keyword, fields);
+            public ICollection<Query> TEST_GetQueryForFullTextField(string field, string keyword, int boost, string[] matchTypes) => this.GetQueryForFullTextField(field, keyword, boost, matchTypes);
+            public Query TEST_GetQueryForMatchType(string field, string keyword, int boost, string matchType) => this.GetQueryForMatchType(field, keyword, boost, matchType);
 
         }
 
@@ -100,11 +98,11 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
         [Theory, MemberData(nameof(GetFullQueryScenarioData))]
         public void GetFullQuery_Scenarios(string keyword, string[] expectedFullTextQuery, Dictionary<string, string[]> filters, string[] expectedFilters)
         {
-            IElasticClient client = new ElasticClient();
+            ElasticsearchClient client = new ElasticsearchClient();
 
             var actual = this._junkSvc.TEST_GetFullQuery(keyword, filters);
-            string json = client.RequestResponseSerializer.SerializeToString((QueryContainer)actual);
-            JToken actualJson = JToken.Parse(json);
+            string json = client.RequestResponseSerializer.SerializeToString(actual);
+            JsonNode actualJson = JsonNode.Parse(json);
 
             string preKeyword = @"{ ""bool"": { ""must"": [ ";
             string postKeyword = @"], ";
@@ -112,9 +110,9 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             string postFilter = @"] } }";
 
             string expected = preKeyword + string.Join(',', expectedFullTextQuery) + postKeyword + preFilter + string.Join(',', expectedFilters) + postFilter;
-            JToken expectedJSON = JToken.Parse(expected);
+            JsonNode expectedJSON = JsonNode.Parse(expected);
 
-            Assert.Equal(expectedJSON, actualJson, new JTokenEqualityComparer());
+            Assert.True(JsonNode.DeepEquals(expectedJSON, actualJson));
         }
 
         #endregion
@@ -217,7 +215,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
             var filterQueries = this._junkSvc.TEST_GetAllFiltersForQuery(filters);
             BoolQuery actual = new BoolQuery
             {
-                Filter = filterQueries
+                Filter = filterQueries.ToList()
             };
 
             string pre = @"{ ""bool"": { ""filter"": [";

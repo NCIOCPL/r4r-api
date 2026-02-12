@@ -387,7 +387,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
         public async Task GetKLA_Basic_NoQuery() {
             //Create new ESRegAggConnection...
 
-            IRequestInvoker conn = new ESResAggSvcConnection("ResearchTypes_EmptyQuery");
+            InMemoryConnection conn = new ESResAggSvcConnection("ResearchTypes_EmptyQuery");
 
             //Expected Aggs
             KeyLabelAggResult[] expectedAggs = new KeyLabelAggResult[] {
