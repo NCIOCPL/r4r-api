@@ -239,7 +239,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
         [Fact]
         public void GetQueryForFilterField_GetEmpty()
         {
-            Assert.ThrowsAny<Exception>(() =>
+            Assert. ThrowsAny<ArgumentException>(() =>
             {
                 this._junkSvc.TEST_GetQueryForFilterField("testfield", new string[] { });
             });
@@ -600,7 +600,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
         [Fact]
         public void GetQueryForMatchType_GetInvalidMatchType()
         {
-            Assert.ThrowsAny<Exception>(() =>
+            Assert.ThrowsAny<ArgumentException>(() =>
             {
                 this._junkSvc.TEST_GetQueryForMatchType("testfield", "testkeyword", 1, "invalid");
             });
@@ -610,7 +610,7 @@ namespace NCI.OCPL.Api.ResourcesForResearchers.Tests.Services
         [Fact]
         public void GetQueryForMatchType_GetEmpty()
         {
-            Assert.ThrowsAny<Exception>(() =>
+            Assert.ThrowsAny<ArgumentException>(() =>
             {
                 this._junkSvc.TEST_GetQueryForMatchType("testfield", "testkeyword", 1, "");
             });
