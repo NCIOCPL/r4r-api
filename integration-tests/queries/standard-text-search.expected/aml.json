@@ -1,0 +1,87 @@
+{
+  "took": 2,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 1,
+      "relation": "eq"
+    },
+    "max_score": null,
+    "hits": [
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "246",
+        "_score": null,
+        "_source": {
+          "website": "http://www.vizome.org/aml/",
+          "docs": [
+            {
+              "label": "Center for Cancer Genomics (CCG)",
+              "key": "ccg"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Biology",
+              "key": "cancer_biology"
+            },
+            {
+              "label": "Cancer Treatment",
+              "key": "cancer_treatment"
+            },
+            {
+              "label": "Cancer Omics",
+              "key": "cancer_omics"
+            }
+          ],
+          "description": "<p>Vizome is a data browser used to access molecular characterization and drug response studies of clinically annotated adult acute myeloid leukemia cases.</p>",
+          "id": 246,
+          "pocs": [
+            {
+              "phone": "503-346-0603",
+              "name": {
+                "firstname": "Jeffrey",
+                "prefix": "Dr.",
+                "middlename": "W",
+                "lastname": "Tyner"
+              },
+              "title": "Associate Professor of Medicine",
+              "email": "tynerj@ohsu.edu"
+            }
+          ],
+          "title": "Vizome",
+          "researchTypes": [
+            {
+              "label": "Translational",
+              "key": "translational"
+            }
+          ],
+          "body": "<p>Beat AML study is a groundbreaking collaborative clinical study integrating genomics with data on acute myeloid leukemia (AML) patient sample sensitivity to a panel of novel targeted therapies. Vizome\u2019s Beat AML data viewer allows easy access to clinical, genomic, transcriptomic, and functional analyses of AML samples. This tool could be used to predict novel treatment options.</p>",
+          "toolTypes": [
+            {
+              "label": "Datasets & Databases",
+              "key": "datasets_databases"
+            },
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "vizome"
+        ]
+      }
+    ]
+  }
+}

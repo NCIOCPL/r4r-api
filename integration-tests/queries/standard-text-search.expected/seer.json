@@ -1,0 +1,1017 @@
+{
+  "took": 2,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 16,
+      "relation": "eq"
+    },
+    "max_score": null,
+    "hits": [
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "83",
+        "_score": null,
+        "_source": {
+          "website": "https://seer.cancer.gov/report_to_nation/",
+          "docs": [
+            {
+              "label": "Division of Cancer Control and Population Sciences (DCCPS)",
+              "key": "dccps"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Health Disparities",
+              "key": "cancer_health_disparities"
+            },
+            {
+              "label": "Cancer Survivorship",
+              "key": "cancer_survivorship"
+            },
+            {
+              "label": "Cancer Statistics",
+              "key": "cancer_statistics"
+            }
+          ],
+          "description": "<p>The Annual Report to the Nation is a publication that provides an update of rates for new cases and deaths, as well as trends, for the most common cancers in the United States.</p>",
+          "id": 83,
+          "pocs": [
+            {
+              "phone": "240-276-6836",
+              "name": {
+                "firstname": "Kathy",
+                "lastname": "Cronin"
+              },
+              "title": "Deputy Associate Director, Surveillance Research Program",
+              "email": "cronink@mail.nih.gov"
+            }
+          ],
+          "title": "Annual Report to the Nation on the Status of Cancer",
+          "researchTypes": [
+            {
+              "label": "Epidemiologic",
+              "key": "epidemiologic"
+            }
+          ],
+          "body": "<p>The report includes a special section to highlight a major topic in cancer surveillance. Recent topics include financial toxicity, progress toward Healthy People 2020 objectives, survival, prostate cancer, and molecular subtypes of breast cancer. This is an annual collaboration between NCI, North American Association of Central Cancer Registries, the Centers for Disease Control and Prevention, and the American Cancer Society. The agencies rotate between leading the report. Typically, the trends are by sex and race/ethnicity. The Surveillance, Epidemiology, and End Results (SEER) programwebsite hosts a microsite with summaries, factoids, links, and other shareable resources.</p>",
+          "toolTypes": [
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "annual report to the nation on the status of cancer"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "125",
+        "_score": null,
+        "_source": {
+          "website": "https://costprojections.cancer.gov/",
+          "docs": [
+            {
+              "label": "Division of Cancer Control and Population Sciences (DCCPS)",
+              "key": "dccps"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Treatment",
+              "key": "cancer_treatment"
+            },
+            {
+              "label": "Cancer Statistics",
+              "key": "cancer_statistics"
+            },
+            {
+              "label": "Cancer & Public Health",
+              "key": "cancer_public_health"
+            }
+          ],
+          "description": "<p>This website provides tables and graphs showing cancer prevalence and costs of cancer care projected through 2020 by cancer site and for all sites combined.</p>",
+          "id": 125,
+          "pocs": [
+            {
+              "phone": "240-276-6698",
+              "name": {
+                "firstname": "Angela",
+                "lastname": "Mariotto"
+              },
+              "title": "Chief, Data Analytics Branch, Surveillance Research Program",
+              "email": "mariotta@mail.nih.gov"
+            }
+          ],
+          "title": "Cancer Prevalence and Cost of Care Projections",
+          "researchTypes": [
+            {
+              "label": "Epidemiologic",
+              "key": "epidemiologic"
+            }
+          ],
+          "body": "<p>This website provides tables and graphs showing cancer prevalence and costs of cancer care projected through 2020. Using Surveillance, Epidemiology, and End Results (SEER) data for incidence and survival in combination with Census data, the website has prevalence information by cancer site as well as for all sites combined. It also uses Medicare data to calculate the annualized mean net costs of care per patient. Users can see how much cancer care for each type costs the nation as a whole. Graphs have features such as breakdowns by phase of treatment as well.</p>",
+          "toolTypes": [
+            {
+              "label": "Datasets & Databases",
+              "key": "datasets_databases"
+            },
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "cancer prevalence and cost of care projections"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "85",
+        "_score": null,
+        "_source": {
+          "website": "https://seer.cancer.gov/statfacts/",
+          "docs": [
+            {
+              "label": "Division of Cancer Control and Population Sciences (DCCPS)",
+              "key": "dccps"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Health Disparities",
+              "key": "cancer_health_disparities"
+            },
+            {
+              "label": "Cancer Statistics",
+              "key": "cancer_statistics"
+            }
+          ],
+          "description": "<p>These fact sheets provide frequently requested cancer statistics, such as incidence, mortality, survival, stage, prevalence, and lifetime risk, for a number of common cancer types.</p>",
+          "id": 85,
+          "pocs": [
+            {
+              "phone": "240-276-6903",
+              "name": {
+                "firstname": "Patricia",
+                "lastname": "Murphy"
+              },
+              "title": "Program Analyst, Surveillance Research Program"
+            }
+          ],
+          "title": "Cancer Stat Fact Sheets (Stat Facts)",
+          "researchTypes": [
+            {
+              "label": "Epidemiologic",
+              "key": "epidemiologic"
+            }
+          ],
+          "body": "<p>These statistical summaries provide a quick overview of frequently requested cancer statistics, which may include incidence, mortality, survival, stage, prevalence, and lifetime risk, by cancer site for a number of common cancer types. . Along with cancer types, Stat Facts also highlight statistics related to certain special topics such as cancer health disparities. The Surveillance, Epidemiology, and End Results (SEER) program posts several new stat facts a year. Recent new fact sheets include pages for specific childhood cancer sites.</p>",
+          "toolTypes": [
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "cancer stat fact sheets (stat facts)"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "141",
+        "_score": null,
+        "_source": {
+          "website": "https://seer.cancer.gov/canstat/",
+          "docs": [
+            {
+              "label": "Division of Cancer Control and Population Sciences (DCCPS)",
+              "key": "dccps"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer & Public Health",
+              "key": "cancer_public_health"
+            },
+            {
+              "label": "Cancer Health Disparities",
+              "key": "cancer_health_disparities"
+            },
+            {
+              "label": "Cancer Statistics",
+              "key": "cancer_statistics"
+            }
+          ],
+          "description": "<p>The CanStat Animator allows users to animate cancer trends over time by cancer site and cause of death, race and sex.</p>",
+          "id": 141,
+          "pocs": [
+            {
+              "phone": "240-276-6951",
+              "name": {
+                "firstname": "Susan",
+                "lastname": "Scott"
+              },
+              "title": "Public Health Advisor, Surveillance Research Program",
+              "email": "scotts2@mail.nih.gov"
+            }
+          ],
+          "title": "Cancer Statistics (CanStat) Animator",
+          "researchTypes": [
+            {
+              "label": "Epidemiologic",
+              "key": "epidemiologic"
+            }
+          ],
+          "body": "<p>The CanStat Animator allows users to animate cancer trends over time by cancer site and cause of death, race and sex. Users can select the type of statistic and the variables to be shown in the graph, select the format of the graph by choosing from various graph options, and extract the statistics in a delimited format for further analyses using other software. The CanStat Animator provides access to: SEER Incidence for 1975-2014 for the SEER 9 registries; US Mortality for 1975-2014 for the entire United States; and relative survival for 1975-2013 for the SEER 9 registries.</p>",
+          "toolTypes": [
+            {
+              "label": "Datasets & Databases",
+              "key": "datasets_databases"
+            },
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "cancer statistics (canstat) animator"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "144",
+        "_score": null,
+        "_source": {
+          "website": "https://surveillance.cancer.gov/cansurv/",
+          "docs": [
+            {
+              "label": "Division of Cancer Control and Population Sciences (DCCPS)",
+              "key": "dccps"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer & Public Health",
+              "key": "cancer_public_health"
+            },
+            {
+              "label": "Cancer Survivorship",
+              "key": "cancer_survivorship"
+            },
+            {
+              "label": "Cancer Statistics",
+              "key": "cancer_statistics"
+            }
+          ],
+          "description": "<p>CanSurv is statistical software used to analyze population-based survival data, including grouped survival data and parametric (cure) survival models.</p>",
+          "id": 144,
+          "pocs": [
+            {
+              "phone": "240-276-6698",
+              "name": {
+                "firstname": "Angela",
+                "lastname": "Mariotto"
+              },
+              "title": "Chief, Data Analytics Branch, Surveillance Research Program",
+              "email": "mariotta@mail.nih.gov"
+            }
+          ],
+          "title": "Cancer Survival Analysis Software (CanSurv)",
+          "body": "<p>CanSurv uses information from SEER*Stat software. For grouped survival data, it can fit both the standard survival models and the mixture cure survival models and it provides various graphs for model diagnosis. It can also fit parametric (cure) survival models to individually-listed data. The most recent version of the software has new options that provide more flexibility for other programs to read the calculated results.</p>",
+          "researchTypes": [
+          ],
+          "toolTypes": [
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "register"
+          }
+        },
+        "sort": [
+          "cancer survival analysis software (cansurv)"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "89",
+        "_score": null,
+        "_source": {
+          "website": "https://surveillance.cancer.gov/devcan/",
+          "docs": [
+            {
+              "label": "Division of Cancer Control and Population Sciences (DCCPS)",
+              "key": "dccps"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer & Public Health",
+              "key": "cancer_public_health"
+            },
+            {
+              "label": "Cancer Health Disparities",
+              "key": "cancer_health_disparities"
+            },
+            {
+              "label": "Cancer Statistics",
+              "key": "cancer_statistics"
+            }
+          ],
+          "description": "<p>This tool consists of statistical software and associated databases that compute the probability of being diagnosed with or dying of cancer for a particular selected cancer site.</p>",
+          "id": 89,
+          "pocs": [
+            {
+              "phone": "240-276-6951",
+              "name": {
+                "firstname": "Susan",
+                "lastname": "Scott"
+              },
+              "title": "Public Health Advisor, Surveillance Research Program",
+              "email": "scotts2@mail.nih.gov"
+            }
+          ],
+          "title": "DevCan",
+          "researchTypes": [
+            {
+              "label": "Epidemiologic",
+              "key": "epidemiologic"
+            }
+          ],
+          "body": "<p>Depending on user preference, the probability may be calculated either from birth (lifetime risk) or for a person who is a particular age. DevCan uses Surveillance, Epidemiology, and End Results (SEER) data to calculate incidence and Centers for Disease Control and Prevention/Nationaal Center for Health Statistics data to calculate mortality. This is a PC-based software. The current version supports rate editing, sensitivity analysis, user-defined databases, confidence intervals, and the ability to get risk estimates from any age to any age.</p>",
+          "toolTypes": [
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            }
+          ],
+          "resourceAccess": {
+            "notes": "Users must sign a terms of use agreement in order to download the software.",
+            "type": "register"
+          }
+        },
+        "sort": [
+          "devcan"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "142",
+        "_score": null,
+        "_source": {
+          "website": "https://seer.cancer.gov/faststats/",
+          "docs": [
+            {
+              "label": "Division of Cancer Control and Population Sciences (DCCPS)",
+              "key": "dccps"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer & Public Health",
+              "key": "cancer_public_health"
+            },
+            {
+              "label": "Cancer Health Disparities",
+              "key": "cancer_health_disparities"
+            },
+            {
+              "label": "Cancer Statistics",
+              "key": "cancer_statistics"
+            }
+          ],
+          "description": "<p>This interactive tool provides quick access to key Surveillance, Epidemiology, and End Results (SEER) and US cancer statistics for major cancer sites by age,sex, race/ethnicity, and data type.</p>",
+          "id": 142,
+          "pocs": [
+            {
+              "phone": "240-276-6903",
+              "name": {
+                "firstname": "Patricia",
+                "lastname": "Murphy"
+              },
+              "title": "Program Analyst, Surveillance Research Program",
+              "email": "patricia.murphy@nih.gov"
+            }
+          ],
+          "title": "Fast Stats",
+          "researchTypes": [
+            {
+              "label": "Epidemiologic",
+              "key": "epidemiologic"
+            }
+          ],
+          "body": "<p>Statistics are presented as graphs and tables. The tool provides incidence and mortality rates. Users have the option to select long-term trends and build their own graphs and/or tables. This resource is eventually going to be replaced by SEER*Explorer, another interactive tool that includes survival and other statistics in addition to incidence and mortality.</p>",
+          "toolTypes": [
+            {
+              "label": "Datasets & Databases",
+              "key": "datasets_databases"
+            },
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "fast stats"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "82",
+        "_score": null,
+        "_source": {
+          "website": "https://seer.cancer.gov/hdcalc/",
+          "docs": [
+            {
+              "label": "Division of Cancer Control and Population Sciences (DCCPS)",
+              "key": "dccps"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer & Public Health",
+              "key": "cancer_public_health"
+            },
+            {
+              "label": "Cancer Health Disparities",
+              "key": "cancer_health_disparities"
+            },
+            {
+              "label": "Cancer Statistics",
+              "key": "cancer_statistics"
+            }
+          ],
+          "description": "<p>HD*Calc is statistical software designed to generate multiple summary measures to evaluate and monitor health disparities.</p>",
+          "id": 82,
+          "pocs": [
+            {
+              "phone": "240-276-6757",
+              "name": {
+                "firstname": "Denise",
+                "lastname": "Lewis"
+              },
+              "title": "Epidemiologist, Data Analytics Branch, Surveillance Research Program",
+              "email": "lewisde@mail.nih.gov"
+            }
+          ],
+          "title": "Health Disparities Calculator (HD*Calc)",
+          "researchTypes": [
+            {
+              "label": "Epidemiologic",
+              "key": "epidemiologic"
+            }
+          ],
+          "body": "<p>HD*Calc allows the user to import Surveillance, Epidemiology, and End Results (SEER) or other population-based health data and calculate any of eleven disparity measurements. Cancer rates and other data categorized by disparity groups such as race/ethnicity, socioeconomic status, and geographic area can be used with HD*Calc to generate output presented in tabular and graphic formats.</p>",
+          "toolTypes": [
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "register"
+          }
+        },
+        "sort": [
+          "health disparities calculator (hd*calc)"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "90",
+        "_score": null,
+        "_source": {
+          "website": "https://surveillance.cancer.gov/joinpoint/",
+          "docs": [
+            {
+              "label": "Division of Cancer Control and Population Sciences (DCCPS)",
+              "key": "dccps"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer & Public Health",
+              "key": "cancer_public_health"
+            },
+            {
+              "label": "Cancer Health Disparities",
+              "key": "cancer_health_disparities"
+            },
+            {
+              "label": "Cancer Statistics",
+              "key": "cancer_statistics"
+            }
+          ],
+          "description": "<p>Joinpoint software is statistical software for analyzing trend data (e.g., cancer incidence rates) using joinpoint models. It is available in desktop version (for a PC) and command-line version (for use in batch mode or called from other software, such as SAS or R).</p>",
+          "id": 90,
+          "pocs": [
+            {
+              "phone": "240-276-6951",
+              "name": {
+                "firstname": "Susan",
+                "lastname": "Scott"
+              },
+              "title": "Public Health Advisor, Surveillance Research Program",
+              "email": "scotts2@mail.nih.gov"
+            },
+            {
+              "phone": "240-276-6772",
+              "name": {
+                "firstname": "Eric (Rocky)",
+                "lastname": "Feuer"
+              },
+              "title": "Chief, Statistical Research and Applications Branch, Surveillance Research Program",
+              "email": "feuerr@mail.nih.gov"
+            }
+          ],
+          "title": "Joinpoint Trend Analysis Software",
+          "researchTypes": [
+            {
+              "label": "Epidemiologic",
+              "key": "epidemiologic"
+            }
+          ],
+          "body": "<p>Statistical software for analyzing trend data (e.g., cancer incidence rates) using joinpoint models, that is, models where several different lines are connected together at the \"joinpoints\".  Cancer trends reported in NCI publications are calculated using the Joinpoint Regression Program to analyze rates calculated by the SEER*Stat software. Enables the user to test whether an apparent change in trend is statistically significant. Two versions of Joinpoint software are available:  desktop version (for a PC) and command-line version (for use in batch mode or called from other software, such as SAS or R).</p>",
+          "toolTypes": [
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "register"
+          }
+        },
+        "sort": [
+          "joinpoint trend analysis software"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "146",
+        "_score": null,
+        "_source": {
+          "website": "https://surveillance.cancer.gov/projprev/",
+          "docs": [
+            {
+              "label": "Division of Cancer Control and Population Sciences (DCCPS)",
+              "key": "dccps"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer & Public Health",
+              "key": "cancer_public_health"
+            },
+            {
+              "label": "Cancer Health Disparities",
+              "key": "cancer_health_disparities"
+            },
+            {
+              "label": "Cancer Statistics",
+              "key": "cancer_statistics"
+            }
+          ],
+          "description": "<p>The ProjPrev software takes limited-duration prevalence statistics from SEER*Stat and applies them to a different population. ProjPrev is primarily used to derive US prevalence by projecting SEER prevalence onto US populations.</p>",
+          "id": 146,
+          "pocs": [
+            {
+              "phone": "240-276-6698",
+              "name": {
+                "firstname": "Angela",
+                "lastname": "Mariotto"
+              },
+              "title": "Chief, Data Analytics Branch, Surveillance Research Program",
+              "email": "mariotta@mail.nih.gov"
+            }
+          ],
+          "title": "ProjPrev-Projected Prevalence Software",
+          "researchTypes": [
+            {
+              "label": "Epidemiologic",
+              "key": "epidemiologic"
+            }
+          ],
+          "body": "<p>Limited-duration prevalence represents the proportion of people alive on a certain day who had a diagnosis of the disease within a certain number of years. The ProjPrev software takes limited-duration prevalence statistics from SEER*Stat and applies them to a different population. The population would typically differ in year or geographic area. ProjPrev is primarily used to derive US prevalence by projecting SEER prevalence onto US populations.</p>",
+          "toolTypes": [
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "register"
+          }
+        },
+        "sort": [
+          "projprev-projected prevalence software"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "81",
+        "_score": null,
+        "_source": {
+          "website": "https://seer.cancer.gov/explorer/",
+          "docs": [
+            {
+              "label": "Division of Cancer Control and Population Sciences (DCCPS)",
+              "key": "dccps"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Health Disparities",
+              "key": "cancer_health_disparities"
+            },
+            {
+              "label": "Cancer Survivorship",
+              "key": "cancer_survivorship"
+            },
+            {
+              "label": "Cancer Statistics",
+              "key": "cancer_statistics"
+            },
+            {
+              "label": "Cancer & Public Health",
+              "key": "cancer_public_health"
+            }
+          ],
+          "description": "<p>SEER*Explorer is an interactive website that provides easy access to detailed statistics for a cancer site by gender, race, calendar year, age, and for a selected number of cancer sites, by stage and histology.</p>",
+          "id": 81,
+          "pocs": [
+            {
+              "phone": "240-276-6903",
+              "name": {
+                "firstname": "Patricia",
+                "lastname": "Murphy"
+              },
+              "title": "Program Analyst, Surveillance Research Program",
+              "email": "patricia.murphy@nih.gov"
+            },
+            {
+              "phone": "240-276-6698",
+              "name": {
+                "firstname": "Angela",
+                "lastname": "Mariotto"
+              },
+              "title": "Chief, Data Analytics Branch, Surveillance Research Program",
+              "email": "mariotta@mail.nih.gov"
+            }
+          ],
+          "title": "SEER*Explorer",
+          "researchTypes": [
+            {
+              "label": "Epidemiologic",
+              "key": "epidemiologic"
+            }
+          ],
+          "body": "<p>SEER*Explorer is a new interactive website that provides easy access to a wide range of SEER cancer statistics. It provides detailed statistics for a cancer site by gender, race, calendar year, age, and for a selected number of cancer sites, by stage and histology. Users can create custom graphs and tables, download data and images, share links to results, and (coming soon) download SEER*Stat sessions.</p>",
+          "toolTypes": [
+            {
+              "label": "Datasets & Databases",
+              "key": "datasets_databases"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "seer*explorer"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "143",
+        "_score": null,
+        "_source": {
+          "website": "https://seer.cancer.gov/seerprep/",
+          "docs": [
+            {
+              "label": "Division of Cancer Control and Population Sciences (DCCPS)",
+              "key": "dccps"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer & Public Health",
+              "key": "cancer_public_health"
+            },
+            {
+              "label": "Cancer Health Disparities",
+              "key": "cancer_health_disparities"
+            },
+            {
+              "label": "Cancer Statistics",
+              "key": "cancer_statistics"
+            }
+          ],
+          "description": "<p>This software converts ASCII text data files to the SEER*Stat database format, allowing users to analyze cancer data (incidence, mortality, expected survival) using SEER*Stat.</p>",
+          "id": 143,
+          "pocs": [
+            {
+              "phone": "240-276-6698",
+              "name": {
+                "firstname": "Angela",
+                "lastname": "Mariotto"
+              },
+              "title": "Chief, Data Analytics Branch, Surveillance Research Program",
+              "email": "mariotta@mail.nih.gov"
+            }
+          ],
+          "title": "SEER*Prep Software",
+          "researchTypes": [
+            {
+              "label": "Epidemiologic",
+              "key": "epidemiologic"
+            }
+          ],
+          "body": "<p>This software converts ASCII text data files to the SEER*Stat database format, allowing users to analyze cancer data (incidence, mortality, expected survival) using SEER*Stat. SEER*Prep performs two main functions:  it converts text data to the specific binary format required by SEER*Stat, and it creates the SEER*Stat data dictionary. SEER*Stat 6.2.3 or later is required to analyze any database generated with this version of SEER*Prep.</p>",
+          "toolTypes": [
+            {
+              "label": "Datasets & Databases",
+              "key": "datasets_databases"
+            }
+          ],
+          "resourceAccess": {
+            "type": "register"
+          }
+        },
+        "sort": [
+          "seer*prep software"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "84",
+        "_score": null,
+        "_source": {
+          "website": "https://seer.cancer.gov/seerstat/",
+          "docs": [
+            {
+              "label": "Division of Cancer Control and Population Sciences (DCCPS)",
+              "key": "dccps"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer & Public Health",
+              "key": "cancer_public_health"
+            },
+            {
+              "label": "Cancer Health Disparities",
+              "key": "cancer_health_disparities"
+            },
+            {
+              "label": "Cancer Statistics",
+              "key": "cancer_statistics"
+            }
+          ],
+          "description": "<p>The SEER*Stat statistical software is a powerful PC tool to view individual cancer records and to produce statistics for studying the impact of cancer on a population.</p>",
+          "id": 84,
+          "pocs": [
+            {
+              "phone": "240-276-6698",
+              "name": {
+                "firstname": "Angela",
+                "lastname": "Mariotto"
+              },
+              "title": "Chief, Data Analytics Branch, Surveillance Research Program",
+              "email": "mariotta@mail.nih.gov"
+            }
+          ],
+          "title": "SEER*Stat Software",
+          "researchTypes": [
+            {
+              "label": "Epidemiologic",
+              "key": "epidemiologic"
+            }
+          ],
+          "body": "<p>The SEER*Stat statistical software provides a convenient, intuitive mechanism for the analysis of SEER and other cancer-related databases. It is a powerful PC tool to view individual cancer records and to produce statistics for studying the impact of cancer on a population. SEER*Stat software is distributed with the SEER Research Data and users must obtain access to the data before using the software.</p>",
+          "toolTypes": [
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            },
+            {
+              "label": "Datasets & Databases",
+              "key": "datasets_databases"
+            }
+          ],
+          "resourceAccess": {
+            "type": "register"
+          }
+        },
+        "sort": [
+          "seer*stat software"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "208",
+        "_score": null,
+        "_source": {
+          "website": "https://healthcaredelivery.cancer.gov/seermedicare/",
+          "docs": [
+            {
+              "label": "Division of Cancer Control and Population Sciences (DCCPS)",
+              "key": "dccps"
+            }
+          ],
+          "researchAreas": [
+          ],
+          "description": "<p>The SEER-Medicare data reflect the linkage of two large population-based sources of detailed information about Medicare beneficiaries with cancer.</p>",
+          "id": 208,
+          "pocs": [
+            {
+              "name": {
+              },
+              "email": "yaniskoe@imsweb.com"
+            }
+          ],
+          "title": "Surveillance, Epidemiology and End Results (SEER)-Medicare Linked Database",
+          "body": "<p>The data come from the SEER program of cancer registries that collect clinical, demographic, and cause of death information for persons with cancer and the Medicare claims for covered health care services from the time of a person's Medicare eligibility until death.</p>",
+          "researchTypes": [
+          ],
+          "toolTypes": [
+            {
+              "label": "Datasets & Databases",
+              "key": "datasets_databases"
+            }
+          ]
+        },
+        "sort": [
+          "surveillance, epidemiology and end results (seer)-medicare linked database"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "79",
+        "_score": null,
+        "_source": {
+          "website": "https://seer.cancer.gov/csr",
+          "docs": [
+            {
+              "label": "Division of Cancer Control and Population Sciences (DCCPS)",
+              "key": "dccps"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer & Public Health",
+              "key": "cancer_public_health"
+            },
+            {
+              "label": "Cancer Health Disparities",
+              "key": "cancer_health_disparities"
+            },
+            {
+              "label": "Cancer Statistics",
+              "key": "cancer_statistics"
+            }
+          ],
+          "description": "<p>CSR is a report of the most recent cancer incidence, mortality, survival, prevalence, and lifetime risk statistics.</p>",
+          "id": 79,
+          "pocs": [
+            {
+              "phone": "240-276-6836",
+              "name": {
+                "firstname": "Kathy",
+                "lastname": "Cronin"
+              },
+              "title": "Deputy Associate Director, Surveillance Research Program"
+            }
+          ],
+          "title": "Surveillance, Epidemiology, and End Results (SEER) Cancer Statistics Review (CSR)",
+          "researchTypes": [
+            {
+              "label": "Epidemiologic",
+              "key": "epidemiologic"
+            }
+          ],
+          "body": "<p>Published annually, the scope and purpose of CSR are consistent with a report to the Senate Appropriations Committee (Breslow, 1988) which recommended that a broad profile of cancer be presented to the American public on a routine basis. This edition includes statistics from 1975 through 2014, the most recent year for which data are available</p>",
+          "toolTypes": [
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "surveillance, epidemiology, and end results (seer) cancer statistics review (csr)"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "80",
+        "_score": null,
+        "_source": {
+          "website": "https://seer.cancer.gov/data/",
+          "docs": [
+            {
+              "label": "Division of Cancer Control and Population Sciences (DCCPS)",
+              "key": "dccps"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer & Public Health",
+              "key": "cancer_public_health"
+            },
+            {
+              "label": "Cancer Health Disparities",
+              "key": "cancer_health_disparities"
+            },
+            {
+              "label": "Cancer Statistics",
+              "key": "cancer_statistics"
+            }
+          ],
+          "description": "<p>The SEER Research Data include SEER incidence and population data associated by age, sex, race, year of diagnosis, and geographic areas (including SEER registry and county).</p>",
+          "id": 80,
+          "pocs": [
+            {
+              "phone": "240-276-6836",
+              "name": {
+                "firstname": "Kathy",
+                "lastname": "Cronin"
+              },
+              "title": "Deputy Associate Director, Surveillance Research Program",
+              "email": "af2202@cumc.columbia.edu"
+            }
+          ],
+          "title": "Surveillance, Epidemiology, and End Results (SEER) Research Data",
+          "researchTypes": [
+            {
+              "label": "Epidemiologic",
+              "key": "epidemiologic"
+            }
+          ],
+          "body": "<p>The SEER Research Data include SEER incidence and population data associated by age, sex, race, year of diagnosis, and geographic areas (including SEER registry and county). Use of these data for publication purposes should contain a citation which includes submission and release dates. Cancer researchers use these data to analyze trends and conduct studies. Data come from SEER registries, which are population-based registries that maintain high data quality. The SEER Program now covers approximately 48% of the US population, including significant representation across racial/ethnic groups.</p>",
+          "toolTypes": [
+            {
+              "label": "Datasets & Databases",
+              "key": "datasets_databases"
+            }
+          ],
+          "resourceAccess": {
+            "type": "register"
+          }
+        },
+        "sort": [
+          "surveillance, epidemiology, and end results (seer) research data"
+        ]
+      }
+    ]
+  }
+}

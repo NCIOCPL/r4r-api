@@ -1,0 +1,180 @@
+{
+  "took": 2,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 2,
+      "relation": "eq"
+    },
+    "max_score": null,
+    "hits": [
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "243",
+        "_score": null,
+        "_source": {
+          "website": "https://brb.nci.nih.gov/splicing",
+          "docs": [
+            {
+              "label": "Division of Cancer Treatment and Diagnosis (DCTD)",
+              "key": "dctd"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Omics",
+              "key": "cancer_omics"
+            },
+            {
+              "label": "Bioinformatics",
+              "key": "bioinformatics"
+            },
+            {
+              "label": "Cancer Biology",
+              "key": "cancer_biology"
+            }
+          ],
+          "description": "<p>MutSpliceDB is a database of splice sites variants and their effects on splicing.</p>",
+          "id": 243,
+          "pocs": [
+            {
+              "phone": "240-276-5678",
+              "name": {
+                "firstname": "Dmitriy",
+                "prefix": "Dr.",
+                "lastname": "Sonkin"
+              },
+              "email": "dmitriy.sonkin@nih.gov"
+            }
+          ],
+          "title": "MutSpliceDB",
+          "researchTypes": [
+            {
+              "label": "Basic",
+              "key": "basic"
+            },
+            {
+              "label": "Translational",
+              "key": "translational"
+            }
+          ],
+          "body": "<p>Splice site variants are one of the well-known classes of genetic alterations playing an important role in biology. Splice site mutations in cancer are most frequently observed as inactivating alterations in tumor suppressor genes (e.g., <em>TP53</em> or <em>RB1</em>) and to a lesser degree as activating alterations in oncogenes (e.g., <em>MET</em>). Interpreting the consequences of a specific splice site variant is not straightforward, especially if the variant is located outside of the canonical splice sites. Accurate interpretation of a splice site mutation\u2019s impact can further our understanding of biology, influence patient treatment, and in case of germline splice site variants, may have relevance to familial disease predisposition. To facilitate the interpretation of splice site variant effects, the Biometric Research Program\u2019s Computational and Systems Biology Branch developed MutSpliceDB: a database of splice sites variants, documenting variants effect(s) on splicing based on RNA-seq BAM files from sample(s) with splice site variants.</p>",
+          "toolTypes": [
+            {
+              "label": "Datasets & Databases",
+              "key": "datasets_databases"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "mutsplicedb"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "260",
+        "_score": null,
+        "_source": {
+          "website": "https://tp53.isb-cgc.org/",
+          "docs": [
+            {
+              "label": "Division of Cancer Epidemiology and Genetics (DCEG)",
+              "key": "dceg"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Biology",
+              "key": "cancer_biology"
+            },
+            {
+              "label": "Cancer Omics",
+              "key": "cancer_omics"
+            },
+            {
+              "label": "Cancer Statistics",
+              "key": "cancer_statistics"
+            },
+            {
+              "label": "Cancer Diagnosis",
+              "key": "cancer_diagnosis"
+            },
+            {
+              "label": "Causes of Cancer",
+              "key": "causes_of_cancer"
+            },
+            {
+              "label": "Bioinformatics",
+              "key": "bioinformatics"
+            }
+          ],
+          "description": "<p>The <em>TP53</em> Database allows users to explore TP53 variants, including  functional/structural data, somatic variants, germline variants, cell lines, mouse models, and experimentally induced variants.</p>",
+          "id": 260,
+          "pocs": [
+            {
+              "phone": "240-276-7241",
+              "name": {
+                "firstname": "Sharon",
+                "lastname": "Savage"
+              },
+              "title": "DCEG Clinical Director, Chief and Senior Investigator in the Clinical Genetics Branch",
+              "email": "savagesh@mail.nih.gov"
+            },
+            {
+              "phone": "240-276-5110",
+              "name": {
+                "firstname": "Kelvin Cesar",
+                "lastname": "de Andrade"
+              },
+              "title": "Research Fellow",
+              "email": "kelvin.deandrade@nih.gov"
+            }
+          ],
+          "title": "TP53 Database",
+          "researchTypes": [
+            {
+              "label": "Basic",
+              "key": "basic"
+            },
+            {
+              "label": "Epidemiologic",
+              "key": "epidemiologic"
+            },
+            {
+              "label": "Clinical Trials",
+              "key": "clinical_trials"
+            }
+          ],
+          "body": "<p>The <em>TP53</em> database is meant to be a source of information on <em>TP53</em> variants for a broad range of scientists and clinicians who work in different research areas including basic research, pathology, epidemiology, and genetics. The <em>TP53</em> Database compiles various types of data and information from the literature and generalist databases on human <em>TP53</em> gene variations related to cancer. The data available include functional/structural data, somatic variants, germline variants, cell lines, mouse models, and experimentally induced variants.</p>",
+          "toolTypes": [
+            {
+              "label": "Datasets & Databases",
+              "key": "datasets_databases"
+            },
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "tp53 database"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,370 @@
+{
+  "took": 2,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 6,
+      "relation": "eq"
+    },
+    "max_score": null,
+    "hits": [
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "83",
+        "_score": null,
+        "_source": {
+          "website": "https://seer.cancer.gov/report_to_nation/",
+          "docs": [
+            {
+              "label": "Division of Cancer Control and Population Sciences (DCCPS)",
+              "key": "dccps"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Health Disparities",
+              "key": "cancer_health_disparities"
+            },
+            {
+              "label": "Cancer Survivorship",
+              "key": "cancer_survivorship"
+            },
+            {
+              "label": "Cancer Statistics",
+              "key": "cancer_statistics"
+            }
+          ],
+          "description": "<p>The Annual Report to the Nation is a publication that provides an update of rates for new cases and deaths, as well as trends, for the most common cancers in the United States.</p>",
+          "id": 83,
+          "pocs": [
+            {
+              "phone": "240-276-6836",
+              "name": {
+                "firstname": "Kathy",
+                "lastname": "Cronin"
+              },
+              "title": "Deputy Associate Director, Surveillance Research Program",
+              "email": "cronink@mail.nih.gov"
+            }
+          ],
+          "title": "Annual Report to the Nation on the Status of Cancer",
+          "researchTypes": [
+            {
+              "label": "Epidemiologic",
+              "key": "epidemiologic"
+            }
+          ],
+          "body": "<p>The report includes a special section to highlight a major topic in cancer surveillance. Recent topics include financial toxicity, progress toward Healthy People 2020 objectives, survival, prostate cancer, and molecular subtypes of breast cancer. This is an annual collaboration between NCI, North American Association of Central Cancer Registries, the Centers for Disease Control and Prevention, and the American Cancer Society. The agencies rotate between leading the report. Typically, the trends are by sex and race/ethnicity. The Surveillance, Epidemiology, and End Results (SEER) programwebsite hosts a microsite with summaries, factoids, links, and other shareable resources.</p>",
+          "toolTypes": [
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "annual report to the nation on the status of cancer"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "54",
+        "_score": null,
+        "_source": {
+          "website": "https://cisnet.cancer.gov/",
+          "docs": [
+            {
+              "label": "Division of Cancer Control and Population Sciences (DCCPS)",
+              "key": "dccps"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Health Disparities",
+              "key": "cancer_health_disparities"
+            },
+            {
+              "label": "Screening & Detection",
+              "key": "screening_detection"
+            },
+            {
+              "label": "Cancer Treatment",
+              "key": "cancer_treatment"
+            },
+            {
+              "label": "Cancer Prevention",
+              "key": "cancer_prevention"
+            }
+          ],
+          "description": "<p>CISNET is a consortium of NCI-sponsored investigator who use statistical and simulation modeling to predict the effects of cancer interventions.</p>",
+          "id": 54,
+          "pocs": [
+            {
+              "phone": "240-276-6772",
+              "name": {
+                "firstname": "Eric (Rocky)",
+                "lastname": "Feuer"
+              },
+              "title": "Chief, Statistical Research and Applications Branch, Surveillance Research Program",
+              "email": "feuerr@mail.nih.gov"
+            },
+            {
+              "phone": "240-276-6951",
+              "name": {
+                "firstname": "Susan",
+                "lastname": "Scott"
+              },
+              "title": "Public Health Advisor, Surveillance Research Program",
+              "email": "scotts2@mail.nih.gov"
+            }
+          ],
+          "title": "Cancer Intervention and Surveillance Modeling Network",
+          "researchTypes": [
+            {
+              "label": "Clinical",
+              "key": "clinical"
+            },
+            {
+              "label": "Epidemiologic",
+              "key": "epidemiologic"
+            },
+            {
+              "label": "Translational",
+              "key": "translational"
+            }
+          ],
+          "body": "<p>CISNET is a consortium of NCI-sponsored investigators who use statistical and simulation modeling to examine the potential impacts of prevention, screening, and treatment on cancer incidence and mortality. These models can then project future trends and help determine optimal cancer control strategies. These models can also be used to guide public health research and priorities. Established in 2000, CISNET comprises nine cancer site groups: breast, prostate, colorectal, lung, cervical, gastric, uterine, bladder, and multiple myeloma. Many of the resources generated by the CISNET consortium are freely available on the website. Additionally, CISNET invites inquiries from outside groups regarding collaborations on cancer control issues that are amenable to modeling.</p>",
+          "toolTypes": [
+            {
+              "label": "Networks/Consortiums",
+              "key": "networks_consortiums"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "cancer intervention and surveillance modeling network"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "175",
+        "_score": null,
+        "_source": {
+          "website": "https://proteomics.cancer.gov/data-portal",
+          "docs": [
+            {
+              "label": "Center for Strategic Scientific Initiatives (CSSI)",
+              "key": "cssi"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Omics",
+              "key": "cancer_omics"
+            }
+          ],
+          "description": "<p>CPTAC analyzes cancer biospecimens by mass spectrometry, characterizing and quantifying their constituent proteins, or proteome. The CPTAC Data Portal is the centralized repository for the dissemination of proteomic data collected by the Proteome Characterization Centers (PCCs).</p>",
+          "id": 175,
+          "pocs": [
+          ],
+          "title": "Clinical Proteomic Tumor Analysis Consortium (CPTAC) Data Portal",
+          "researchTypes": [
+            {
+              "label": "Basic",
+              "key": "basic"
+            }
+          ],
+          "body": "<p>The Data Portal hosts the mass spectrometry data from the CPTAC program. A key component is the proteogenomic profiling of patient tumors, such as those from the breast, colorectal, and ovarian cancer programs in The Cancer Genome Atlas (TCGA). The portal also hosts data from completed programs and external studies.\nThe CPTAC program is the main data generator of the hosted data. Additional datasets from other programs such as APOLLO and ICPC are anticipated in the future.</p>",
+          "toolTypes": [
+            {
+              "label": "Datasets & Databases",
+              "key": "datasets_databases"
+            },
+            {
+              "label": "Networks/Consortiums",
+              "key": "networks_consortiums"
+            }
+          ],
+          "resourceAccess": {
+            "notes": "Subject to Data Use Agreement",
+            "type": "open"
+          }
+        },
+        "sort": [
+          "clinical proteomic tumor analysis consortium (cptac) data portal"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "47",
+        "_score": null,
+        "_source": {
+          "website": "https://brb.nci.nih.gov/programdownload/pCRsoftware.html",
+          "docs": [
+            {
+              "label": "Division of Cancer Treatment and Diagnosis (DCTD)",
+              "key": "dctd"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Treatment",
+              "key": "cancer_treatment"
+            }
+          ],
+          "description": "<p>This software can be used to access pCR trial-level surrogate analysis.</p>",
+          "id": 47,
+          "pocs": [
+          ],
+          "title": "Pathological Complete Response (pCR)Trial-Level Surrogate Analysis Software",
+          "researchTypes": [
+            {
+              "label": "Clinical Trials",
+              "key": "clinical_trials"
+            }
+          ],
+          "body": "<p>This is an R source package that contains the code, data, documentation, and results of the analysis reported in \"Assessing pathological complete response as a trial-level surrogate endpoint for early-stage breast cancer\" and supplement, by E. L. Korn, M. C. Sachs, and L. M. McShane, Ann Oncol 27: 10-15, 2016. The package is organized as follows:</p>\n<ul>\n<li>DESCRIPTION details the analysis and documents the dependencies;</li>\n<li>The /data subdirectory contains the data files in .csv and .RData formats; the datasets are documented in the /man directory.</li>\n<li>The /inst/doc directory contains the code and results of the analysis.</li>\n<li>The /R directory has the R functions that were used in the analysis.</li>\n<li>The /man directory contains the documentation in Rd format. View the documentation in R by typing ?pcrmeta.</li>\n</ul>",
+          "toolTypes": [
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "pathological complete response (pcr)trial-level surrogate analysis software"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "127",
+        "_score": null,
+        "_source": {
+          "website": "https://dceg.cancer.gov/tools/design/questionnaires",
+          "docs": [
+            {
+              "label": "Division of Cancer Epidemiology and Genetics (DCEG)",
+              "key": "dceg"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer & Public Health",
+              "key": "cancer_public_health"
+            },
+            {
+              "label": "Causes of Cancer",
+              "key": "causes_of_cancer"
+            },
+            {
+              "label": "Cancer Prevention",
+              "key": "cancer_prevention"
+            }
+          ],
+          "description": "<p>This resource is a collection of questionnaires and questionnaire segments for use in a wide variety of epidemiological studies.</p>",
+          "id": 127,
+          "pocs": [
+            {
+              "phone": "240-276-7199",
+              "name": {
+                "firstname": "Gwen",
+                "lastname": "Murphy"
+              },
+              "title": "Ph.D., M.P.H. Staff Scientist, DCEG",
+              "email": "murphygw@mail.nih.gov"
+            }
+          ],
+          "title": "Questionnaire Development Resources",
+          "researchTypes": [
+            {
+              "label": "Epidemiologic",
+              "key": "epidemiologic"
+            }
+          ],
+          "body": "<p>This resource is a collection of questionnaires and questionnaire segments for use in a wide variety of epidemiological studies. Listings of publications are given where available. Topics covered by the questionnaires include:  Alcohol, Tobacco, and Recreational Drug Use; Anthropometric Measurements (measurements of the human body); Background Information; Breast Cancer Risk Factors; Family History of Cancer; EMF, Radon, and UVR Exposures; Ionizing Radiation Exposures; Household Exposures; Medical History; Non-alcoholic Beverage, Food, and Dietary Supplements; Occupational History and Exposures; Physical Activity; Prescriptions, Hormones, Immunizations; Reproductive History; Residential History</p>",
+          "toolTypes": [
+            {
+              "label": "Community Research Tools",
+              "key": "community_research_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "questionnaire development resources"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "103",
+        "_score": null,
+        "_source": {
+          "website": "https://www.med.upenn.edu/sbia/libra.html",
+          "docs": [
+            {
+              "label": "Informatics Technology for Cancer Research (ITCR)",
+              "key": "itcr"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Screening & Detection",
+              "key": "screening_detection"
+            }
+          ],
+          "description": "<p>LIBRA is a fully-automatic breast density estimation software solution based on a published algorithm that works on either raw or vendor post-processed digital mammography images. LIBRA has been applied to over 30,000 screening exams and is being increasingly utilized in larger studies.</p>",
+          "id": 103,
+          "pocs": [
+          ],
+          "title": "The Laboratory for Individualized Breast Radiodensity Assessment (LIBRA)",
+          "researchTypes": [
+            {
+              "label": "Translational",
+              "key": "translational"
+            }
+          ],
+          "body": "<p>LIBRA is a fully-automatic breast density estimation software solution based on a published algorithm that works on either raw or vendor post-processed digital mammography images. LIBRA has been applied to over 30,000 screening exams and is being increasingly utilized in larger studies.</p>",
+          "toolTypes": [
+            {
+              "label": "Datasets & Databases",
+              "key": "datasets_databases"
+            },
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "the laboratory for individualized breast radiodensity assessment (libra)"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,1133 @@
+{
+  "took": 4,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 98,
+      "relation": "eq"
+    },
+    "max_score": null,
+    "hits": [
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "83",
+        "_score": null,
+        "_source": {
+          "website": "https://seer.cancer.gov/report_to_nation/",
+          "docs": [
+            {
+              "label": "Division of Cancer Control and Population Sciences (DCCPS)",
+              "key": "dccps"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Health Disparities",
+              "key": "cancer_health_disparities"
+            },
+            {
+              "label": "Cancer Survivorship",
+              "key": "cancer_survivorship"
+            },
+            {
+              "label": "Cancer Statistics",
+              "key": "cancer_statistics"
+            }
+          ],
+          "description": "<p>The Annual Report to the Nation is a publication that provides an update of rates for new cases and deaths, as well as trends, for the most common cancers in the United States.</p>",
+          "id": 83,
+          "pocs": [
+            {
+              "phone": "240-276-6836",
+              "name": {
+                "firstname": "Kathy",
+                "lastname": "Cronin"
+              },
+              "title": "Deputy Associate Director, Surveillance Research Program",
+              "email": "cronink@mail.nih.gov"
+            }
+          ],
+          "title": "Annual Report to the Nation on the Status of Cancer",
+          "researchTypes": [
+            {
+              "label": "Epidemiologic",
+              "key": "epidemiologic"
+            }
+          ],
+          "body": "<p>The report includes a special section to highlight a major topic in cancer surveillance. Recent topics include financial toxicity, progress toward Healthy People 2020 objectives, survival, prostate cancer, and molecular subtypes of breast cancer. This is an annual collaboration between NCI, North American Association of Central Cancer Registries, the Centers for Disease Control and Prevention, and the American Cancer Society. The agencies rotate between leading the report. Typically, the trends are by sex and race/ethnicity. The Surveillance, Epidemiology, and End Results (SEER) programwebsite hosts a microsite with summaries, factoids, links, and other shareable resources.</p>",
+          "toolTypes": [
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "annual report to the nation on the status of cancer"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "10",
+        "_score": null,
+        "_source": {
+          "website": "http://ctakes.apache.org",
+          "docs": [
+            {
+              "label": "Informatics Technology for Cancer Research (ITCR)",
+              "key": "itcr"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Diagnosis",
+              "key": "cancer_diagnosis"
+            },
+            {
+              "label": "Cancer Treatment",
+              "key": "cancer_treatment"
+            }
+          ],
+          "description": "<p>cTAKES extracts deep phenotypic information from the clinical narrative at the document, episode, and patient level.</p>",
+          "id": 10,
+          "pocs": [
+          ],
+          "title": "Apache Clinical Text and Knowledge Extraction System (cTAKES)",
+          "researchTypes": [
+            {
+              "label": "Translational",
+              "key": "translational"
+            }
+          ],
+          "body": "<p>cTAKES extracts deep phenotypic information from the clinical narrative at the document, episode, and patient level. The final output is a Fast Healthcare Interoperability Resources (FHIR)-compliant, patient-level phenotypic summary which can be consumed by research warehouses or the DeepPhe native visualization tool.</p>",
+          "toolTypes": [
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "apache clinical text and knowledge extraction system (ctakes)"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "229",
+        "_score": null,
+        "_source": {
+          "website": "https://biometry.nci.nih.gov/cdas/",
+          "docs": [
+          ],
+          "researchAreas": [
+          ],
+          "description": "<p>CDAS is a submission and tracking system for data from the National Lung Screening Trial (NLST), the Prostate, Lung, Colorectal and Ovarian (PLCO) Cancer Screening Trial, and the Interactive Diet and Activity Tracking in AARP.</p>",
+          "id": 229,
+          "pocs": [
+          ],
+          "title": "Cancer Data Access System (CDAS)",
+          "body": "<p>CDAS is a website to request data recorded from various research studies, including NLST, PLCO, and the Interactive Diet and Activity Tracking in AARP. For some studies, you may also request images or biospecimens.</p>\n<p>CDAS provides extensive public documentation for each study, including a trial summary, an overview of the data collected, and a searchable database of research projects and publications.</p>\n<p>Researchers interested in obtaining study data may begin a CDAS project for that study. All projects are reviewed by NCI trial leadership.</p>",
+          "researchTypes": [
+          ],
+          "toolTypes": [
+            {
+              "label": "Datasets & Databases",
+              "key": "datasets_databases"
+            }
+          ],
+          "resourceAccess": {
+            "notes": "After registration approval, materials are   available for a limited time.",
+            "type": "register"
+          }
+        },
+        "sort": [
+          "cancer data access system (cdas)"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "54",
+        "_score": null,
+        "_source": {
+          "website": "https://cisnet.cancer.gov/",
+          "docs": [
+            {
+              "label": "Division of Cancer Control and Population Sciences (DCCPS)",
+              "key": "dccps"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Health Disparities",
+              "key": "cancer_health_disparities"
+            },
+            {
+              "label": "Screening & Detection",
+              "key": "screening_detection"
+            },
+            {
+              "label": "Cancer Treatment",
+              "key": "cancer_treatment"
+            },
+            {
+              "label": "Cancer Prevention",
+              "key": "cancer_prevention"
+            }
+          ],
+          "description": "<p>CISNET is a consortium of NCI-sponsored investigator who use statistical and simulation modeling to predict the effects of cancer interventions.</p>",
+          "id": 54,
+          "pocs": [
+            {
+              "phone": "240-276-6772",
+              "name": {
+                "firstname": "Eric (Rocky)",
+                "lastname": "Feuer"
+              },
+              "title": "Chief, Statistical Research and Applications Branch, Surveillance Research Program",
+              "email": "feuerr@mail.nih.gov"
+            },
+            {
+              "phone": "240-276-6951",
+              "name": {
+                "firstname": "Susan",
+                "lastname": "Scott"
+              },
+              "title": "Public Health Advisor, Surveillance Research Program",
+              "email": "scotts2@mail.nih.gov"
+            }
+          ],
+          "title": "Cancer Intervention and Surveillance Modeling Network",
+          "researchTypes": [
+            {
+              "label": "Clinical",
+              "key": "clinical"
+            },
+            {
+              "label": "Epidemiologic",
+              "key": "epidemiologic"
+            },
+            {
+              "label": "Translational",
+              "key": "translational"
+            }
+          ],
+          "body": "<p>CISNET is a consortium of NCI-sponsored investigators who use statistical and simulation modeling to examine the potential impacts of prevention, screening, and treatment on cancer incidence and mortality. These models can then project future trends and help determine optimal cancer control strategies. These models can also be used to guide public health research and priorities. Established in 2000, CISNET comprises nine cancer site groups: breast, prostate, colorectal, lung, cervical, gastric, uterine, bladder, and multiple myeloma. Many of the resources generated by the CISNET consortium are freely available on the website. Additionally, CISNET invites inquiries from outside groups regarding collaborations on cancer control issues that are amenable to modeling.</p>",
+          "toolTypes": [
+            {
+              "label": "Networks/Consortiums",
+              "key": "networks_consortiums"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "cancer intervention and surveillance modeling network"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "209",
+        "_score": null,
+        "_source": {
+          "website": "https://ctep.cancer.gov/protocolDevelopment/electronic_applications/adverse_events.htm",
+          "docs": [
+            {
+              "label": "Division of Cancer Prevention (DCP)",
+              "key": "dcp"
+            }
+          ],
+          "researchAreas": [
+          ],
+          "description": "<p>CTEP-AERS is available to submit expedited adverse event reports for all CTEP-sponsored clinical trials and Division of Cancer Prevention (DCP) cancer prevention trials.</p>",
+          "id": 209,
+          "pocs": [
+            {
+              "phone": "1-888-283-7457",
+              "name": {
+              },
+              "email": "ncictephelp@ctep.nci.nih.gov"
+            }
+          ],
+          "title": "Cancer Therapy Evaluation Program Adverse Event Reporting System (CTEP-AERS)",
+          "body": "<p>The resource includes the electronic reporting portal, training materials, FAQ\u2019s, Health Insurance Portability and Accountability Act (HIPAA) documentation, and the CTEP Adverse Event Listserv, a communication mechanism by which CTEP informs the community of important information regarding adverse event reporting to CTEP.</p>",
+          "researchTypes": [
+          ],
+          "toolTypes": [
+            {
+              "label": "Clinical Research Tools",
+              "key": "clinical_research_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "register"
+          }
+        },
+        "sort": [
+          "cancer therapy evaluation program adverse event reporting system (ctep-aers)"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "205",
+        "_score": null,
+        "_source": {
+          "website": "https://www.ctsu.org/public/",
+          "docs": [
+          ],
+          "researchAreas": [
+          ],
+          "description": "<p>CTSU is a service of NCI designed to facilitate access to NCI-funded clinical trials for qualified clinical sites and to support the management and conduct of those clinical trials.</p>",
+          "id": 205,
+          "pocs": [
+            {
+              "phone": "1-888-823-5923",
+              "name": {
+              },
+              "email": "ctsucontact@westat.com"
+            }
+          ],
+          "title": "Cancer Trials Support Unit (CTSU)",
+          "researchTypes": [
+            {
+              "label": "Clinical",
+              "key": "clinical"
+            }
+          ],
+          "body": "<p>CTSU provides centralized services to support the following goals and objectives:</p>\n<ul>\n<li>Facilitate investigator and research staff participation in selected NCI multi-center programs and their clinical trials.</li>\n<li>Increase investigator and patient awareness of and enrollment to cancer clinical trials.</li>\n<li>Provide standardized, integrated, and comprehensive support services to selected NCI multi-center programs.</li>\n<li>Identify best practices and streamline or eliminate redundant processes and procedures.</li>\n<li>Improve operational efficiency, enhance productivity, and deliver products offering measurable business value to selected NCI multi-center programs.</li>\n</ul>",
+          "toolTypes": [
+            {
+              "label": "Clinical Research Tools",
+              "key": "clinical_research_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "register"
+          }
+        },
+        "sort": [
+          "cancer trials support unit (ctsu)"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "152",
+        "_score": null,
+        "_source": {
+          "website": "https://www.addgene.org/kits/boehm-target-accelerator-cancer-collection/",
+          "docs": [
+            {
+              "label": "Center for Cancer Genomics (CCG)",
+              "key": "ccg"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Biology",
+              "key": "cancer_biology"
+            },
+            {
+              "label": "Cancer Omics",
+              "key": "cancer_omics"
+            }
+          ],
+          "description": "<p>This collection of plasmids includes mutant alleles found in sequencing studies of cancer. It includes somatic variants found in lung adenocarcinoma and across other cancer types.</p>",
+          "id": 152,
+          "pocs": [
+          ],
+          "title": "Candidate Cancer Allele cDNA Collection",
+          "researchTypes": [
+            {
+              "label": "Basic",
+              "key": "basic"
+            },
+            {
+              "label": "Translational",
+              "key": "translational"
+            }
+          ],
+          "body": "<p>CTD2 researchers at the Broad Institute/DFCI have developed a collection of plasmids including mutant alleles found in sequencing studies of cancer. It includes somatic variants found in lung adenocarcinoma and across other cancer types. The clones enable researchers to characterize the function of the cancer variants in a high throughput experiments. In addition, a control collection of clones as part of the \"Genetic Pathway Reference Set\" provides a resource to generate benchmark perturbation data. These plasmids are collectively called the Broad Target Accelerator Plasmid Collections. The design and construction of these plasmids is described in the manuscripts and they are available through a distributor.</p>",
+          "toolTypes": [
+            {
+              "label": "Lab Tools",
+              "key": "lab_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "candidate cancer allele cdna collection"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "188",
+        "_score": null,
+        "_source": {
+          "website": "https://www.nccor.org/nccor-tools/catalogue/",
+          "docs": [
+            {
+              "label": "Division of Cancer Control and Population Sciences (DCCPS)",
+              "key": "dccps"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Prevention",
+              "key": "cancer_prevention"
+            }
+          ],
+          "description": "<p>The Catalogue of Surveillance Systems provides one-stop access to more than 100 publicly available datasets relevant to childhood obesity research.</p>",
+          "id": 188,
+          "pocs": [
+            {
+              "phone": "240-276-6812",
+              "name": {
+                "firstname": "Jill",
+                "lastname": "Reedy"
+              },
+              "title": "Branch Chief, Risk Factor Assessment Branch",
+              "email": "reedyj@mail.nih.gov"
+            }
+          ],
+          "title": "Catalogue of Surveillance Systems",
+          "researchTypes": [
+            {
+              "label": "Epidemiologic",
+              "key": "epidemiologic"
+            }
+          ],
+          "body": "<p>The Catalogue of Surveillance Systems provides a platform to review, sort, and compare more than 100 surveillance systems relevant to childhood obesity research and evaluation of policy and environmental interventions. This resource helps researchers more easily investigate childhood obesity in America by increasing efficiency, effectiveness, and innovation in obesity research. It was developed by the National Collaborative on Childhood Obesity Research, and NCI staff are the project leads for the development and maintenance of this tool.</p>",
+          "toolTypes": [
+            {
+              "label": "Datasets & Databases",
+              "key": "datasets_databases"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "catalogue of surveillance systems"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "221",
+        "_score": null,
+        "_source": {
+          "website": "https://cssi-dcc.nci.nih.gov/cssiportal/",
+          "docs": [
+            {
+              "label": "Center for Strategic Scientific Initiatives (CSSI)",
+              "key": "cssi"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Omics",
+              "key": "cancer_omics"
+            },
+            {
+              "label": "Cancer Biology",
+              "key": "cancer_biology"
+            }
+          ],
+          "description": "<p>The portal provides a flexible data coordination framework housing multiple types of biologic data generated by cancer research supported by CSSI.</p>",
+          "id": 221,
+          "pocs": [
+            {
+              "name": {
+                "firstname": "Michelle",
+                "lastname": "Berny-Lang"
+              },
+              "title": "Program Director",
+              "email": "michelle.berny-lang@nih.gov"
+            },
+            {
+              "name": {
+                "firstname": "Sean",
+                "lastname": "Hanlon"
+              },
+              "title": "Associate Director",
+              "email": "sean.hanlon@nih.gov"
+            }
+          ],
+          "title": "Center for Strategic Scientific Initiatives (CSSI) Data Portal",
+          "researchTypes": [
+            {
+              "label": "Basic",
+              "key": "basic"
+            }
+          ],
+          "body": "<p>CSSI sponsors a diverse array of projects related to new technologies, standards, and preanalytical variables. Integrated management of the datasets across projects makes the data more accessible and usable by the cancer research community. The CSSI Data Coordinating Center (CSSI DCC) stores and manages access to data generated by cancer research funded or supported by NCI. This data is in the standard Investigation-Study-Assay tab-delimited format (ISA-TAB) format, which describes a scientific investigation, its study or studies, and assay data. The CSSI DCC Portal is a public repository of experiment-related information describing cancer research investigations. The portal can be used to browse, search, and access data generated through NCI-funded projects and other user-uploaded datasets.</p>",
+          "toolTypes": [
+            {
+              "label": "Datasets & Databases",
+              "key": "datasets_databases"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "center for strategic scientific initiatives (cssi) data portal"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "26",
+        "_score": null,
+        "_source": {
+          "website": "http://www.chernobyltissuebank.com/",
+          "docs": [
+            {
+              "label": "Division of Cancer Biology (DCB)",
+              "key": "dcb"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Biology",
+              "key": "cancer_biology"
+            },
+            {
+              "label": "Causes of Cancer",
+              "key": "causes_of_cancer"
+            },
+            {
+              "label": "Cancer Survivorship",
+              "key": "cancer_survivorship"
+            }
+          ],
+          "description": "<p>CTB maintains a research resource that supports studies on the biology of thyroid cancer, the major health consequence of the Chernobyl accident.</p>",
+          "id": 26,
+          "pocs": [
+            {
+              "phone": "240-276-6230",
+              "name": {
+                "firstname": "Rihab",
+                "suffix": "Ph.D.",
+                "lastname": "Yassin"
+              },
+              "title": "Program Director",
+              "email": "yassinr@mail.nih.gov"
+            }
+          ],
+          "title": "Chernobyl Tissue Bank (CTB)",
+          "researchTypes": [
+            {
+              "label": "Basic",
+              "key": "basic"
+            },
+            {
+              "label": "Clinical",
+              "key": "clinical"
+            },
+            {
+              "label": "Translational",
+              "key": "translational"
+            }
+          ],
+          "body": "<p>CTB is an international collaborative project that is supported by NCI\u2019s Division of Cancer Biology and the Sasakawa Memorial Health Foundation of Japan with active participation from Russia and Ukraine, two countries heavily affected by the 1986 Chernobyl accident. CTB manages biospecimen resources and associated data sets that support studies on the biology of thyroid cancer, the major health consequence of the Chernobyl accident. For more information on this Tissue Bank, please visit the Chernobyl Tissue Bank website.</p>",
+          "toolTypes": [
+            {
+              "label": "Lab Tools",
+              "key": "lab_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "register"
+          }
+        },
+        "sort": [
+          "chernobyl tissue bank (ctb)"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "230",
+        "_score": null,
+        "_source": {
+          "website": "https://datascience.cancer.gov/resources/cancer-vocabulary/cdisc-terminology",
+          "docs": [
+            {
+              "label": "Division of Cancer Treatment and Diagnosis (DCTD)",
+              "key": "dctd"
+            }
+          ],
+          "researchAreas": [
+          ],
+          "description": "<p>The NCI Enterprise Vocabulary Services (EVS) partners with CDISC to develop and support controlled terminology for all CDISC foundational standards, including Study Data Tabulation Model (SDTM), Clinical Data Acquisition Standards Harmonization (CDASH), Analysis Data Model (ADaM), Define-XML Terminology, Standard for the Exchange of Nonclinical Data (SEND), CDISC Protocol Terminology, and CDISC Glossary.</p>",
+          "id": 230,
+          "pocs": [
+          ],
+          "title": "Clinical Data Interchange Standards Consortium (CDISC) Terminology",
+          "body": "<p>Managed by NCI Enterprise Vocabulary Services (EVS), CDISC to develop and support controlled terminology for all CDISC foundational standards:</p>\n<p><strong>SDTM</strong> - SDTM is an international standard for clinical research data and is approved by the Food and Drug Administration (FDA) as a standard electronic submission format. CDISC Questionnaires, Ratings, and Scales terminology is included in the SDTM terminology publication.</p>\n<p><strong>CDASH</strong> - CDISC leads the CDASH project, which develops clinical research study content standards in collaboration with 16 partner organizations, including NCI. CDASH terminology is a subset of SDTM terminology.</p>\n<p><strong>ADaM</strong> - CDISC leads the ADaM project, which supports efficient generation, replication, review, and submission of analysis results from clinical trial data.</p>\n<p><strong>Define-XML</strong> - CDISC leads the Define-XML terminology project, which defines the enumeration values found within the CDISC Define-XML data exchange standard. NCI EVS maintains and distributes Define-XML controlled terminology as part of NCI Thesaurus. More information is available at CDISC's Define-XML webpage.</p>\n<p><strong>SEND</strong> - CDISC leads the SEND project, which guides the organization, structure, and format of standard nonclinical tabulation datasets for interchange between organizations such as sponsors and CROs and for submission to a regulatory authority such as FDA. NCI EVS maintains and distributes SEND controlled terminology as part of NCI Thesaurus. More information is available at CDISC's SEND webpage.</p>\n<p><strong>Protocol Terminology</strong> - CDISC leads the Protocol Terminology project, which develops the semantics for commonly used research protocol entities. This project supports CDISC foundational standards for the Protocol Representation Model (PRM) and Clinical Trial Registry XML (CTR-XML).</p>\n<p><strong>CDISC Glossary</strong> - CDISC leads the Glossary project, which harmonizes definitions (including acronyms, abbreviations, and initials) used in the various standards initiatives undertaken by CDISC in clinical research. The glossary also serves the community of clinical researchers by selecting and defining terms pertaining to clinical research sponsored by the pharmaceutical industry or a federal agency.</p>",
+          "researchTypes": [
+          ],
+          "toolTypes": [
+            {
+              "label": "Terminology",
+              "key": "terminology"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "clinical data interchange standards consortium (cdisc) terminology"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "166",
+        "_score": null,
+        "_source": {
+          "website": "https://civic.genome.wustl.edu/home",
+          "docs": [
+            {
+              "label": "Informatics Technology for Cancer Research (ITCR)",
+              "key": "itcr"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Omics",
+              "key": "cancer_omics"
+            }
+          ],
+          "description": "<p>CIViC is a community-driven web resource that enables precision medicine by providing an educational forum for dissemination of knowledge and active discussion of the clinical significance of cancer genome alterations.</p>",
+          "id": 166,
+          "pocs": [
+          ],
+          "title": "Clinical Interpretation of Variants in Cancer (CIViC) Knowledgebase",
+          "researchTypes": [
+            {
+              "label": "Translational",
+              "key": "translational"
+            }
+          ],
+          "body": "<p>CIViC is an open access, open source, community-driven web resource for Clinical Interpretation of Variants in Cancer. Our goal is to enable precision medicine by providing an educational forum for dissemination of knowledge and active discussion of the clinical significance of cancer genome alterations.</p>",
+          "toolTypes": [
+            {
+              "label": "Datasets & Databases",
+              "key": "datasets_databases"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "clinical interpretation of variants in cancer (civic) knowledgebase"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "176",
+        "_score": null,
+        "_source": {
+          "website": "https://proteomics.cancer.gov/antibody-portal",
+          "docs": [
+            {
+              "label": "Center for Strategic Scientific Initiatives (CSSI)",
+              "key": "cssi"
+            },
+            {
+              "label": "Office of Cancer Clinical Proteomics Research (OCCPR)",
+              "key": "occpr"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Omics",
+              "key": "cancer_omics"
+            },
+            {
+              "label": "Cancer Biology",
+              "key": "cancer_biology"
+            },
+            {
+              "label": "Cancer Diagnosis",
+              "key": "cancer_diagnosis"
+            }
+          ],
+          "description": "<p>The CPTAC Antibody Portal serves as an NCI community resource that provides access to many highly characterized renewable affinity reagents with accompanying characterization data.</p>",
+          "id": 176,
+          "pocs": [
+            {
+              "phone": "240-781-3435",
+              "name": {
+                "firstname": "Tara",
+                "suffix": "Ph.D.",
+                "lastname": "Hiltke"
+              },
+              "title": "Program Director",
+              "email": "hiltket@mail.nih.gov"
+            }
+          ],
+          "title": "Clinical Proteomic Tumor Analysis Consortium (CPTAC) Antibody Portal",
+          "researchTypes": [
+            {
+              "label": "Basic",
+              "key": "basic"
+            },
+            {
+              "label": "Translational",
+              "key": "translational"
+            }
+          ],
+          "body": "<p>The CPTAC Antibody Portal houses affinity reagents characterized and validated by NCI\u2019s Antibody Characterization Laboratory, located at the Frederick National Laboratory for Cancer Research. Upon entering the portal, users can browse by antibodies or antigens or select from a series of table filters on the left side of the page. Each antibody has background, characterization data with corresponding standard operating procedures, as well as links to the CPTAC assay portal (when applicable) and Developmental Studies Hybridoma Bank at the University of Iowa for purchase. Each antigen additionally has standard operating procedures and links to central repositories of protein and gene information, such as Uniprot, Ensembl, and Entrez. For those interested in affinity reagents to a specific protein target, the CPTAC Antibody Portal has an application form for reagent target requests to the NCI Antibody Characterization Program that is released on an annual basis.</p>",
+          "toolTypes": [
+            {
+              "label": "Lab Tools",
+              "key": "lab_tools"
+            },
+            {
+              "label": "Networks/Consortiums",
+              "key": "networks_consortiums"
+            }
+          ],
+          "resourceAccess": {
+            "notes": "Information regarding the antibodies is free, however, users will be redirected to the Developmental Studies Hybridoma Bank for purchasing.",
+            "type": "open"
+          }
+        },
+        "sort": [
+          "clinical proteomic tumor analysis consortium (cptac) antibody portal"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "177",
+        "_score": null,
+        "_source": {
+          "website": "https://assays.cancer.gov",
+          "docs": [
+            {
+              "label": "Center for Strategic Scientific Initiatives (CSSI)",
+              "key": "cssi"
+            },
+            {
+              "label": "Office of Cancer Clinical Proteomics Research (OCCPR)",
+              "key": "occpr"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Omics",
+              "key": "cancer_omics"
+            },
+            {
+              "label": "Cancer Biology",
+              "key": "cancer_biology"
+            },
+            {
+              "label": "Cancer Diagnosis",
+              "key": "cancer_diagnosis"
+            }
+          ],
+          "description": "<p>The CPTAC Assay Portal serves as a centralized public repository of \u201Cfit-for-purpose,\u201D multiplexed quantitative mass spectrometry-based proteomic targeted assays.</p>",
+          "id": 177,
+          "pocs": [
+            {
+              "phone": "240-781-3339",
+              "name": {
+                "firstname": "Chris",
+                "suffix": "Ph.D.",
+                "lastname": "Kinsingee"
+              },
+              "title": "Program Director",
+              "email": "kinsingc@mail.nih.gov"
+            }
+          ],
+          "title": "Clinical Proteomic Tumor Analysis Consortium (CPTAC) Assay Portal",
+          "researchTypes": [
+            {
+              "label": "Basic",
+              "key": "basic"
+            },
+            {
+              "label": "Translational",
+              "key": "translational"
+            }
+          ],
+          "body": "<p>The CPTAC Assay Portal is a repository of highly characterized proteomic assays, standard operating procedures, and assay characterization/validation data in support of the National Institutes of Health\u2019s Rigor and Reproducibility Principles and Guidelines. Upon entering the assay portal, users can search for an assay by entering a protein or peptide name, or they can filter assays by selecting the drop-down tab on the left side of the page. Each assay has background information along with a protein map, assay details, publication information, assay parameters, chromatograms, response curves, and repeatability measures. Additional resources include the standard operating procedures and instructions for viewing the peptide or protein in Panorama.</p>",
+          "toolTypes": [
+            {
+              "label": "Lab Tools",
+              "key": "lab_tools"
+            },
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            },
+            {
+              "label": "Networks/Consortiums",
+              "key": "networks_consortiums"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "clinical proteomic tumor analysis consortium (cptac) assay portal"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "241",
+        "_score": null,
+        "_source": {
+          "website": "https://www.cancer.gov/about-nci/organization/crs/research-initiatives/team-science-field-guide",
+          "docs": [
+            {
+              "label": "Center for Research Strategy (CCR)",
+              "key": "ccr"
+            }
+          ],
+          "researchAreas": [
+          ],
+          "description": "<p>Collaboration and Team Science: A Field Guide is a free resource that provides practical tools and information to help your research teams collaborate most effectively. For nearly a decade, the Field Guide has served as a valuable resource for scientists leading, building, learning about, and participating in a research team.</p>",
+          "id": 241,
+          "pocs": [
+            {
+              "phone": "240-781-3290",
+              "name": {
+              },
+              "email": "NCICRS@nih.gov"
+            }
+          ],
+          "title": "Collaboration and Team Science: A Field Guide",
+          "body": "<p><em>Collaboration and Team Science: A Field Guide</em> was first published in 2010. Institutional leaders have used it to help guide change at an organizational level, shifting research culture from a primary investigator-initiated focus to one that embraces collaborative and cross-cutting efforts across disciplinary dedicated departments.</p>\n<p>For nearly a decade, the <em>Field Guide</em> has served as a valuable resource for:</p>\n<ul>\n<li>Scientists participating in or leading a research team</li>\n<li>Researchers becoming involved in or building a research team</li>\n<li>Graduate courses and programs designed to focus on or integrate team science and interdisciplinary research into their learning and using it as a base text</li>\n<li>Faculty development offices who have provided it to faculty to enhance their understanding of working collaboratively and for their professional growth</li>\n</ul>\n<p>The original research foundation for the <em>Field Guide</em> was conducted with research teams at the NIH, and includes topics such as creating a shared vision, building and sustaining trust, team evolution, handling conflict, and leadership.</p>\n<p>Since its publication, the authors have had opportunities to travel nationally and internationally to conduct workshops and give lectures, as well as work with and learn from individuals, teams, and organizations. The learning from these experiences is reflected in this second edition of Collaboration and Team Science: A Field Guide.</p>",
+          "researchTypes": [
+          ],
+          "toolTypes": [
+            {
+              "label": "Networks/Consortiums",
+              "key": "networks_consortiums"
+            },
+            {
+              "label": "Training Resources",
+              "key": "training_resources"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "collaboration and team science: a field guide"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "210",
+        "_score": null,
+        "_source": {
+          "website": "https://ctep.cancer.gov/protocolDevelopment/electronic_applications/ctc.htm",
+          "docs": [
+            {
+              "label": "Division of Cancer Treatment and Diagnosis (DCTD)",
+              "key": "dctd"
+            }
+          ],
+          "researchAreas": [
+          ],
+          "description": "<p>The NCI CTCAE is a descriptive terminology which can be utilized for adverse event (AE) reporting.</p>",
+          "id": 210,
+          "pocs": [
+          ],
+          "title": "Common Terminology Criteria for Adverse Events (CTCAE)",
+          "body": "<p>A grading (severity) scale is provided for each AE term. The page includes resources for CTCAE v 5.0 and earlier.</p>",
+          "researchTypes": [
+          ],
+          "toolTypes": [
+            {
+              "label": "Clinical Research Tools",
+              "key": "clinical_research_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "common terminology criteria for adverse events (ctcae)"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "57",
+        "_score": null,
+        "_source": {
+          "website": "https://dtp.cancer.gov/dtpstandard/subsets/comp.jsp",
+          "docs": [
+            {
+              "label": "Division of Cancer Treatment and Diagnosis (DCTD)",
+              "key": "dctd"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Biology",
+              "key": "cancer_biology"
+            },
+            {
+              "label": "Bioinformatics",
+              "key": "bioinformatics"
+            },
+            {
+              "label": "Cancer Treatment",
+              "key": "cancer_treatment"
+            }
+          ],
+          "description": "<p>This data set offers compound sensitivity data for the NCI-60 screen and similar screens run on sarcoma cell lines and small cell lung cancer cell lines.</p>",
+          "id": 57,
+          "pocs": [
+          ],
+          "title": "Compound inhibition Bulk Data Download",
+          "researchTypes": [
+            {
+              "label": "Basic",
+              "key": "basic"
+            },
+            {
+              "label": "Clinical Trials",
+              "key": "clinical_trials"
+            },
+            {
+              "label": "Translational",
+              "key": "translational"
+            }
+          ],
+          "body": "<p>Compound sensitivity data for the NCI-60 screen and similar screens run on sarcoma cell lines and small cell lung cancer cell lines.</p>",
+          "toolTypes": [
+            {
+              "label": "Datasets & Databases",
+              "key": "datasets_databases"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "compound inhibition bulk data download"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "174",
+        "_score": null,
+        "_source": {
+          "website": "https://dceg.cancer.gov/tools/design/charred",
+          "docs": [
+            {
+              "label": "Division of Cancer Epidemiology and Genetics (DCEG)",
+              "key": "dceg"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Causes of Cancer",
+              "key": "causes_of_cancer"
+            }
+          ],
+          "description": "<p>CHARRED is a software application used to estimate intake of the mutagenic compounds in cooked meats.</p>",
+          "id": 174,
+          "pocs": [
+            {
+              "name": {
+              },
+              "email": "charredhelp@imsweb.com"
+            },
+            {
+              "name": {
+              },
+              "email": "ncicontactdceg@mail.nih.gov"
+            }
+          ],
+          "title": "Computerized Heterocyclic Amines Resource for Research in Epidemiology of Disease (CHARRED)",
+          "researchTypes": [
+            {
+              "label": "Epidemiologic",
+              "key": "epidemiologic"
+            }
+          ],
+          "body": "<p>Diets containing substantial amounts of red meat may increase the risk of various types of cancer. The association with red meat intake may be due to a combination of factors, such as content of fat, protein, and iron, and/or meat preparation (e.g. cooking or preserving methods). Experimental studies have shown that meats cooked at high temperatures contain heterocyclic amines (HCAs) and polycyclic aromatic hydrocarbons (PAHs), which are mutagenic and carcinogenic in animals. To estimate intake of these meat-cooking mutagens, a detailed meat cooking module within a Food Frequency Questionnaire in conjunction with a mutagen database was developed. Charred is a software application to estimate intake of the mutagenic compounds in cooked meats.</p>",
+          "toolTypes": [
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "computerized heterocyclic amines resource for research in epidemiology of disease (charred)"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "226",
+        "_score": null,
+        "_source": {
+          "website": "https://www.chtn.org/",
+          "docs": [
+            {
+              "label": "Division of Cancer Treatment and Diagnosis (DCTD)",
+              "key": "dctd"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Treatment",
+              "key": "cancer_treatment"
+            },
+            {
+              "label": "Causes of Cancer",
+              "key": "causes_of_cancer"
+            },
+            {
+              "label": "Cancer Diagnosis",
+              "key": "cancer_diagnosis"
+            },
+            {
+              "label": "Screening & Detection",
+              "key": "screening_detection"
+            },
+            {
+              "label": "Cancer Health Disparities",
+              "key": "cancer_health_disparities"
+            }
+          ],
+          "description": "<p>The CHTN is a unique NCI-supported resource that provides human tissues and fluids from routine procedures to investigators who utilize human biospecimens in their research. Unlike tissue banks, the CHTN works prospectively with each investigator to tailor specimen acquisition and processing to meet their specific project requirements.</p>",
+          "id": 226,
+          "pocs": [
+            {
+              "phone": "(440) 477-5952",
+              "name": {
+                "firstname": "Nicole",
+                "lastname": "Bollinger"
+              },
+              "title": "Central Coordinator",
+              "email": "nbollinger@chtn.org"
+            }
+          ],
+          "title": "Cooperative Human Tissue Network (CHTN)",
+          "researchTypes": [
+            {
+              "label": "Clinical",
+              "key": "clinical"
+            },
+            {
+              "label": "Basic",
+              "key": "basic"
+            }
+          ],
+          "body": "<p>The CHTN is a unique NCI-supported resource that provides human tissues and fluids from routine procedures to investigators who utilize human biospecimens in their research. Unlike tissue banks, the CHTN works prospectively with each investigator to tailor specimen acquisition and processing to meet their specific project requirements.</p>",
+          "toolTypes": [
+            {
+              "label": "Lab Tools",
+              "key": "lab_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "cooperative human tissue network (chtn)"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "242",
+        "_score": null,
+        "_source": {
+          "website": "https://brb.nci.nih.gov/d3oncoprint/",
+          "docs": [
+          ],
+          "researchAreas": [
+          ],
+          "description": "<p>D3Oncoprint is a standalone software program used to visualize and dynamically explore annotated genomic mutation files.</p>",
+          "id": 242,
+          "pocs": [
+            {
+              "phone": "240-276-6484",
+              "name": {
+                "firstname": "Alida",
+                "prefix": "Dr.",
+                "lastname": "Palmisano"
+              },
+              "email": "alida.palmisano@nih.gov"
+            }
+          ],
+          "title": "D3Oncoprint",
+          "researchTypes": [
+            {
+              "label": "Basic",
+              "key": "basic"
+            },
+            {
+              "label": "Translational",
+              "key": "translational"
+            }
+          ],
+          "body": "<p>D3Oncoprint is a standalone software program used to visualize and dynamically explore annotated genomic mutation files. D3Oncoprint provides access to curated variants lists from CIViC, My Cancer Genome, and FDA-approved drug indication listings to facilitate the use of genomic data for biomedical discovery and application. D3Oncoprint also includes curated gene lists to explore commonly investigated biological processes (e.g., BioCarta pathways, FoundationOne cancer panels). Our software provides a flexible environment to dynamically explore the variant mutation profiles provided as input. The focus on interactive visualization with biological and medical annotation significantly lowers the barriers between complex genomic data biomedical investigators. We hope that this resource provides an important means of empowering researchers to translate the information from the collected data sets to biological insights and clinical applications.</p>",
+          "toolTypes": [
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "d3oncoprint"
+        ]
+      }
+    ]
+  }
+}

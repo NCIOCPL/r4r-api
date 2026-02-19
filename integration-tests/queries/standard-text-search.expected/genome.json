@@ -1,0 +1,1124 @@
+{
+  "took": 27,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 46,
+      "relation": "eq"
+    },
+    "max_score": null,
+    "hits": [
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "100",
+        "_score": null,
+        "_source": {
+          "website": "https://www.bioconductor.org",
+          "docs": [
+            {
+              "label": "Informatics Technology for Cancer Research (ITCR)",
+              "key": "itcr"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Omics",
+              "key": "cancer_omics"
+            }
+          ],
+          "description": "<p>Bioconductor provides tools for the analysis and comprehension of high-throughput genomic data. R/Bioconductor will be enhanced to meet the increasing complexity of multiassay cancer genomics experiments.</p>",
+          "id": 100,
+          "pocs": [
+          ],
+          "title": "Bioconductor",
+          "researchTypes": [
+            {
+              "label": "Basic",
+              "key": "basic"
+            }
+          ],
+          "body": "<p>Bioconductor provides tools for the analysis and comprehension of high-throughput genomic data. R/Bioconductor will be enhanced to meet the increasing complexity of multiassay cancer genomics experiments.</p>",
+          "toolTypes": [
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "bioconductor"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "67",
+        "_score": null,
+        "_source": {
+          "website": "https://hive.biochemistry.gwu.edu/biomuta",
+          "docs": [
+            {
+              "label": "Informatics Technology for Cancer Research (ITCR)",
+              "key": "itcr"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Omics",
+              "key": "cancer_omics"
+            }
+          ],
+          "description": "<p>BioMuta is an annotated single-nucleotide variation (SNV) and disease association database in which variations are mapped to positions at genome, protein, and gene levels. The current database contains a total of 4,684,236 nonsynonymous SNVs (nsSNVs) reported in 18,269 genes across 77 Disease Ontology cancer types.</p>",
+          "id": 67,
+          "pocs": [
+          ],
+          "title": "BioMuta",
+          "researchTypes": [
+            {
+              "label": "Basic",
+              "key": "basic"
+            }
+          ],
+          "body": "<p>BioMuta is an annotated SNV and disease association database in which variations are mapped to positions at genome, protein, and gene levels. The current BioMuta database (BioMuta v3.0) contains a total of 4,684,236 nsSNVs reported in 18,269 genes across 77 Disease Ontology cancer types. A small number of variants were added to BioMuta following manual literature review of PubMed abstracts.</p>",
+          "toolTypes": [
+            {
+              "label": "Datasets & Databases",
+              "key": "datasets_databases"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "biomuta"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "134",
+        "_score": null,
+        "_source": {
+          "website": "https://ocg.cancer.gov/programs/cgci/data-matrix",
+          "docs": [
+            {
+              "label": "Center for Cancer Genomics (CCG)",
+              "key": "ccg"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Biology",
+              "key": "cancer_biology"
+            },
+            {
+              "label": "Cancer Omics",
+              "key": "cancer_omics"
+            },
+            {
+              "label": "Cancer Treatment",
+              "key": "cancer_treatment"
+            }
+          ],
+          "description": "<p>The CGCI Data Matrix hosts genomic profiles (molecular characterization and sequence data) and clinical data for rare adult and  pediatric tumor types.</p>",
+          "id": 134,
+          "pocs": [
+            {
+              "name": {
+              },
+              "email": "ocg@mail.nih.gov"
+            }
+          ],
+          "title": "Cancer Genome Characterization Initiative (CGCI) Data Matrix",
+          "researchTypes": [
+            {
+              "label": "Basic",
+              "key": "basic"
+            },
+            {
+              "label": "Translational",
+              "key": "translational"
+            }
+          ],
+          "body": "<p>CGCI Data Matrix contains whole-genome and transcriptomic sequencing from Burkitt lymphoma, HIV- associated tumors, medulloblastoma, and non-Hodgkin lymphoma types of cancers. Researchers can access up to four levels of data, from primary through higher level summary data for the molecular platform employed. To protect the privacy of patients, some clinical and genetic data require approval to access through NCBI\u2019s database for Genotypes and Phenotypes (dbGAP; <a href=\"http://www.ncbi.nlm.nih.gov/gap\">http://www.ncbi.nlm.nih.gov/gap</a>).</p>",
+          "toolTypes": [
+            {
+              "label": "Datasets & Databases",
+              "key": "datasets_databases"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "cancer genome characterization initiative (cgci) data matrix"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "5",
+        "_score": null,
+        "_source": {
+          "website": "http://cancer.digitalslidearchive.net",
+          "docs": [
+            {
+              "label": "Informatics Technology for Cancer Research (ITCR)",
+              "key": "itcr"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Diagnosis",
+              "key": "cancer_diagnosis"
+            }
+          ],
+          "description": "<p>The CDSA is a web-based platform to support the sharing, management, and analysis of digital pathology data.</p>",
+          "id": 5,
+          "pocs": [
+          ],
+          "title": "Cancer Slide Digital Archive (CDSA)",
+          "researchTypes": [
+            {
+              "label": "Translational",
+              "key": "translational"
+            },
+            {
+              "label": "Basic",
+              "key": "basic"
+            }
+          ],
+          "body": "<p>The CDSA is a web-based platform to support the sharing, management, and analysis of digital pathology data. Emory University  currently hosts over 23,000 images from The Cancer Genome Atlas, and the software is being developed within the Informatics Technology for Cancer Research (ITCR) grant to be deployable as a digital pathology platform for other labs and cancer institutes.</p>",
+          "toolTypes": [
+            {
+              "label": "Datasets & Databases",
+              "key": "datasets_databases"
+            },
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "cancer slide digital archive (cdsa)"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "135",
+        "_score": null,
+        "_source": {
+          "website": "https://ocg.cancer.gov/programs/ctd2/data-portal",
+          "docs": [
+            {
+              "label": "Center for Cancer Genomics (CCG)",
+              "key": "ccg"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Biology",
+              "key": "cancer_biology"
+            },
+            {
+              "label": "Cancer Omics",
+              "key": "cancer_omics"
+            },
+            {
+              "label": "Cancer Treatment",
+              "key": "cancer_treatment"
+            }
+          ],
+          "description": "<p>CTD^2 Data Portal provides access to raw and analyzed primary data generated from different types of experimental and analytical approaches.</p>",
+          "id": 135,
+          "pocs": [
+            {
+              "name": {
+              },
+              "email": "ocg@mail.nih.gov"
+            }
+          ],
+          "title": "Cancer Target Discovery and Development (CTD^2) Data Portal",
+          "researchTypes": [
+            {
+              "label": "Basic",
+              "key": "basic"
+            },
+            {
+              "label": "Translational",
+              "key": "translational"
+            }
+          ],
+          "body": "<p>The CTD^2 Network aims to understand tumor heterogeneity and drug resistance for the development of efficient strategies to identify optimal combinations of small molecules or immunotherapy with small molecules. The CTD^2 Data Portal provides access to raw and analyzed primary data generated from different types of approaches, e.g., chemical genetics (small molecules, natural products), genome-wide gain-of-function (cDNA expression libraries, CRISPR activation), genome-wide loss-of-function (siRNA, shRNA, CRISPR/Cas9, CRISPR interference), protein\u2013protein interactions, and in vivo gain- and loss-of-function studies.</p>",
+          "toolTypes": [
+            {
+              "label": "Datasets & Databases",
+              "key": "datasets_databases"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "cancer target discovery and development (ctd^2) data portal"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "25",
+        "_score": null,
+        "_source": {
+          "website": "http://www.cbioportal.org",
+          "docs": [
+            {
+              "label": "Informatics Technology for Cancer Research (ITCR)",
+              "key": "itcr"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Omics",
+              "key": "cancer_omics"
+            }
+          ],
+          "description": "<p>The cBioPortal for cancer genomics provides visualization, analysis and download of large-scale cancer genomics datasets.</p>",
+          "id": 25,
+          "pocs": [
+          ],
+          "title": "cBioPortal for Cancer Genomics",
+          "researchTypes": [
+            {
+              "label": "Basic",
+              "key": "basic"
+            }
+          ],
+          "body": "<p>The cBioPortal for cancer genomics provides visualization, analysis and download of large-scale cancer genomics data sets.</p>",
+          "toolTypes": [
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "cbioportal for cancer genomics"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "128",
+        "_score": null,
+        "_source": {
+          "website": "https://depmap.org/ceres/",
+          "docs": [
+            {
+              "label": "Center for Cancer Genomics (CCG)",
+              "key": "ccg"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Biology",
+              "key": "cancer_biology"
+            },
+            {
+              "label": "Cancer Omics",
+              "key": "cancer_omics"
+            }
+          ],
+          "description": "<p>CERES is a method to infer gene essentiality from genome-wide CRISPR-Cas9 screens in cancer cell lines to correct the copy number effect. This approach decreases the false-positive results while taking into account the anti-proliferative copy-number effect.</p>",
+          "id": 128,
+          "pocs": [
+            {
+              "name": {
+                "firstname": "David",
+                "lastname": "Quigley"
+              },
+              "email": "David.Quigley@ucsf.edu"
+            }
+          ],
+          "title": "CERES",
+          "researchTypes": [
+            {
+              "label": "Basic",
+              "key": "basic"
+            },
+            {
+              "label": "Translational",
+              "key": "translational"
+            }
+          ],
+          "body": "<p>Studies have shown that genome-wide CRISPR-Cas9 inactivation of genes that are amplified need different analytical approaches for interpretation of the results. The Cas9 induces double strand breaks which lead to false-positive results. A computational method, CERES was developed for inferring gene essentiality from genome-wide CRISPR-Cas9 screens in cancer cell lines to correct the copy number effect. This approach decreases the false-positive results while taking into account the anti-proliferative copy-number effect.</p>",
+          "toolTypes": [
+            {
+              "label": "Lab Tools",
+              "key": "lab_tools"
+            },
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "ceres"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "262",
+        "_score": null,
+        "_source": {
+          "website": "https://moleculartargets.ccdi.cancer.gov",
+          "docs": [
+            {
+              "label": "Center for Biomedical Informatics and Informatics Technology (CBIIT)",
+              "key": "cbiit"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Treatment",
+              "key": "cancer_treatment"
+            },
+            {
+              "label": "Cancer Biology",
+              "key": "cancer_biology"
+            },
+            {
+              "label": "Cancer Omics",
+              "key": "cancer_omics"
+            },
+            {
+              "label": "Screening & Detection",
+              "key": "screening_detection"
+            }
+          ],
+          "description": "<p>The CCDI MTP allows researchers to browse and identify associations between molecular targets, diseases, and drugs specific for childhood cancers.</p>",
+          "id": 262,
+          "pocs": [
+            {
+              "phone": "240-781-3325",
+              "name": {
+                "firstname": "Subhashini",
+                "lastname": "Jagu"
+              },
+              "email": "jagus@nih.gov"
+            }
+          ],
+          "title": "Childhood Cancer Data Initiative (CCDI) Molecular Targets Platform (MTP)",
+          "researchTypes": [
+            {
+              "label": "Basic",
+              "key": "basic"
+            },
+            {
+              "label": "Translational",
+              "key": "translational"
+            },
+            {
+              "label": "Clinical Trials",
+              "key": "clinical_trials"
+            }
+          ],
+          "body": "<p>The CCDI MTP is a knowledge base that extracts, organizes, annotates, and links to data on childhood cancers. This tool allows researchers to browse and identify associations between molecular targets, diseases, and drugs and can be used for systematic identification and prioritization of the pediatric molecular target list. This tool allows comparisons of childhood datasets with tabular and graphic visualizations of genomic data and facilitates prioritization of targets by reducing the time spent monitoring and organizing scientific and medical literature.</p>",
+          "toolTypes": [
+            {
+              "label": "Datasets & Databases",
+              "key": "datasets_databases"
+            },
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "childhood cancer data initiative (ccdi) molecular targets platform (mtp)"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "166",
+        "_score": null,
+        "_source": {
+          "website": "https://civic.genome.wustl.edu/home",
+          "docs": [
+            {
+              "label": "Informatics Technology for Cancer Research (ITCR)",
+              "key": "itcr"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Omics",
+              "key": "cancer_omics"
+            }
+          ],
+          "description": "<p>CIViC is a community-driven web resource that enables precision medicine by providing an educational forum for dissemination of knowledge and active discussion of the clinical significance of cancer genome alterations.</p>",
+          "id": 166,
+          "pocs": [
+          ],
+          "title": "Clinical Interpretation of Variants in Cancer (CIViC) Knowledgebase",
+          "researchTypes": [
+            {
+              "label": "Translational",
+              "key": "translational"
+            }
+          ],
+          "body": "<p>CIViC is an open access, open source, community-driven web resource for Clinical Interpretation of Variants in Cancer. Our goal is to enable precision medicine by providing an educational forum for dissemination of knowledge and active discussion of the clinical significance of cancer genome alterations.</p>",
+          "toolTypes": [
+            {
+              "label": "Datasets & Databases",
+              "key": "datasets_databases"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "clinical interpretation of variants in cancer (civic) knowledgebase"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "175",
+        "_score": null,
+        "_source": {
+          "website": "https://proteomics.cancer.gov/data-portal",
+          "docs": [
+            {
+              "label": "Center for Strategic Scientific Initiatives (CSSI)",
+              "key": "cssi"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Omics",
+              "key": "cancer_omics"
+            }
+          ],
+          "description": "<p>CPTAC analyzes cancer biospecimens by mass spectrometry, characterizing and quantifying their constituent proteins, or proteome. The CPTAC Data Portal is the centralized repository for the dissemination of proteomic data collected by the Proteome Characterization Centers (PCCs).</p>",
+          "id": 175,
+          "pocs": [
+          ],
+          "title": "Clinical Proteomic Tumor Analysis Consortium (CPTAC) Data Portal",
+          "researchTypes": [
+            {
+              "label": "Basic",
+              "key": "basic"
+            }
+          ],
+          "body": "<p>The Data Portal hosts the mass spectrometry data from the CPTAC program. A key component is the proteogenomic profiling of patient tumors, such as those from the breast, colorectal, and ovarian cancer programs in The Cancer Genome Atlas (TCGA). The portal also hosts data from completed programs and external studies.\nThe CPTAC program is the main data generator of the hosted data. Additional datasets from other programs such as APOLLO and ICPC are anticipated in the future.</p>",
+          "toolTypes": [
+            {
+              "label": "Datasets & Databases",
+              "key": "datasets_databases"
+            },
+            {
+              "label": "Networks/Consortiums",
+              "key": "networks_consortiums"
+            }
+          ],
+          "resourceAccess": {
+            "notes": "Subject to Data Use Agreement",
+            "type": "open"
+          }
+        },
+        "sort": [
+          "clinical proteomic tumor analysis consortium (cptac) data portal"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "160",
+        "_score": null,
+        "_source": {
+          "website": "http://www.addgene.org/crispr/qi-weissman/",
+          "docs": [
+            {
+              "label": "Center for Cancer Genomics (CCG)",
+              "key": "ccg"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Biology",
+              "key": "cancer_biology"
+            },
+            {
+              "label": "Cancer Omics",
+              "key": "cancer_omics"
+            }
+          ],
+          "description": "<p>The CRISPR toolbox allows  for the precise regulation of gene expression in eukaryotic cells.</p>",
+          "id": 160,
+          "pocs": [
+            {
+              "name": {
+              },
+              "email": "ocg@mail.nih.gov"
+            }
+          ],
+          "title": "Clustered Regularly Interspaced Short Palindromic Repeats (CRISPRi) plasmids",
+          "researchTypes": [
+            {
+              "label": "Basic",
+              "key": "basic"
+            },
+            {
+              "label": "Translational",
+              "key": "translational"
+            }
+          ],
+          "body": "<p>CTD^2 researchers at the University of California, San Francisco developed a modified  CRISPR/dCas9 system. Catalytically inactive dCas9 enables modular and programmable RNA-guided genome regulation in eukaryotes. The CRISPR/dCas9 system has several advantages.  It enables robust gene interference (CRISPRi) or activation (CRISPRa) in human cells, allows specific knockdown with minimal off-target effects in human cells,  works efficiently in human and yeast cells, and does not cause double-strand breaks.</p>",
+          "toolTypes": [
+            {
+              "label": "Lab Tools",
+              "key": "lab_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "clustered regularly interspaced short palindromic repeats (crispri) plasmids"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "107",
+        "_score": null,
+        "_source": {
+          "website": "http://cran.us.r-project.org/web/packages/CORE/",
+          "docs": [
+            {
+              "label": "Informatics Technology for Cancer Research (ITCR)",
+              "key": "itcr"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Omics",
+              "key": "cancer_omics"
+            },
+            {
+              "label": "Cancer Biology",
+              "key": "cancer_biology"
+            }
+          ],
+          "description": "<p>CORE is a statistically supported computational method for finding recurrently targeted regions in massive collections of genomic intervals, such as those arising from DNA copy number analysis of single tumor cells or bulk tumor tissues.</p>",
+          "id": 107,
+          "pocs": [
+          ],
+          "title": "Cores Of Recurrent Events (CORE)",
+          "researchTypes": [
+            {
+              "label": "Basic",
+              "key": "basic"
+            },
+            {
+              "label": "Translational",
+              "key": "translational"
+            }
+          ],
+          "body": "<p>CORE is a statistically supported computational method for finding recurrently targeted regions in massive collections of genomic intervals, such as those arising from DNA copy number analysis of single tumor cells or bulk tumor tissues.</p>",
+          "toolTypes": [
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "cores of recurrent events (core)"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "242",
+        "_score": null,
+        "_source": {
+          "website": "https://brb.nci.nih.gov/d3oncoprint/",
+          "docs": [
+          ],
+          "researchAreas": [
+          ],
+          "description": "<p>D3Oncoprint is a standalone software program used to visualize and dynamically explore annotated genomic mutation files.</p>",
+          "id": 242,
+          "pocs": [
+            {
+              "phone": "240-276-6484",
+              "name": {
+                "firstname": "Alida",
+                "prefix": "Dr.",
+                "lastname": "Palmisano"
+              },
+              "email": "alida.palmisano@nih.gov"
+            }
+          ],
+          "title": "D3Oncoprint",
+          "researchTypes": [
+            {
+              "label": "Basic",
+              "key": "basic"
+            },
+            {
+              "label": "Translational",
+              "key": "translational"
+            }
+          ],
+          "body": "<p>D3Oncoprint is a standalone software program used to visualize and dynamically explore annotated genomic mutation files. D3Oncoprint provides access to curated variants lists from CIViC, My Cancer Genome, and FDA-approved drug indication listings to facilitate the use of genomic data for biomedical discovery and application. D3Oncoprint also includes curated gene lists to explore commonly investigated biological processes (e.g., BioCarta pathways, FoundationOne cancer panels). Our software provides a flexible environment to dynamically explore the variant mutation profiles provided as input. The focus on interactive visualization with biological and medical annotation significantly lowers the barriers between complex genomic data biomedical investigators. We hope that this resource provides an important means of empowering researchers to translate the information from the collected data sets to biological insights and clinical applications.</p>",
+          "toolTypes": [
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "d3oncoprint"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "4",
+        "_score": null,
+        "_source": {
+          "website": "http://www.bioconductor.org/packages/release/bioc/html/diggit.html",
+          "docs": [
+            {
+              "label": "Center for Cancer Genomics (CCG)",
+              "key": "ccg"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Biology",
+              "key": "cancer_biology"
+            },
+            {
+              "label": "Cancer Omics",
+              "key": "cancer_omics"
+            },
+            {
+              "label": "Cancer Treatment",
+              "key": "cancer_treatment"
+            }
+          ],
+          "description": "<p>DIGGIT is a bioconductor package for identifying genetic variants that lie upstream of master regulators and drive cellular phenotypes.</p>",
+          "id": 4,
+          "pocs": [
+            {
+              "name": {
+                "firstname": "Aristidis",
+                "lastname": "Floratos"
+              },
+              "email": "af2202@cumc.columbia.edu"
+            },
+            {
+              "name": {
+                "firstname": "Andrea",
+                "lastname": "Califano"
+              },
+              "email": "ac2248@cumc.columbia.edu"
+            }
+          ],
+          "title": "Driver-gene Inference by Genetical-Genomics and Information Theory (DIGGIT)",
+          "researchTypes": [
+            {
+              "label": "Translational",
+              "key": "translational"
+            }
+          ],
+          "body": "<p>Genomic alterations that contribute to aberrant master regulator (MR) activity must be upstream of the MR, although the specific pathways involved may not be known. Master regulators are transcription factors that control the majority of genes differentially expressed between two molecular phenotypes. The DIGGIT package integrates patient-matched genomic mutation and gene expression data with corresponding gene regulatory networks to identify candidate driver mutations that are upstream of and directly perturb master regulators.</p>",
+          "toolTypes": [
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "driver-gene inference by genetical-genomics and information theory (diggit)"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "13",
+        "_score": null,
+        "_source": {
+          "website": "http://galaxyp.org",
+          "docs": [
+            {
+              "label": "Informatics Technology for Cancer Research (ITCR)",
+              "key": "itcr"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Omics",
+              "key": "cancer_omics"
+            }
+          ],
+          "description": "<p>Galaxy-P is a multi-omics informatics platform\u2014a unified platform for integrative genomic-proteomic-metabolomic data analysis and informatics in cancer research.</p>",
+          "id": 13,
+          "pocs": [
+          ],
+          "title": "Galaxy-P multi-omics",
+          "researchTypes": [
+            {
+              "label": "Basic",
+              "key": "basic"
+            }
+          ],
+          "body": "<p>Galaxy-P is a multi-omics informatics platform\u2014a unified platform for integrative genomic-proteomic-metabolomic data analysis and informatics in cancer research. The focus of the platform is integrative analysis of genomics, transcriptomics, and mass spectrometry-based proteomics and metabolomics data.</p>",
+          "toolTypes": [
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "galaxy-p multi-omics"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "132",
+        "_score": null,
+        "_source": {
+          "website": "https://github.com/olganikolova/gbgfa",
+          "docs": [
+            {
+              "label": "Center for Cancer Genomics (CCG)",
+              "key": "ccg"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Biology",
+              "key": "cancer_biology"
+            },
+            {
+              "label": "Cancer Omics",
+              "key": "cancer_omics"
+            },
+            {
+              "label": "Cancer Treatment",
+              "key": "cancer_treatment"
+            }
+          ],
+          "description": "<p>GBGFA explicitly models gene-centric dependencies when integrating genomic alterations data of the same gene from different platforms (e.g. copy number variation, gene expression and mutation data) to prioritize genes supported by multiple inputs.</p>",
+          "id": 132,
+          "pocs": [
+            {
+              "name": {
+                "firstname": "Olga",
+                "lastname": "Nikolova"
+              },
+              "email": "olga.nikolova@gmail.com"
+            },
+            {
+              "name": {
+              },
+              "email": "nikolova@ohsu.edu"
+            }
+          ],
+          "title": "Gene-wise Prior Bayesian Group Factor Analysis (GBGFA)",
+          "researchTypes": [
+            {
+              "label": "Basic",
+              "key": "basic"
+            },
+            {
+              "label": "Translational",
+              "key": "translational"
+            }
+          ],
+          "body": "<p>GBGFA explicitly models gene-centric dependencies when integrating genomic alterations data of the same gene from different platforms (e.g. copy number variation, gene expression and mutation data) to prioritize genes supported by multiple inputs. The multitask approach of this algorithm provides the ability to leverage similarities in the response profiles of drug groups, that are more likely to correspond to true biological effects.</p>",
+          "toolTypes": [
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "gene-wise prior bayesian group factor analysis (gbgfa)"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "22",
+        "_score": null,
+        "_source": {
+          "website": "http://software.broadinstitute.org/cancer/software/genepattern/",
+          "docs": [
+            {
+              "label": "Informatics Technology for Cancer Research (ITCR)",
+              "key": "itcr"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Omics",
+              "key": "cancer_omics"
+            }
+          ],
+          "description": "<p>GenePattern is a genomic analysis platform that provides access to hundreds of tools for the analysis and visualization of multiple data types.</p>",
+          "id": 22,
+          "pocs": [
+          ],
+          "title": "GenePattern",
+          "researchTypes": [
+            {
+              "label": "Basic",
+              "key": "basic"
+            }
+          ],
+          "body": "<p>GenePattern is a genomic analysis platform that provides access to hundreds of tools for the analysis and visualization of multiple data types. A web-based interface provides easy access to these tools and allows the creation of multi-step analysis pipelines that enable reproducible in silico research. A new GenePattern Notebook environment allows users to combine GenePattern analyses with text, graphics, and code to create complete reproducible research narratives.</p>",
+          "toolTypes": [
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "genepattern"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "187",
+        "_score": null,
+        "_source": {
+          "website": "https://popmodels.cancercontrol.cancer.gov/gsr/",
+          "docs": [
+            {
+              "label": "Division of Cancer Control and Population Sciences (DCCPS)",
+              "key": "dccps"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Omics",
+              "key": "cancer_omics"
+            }
+          ],
+          "description": "<p>The GSR provides a catalogue of existing software packages that simulate genetic data of the human genome.</p>",
+          "id": 187,
+          "pocs": [
+          ],
+          "title": "Genetic Simulation Resources (GSR)",
+          "researchTypes": [
+            {
+              "label": "Epidemiologic",
+              "key": "epidemiologic"
+            },
+            {
+              "label": "Basic",
+              "key": "basic"
+            }
+          ],
+          "body": "<p>Genetic simulation software is an important adjunct to research in genetic epidemiology and statistical genetics. The GSR provides a catalogue of more than 100 existing software packages that simulate genetic data of the human genome. The purpose of the GSR is to help investigators identify the genetic simulator most suitable for their research needs.</p>\n<p>The GSR characterizes applications by many different attributes, including simulation method, type of genetic variation, input/output formats, programming languages, and license information.</p>",
+          "toolTypes": [
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "genetic simulation resources (gsr)"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "110",
+        "_score": null,
+        "_source": {
+          "website": "https://github.com/zhqingit/giremi",
+          "docs": [
+            {
+              "label": "Informatics Technology for Cancer Research (ITCR)",
+              "key": "itcr"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Omics",
+              "key": "cancer_omics"
+            },
+            {
+              "label": "Cancer Biology",
+              "key": "cancer_biology"
+            }
+          ],
+          "description": "<p>GIREMI facilitates identification of single-nucleotide variants in RNA-seq data.</p>",
+          "id": 110,
+          "pocs": [
+          ],
+          "title": "Genome-Independent Identification of RNA Editing by Mutual Information (GIREMI)",
+          "researchTypes": [
+            {
+              "label": "Basic",
+              "key": "basic"
+            }
+          ],
+          "body": "<p>The current version of GIREMI focuses on detection of RNA editing sites without requiring genome sequence data. A new version is under development to separately identify RNA editing sites and genetic variants using RNA-seq data alone.</p>",
+          "toolTypes": [
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "genome-independent identification of rna editing by mutual information (giremi)"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "168",
+        "_score": null,
+        "_source": {
+          "website": "https://gdc.cancer.gov/",
+          "docs": [
+            {
+              "label": "Center for Cancer Genomics (CCG)",
+              "key": "ccg"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Biology",
+              "key": "cancer_biology"
+            },
+            {
+              "label": "Cancer Omics",
+              "key": "cancer_omics"
+            },
+            {
+              "label": "Cancer Treatment",
+              "key": "cancer_treatment"
+            }
+          ],
+          "description": "<p>The GDC is a data sharing platform that provides access to harmonized genomic and de-identified clinical data from various large-scale cancer studies, along with web-based tools for data analysis and visualization.</p>",
+          "id": 168,
+          "pocs": [
+            {
+              "name": {
+                "firstname": "Peggy",
+                "lastname": "Wang"
+              },
+              "email": "peggy.wang@nih.gov"
+            }
+          ],
+          "title": "Genomic Data Commons (GDC)",
+          "researchTypes": [
+            {
+              "label": "Translational",
+              "key": "translational"
+            },
+            {
+              "label": "Clinical Trials",
+              "key": "clinical_trials"
+            },
+            {
+              "label": "Basic",
+              "key": "basic"
+            }
+          ],
+          "body": "<p>The GDC is a research program with a mission to provide the cancer research community with a unified data repository that enables data sharing across cancer genomic studies in support of precision medicine. GDC provides harmonized DNA and RNA sequencing data and other high-quality biospecimen, clinical, and molecular data. Web-based tools supporting fine-grained queries and advanced visualization and pipelines generating DNA sequence variants, mutation analyses, expression analyses, and more are also accessible.</p>",
+          "toolTypes": [
+            {
+              "label": "Datasets & Databases",
+              "key": "datasets_databases"
+            },
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "genomic data commons (gdc)"
+        ]
+      }
+    ]
+  }
+}

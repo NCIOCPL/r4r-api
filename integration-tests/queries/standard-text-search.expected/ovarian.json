@@ -1,0 +1,127 @@
+{
+  "took": 2,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 2,
+      "relation": "eq"
+    },
+    "max_score": null,
+    "hits": [
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "175",
+        "_score": null,
+        "_source": {
+          "website": "https://proteomics.cancer.gov/data-portal",
+          "docs": [
+            {
+              "label": "Center for Strategic Scientific Initiatives (CSSI)",
+              "key": "cssi"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Omics",
+              "key": "cancer_omics"
+            }
+          ],
+          "description": "<p>CPTAC analyzes cancer biospecimens by mass spectrometry, characterizing and quantifying their constituent proteins, or proteome. The CPTAC Data Portal is the centralized repository for the dissemination of proteomic data collected by the Proteome Characterization Centers (PCCs).</p>",
+          "id": 175,
+          "pocs": [
+          ],
+          "title": "Clinical Proteomic Tumor Analysis Consortium (CPTAC) Data Portal",
+          "researchTypes": [
+            {
+              "label": "Basic",
+              "key": "basic"
+            }
+          ],
+          "body": "<p>The Data Portal hosts the mass spectrometry data from the CPTAC program. A key component is the proteogenomic profiling of patient tumors, such as those from the breast, colorectal, and ovarian cancer programs in The Cancer Genome Atlas (TCGA). The portal also hosts data from completed programs and external studies.\nThe CPTAC program is the main data generator of the hosted data. Additional datasets from other programs such as APOLLO and ICPC are anticipated in the future.</p>",
+          "toolTypes": [
+            {
+              "label": "Datasets & Databases",
+              "key": "datasets_databases"
+            },
+            {
+              "label": "Networks/Consortiums",
+              "key": "networks_consortiums"
+            }
+          ],
+          "resourceAccess": {
+            "notes": "Subject to Data Use Agreement",
+            "type": "open"
+          }
+        },
+        "sort": [
+          "clinical proteomic tumor analysis consortium (cptac) data portal"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "261",
+        "_score": null,
+        "_source": {
+          "website": "https://exploregwas.cancer.gov/plco-atlas/#/",
+          "docs": [
+            {
+              "label": "Division of Cancer Epidemiology and Genetics (DCEG)",
+              "key": "dceg"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Causes of Cancer",
+              "key": "causes_of_cancer"
+            }
+          ],
+          "description": "<p>The GWAS Explorer PLCO Atlas is an interactive data sharing tool that enables researchers to search for, visualize, and download aggregated association results from the PLCO genome-wide association analyses (GWAS).</p>",
+          "id": 261,
+          "pocs": [
+            {
+              "phone": "240-760-6518",
+              "name": {
+                "firstname": "Mitchell",
+                "lastname": "Machiela"
+              },
+              "title": "Stadtman Investigator",
+              "email": "mitchell.machiela@nih.gov"
+            }
+          ],
+          "title": "GWAS Explorer PLCO Atlas",
+          "researchTypes": [
+            {
+              "label": "Epidemiologic",
+              "key": "epidemiologic"
+            }
+          ],
+          "body": "<p>The GWAS Explorer PLCO Atlas is as an interactive tool to facilitate data sharing and enables researchers to search for, visualize, and download aggregated association results from the PLCO genome-wide association analyses (GWAS). The Prostate, Lung, Colorectal, Ovarian (PLCO) Cancer Screening Study was a large population-based randomized trial to determine the effects of screening on cancer-related mortality and secondary endpoints in men and women aged 55 to 74. The Atlas includes genotype data of 110,562 PLCO subjects with 200+ phenotypes collected from questionnaires, medical records, cancer registries, and the National Death Index. Descriptive characteristics, annotation of phenotypes, and links to other pertinent genomic resources are available.</p>",
+          "toolTypes": [
+            {
+              "label": "Datasets & Databases",
+              "key": "datasets_databases"
+            },
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "gwas explorer plco atlas"
+        ]
+      }
+    ]
+  }
+}

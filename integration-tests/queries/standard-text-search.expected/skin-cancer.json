@@ -1,0 +1,1135 @@
+{
+  "took": 4,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 128,
+      "relation": "eq"
+    },
+    "max_score": null,
+    "hits": [
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "170",
+        "_score": null,
+        "_source": {
+          "website": "https://dceg.cancer.gov/tools/analysis/apc",
+          "docs": [
+            {
+              "label": "Division of Cancer Epidemiology and Genetics (DCEG)",
+              "key": "dceg"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Causes of Cancer",
+              "key": "causes_of_cancer"
+            }
+          ],
+          "description": "<p>Age Period Cohort Analysis Web Tool is a panel of easy-to-interpret estimable age\u2013period\u2013cohort (APC) functions and corresponding Wald tests in R code that can be accessed through a user-friendly webtool.</p>",
+          "id": 170,
+          "pocs": [
+            {
+              "name": {
+              },
+              "email": "NCIAPCWebToolAdmin@mail.nih.gov"
+            }
+          ],
+          "title": "Age Period Cohort Analysis Web Tool",
+          "researchTypes": [
+            {
+              "label": "Epidemiologic",
+              "key": "epidemiologic"
+            }
+          ],
+          "body": "<p>Age\u2013period\u2013cohort (APC) analysis can inform registry-based studies of cancer incidence and mortality, but concerns about statistical identifiability and interpretability, as well as the learning curves of statistical software packages, have limited its uptake. This tool contains a panel of easy-to-interpret estimable APC functions and corresponding Wald tests in R code that can be accessed through a user-friendly Web tool.</p>",
+          "toolTypes": [
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            }
+          ],
+          "resourceAccess": {
+            "notes": "License Agreement"
+          }
+        },
+        "sort": [
+          "age period cohort analysis web tool"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "75",
+        "_score": null,
+        "_source": {
+          "website": "http://portals.broadinstitute.org/pochetlab/amaretto.html",
+          "docs": [
+            {
+              "label": "Informatics Technology for Cancer Research (ITCR)",
+              "key": "itcr"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Omics",
+              "key": "cancer_omics"
+            },
+            {
+              "label": "Causes of Cancer",
+              "key": "causes_of_cancer"
+            }
+          ],
+          "description": "<p>AMARETTO is an algorithm that integrates copy number, DNA methylation, and gene expression data to identify a set of driver genes by analyzing cancer samples and connects them to clusters of co-expressed genes.</p>",
+          "id": 75,
+          "pocs": [
+          ],
+          "title": "AMARETTO",
+          "researchTypes": [
+            {
+              "label": "Basic",
+              "key": "basic"
+            }
+          ],
+          "body": "<p>AMARETTO is for multi-omics data fusion and reformulations for pan-etiology and pan-cancer applications. AMARETTO is an algorithm that integrates copy number, DNA methylation, and gene expression data to identify a set of driver genes by analyzing cancer samples and connects them to clusters of co-expressed genes.</p>",
+          "toolTypes": [
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "amaretto"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "83",
+        "_score": null,
+        "_source": {
+          "website": "https://seer.cancer.gov/report_to_nation/",
+          "docs": [
+            {
+              "label": "Division of Cancer Control and Population Sciences (DCCPS)",
+              "key": "dccps"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Health Disparities",
+              "key": "cancer_health_disparities"
+            },
+            {
+              "label": "Cancer Survivorship",
+              "key": "cancer_survivorship"
+            },
+            {
+              "label": "Cancer Statistics",
+              "key": "cancer_statistics"
+            }
+          ],
+          "description": "<p>The Annual Report to the Nation is a publication that provides an update of rates for new cases and deaths, as well as trends, for the most common cancers in the United States.</p>",
+          "id": 83,
+          "pocs": [
+            {
+              "phone": "240-276-6836",
+              "name": {
+                "firstname": "Kathy",
+                "lastname": "Cronin"
+              },
+              "title": "Deputy Associate Director, Surveillance Research Program",
+              "email": "cronink@mail.nih.gov"
+            }
+          ],
+          "title": "Annual Report to the Nation on the Status of Cancer",
+          "researchTypes": [
+            {
+              "label": "Epidemiologic",
+              "key": "epidemiologic"
+            }
+          ],
+          "body": "<p>The report includes a special section to highlight a major topic in cancer surveillance. Recent topics include financial toxicity, progress toward Healthy People 2020 objectives, survival, prostate cancer, and molecular subtypes of breast cancer. This is an annual collaboration between NCI, North American Association of Central Cancer Registries, the Centers for Disease Control and Prevention, and the American Cancer Society. The agencies rotate between leading the report. Typically, the trends are by sex and race/ethnicity. The Surveillance, Epidemiology, and End Results (SEER) programwebsite hosts a microsite with summaries, factoids, links, and other shareable resources.</p>",
+          "toolTypes": [
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "annual report to the nation on the status of cancer"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "100",
+        "_score": null,
+        "_source": {
+          "website": "https://www.bioconductor.org",
+          "docs": [
+            {
+              "label": "Informatics Technology for Cancer Research (ITCR)",
+              "key": "itcr"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Omics",
+              "key": "cancer_omics"
+            }
+          ],
+          "description": "<p>Bioconductor provides tools for the analysis and comprehension of high-throughput genomic data. R/Bioconductor will be enhanced to meet the increasing complexity of multiassay cancer genomics experiments.</p>",
+          "id": 100,
+          "pocs": [
+          ],
+          "title": "Bioconductor",
+          "researchTypes": [
+            {
+              "label": "Basic",
+              "key": "basic"
+            }
+          ],
+          "body": "<p>Bioconductor provides tools for the analysis and comprehension of high-throughput genomic data. R/Bioconductor will be enhanced to meet the increasing complexity of multiassay cancer genomics experiments.</p>",
+          "toolTypes": [
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "bioconductor"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "67",
+        "_score": null,
+        "_source": {
+          "website": "https://hive.biochemistry.gwu.edu/biomuta",
+          "docs": [
+            {
+              "label": "Informatics Technology for Cancer Research (ITCR)",
+              "key": "itcr"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Omics",
+              "key": "cancer_omics"
+            }
+          ],
+          "description": "<p>BioMuta is an annotated single-nucleotide variation (SNV) and disease association database in which variations are mapped to positions at genome, protein, and gene levels. The current database contains a total of 4,684,236 nonsynonymous SNVs (nsSNVs) reported in 18,269 genes across 77 Disease Ontology cancer types.</p>",
+          "id": 67,
+          "pocs": [
+          ],
+          "title": "BioMuta",
+          "researchTypes": [
+            {
+              "label": "Basic",
+              "key": "basic"
+            }
+          ],
+          "body": "<p>BioMuta is an annotated SNV and disease association database in which variations are mapped to positions at genome, protein, and gene levels. The current BioMuta database (BioMuta v3.0) contains a total of 4,684,236 nsSNVs reported in 18,269 genes across 77 Disease Ontology cancer types. A small number of variants were added to BioMuta following manual literature review of PubMed abstracts.</p>",
+          "toolTypes": [
+            {
+              "label": "Datasets & Databases",
+              "key": "datasets_databases"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "biomuta"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "6",
+        "_score": null,
+        "_source": {
+          "website": "http://captk.projects.nitrc.org",
+          "docs": [
+            {
+              "label": "Informatics Technology for Cancer Research (ITCR)",
+              "key": "itcr"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Screening & Detection",
+              "key": "screening_detection"
+            },
+            {
+              "label": "Cancer Diagnosis",
+              "key": "cancer_diagnosis"
+            }
+          ],
+          "description": "<p>CaPTk is a tool that facilitates translation of highly sophisticated methods that help researchers gain a comprehensive understanding of the underlying mechanisms of cancer from medical imaging research to the clinic.</p>",
+          "id": 6,
+          "pocs": [
+          ],
+          "title": "Cancer and Phenomics Toolkit (CaPTK)",
+          "researchTypes": [
+            {
+              "label": "Translational",
+              "key": "translational"
+            }
+          ],
+          "body": "<p>CaPTk is a tool that facilitates translation of highly sophisticated methods that help researchers gain a comprehensive understanding of the underlying mechanisms of cancer from medical imaging research to the clinic. It replicates basic interactive functionalities of radiological workstations and is distributed under a Berkeley Software Distribution (BSD)-style license.</p>",
+          "toolTypes": [
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "cancer and phenomics toolkit (captk)"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "229",
+        "_score": null,
+        "_source": {
+          "website": "https://biometry.nci.nih.gov/cdas/",
+          "docs": [
+          ],
+          "researchAreas": [
+          ],
+          "description": "<p>CDAS is a submission and tracking system for data from the National Lung Screening Trial (NLST), the Prostate, Lung, Colorectal and Ovarian (PLCO) Cancer Screening Trial, and the Interactive Diet and Activity Tracking in AARP.</p>",
+          "id": 229,
+          "pocs": [
+          ],
+          "title": "Cancer Data Access System (CDAS)",
+          "body": "<p>CDAS is a website to request data recorded from various research studies, including NLST, PLCO, and the Interactive Diet and Activity Tracking in AARP. For some studies, you may also request images or biospecimens.</p>\n<p>CDAS provides extensive public documentation for each study, including a trial summary, an overview of the data collected, and a searchable database of research projects and publications.</p>\n<p>Researchers interested in obtaining study data may begin a CDAS project for that study. All projects are reviewed by NCI trial leadership.</p>",
+          "researchTypes": [
+          ],
+          "toolTypes": [
+            {
+              "label": "Datasets & Databases",
+              "key": "datasets_databases"
+            }
+          ],
+          "resourceAccess": {
+            "notes": "After registration approval, materials are   available for a limited time.",
+            "type": "register"
+          }
+        },
+        "sort": [
+          "cancer data access system (cdas)"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "180",
+        "_score": null,
+        "_source": {
+          "website": "https://cedcd.nci.nih.gov/",
+          "docs": [
+            {
+              "label": "Division of Cancer Control and Population Sciences (DCCPS)",
+              "key": "dccps"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Causes of Cancer",
+              "key": "causes_of_cancer"
+            }
+          ],
+          "description": "<p>The CEDCD is a searchable database that contains information about cohort studies that follow groups of persons over time for cancer incidence, mortality, and other health outcomes.</p>",
+          "id": 180,
+          "pocs": [
+            {
+              "phone": "240-276-6818",
+              "name": {
+                "firstname": "Joanne",
+                "lastname": "Elena"
+              },
+              "title": "Program Director, Clinical and Translational Epidemiology Branch",
+              "email": "elenajw@mail.nih.gov"
+            }
+          ],
+          "title": "Cancer Epidemiology Descriptive Cohort Database (CEDCD)",
+          "researchTypes": [
+            {
+              "label": "Epidemiologic",
+              "key": "epidemiologic"
+            }
+          ],
+          "body": "<p>The CEDCD contains descriptive information about cohort studies that follow groups of persons over time for cancer incidence, mortality, and other health outcomes. The CEDCD is a searchable database that contains general study information (e.g., eligibility criteria and size), the type of data collected at baseline, cancer sites, number of participants diagnosed with cancer, and biospecimen information. All data included in this database are aggregated for each cohort; there are no individual-level data. The goal of the CEDCD is to facilitate collaboration and highlight the opportunities for research within existing cohort studies.</p>\n<p>Information in the CEDCD has been provided with approval from the cohort principal investigators.</p>",
+          "toolTypes": [
+            {
+              "label": "Datasets & Databases",
+              "key": "datasets_databases"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "cancer epidemiology descriptive cohort database (cedcd)"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "134",
+        "_score": null,
+        "_source": {
+          "website": "https://ocg.cancer.gov/programs/cgci/data-matrix",
+          "docs": [
+            {
+              "label": "Center for Cancer Genomics (CCG)",
+              "key": "ccg"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Biology",
+              "key": "cancer_biology"
+            },
+            {
+              "label": "Cancer Omics",
+              "key": "cancer_omics"
+            },
+            {
+              "label": "Cancer Treatment",
+              "key": "cancer_treatment"
+            }
+          ],
+          "description": "<p>The CGCI Data Matrix hosts genomic profiles (molecular characterization and sequence data) and clinical data for rare adult and  pediatric tumor types.</p>",
+          "id": 134,
+          "pocs": [
+            {
+              "name": {
+              },
+              "email": "ocg@mail.nih.gov"
+            }
+          ],
+          "title": "Cancer Genome Characterization Initiative (CGCI) Data Matrix",
+          "researchTypes": [
+            {
+              "label": "Basic",
+              "key": "basic"
+            },
+            {
+              "label": "Translational",
+              "key": "translational"
+            }
+          ],
+          "body": "<p>CGCI Data Matrix contains whole-genome and transcriptomic sequencing from Burkitt lymphoma, HIV- associated tumors, medulloblastoma, and non-Hodgkin lymphoma types of cancers. Researchers can access up to four levels of data, from primary through higher level summary data for the molecular platform employed. To protect the privacy of patients, some clinical and genetic data require approval to access through NCBI\u2019s database for Genotypes and Phenotypes (dbGAP; <a href=\"http://www.ncbi.nlm.nih.gov/gap\">http://www.ncbi.nlm.nih.gov/gap</a>).</p>",
+          "toolTypes": [
+            {
+              "label": "Datasets & Databases",
+              "key": "datasets_databases"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "cancer genome characterization initiative (cgci) data matrix"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "54",
+        "_score": null,
+        "_source": {
+          "website": "https://cisnet.cancer.gov/",
+          "docs": [
+            {
+              "label": "Division of Cancer Control and Population Sciences (DCCPS)",
+              "key": "dccps"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Health Disparities",
+              "key": "cancer_health_disparities"
+            },
+            {
+              "label": "Screening & Detection",
+              "key": "screening_detection"
+            },
+            {
+              "label": "Cancer Treatment",
+              "key": "cancer_treatment"
+            },
+            {
+              "label": "Cancer Prevention",
+              "key": "cancer_prevention"
+            }
+          ],
+          "description": "<p>CISNET is a consortium of NCI-sponsored investigator who use statistical and simulation modeling to predict the effects of cancer interventions.</p>",
+          "id": 54,
+          "pocs": [
+            {
+              "phone": "240-276-6772",
+              "name": {
+                "firstname": "Eric (Rocky)",
+                "lastname": "Feuer"
+              },
+              "title": "Chief, Statistical Research and Applications Branch, Surveillance Research Program",
+              "email": "feuerr@mail.nih.gov"
+            },
+            {
+              "phone": "240-276-6951",
+              "name": {
+                "firstname": "Susan",
+                "lastname": "Scott"
+              },
+              "title": "Public Health Advisor, Surveillance Research Program",
+              "email": "scotts2@mail.nih.gov"
+            }
+          ],
+          "title": "Cancer Intervention and Surveillance Modeling Network",
+          "researchTypes": [
+            {
+              "label": "Clinical",
+              "key": "clinical"
+            },
+            {
+              "label": "Epidemiologic",
+              "key": "epidemiologic"
+            },
+            {
+              "label": "Translational",
+              "key": "translational"
+            }
+          ],
+          "body": "<p>CISNET is a consortium of NCI-sponsored investigators who use statistical and simulation modeling to examine the potential impacts of prevention, screening, and treatment on cancer incidence and mortality. These models can then project future trends and help determine optimal cancer control strategies. These models can also be used to guide public health research and priorities. Established in 2000, CISNET comprises nine cancer site groups: breast, prostate, colorectal, lung, cervical, gastric, uterine, bladder, and multiple myeloma. Many of the resources generated by the CISNET consortium are freely available on the website. Additionally, CISNET invites inquiries from outside groups regarding collaborations on cancer control issues that are amenable to modeling.</p>",
+          "toolTypes": [
+            {
+              "label": "Networks/Consortiums",
+              "key": "networks_consortiums"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "cancer intervention and surveillance modeling network"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "228",
+        "_score": null,
+        "_source": {
+          "website": "https://cananolab.nci.nih.gov/caNanoLab/#/",
+          "docs": [
+            {
+              "label": "Informatics Technology for Cancer Research (ITCR)",
+              "key": "itcr"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Biology",
+              "key": "cancer_biology"
+            }
+          ],
+          "description": "<p>caNanoLab includes over 1,000 curated nanomaterials relevant in cancer with detailed characterizations and associated nanotechnology protocols and publications. Researchers can perform web-based queries and download reports for re-use and additional analysis.</p>",
+          "id": 228,
+          "pocs": [
+          ],
+          "title": "Cancer Nanotechnology Laboratory (caNanoLab) Portal",
+          "researchTypes": [
+            {
+              "label": "Basic",
+              "key": "basic"
+            }
+          ],
+          "body": "<p>caNanoLab is a data sharing portal designed to facilitate information sharing across the international biomedical nanotechnology research community to expedite and validate the use of nanotechnology in biomedicine.</p>\n<p>caNanoLab provides support for the annotation of nanomaterials with characterizations resulting from physico-chemical <em>in vitro</em> and <em>in vivo</em> assays and the sharing of these characterizations and associated nanotechnology protocols in a secure fashion.</p>",
+          "toolTypes": [
+            {
+              "label": "Lab Tools",
+              "key": "lab_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "register"
+          }
+        },
+        "sort": [
+          "cancer nanotechnology laboratory (cananolab) portal"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "125",
+        "_score": null,
+        "_source": {
+          "website": "https://costprojections.cancer.gov/",
+          "docs": [
+            {
+              "label": "Division of Cancer Control and Population Sciences (DCCPS)",
+              "key": "dccps"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Treatment",
+              "key": "cancer_treatment"
+            },
+            {
+              "label": "Cancer Statistics",
+              "key": "cancer_statistics"
+            },
+            {
+              "label": "Cancer & Public Health",
+              "key": "cancer_public_health"
+            }
+          ],
+          "description": "<p>This website provides tables and graphs showing cancer prevalence and costs of cancer care projected through 2020 by cancer site and for all sites combined.</p>",
+          "id": 125,
+          "pocs": [
+            {
+              "phone": "240-276-6698",
+              "name": {
+                "firstname": "Angela",
+                "lastname": "Mariotto"
+              },
+              "title": "Chief, Data Analytics Branch, Surveillance Research Program",
+              "email": "mariotta@mail.nih.gov"
+            }
+          ],
+          "title": "Cancer Prevalence and Cost of Care Projections",
+          "researchTypes": [
+            {
+              "label": "Epidemiologic",
+              "key": "epidemiologic"
+            }
+          ],
+          "body": "<p>This website provides tables and graphs showing cancer prevalence and costs of cancer care projected through 2020. Using Surveillance, Epidemiology, and End Results (SEER) data for incidence and survival in combination with Census data, the website has prevalence information by cancer site as well as for all sites combined. It also uses Medicare data to calculate the annualized mean net costs of care per patient. Users can see how much cancer care for each type costs the nation as a whole. Graphs have features such as breakdowns by phase of treatment as well.</p>",
+          "toolTypes": [
+            {
+              "label": "Datasets & Databases",
+              "key": "datasets_databases"
+            },
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "cancer prevalence and cost of care projections"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "140",
+        "_score": null,
+        "_source": {
+          "website": "https://seer.cancer.gov/canques/",
+          "docs": [
+            {
+              "label": "Division of Cancer Control and Population Sciences (DCCPS)",
+              "key": "dccps"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Statistics",
+              "key": "cancer_statistics"
+            }
+          ],
+          "description": "<p>CanQues applications provide access to incidence, mortality, survival, and prevalence statistics stored in online databases, as well as the probability of developing or dying from cancer.</p>",
+          "id": 140,
+          "pocs": [
+            {
+              "phone": "240-276-6698",
+              "name": {
+                "firstname": "Angela",
+                "lastname": "Mariotto"
+              },
+              "title": "Chief, Data Analytics Branch, Surveillance Research Program",
+              "email": "mariotta@mail.nih.gov"
+            }
+          ],
+          "title": "Cancer Query Systems (CanQues)",
+          "researchTypes": [
+            {
+              "label": "Epidemiologic",
+              "key": "epidemiologic"
+            }
+          ],
+          "body": "<p>CanQues does not perform calculations; instead, it displays reports using databases of statistics generated by other software. The web-based interface allows users to retrieve the statistics that are relevant to their research.</p>",
+          "toolTypes": [
+            {
+              "label": "Datasets & Databases",
+              "key": "datasets_databases"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "cancer query systems (canques)"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "5",
+        "_score": null,
+        "_source": {
+          "website": "http://cancer.digitalslidearchive.net",
+          "docs": [
+            {
+              "label": "Informatics Technology for Cancer Research (ITCR)",
+              "key": "itcr"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Diagnosis",
+              "key": "cancer_diagnosis"
+            }
+          ],
+          "description": "<p>The CDSA is a web-based platform to support the sharing, management, and analysis of digital pathology data.</p>",
+          "id": 5,
+          "pocs": [
+          ],
+          "title": "Cancer Slide Digital Archive (CDSA)",
+          "researchTypes": [
+            {
+              "label": "Translational",
+              "key": "translational"
+            },
+            {
+              "label": "Basic",
+              "key": "basic"
+            }
+          ],
+          "body": "<p>The CDSA is a web-based platform to support the sharing, management, and analysis of digital pathology data. Emory University  currently hosts over 23,000 images from The Cancer Genome Atlas, and the software is being developed within the Informatics Technology for Cancer Research (ITCR) grant to be deployable as a digital pathology platform for other labs and cancer institutes.</p>",
+          "toolTypes": [
+            {
+              "label": "Datasets & Databases",
+              "key": "datasets_databases"
+            },
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "cancer slide digital archive (cdsa)"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "85",
+        "_score": null,
+        "_source": {
+          "website": "https://seer.cancer.gov/statfacts/",
+          "docs": [
+            {
+              "label": "Division of Cancer Control and Population Sciences (DCCPS)",
+              "key": "dccps"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Health Disparities",
+              "key": "cancer_health_disparities"
+            },
+            {
+              "label": "Cancer Statistics",
+              "key": "cancer_statistics"
+            }
+          ],
+          "description": "<p>These fact sheets provide frequently requested cancer statistics, such as incidence, mortality, survival, stage, prevalence, and lifetime risk, for a number of common cancer types.</p>",
+          "id": 85,
+          "pocs": [
+            {
+              "phone": "240-276-6903",
+              "name": {
+                "firstname": "Patricia",
+                "lastname": "Murphy"
+              },
+              "title": "Program Analyst, Surveillance Research Program"
+            }
+          ],
+          "title": "Cancer Stat Fact Sheets (Stat Facts)",
+          "researchTypes": [
+            {
+              "label": "Epidemiologic",
+              "key": "epidemiologic"
+            }
+          ],
+          "body": "<p>These statistical summaries provide a quick overview of frequently requested cancer statistics, which may include incidence, mortality, survival, stage, prevalence, and lifetime risk, by cancer site for a number of common cancer types. . Along with cancer types, Stat Facts also highlight statistics related to certain special topics such as cancer health disparities. The Surveillance, Epidemiology, and End Results (SEER) program posts several new stat facts a year. Recent new fact sheets include pages for specific childhood cancer sites.</p>",
+          "toolTypes": [
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "cancer stat fact sheets (stat facts)"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "141",
+        "_score": null,
+        "_source": {
+          "website": "https://seer.cancer.gov/canstat/",
+          "docs": [
+            {
+              "label": "Division of Cancer Control and Population Sciences (DCCPS)",
+              "key": "dccps"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer & Public Health",
+              "key": "cancer_public_health"
+            },
+            {
+              "label": "Cancer Health Disparities",
+              "key": "cancer_health_disparities"
+            },
+            {
+              "label": "Cancer Statistics",
+              "key": "cancer_statistics"
+            }
+          ],
+          "description": "<p>The CanStat Animator allows users to animate cancer trends over time by cancer site and cause of death, race and sex.</p>",
+          "id": 141,
+          "pocs": [
+            {
+              "phone": "240-276-6951",
+              "name": {
+                "firstname": "Susan",
+                "lastname": "Scott"
+              },
+              "title": "Public Health Advisor, Surveillance Research Program",
+              "email": "scotts2@mail.nih.gov"
+            }
+          ],
+          "title": "Cancer Statistics (CanStat) Animator",
+          "researchTypes": [
+            {
+              "label": "Epidemiologic",
+              "key": "epidemiologic"
+            }
+          ],
+          "body": "<p>The CanStat Animator allows users to animate cancer trends over time by cancer site and cause of death, race and sex. Users can select the type of statistic and the variables to be shown in the graph, select the format of the graph by choosing from various graph options, and extract the statistics in a delimited format for further analyses using other software. The CanStat Animator provides access to: SEER Incidence for 1975-2014 for the SEER 9 registries; US Mortality for 1975-2014 for the entire United States; and relative survival for 1975-2013 for the SEER 9 registries.</p>",
+          "toolTypes": [
+            {
+              "label": "Datasets & Databases",
+              "key": "datasets_databases"
+            },
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "cancer statistics (canstat) animator"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "144",
+        "_score": null,
+        "_source": {
+          "website": "https://surveillance.cancer.gov/cansurv/",
+          "docs": [
+            {
+              "label": "Division of Cancer Control and Population Sciences (DCCPS)",
+              "key": "dccps"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer & Public Health",
+              "key": "cancer_public_health"
+            },
+            {
+              "label": "Cancer Survivorship",
+              "key": "cancer_survivorship"
+            },
+            {
+              "label": "Cancer Statistics",
+              "key": "cancer_statistics"
+            }
+          ],
+          "description": "<p>CanSurv is statistical software used to analyze population-based survival data, including grouped survival data and parametric (cure) survival models.</p>",
+          "id": 144,
+          "pocs": [
+            {
+              "phone": "240-276-6698",
+              "name": {
+                "firstname": "Angela",
+                "lastname": "Mariotto"
+              },
+              "title": "Chief, Data Analytics Branch, Surveillance Research Program",
+              "email": "mariotta@mail.nih.gov"
+            }
+          ],
+          "title": "Cancer Survival Analysis Software (CanSurv)",
+          "body": "<p>CanSurv uses information from SEER*Stat software. For grouped survival data, it can fit both the standard survival models and the mixture cure survival models and it provides various graphs for model diagnosis. It can also fit parametric (cure) survival models to individually-listed data. The most recent version of the software has new options that provide more flexibility for other programs to read the calculated results.</p>",
+          "researchTypes": [
+          ],
+          "toolTypes": [
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "register"
+          }
+        },
+        "sort": [
+          "cancer survival analysis software (cansurv)"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "126",
+        "_score": null,
+        "_source": {
+          "website": "https://ctd2-dashboard.nci.nih.gov/dashboard/",
+          "docs": [
+            {
+              "label": "Center for Cancer Genomics (CCG)",
+              "key": "ccg"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Biology",
+              "key": "cancer_biology"
+            },
+            {
+              "label": "Cancer Omics",
+              "key": "cancer_omics"
+            },
+            {
+              "label": "Cancer Treatment",
+              "key": "cancer_treatment"
+            }
+          ],
+          "description": "<p>The CTD^2 Dashboard is a web interface that assembles - conclusions, or \u201Cobservations,\u201D generated by CTD2 Network centers with associated  supporting evidence.</p>",
+          "id": 126,
+          "pocs": [
+            {
+              "name": {
+              },
+              "email": "ocg@mail.nih.gov"
+            }
+          ],
+          "title": "Cancer Target Discovery and Development (CTD^2) Dashboard",
+          "researchTypes": [
+            {
+              "label": "Basic",
+              "key": "basic"
+            },
+            {
+              "label": "Translational",
+              "key": "translational"
+            }
+          ],
+          "body": "<p>The CTD^2 Dashboard compiles the CTD^2 Network-generated conclusions, or \u201Cobservations,\u201D associated with a specific gene, cell line, animal model, or perturbagen. It provides supporting evidence with links to data, references, and to the validation strength of the evidence. Data is generated from multiple types of biological and analytical approaches used by CTD^2 centers. The dashboard allows easy navigation to a broad range  of computational and non-computational scientists.</p>",
+          "toolTypes": [
+            {
+              "label": "Datasets & Databases",
+              "key": "datasets_databases"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "cancer target discovery and development (ctd^2) dashboard"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "135",
+        "_score": null,
+        "_source": {
+          "website": "https://ocg.cancer.gov/programs/ctd2/data-portal",
+          "docs": [
+            {
+              "label": "Center for Cancer Genomics (CCG)",
+              "key": "ccg"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Biology",
+              "key": "cancer_biology"
+            },
+            {
+              "label": "Cancer Omics",
+              "key": "cancer_omics"
+            },
+            {
+              "label": "Cancer Treatment",
+              "key": "cancer_treatment"
+            }
+          ],
+          "description": "<p>CTD^2 Data Portal provides access to raw and analyzed primary data generated from different types of experimental and analytical approaches.</p>",
+          "id": 135,
+          "pocs": [
+            {
+              "name": {
+              },
+              "email": "ocg@mail.nih.gov"
+            }
+          ],
+          "title": "Cancer Target Discovery and Development (CTD^2) Data Portal",
+          "researchTypes": [
+            {
+              "label": "Basic",
+              "key": "basic"
+            },
+            {
+              "label": "Translational",
+              "key": "translational"
+            }
+          ],
+          "body": "<p>The CTD^2 Network aims to understand tumor heterogeneity and drug resistance for the development of efficient strategies to identify optimal combinations of small molecules or immunotherapy with small molecules. The CTD^2 Data Portal provides access to raw and analyzed primary data generated from different types of approaches, e.g., chemical genetics (small molecules, natural products), genome-wide gain-of-function (cDNA expression libraries, CRISPR activation), genome-wide loss-of-function (siRNA, shRNA, CRISPR/Cas9, CRISPR interference), protein\u2013protein interactions, and in vivo gain- and loss-of-function studies.</p>",
+          "toolTypes": [
+            {
+              "label": "Datasets & Databases",
+              "key": "datasets_databases"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "cancer target discovery and development (ctd^2) data portal"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "155",
+        "_score": null,
+        "_source": {
+          "website": "https://www.broadinstitute.org/ctrp/",
+          "docs": [
+            {
+              "label": "Center for Cancer Genomics (CCG)",
+              "key": "ccg"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Biology",
+              "key": "cancer_biology"
+            },
+            {
+              "label": "Cancer Treatment",
+              "key": "cancer_treatment"
+            }
+          ],
+          "description": "<p>CTRP is a resource of compound sensivity data (concentration\u2013response curves) that can be mined to develop insights into small molecule mechanisms of action and novel therapeutic hypotheses.</p>",
+          "id": 155,
+          "pocs": [
+            {
+              "name": {
+                "firstname": "Paul",
+                "lastname": "Clemons"
+              },
+              "email": "pclemons@broadinstitute.org"
+            }
+          ],
+          "title": "Cancer Therapeutics Response Portal (CTRP)",
+          "researchTypes": [
+            {
+              "label": "Basic",
+              "key": "basic"
+            },
+            {
+              "label": "Translational",
+              "key": "translational"
+            }
+          ],
+          "body": "<p>CTRP hosts data that are generated by measuring cellular responses to an 'Informer Set' of small molecule probes and drugs. Users can mine for lineages or mutations enriched among cell lines sensitive to small molecules. By connecting cellular features to small molecule sensitivities, CTRP identifies new potential therapeutic vulnerabilities for different cancer types.</p>",
+          "toolTypes": [
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "cancer therapeutics response portal (ctrp)"
+        ]
+      }
+    ]
+  }
+}

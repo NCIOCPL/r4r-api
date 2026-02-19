@@ -1,0 +1,1130 @@
+{
+  "took": 2,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 30,
+      "relation": "eq"
+    },
+    "max_score": null,
+    "hits": [
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "250",
+        "_score": null,
+        "_source": {
+          "website": "https://califano.c2b2.columbia.edu/aracne",
+          "docs": [
+            {
+              "label": "Office of Cancer Genomics (OCG)",
+              "key": "ocg"
+            },
+            {
+              "label": "Center for Cancer Genomics (CCG)",
+              "key": "ccg"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Biology",
+              "key": "cancer_biology"
+            },
+            {
+              "label": "Cancer Omics",
+              "key": "cancer_omics"
+            },
+            {
+              "label": "Bioinformatics",
+              "key": "bioinformatics"
+            }
+          ],
+          "description": "<p>ARACNe is an algorithm for inferring direct regulatory relationships between transcriptional regulator proteins and target genes.</p>",
+          "id": 250,
+          "pocs": [
+            {
+              "name": {
+                "firstname": "Andrea",
+                "prefix": "Dr.",
+                "lastname": "Califano"
+              },
+              "title": "Clyde and Helen Wu Professor of Chemical and Systems Biology",
+              "email": "ac2248@cumc.columbia.edu"
+            }
+          ],
+          "title": "Algorithm for the Reconstruction of Accurate Cellular Networks (ARACNe)",
+          "researchTypes": [
+            {
+              "label": "Basic",
+              "key": "basic"
+            },
+            {
+              "label": "Translational",
+              "key": "translational"
+            }
+          ],
+          "body": "<p>ARACNe uses microarray expression profiles to reconstruct tissue-specific gene regulatory transcriptional interactions in cellular networks. The method uses mutual information of two random variables to identify genes that are co-expressed, then applies the data processing inequality to filter out interactions that are likely to be indirect. This eliminates the vast majority of false-positive transcriptional interactions typically inferred by pairwise gene-expression correlation analysis. This tool could be used by researchers to determine novel driver genes and drug mechanisms of action.</p>",
+          "toolTypes": [
+            {
+              "label": "Datasets & Databases",
+              "key": "datasets_databases"
+            },
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "algorithm for the reconstruction of accurate cellular networks (aracne)"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "135",
+        "_score": null,
+        "_source": {
+          "website": "https://ocg.cancer.gov/programs/ctd2/data-portal",
+          "docs": [
+            {
+              "label": "Center for Cancer Genomics (CCG)",
+              "key": "ccg"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Biology",
+              "key": "cancer_biology"
+            },
+            {
+              "label": "Cancer Omics",
+              "key": "cancer_omics"
+            },
+            {
+              "label": "Cancer Treatment",
+              "key": "cancer_treatment"
+            }
+          ],
+          "description": "<p>CTD^2 Data Portal provides access to raw and analyzed primary data generated from different types of experimental and analytical approaches.</p>",
+          "id": 135,
+          "pocs": [
+            {
+              "name": {
+              },
+              "email": "ocg@mail.nih.gov"
+            }
+          ],
+          "title": "Cancer Target Discovery and Development (CTD^2) Data Portal",
+          "researchTypes": [
+            {
+              "label": "Basic",
+              "key": "basic"
+            },
+            {
+              "label": "Translational",
+              "key": "translational"
+            }
+          ],
+          "body": "<p>The CTD^2 Network aims to understand tumor heterogeneity and drug resistance for the development of efficient strategies to identify optimal combinations of small molecules or immunotherapy with small molecules. The CTD^2 Data Portal provides access to raw and analyzed primary data generated from different types of approaches, e.g., chemical genetics (small molecules, natural products), genome-wide gain-of-function (cDNA expression libraries, CRISPR activation), genome-wide loss-of-function (siRNA, shRNA, CRISPR/Cas9, CRISPR interference), protein\u2013protein interactions, and in vivo gain- and loss-of-function studies.</p>",
+          "toolTypes": [
+            {
+              "label": "Datasets & Databases",
+              "key": "datasets_databases"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "cancer target discovery and development (ctd^2) data portal"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "155",
+        "_score": null,
+        "_source": {
+          "website": "https://www.broadinstitute.org/ctrp/",
+          "docs": [
+            {
+              "label": "Center for Cancer Genomics (CCG)",
+              "key": "ccg"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Biology",
+              "key": "cancer_biology"
+            },
+            {
+              "label": "Cancer Treatment",
+              "key": "cancer_treatment"
+            }
+          ],
+          "description": "<p>CTRP is a resource of compound sensivity data (concentration\u2013response curves) that can be mined to develop insights into small molecule mechanisms of action and novel therapeutic hypotheses.</p>",
+          "id": 155,
+          "pocs": [
+            {
+              "name": {
+                "firstname": "Paul",
+                "lastname": "Clemons"
+              },
+              "email": "pclemons@broadinstitute.org"
+            }
+          ],
+          "title": "Cancer Therapeutics Response Portal (CTRP)",
+          "researchTypes": [
+            {
+              "label": "Basic",
+              "key": "basic"
+            },
+            {
+              "label": "Translational",
+              "key": "translational"
+            }
+          ],
+          "body": "<p>CTRP hosts data that are generated by measuring cellular responses to an 'Informer Set' of small molecule probes and drugs. Users can mine for lineages or mutations enriched among cell lines sensitive to small molecules. By connecting cellular features to small molecule sensitivities, CTRP identifies new potential therapeutic vulnerabilities for different cancer types.</p>",
+          "toolTypes": [
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "cancer therapeutics response portal (ctrp)"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "136",
+        "_score": null,
+        "_source": {
+          "website": "https://ocg.cancer.gov/programs/ctd2/supported-reagents/cdna-clones-rare-and-recurrent-mutations-found-cancers",
+          "docs": [
+            {
+              "label": "Center for Cancer Genomics (CCG)",
+              "key": "ccg"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Biology",
+              "key": "cancer_biology"
+            },
+            {
+              "label": "Cancer Omics",
+              "key": "cancer_omics"
+            }
+          ],
+          "description": "<p>This resource is an open reading frame (ORF) expression library with clones of wild-type and somatic mutations found in recurrent cancer or that are rare in cancer .</p>",
+          "id": 136,
+          "pocs": [
+            {
+              "name": {
+                "firstname": "Gordon",
+                "lastname": "Mills"
+              },
+              "email": "millsg@ohsu.edu"
+            }
+          ],
+          "title": "cDNA Clones with Rare and Recurrent Mutations found in Cancers",
+          "researchTypes": [
+            {
+              "label": "Basic",
+              "key": "basic"
+            },
+            {
+              "label": "Translational",
+              "key": "translational"
+            }
+          ],
+          "body": "<p>The CTD^2 center at the University of Texas MD Anderson Cancer Center has developed a high-throughput mutagenesis and molecular barcoding (HiTMMoB)   pipeline to construct mutant alleles open reading frame expression clones that are either found in recurrent cancer or are rare in cancers. These barcoded genes can be used for context-specific functional validation, detection of novel biomarkers (pathway activation), and targets (drug sensitivity).</p>",
+          "toolTypes": [
+            {
+              "label": "Lab Tools",
+              "key": "lab_tools"
+            }
+          ],
+          "resourceAccess": {
+            "notes": "Material Transfer Agreement (MTA) required",
+            "type": "register"
+          }
+        },
+        "sort": [
+          "cdna clones with rare and recurrent mutations found in cancers"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "262",
+        "_score": null,
+        "_source": {
+          "website": "https://moleculartargets.ccdi.cancer.gov",
+          "docs": [
+            {
+              "label": "Center for Biomedical Informatics and Informatics Technology (CBIIT)",
+              "key": "cbiit"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Treatment",
+              "key": "cancer_treatment"
+            },
+            {
+              "label": "Cancer Biology",
+              "key": "cancer_biology"
+            },
+            {
+              "label": "Cancer Omics",
+              "key": "cancer_omics"
+            },
+            {
+              "label": "Screening & Detection",
+              "key": "screening_detection"
+            }
+          ],
+          "description": "<p>The CCDI MTP allows researchers to browse and identify associations between molecular targets, diseases, and drugs specific for childhood cancers.</p>",
+          "id": 262,
+          "pocs": [
+            {
+              "phone": "240-781-3325",
+              "name": {
+                "firstname": "Subhashini",
+                "lastname": "Jagu"
+              },
+              "email": "jagus@nih.gov"
+            }
+          ],
+          "title": "Childhood Cancer Data Initiative (CCDI) Molecular Targets Platform (MTP)",
+          "researchTypes": [
+            {
+              "label": "Basic",
+              "key": "basic"
+            },
+            {
+              "label": "Translational",
+              "key": "translational"
+            },
+            {
+              "label": "Clinical Trials",
+              "key": "clinical_trials"
+            }
+          ],
+          "body": "<p>The CCDI MTP is a knowledge base that extracts, organizes, annotates, and links to data on childhood cancers. This tool allows researchers to browse and identify associations between molecular targets, diseases, and drugs and can be used for systematic identification and prioritization of the pediatric molecular target list. This tool allows comparisons of childhood datasets with tabular and graphic visualizations of genomic data and facilitates prioritization of targets by reducing the time spent monitoring and organizing scientific and medical literature.</p>",
+          "toolTypes": [
+            {
+              "label": "Datasets & Databases",
+              "key": "datasets_databases"
+            },
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "childhood cancer data initiative (ccdi) molecular targets platform (mtp)"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "230",
+        "_score": null,
+        "_source": {
+          "website": "https://datascience.cancer.gov/resources/cancer-vocabulary/cdisc-terminology",
+          "docs": [
+            {
+              "label": "Division of Cancer Treatment and Diagnosis (DCTD)",
+              "key": "dctd"
+            }
+          ],
+          "researchAreas": [
+          ],
+          "description": "<p>The NCI Enterprise Vocabulary Services (EVS) partners with CDISC to develop and support controlled terminology for all CDISC foundational standards, including Study Data Tabulation Model (SDTM), Clinical Data Acquisition Standards Harmonization (CDASH), Analysis Data Model (ADaM), Define-XML Terminology, Standard for the Exchange of Nonclinical Data (SEND), CDISC Protocol Terminology, and CDISC Glossary.</p>",
+          "id": 230,
+          "pocs": [
+          ],
+          "title": "Clinical Data Interchange Standards Consortium (CDISC) Terminology",
+          "body": "<p>Managed by NCI Enterprise Vocabulary Services (EVS), CDISC to develop and support controlled terminology for all CDISC foundational standards:</p>\n<p><strong>SDTM</strong> - SDTM is an international standard for clinical research data and is approved by the Food and Drug Administration (FDA) as a standard electronic submission format. CDISC Questionnaires, Ratings, and Scales terminology is included in the SDTM terminology publication.</p>\n<p><strong>CDASH</strong> - CDISC leads the CDASH project, which develops clinical research study content standards in collaboration with 16 partner organizations, including NCI. CDASH terminology is a subset of SDTM terminology.</p>\n<p><strong>ADaM</strong> - CDISC leads the ADaM project, which supports efficient generation, replication, review, and submission of analysis results from clinical trial data.</p>\n<p><strong>Define-XML</strong> - CDISC leads the Define-XML terminology project, which defines the enumeration values found within the CDISC Define-XML data exchange standard. NCI EVS maintains and distributes Define-XML controlled terminology as part of NCI Thesaurus. More information is available at CDISC's Define-XML webpage.</p>\n<p><strong>SEND</strong> - CDISC leads the SEND project, which guides the organization, structure, and format of standard nonclinical tabulation datasets for interchange between organizations such as sponsors and CROs and for submission to a regulatory authority such as FDA. NCI EVS maintains and distributes SEND controlled terminology as part of NCI Thesaurus. More information is available at CDISC's SEND webpage.</p>\n<p><strong>Protocol Terminology</strong> - CDISC leads the Protocol Terminology project, which develops the semantics for commonly used research protocol entities. This project supports CDISC foundational standards for the Protocol Representation Model (PRM) and Clinical Trial Registry XML (CTR-XML).</p>\n<p><strong>CDISC Glossary</strong> - CDISC leads the Glossary project, which harmonizes definitions (including acronyms, abbreviations, and initials) used in the various standards initiatives undertaken by CDISC in clinical research. The glossary also serves the community of clinical researchers by selecting and defining terms pertaining to clinical research sponsored by the pharmaceutical industry or a federal agency.</p>",
+          "researchTypes": [
+          ],
+          "toolTypes": [
+            {
+              "label": "Terminology",
+              "key": "terminology"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "clinical data interchange standards consortium (cdisc) terminology"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "242",
+        "_score": null,
+        "_source": {
+          "website": "https://brb.nci.nih.gov/d3oncoprint/",
+          "docs": [
+          ],
+          "researchAreas": [
+          ],
+          "description": "<p>D3Oncoprint is a standalone software program used to visualize and dynamically explore annotated genomic mutation files.</p>",
+          "id": 242,
+          "pocs": [
+            {
+              "phone": "240-276-6484",
+              "name": {
+                "firstname": "Alida",
+                "prefix": "Dr.",
+                "lastname": "Palmisano"
+              },
+              "email": "alida.palmisano@nih.gov"
+            }
+          ],
+          "title": "D3Oncoprint",
+          "researchTypes": [
+            {
+              "label": "Basic",
+              "key": "basic"
+            },
+            {
+              "label": "Translational",
+              "key": "translational"
+            }
+          ],
+          "body": "<p>D3Oncoprint is a standalone software program used to visualize and dynamically explore annotated genomic mutation files. D3Oncoprint provides access to curated variants lists from CIViC, My Cancer Genome, and FDA-approved drug indication listings to facilitate the use of genomic data for biomedical discovery and application. D3Oncoprint also includes curated gene lists to explore commonly investigated biological processes (e.g., BioCarta pathways, FoundationOne cancer panels). Our software provides a flexible environment to dynamically explore the variant mutation profiles provided as input. The focus on interactive visualization with biological and medical annotation significantly lowers the barriers between complex genomic data biomedical investigators. We hope that this resource provides an important means of empowering researchers to translate the information from the collected data sets to biological insights and clinical applications.</p>",
+          "toolTypes": [
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "d3oncoprint"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "50",
+        "_score": null,
+        "_source": {
+          "website": "https://brpnci.shinyapps.io/BasketTrials/",
+          "docs": [
+            {
+              "label": "Division of Cancer Treatment and Diagnosis (DCTD)",
+              "key": "dctd"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Treatment",
+              "key": "cancer_treatment"
+            }
+          ],
+          "description": "<p>This web-based application implements a new method based on Bayesian principles for the design, monitoring, and analysis of basket trials.</p>",
+          "id": 50,
+          "pocs": [
+          ],
+          "title": "Design, Monitoring, and Analysis of Bayesian Basket Discovery Trials",
+          "researchTypes": [
+            {
+              "label": "Clinical Trials",
+              "key": "clinical_trials"
+            }
+          ],
+          "body": "<p>This application currently supports sample size planning and interim analysis for basket trials. The user specifies the number of strata and the prior probability that the drug is active in any particular stratum. Also, since in general there would be uncertainty on whether these strata are completely correlated or independent with regard to the distribution of drug activity, the user also specifies a prior probability corresponding to correlation of drug activity among strata. The more general situation where there are asymmetries among the strata with regard to the prior probability of drug activity will be implemented in the next version of this application.</p>",
+          "toolTypes": [
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            },
+            {
+              "label": "Community Research Tools",
+              "key": "community_research_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "design, monitoring, and analysis of bayesian basket discovery trials"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "123",
+        "_score": null,
+        "_source": {
+          "website": "https://califano.c2b2.columbia.edu/demand",
+          "docs": [
+            {
+              "label": "Center for Cancer Genomics (CCG)",
+              "key": "ccg"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Biology",
+              "key": "cancer_biology"
+            },
+            {
+              "label": "Cancer Omics",
+              "key": "cancer_omics"
+            },
+            {
+              "label": "Cancer Treatment",
+              "key": "cancer_treatment"
+            }
+          ],
+          "description": "<p>DeMAND is an R-system algorithm that elucidates mechanisms of action of cellular perturbations (e.g., small molecule) by analyzing network dysregulations.</p>",
+          "id": 123,
+          "pocs": [
+            {
+              "name": {
+                "firstname": "Aristidis",
+                "lastname": "Floratos"
+              },
+              "email": "af2202@cumc.columbia.edu"
+            },
+            {
+              "name": {
+                "firstname": "Andrea",
+                "lastname": "Califano"
+              },
+              "email": "ac2248@cumc.columbia.edu"
+            },
+            {
+              "name": {
+              },
+              "email": "ac2248@cumc.columbia.edu"
+            }
+          ],
+          "title": "Detecting Mechanism of Action based Network Dysregulation (DeMAND)",
+          "researchTypes": [
+            {
+              "label": "Basic",
+              "key": "basic"
+            },
+            {
+              "label": "Translational",
+              "key": "translational"
+            }
+          ],
+          "body": "<p>The DeMAND algorithm predicts drug mechanisms of action using gene expression data generated from control and perturbed cells. The data are then used to identify network dysregulation to determine both the interactions and the genes that are involved in the mechanism of action.</p>",
+          "toolTypes": [
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "register"
+          }
+        },
+        "sort": [
+          "detecting mechanism of action based network dysregulation (demand)"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "119",
+        "_score": null,
+        "_source": {
+          "website": "https://biocomputing.tgen.org/software/EDDY/CTRP/home.html",
+          "docs": [
+            {
+              "label": "Center for Cancer Genomics (CCG)",
+              "key": "ccg"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Biology",
+              "key": "cancer_biology"
+            },
+            {
+              "label": "Cancer Omics",
+              "key": "cancer_omics"
+            },
+            {
+              "label": "Cancer Treatment",
+              "key": "cancer_treatment"
+            }
+          ],
+          "description": "<p>EDDY-CTRP provides analysis of subset of the Cancer Therapeutic Response Portal (CTRP) transcriptome and drug screening data from 810 cancer cell lines.</p>",
+          "id": 119,
+          "pocs": [
+            {
+              "name": {
+                "firstname": "Gil",
+                "lastname": "Speyer"
+              },
+              "email": "gspeyer@tgen.org"
+            }
+          ],
+          "title": "Evaluation of Differential DependencY-Cancer Therapeutic Response Portal (EDDY-CTRP)",
+          "researchTypes": [
+            {
+              "label": "Basic",
+              "key": "basic"
+            },
+            {
+              "label": "Translational",
+              "key": "translational"
+            }
+          ],
+          "body": "<p>EDDY-CTRP provides analysis of subset of the Cancer Therapeutic Response Portal (link is external) (CTRP) transcriptome and drug screening data from 810 cancer cell lines (link is external) was performed using the Evaluation of Differential DependencY (link is external) (EDDY) algorithm.This analysis identified pathways enriched for differential dependencies between sensitive and non-sensitive cell-lines to each compound as well as potential novel targets, termed \"mediators\".</p>",
+          "toolTypes": [
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "evaluation of differential dependency-cancer therapeutic response portal (eddy-ctrp)"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "132",
+        "_score": null,
+        "_source": {
+          "website": "https://github.com/olganikolova/gbgfa",
+          "docs": [
+            {
+              "label": "Center for Cancer Genomics (CCG)",
+              "key": "ccg"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Biology",
+              "key": "cancer_biology"
+            },
+            {
+              "label": "Cancer Omics",
+              "key": "cancer_omics"
+            },
+            {
+              "label": "Cancer Treatment",
+              "key": "cancer_treatment"
+            }
+          ],
+          "description": "<p>GBGFA explicitly models gene-centric dependencies when integrating genomic alterations data of the same gene from different platforms (e.g. copy number variation, gene expression and mutation data) to prioritize genes supported by multiple inputs.</p>",
+          "id": 132,
+          "pocs": [
+            {
+              "name": {
+                "firstname": "Olga",
+                "lastname": "Nikolova"
+              },
+              "email": "olga.nikolova@gmail.com"
+            },
+            {
+              "name": {
+              },
+              "email": "nikolova@ohsu.edu"
+            }
+          ],
+          "title": "Gene-wise Prior Bayesian Group Factor Analysis (GBGFA)",
+          "researchTypes": [
+            {
+              "label": "Basic",
+              "key": "basic"
+            },
+            {
+              "label": "Translational",
+              "key": "translational"
+            }
+          ],
+          "body": "<p>GBGFA explicitly models gene-centric dependencies when integrating genomic alterations data of the same gene from different platforms (e.g. copy number variation, gene expression and mutation data) to prioritize genes supported by multiple inputs. The multitask approach of this algorithm provides the ability to leverage similarities in the response profiles of drug groups, that are more likely to correspond to true biological effects.</p>",
+          "toolTypes": [
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "gene-wise prior bayesian group factor analysis (gbgfa)"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "53",
+        "_score": null,
+        "_source": {
+          "website": "https://cipinddirectory.cancer.gov/",
+          "docs": [
+            {
+              "label": "Division of Cancer Treatment and Diagnosis (DCTD)",
+              "key": "dctd"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Diagnosis",
+              "key": "cancer_diagnosis"
+            },
+            {
+              "label": "Screening & Detection",
+              "key": "screening_detection"
+            },
+            {
+              "label": "Cancer Biology",
+              "key": "cancer_biology"
+            }
+          ],
+          "description": "<p>A centralized resource to facilitate the sharing of investigational new drug information.</p>",
+          "id": 53,
+          "pocs": [
+            {
+              "name": {
+              },
+              "email": "CIPINDDirectory@mail.nih.gov"
+            }
+          ],
+          "title": "Investigational New Drug (IND) Directory",
+          "researchTypes": [
+            {
+              "label": "Clinical Trials",
+              "key": "clinical_trials"
+            }
+          ],
+          "body": "<p>A centralized resource to facilitate the sharing of IND information that provides a listing of known INDs for investigational agents and contact information for the sponsors.</p>",
+          "toolTypes": [
+            {
+              "label": "Datasets & Databases",
+              "key": "datasets_databases"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "investigational new drug (ind) directory"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "240",
+        "_score": null,
+        "_source": {
+          "website": "https://imaging.cancer.gov/programs_resources/IND_regulatory_manufacturing.htm",
+          "docs": [
+            {
+              "label": "Division of Cancer Treatment and Diagnosis (DCTD)",
+              "key": "dctd"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Diagnosis",
+              "key": "cancer_diagnosis"
+            },
+            {
+              "label": "Screening & Detection",
+              "key": "screening_detection"
+            },
+            {
+              "label": "Cancer Biology",
+              "key": "cancer_biology"
+            }
+          ],
+          "description": "<p>A resource to facilitate IND filing of selected investigational imaging agents.</p>",
+          "id": 240,
+          "pocs": [
+          ],
+          "title": "Investigational New Drug (IND) Regulatory and Manufacturing Resources",
+          "researchTypes": [
+            {
+              "label": "Clinical Trials",
+              "key": "clinical_trials"
+            }
+          ],
+          "body": "<p>Regulatory documents for selected IND agents, including manfacturing procedures and non-clinical data. A subset of the documents filed for the INDs is being made available to the research community to implement routine synthesis of tracers at their own facilities and to assist investigators with the filing of their own INDs. Documents for several imaging agents are currently available.</p>",
+          "toolTypes": [
+            {
+              "label": "Datasets & Databases",
+              "key": "datasets_databases"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "investigational new drug (ind) regulatory and manufacturing resources"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "147",
+        "_score": null,
+        "_source": {
+          "website": "https://tcpaportal.org/mclp/#/",
+          "docs": [
+            {
+              "label": "Center for Cancer Genomics (CCG)",
+              "key": "ccg"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Biology",
+              "key": "cancer_biology"
+            },
+            {
+              "label": "Cancer Omics",
+              "key": "cancer_omics"
+            }
+          ],
+          "description": "<p>The MCLP Data Portal is a bioinformatic resource that enables researchers to explore, analyze, and visualize protein expression data of cancer cell lines.</p>",
+          "id": 147,
+          "pocs": [
+            {
+              "name": {
+                "firstname": "Han",
+                "lastname": "Liang"
+              },
+              "email": "hliang1@mdanderson.org"
+            }
+          ],
+          "title": "MD Anderson Cell Line Project (MCLP) Data Portal",
+          "researchTypes": [
+            {
+              "label": "Basic",
+              "key": "basic"
+            }
+          ],
+          "body": "<p>The MCLP Data Portal is an interactive resource of proteomic, genomic, transcriptomic, and drug screening data of a large number of cancer cell lines. Protein expression levels (proteoimc) were measured using the reverse phase protein array platform. The MCLP platform provides four interactive modules: My Protein, Analysis, Visualization, and Data Sets.</p>",
+          "toolTypes": [
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "md anderson cell line project (mclp) data portal"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "44",
+        "_score": null,
+        "_source": {
+          "website": "https://brb.nci.nih.gov/programdownload/ExcelProgram.htm",
+          "docs": [
+            {
+              "label": "Division of Cancer Treatment and Diagnosis (DCTD)",
+              "key": "dctd"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Treatment",
+              "key": "cancer_treatment"
+            }
+          ],
+          "description": "",
+          "id": 44,
+          "pocs": [
+          ],
+          "title": "Microsoft Excel Dose Level Assignment program for Accelerated Titration Designs",
+          "researchTypes": [
+            {
+              "label": "Clinical Trials",
+              "key": "clinical_trials"
+            }
+          ],
+          "body": "<p>We fit a stochastic model to data from 20 phase I trials of 9 different drugs. We then simulated new data from the model with the parameters estimated from the actual trials and evaluated the performance of alternative phase I designs on this simulated data. Four designs were evaluated. Accelerated titration designs appear to effectively reduce the number of patients under-treated, speed the completion of phase I trials, and provide a substantial increase in the information obtained. The downloadable Excel dose-level assignment program can be used for accelerated titration design for phase I clinical trial.</p>",
+          "toolTypes": [
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "microsoft excel dose level assignment program for accelerated titration designs"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "131",
+        "_score": null,
+        "_source": {
+          "website": "https://github.com/cooperlab/MEDICI",
+          "docs": [
+            {
+              "label": "Center for Cancer Genomics (CCG)",
+              "key": "ccg"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Biology",
+              "key": "cancer_biology"
+            }
+          ],
+          "description": "<p>MEDICI is a computational method which ranks known protein-protein interactions (PPIs).</p>",
+          "id": 131,
+          "pocs": [
+            {
+              "name": {
+                "firstname": "Lee",
+                "lastname": "Cooper"
+              },
+              "email": "lee.cooper@emory.edu"
+            }
+          ],
+          "title": "Mining Essentiality Data to Identify Critical Interactions for Cancer Drug Target Discovery and Development (MEDICI)",
+          "researchTypes": [
+            {
+              "label": "Translational",
+              "key": "translational"
+            }
+          ],
+          "body": "<p>MEDICI is a computational method which ranks known protein-protein interactions (PPIs). This approach combinesÂ Project AchillesÂ shRNA gene silencing data with network models of protein interaction pathways (NCI Pathway Interaction Database) in an analytic framework. The PPIs are ranked based on their cruciality for the survival and proliferation of cancer cells.</p>",
+          "toolTypes": [
+            {
+              "label": "Analysis Tools",
+              "key": "analysis_tools"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "mining essentiality data to identify critical interactions for cancer drug target discovery and development (medici)"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "236",
+        "_score": null,
+        "_source": {
+          "website": "https://datascience.cancer.gov/resources/cancer-vocabulary/ncpdp-terminology",
+          "docs": [
+          ],
+          "researchAreas": [
+          ],
+          "description": "<p>NCPDP creates and promotes the transfer of data related to medications, supplies, and services within the health care system through the development of standards and industry guidance. The terminology files provide support the NCPDP SCRIPT Standard and the NCPDP Telecommunication Standard.</p>",
+          "id": 236,
+          "pocs": [
+          ],
+          "title": "National Council for Prescription Drug Programs (NCPDP) Terminology",
+          "body": "<p>Managed by NCI Enterprise Vocabulary Services (EVS), the NCPDP creates and promotes the transfer of data related to medications, supplies, and services within the health care system through the development of standards and industry guidance. The terminology files provide support for two of those standards:</p>\n<p>The NCPDP SCRIPT Standard supports messages regarding new prescriptions, prescription changes, refill requests, prescription fill status notification, prescription cancellation, medication history, and transactions for long-term care environments.</p>\n<p>The NCPDP Telecommunication Standard supports the electronic communication of claims and other transactions between pharmacy providers, insurance carriers, third-party administrators, and other responsible parties.</p>",
+          "researchTypes": [
+          ],
+          "toolTypes": [
+            {
+              "label": "Terminology",
+              "key": "terminology"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "national council for prescription drug programs (ncpdp) terminology"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "59",
+        "_score": null,
+        "_source": {
+          "website": "https://dtp.cancer.gov/ncialmanac/initializePage.do",
+          "docs": [
+            {
+              "label": "Division of Cancer Treatment and Diagnosis (DCTD)",
+              "key": "dctd"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Treatment",
+              "key": "cancer_treatment"
+            },
+            {
+              "label": "Cancer Biology",
+              "key": "cancer_biology"
+            }
+          ],
+          "description": "<p>This resource helps researchers identify potentially promising combinations of cancer drugs by providing data and analysis tools showing how well pairs of Federal Drug Administration (FDA)-approved cancer drugs performed in killing tumors cells for the NCI-60 human tumor cell lines.</p>",
+          "id": 59,
+          "pocs": [
+          ],
+          "title": "NCI Almanac",
+          "researchTypes": [
+            {
+              "label": "Translational",
+              "key": "translational"
+            },
+            {
+              "label": "Basic",
+              "key": "basic"
+            }
+          ],
+          "body": "<p>Helps researchers identify potentially promising combinations of cancer drugs by providing data and analysis tools showing how well pairs of FDA-approved cancer drugs performed in killing tumors cells for the NCI-60 human tumor cell lines.</p>",
+          "toolTypes": [
+            {
+              "label": "Datasets & Databases",
+              "key": "datasets_databases"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "nci almanac"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "195",
+        "_score": null,
+        "_source": {
+          "website": "https://www.cancer.gov/publications/dictionaries/cancer-drug",
+          "docs": [
+            {
+              "label": "Office of Communications & Public Liaison (OCPL)",
+              "key": "ocpl"
+            }
+          ],
+          "researchAreas": [
+          ],
+          "description": "<p>The NCI Drug Dictionary contains technical definitions and synonyms for drugs and agents used to treat patients with cancer or conditions related to cancer.</p>",
+          "id": 195,
+          "pocs": [
+          ],
+          "title": "NCI Drug Dictionary",
+          "body": "<p>The NCI Drug Dictionary contains technical definitions, alternate names, and links to related information for about 5,000 agents that are being used in the treatment of patients with cancer or cancer-related conditions. Each entry includes a link to a more detailed entry in the NCI Thesaurus, which provides the information presented, as well as links to open clinical trials in NCI's List of Cancer Clinical Trials.</p>",
+          "researchTypes": [
+          ],
+          "toolTypes": [
+            {
+              "label": "Terminology",
+              "key": "terminology"
+            }
+          ],
+          "resourceAccess": {
+            "type": "open"
+          }
+        },
+        "sort": [
+          "nci drug dictionary"
+        ]
+      },
+      {
+        "_index": "r4r_v1",
+        "_type": "_doc",
+        "_id": "165",
+        "_score": null,
+        "_source": {
+          "website": "https://next.cancer.gov/default.htm",
+          "docs": [
+            {
+              "label": "Division of Cancer Treatment and Diagnosis (DCTD)",
+              "key": "dctd"
+            }
+          ],
+          "researchAreas": [
+            {
+              "label": "Cancer Treatment",
+              "key": "cancer_treatment"
+            }
+          ],
+          "description": "<p>The mission of the NExT Program is to advance clinical practice and bring improved therapies to patients with cancer by supporting most promising new drug discovery and development projects.</p>",
+          "id": 165,
+          "pocs": [
+          ],
+          "title": "NCI Experimental Therapeutics Program (NExT)",
+          "researchTypes": [
+            {
+              "label": "Clinical Trials",
+              "key": "clinical_trials"
+            }
+          ],
+          "body": "<p>The NExT program assists translation to the clinic of novel therapeutic interventions, either synthetic, natural product, or biologic, arising from academic, private, or government entities. NExT is not a grant mechanism. Approved proposals gain access to <a href=\"https://next.cancer.gov/discoveryResources/default.htm\">drug discovery resources</a> and <a href=\"https://next.cancer.gov/developmentResources/default.htm\">development resources</a> through the NExT Program. A panel of experts will evaluate the applications based on criteria including scientific merit, feasibility, alignment with NCI\u2019s mission, novelty, and clinical need.</p>",
+          "toolTypes": [
+            {
+              "label": "Networks/Consortiums",
+              "key": "networks_consortiums"
+            }
+          ],
+          "resourceAccess": {
+            "type": "register"
+          }
+        },
+        "sort": [
+          "nci experimental therapeutics program (next)"
+        ]
+      }
+    ]
+  }
+}
